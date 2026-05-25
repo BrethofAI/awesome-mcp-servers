@@ -10,13 +10,14 @@ Maintained by [Brethof AI](https://brethof.com). Companion to
 
 The Model Context Protocol ([spec](https://modelcontextprotocol.io)) lets
 LLM clients call out to external tools and data sources through a uniform
-interface. By April 2026 there are hundreds of community MCP servers —
-many stale, prototype-quality, or so under-documented they hide what they
-actually do. This list curates servers that:
+interface. By 2026 there are hundreds of community MCP servers — many stale,
+prototype-quality, or so under-documented they hide what they actually do.
+This list curates servers that:
 
 - **Work today** with Claude Desktop ≥ 1.0 or Claude Code ≥ 2.0.
 - **Resolve to a real artefact** — installable from a registry, a published
-  repo, or a working binary release. No "coming soon" placeholders.
+  repo, or a working binary release. No "coming soon" placeholders, and every
+  link is checked (a CI-style sweep cuts entries whose URL 404s).
 - **State their permissions clearly** — so you know what the server can
   read, write, or execute on your behalf before you allow it.
 
@@ -36,227 +37,172 @@ multiple forks compete, the most active fork at audit time wins.
 
 ## Contents
 
-- [Official Anthropic Servers](#official-anthropic-servers)
-- [Brethof MCPs](#brethof-mcps)
-- [Files, Filesystem & Local Data](#files-filesystem--local-data)
-- [Web Search & Browsing](#web-search--browsing)
-- [Browser Automation](#browser-automation)
-- [Source Control](#source-control)
-- [Issue Trackers & Project Management](#issue-trackers--project-management)
-- [Communication](#communication)
-- [Relational Databases](#relational-databases)
-- [NoSQL & Document Databases](#nosql--document-databases)
-- [Vector & Memory Stores](#vector--memory-stores)
-- [Productivity & Notes](#productivity--notes)
-- [Design & Creative](#design--creative)
-- [Operations & Infrastructure](#operations--infrastructure)
-- [AI & ML Platforms](#ai--ml-platforms)
-- [Specialised / Vertical](#specialised--vertical)
-- [Frameworks & SDKs for Building MCP Servers](#frameworks--sdks-for-building-mcp-servers)
-- [Discovery hubs](#discovery-hubs)
+- [Official Anthropic Servers](#official-anthropic-servers) (6)
+- [Files, Filesystem & Local Data](#files-filesystem--local-data) (1)
+- [Web Search & Browsing](#web-search--browsing) (5)
+- [Browser Automation](#browser-automation) (2)
+- [Source Control](#source-control) (1)
+- [Issue Trackers & Project Management](#issue-trackers--project-management) (4)
+- [Communication](#communication) (3)
+- [Relational Databases](#relational-databases) (3)
+- [NoSQL & Document Databases](#nosql--document-databases) (2)
+- [Vector & Memory Stores](#vector--memory-stores) (4)
+- [Productivity & Notes](#productivity--notes) (4)
+- [Design & Creative](#design--creative) (1)
+- [Operations & Infrastructure](#operations--infrastructure) (4)
+- [AI & ML Platforms](#ai--ml-platforms) (3)
+- [Specialised / Vertical](#specialised--vertical) (2)
+- [Frameworks & SDKs for Building MCP Servers](#frameworks--sdks-for-building-mcp-servers) (4)
+
+<!-- The list below is generated from entries/*.yaml by scripts/gen_awesome_readme.py. Edit the YAML, not this section. -->
 
 ## Official Anthropic Servers
 
-Reference implementations from Anthropic. Source repository:
-[modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers).
+Reference implementations from Anthropic, kept in [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers). (Several earlier reference servers — github, slack, postgres, gdrive and others — have moved to their vendors' own MCP servers or the project's archive; we list them under their current homes as they're re-verified.)
 
-- **[filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem)** — 🏷️ official ⚠️ mutating 🔒 local
-  Read, write, and search files within explicitly-allowed directories.
-- **[fetch](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch)** — 🏷️ official 🛡️ read-only
-  Fetch a single URL and return its content as Markdown for the model.
-- **[git](https://github.com/modelcontextprotocol/servers/tree/main/src/git)** — 🏷️ official ⚠️ mutating 🔒 local
-  Read repository state, view diffs, run common git commands.
-- **[memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory)** — 🏷️ official ⚠️ mutating 🔒 local
-  Reference knowledge-graph memory server. Persistent JSON-graph store.
-- **[sequentialthinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking)** — 🏷️ official 🛡️ read-only
-  Helper that exposes a structured "think step by step" planning tool.
-- **[everything](https://github.com/modelcontextprotocol/servers/tree/main/src/everything)** — 🏷️ official
+- **[everything](https://github.com/modelcontextprotocol/servers/tree/main/src/everything)** — 🏷️ official  
   Demo server exercising every MCP feature. Useful for testing clients.
-
-## Brethof MCPs
-
-MCP servers we maintain ourselves. Used internally by Brethof AI day to day.
-
-- **[memory](https://github.com/BrethofAI/memory-mcp)** — 🏷️ brethof ⚠️ mutating 🔒 local
-  SurrealDB-backed graph memory with project scoping, semantic search, and
-  raw SurrealQL. Replaces the reference Anthropic memory server when you
-  need cross-session continuity and graph queries.
-- **[claw-code](https://github.com/BrethofAI/claw-code)** — 🏷️ brethof
-  Local AI agent MCP exposing 6 MCP tools and 45 gateway tools to Claude
-  Code, plus a 13-skill task runner. Bridges Claude Code into a local
-  agent loop with adaptive memory.
+- **[fetch](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch)** — 🏷️ official 🛡️ read-only  
+  Fetch a single URL and return its content as Markdown for the model.
+- **[filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem)** — 🏷️ official ⚠️ mutating 🔒 local  
+  Read, write, and search files within explicitly-allowed directories.
+- **[git](https://github.com/modelcontextprotocol/servers/tree/main/src/git)** — 🏷️ official ⚠️ mutating 🔒 local  
+  Read repository state, view diffs, run common git commands.
+- **[memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory)** — 🏷️ official ⚠️ mutating 🔒 local  
+  Reference knowledge-graph memory server. Persistent JSON-graph store.
+- **[sequentialthinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking)** — 🏷️ official 🛡️ read-only  
+  Helper that exposes a structured "think step by step" planning tool.
 
 ## Files, Filesystem & Local Data
 
-- **[everything-search](https://github.com/anaisbetts/mcp-everything-search)** — 🏷️ community 🛡️ read-only 🔒 local
-  Voidtools `Everything` index integration for instant filesystem search
-  on Windows.
-- **[applescript](https://github.com/jasonjmcghee/mcp-server-applescript)** — 🏷️ community ⚠️ mutating 🔒 local
-  AppleScript bridge for driving Finder, Spotlight, and other macOS apps.
-- **[obsidian](https://github.com/MarkusPfundstein/mcp-obsidian)** — 🏷️ community ⚠️ mutating 🔒 local
+- **[obsidian](https://github.com/MarkusPfundstein/mcp-obsidian)** — 🏷️ community ⚠️ mutating 🔒 local  
   Read and edit notes in your Obsidian vault.
 
 ## Web Search & Browsing
 
-- **[brave-search](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search)** — 🏷️ official 🛡️ read-only
-  Brave Search API integration. Web + local results.
-- **[tavily](https://github.com/tavily-ai/tavily-mcp)** — 🏷️ official 🛡️ read-only
-  Tavily's research-optimised search API for agents.
-- **[exa](https://github.com/exa-labs/exa-mcp-server)** — 🏷️ official 🛡️ read-only
-  Exa neural-search API; semantic + similarity search over the web.
-- **[perplexity](https://github.com/jsonallen/perplexity-mcp)** — 🏷️ community 🛡️ read-only
-  Perplexity Sonar models for grounded web answers.
-- **[firecrawl](https://github.com/mendableai/firecrawl-mcp-server)** — 🏷️ official 🛡️ read-only
-  Crawl + scrape websites and extract structured data.
-- **[duckduckgo](https://github.com/nickclyde/duckduckgo-mcp-server)** — 🏷️ community 🛡️ read-only
+- **[duckduckgo](https://github.com/nickclyde/duckduckgo-mcp-server)** — 🏷️ community 🛡️ read-only  
   No-tracking search via DuckDuckGo.
+- **[exa](https://github.com/exa-labs/exa-mcp-server)** — 🏷️ official 🛡️ read-only  
+  Exa neural-search API; semantic + similarity search over the web.
+- **[firecrawl](https://github.com/mendableai/firecrawl-mcp-server)** — 🏷️ official 🛡️ read-only  
+  Crawl + scrape websites and extract structured data.
+- **[perplexity](https://github.com/jsonallen/perplexity-mcp)** — 🏷️ community 🛡️ read-only  
+  Perplexity Sonar models for grounded web answers.
+- **[tavily](https://github.com/tavily-ai/tavily-mcp)** — 🏷️ official 🛡️ read-only  
+  Tavily's research-optimised search API for agents.
 
 ## Browser Automation
 
-- **[puppeteer](https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer)** — 🏷️ official ⚠️ mutating
-  Drive a Chromium browser. Click, type, screenshot, evaluate JS.
-- **[playwright](https://github.com/microsoft/playwright-mcp)** — 🏷️ official ⚠️ mutating
-  Microsoft's official Playwright MCP. Multi-browser, accessibility-tree
-  snapshots designed for agent loops.
-- **[browser-use](https://github.com/browser-use/browser-use)** — 🏷️ community ⚠️ mutating
+- **[browser-use](https://github.com/browser-use/browser-use)** — 🏷️ community ⚠️ mutating  
   Vision + DOM-graph hybrid for resilient browser automation.
+- **[playwright](https://github.com/microsoft/playwright-mcp)** — 🏷️ official ⚠️ mutating  
+  Microsoft's official Playwright MCP. Multi-browser, accessibility-tree snapshots designed for agent loops.
 
 ## Source Control
 
-- **[github](https://github.com/modelcontextprotocol/servers/tree/main/src/github)** — 🏷️ official ⚠️ mutating
-  Read repos, manage issues and PRs, push commits via the GitHub API.
-- **[gitlab](https://github.com/modelcontextprotocol/servers/tree/main/src/gitlab)** — 🏷️ official ⚠️ mutating
-  GitLab equivalent of the GitHub server.
-- **[gitea](https://gitea.com/gitea/mcp-server)** — 🏷️ official ⚠️ mutating
+- **[gitea](https://gitea.com/gitea/mcp-server)** — 🏷️ official ⚠️ mutating  
   Self-hosted Gitea instances; full repo + issue + PR control.
 
 ## Issue Trackers & Project Management
 
-- **[linear](https://github.com/jerhadf/linear-mcp-server)** — 🏷️ community ⚠️ mutating
-  Read and modify Linear issues, projects, cycles, comments.
-- **[atlassian](https://www.atlassian.com/blog/announcements/remote-mcp-server)** — 🏷️ official ⚠️ mutating
-  First-party Jira + Confluence MCP from Atlassian.
-- **[asana](https://github.com/cristip73/mcp-server-asana)** — 🏷️ community ⚠️ mutating
+- **[asana](https://github.com/cristip73/mcp-server-asana)** — 🏷️ community ⚠️ mutating  
   Tasks, projects, sections, comments via the Asana API.
-- **[trello](https://github.com/delorenj/mcp-server-trello)** — 🏷️ community ⚠️ mutating
+- **[atlassian](https://www.atlassian.com/blog/announcements/remote-mcp-server)** — 🏷️ official ⚠️ mutating  
+  First-party Jira + Confluence MCP from Atlassian.
+- **[linear](https://github.com/jerhadf/linear-mcp-server)** — 🏷️ community ⚠️ mutating  
+  Read and modify Linear issues, projects, cycles, comments.
+- **[trello](https://github.com/delorenj/mcp-server-trello)** — 🏷️ community ⚠️ mutating  
   Trello board, list, and card operations.
 
 ## Communication
 
-- **[slack](https://github.com/modelcontextprotocol/servers/tree/main/src/slack)** — 🏷️ official ⚠️ mutating
-  Read and post Slack messages, manage channels.
-- **[discord](https://github.com/SaseQ/discord-mcp)** — 🏷️ community ⚠️ mutating
+- **[discord](https://github.com/SaseQ/discord-mcp)** — 🏷️ community ⚠️ mutating  
   Send, search, and moderate Discord messages.
-- **[gmail](https://github.com/GongRzhe/Gmail-MCP-Server)** — 🏷️ community ⚠️ mutating
+- **[gmail](https://github.com/GongRzhe/Gmail-MCP-Server)** — 🏷️ community ⚠️ mutating  
   Read, send, and search Gmail. Requires Google OAuth setup.
-- **[telegram](https://github.com/chigwell/telegram-mcp)** — 🏷️ community ⚠️ mutating
+- **[telegram](https://github.com/chigwell/telegram-mcp)** — 🏷️ community ⚠️ mutating  
   Send and read messages via Telegram bots.
 
 ## Relational Databases
 
-- **[postgres](https://github.com/modelcontextprotocol/servers/tree/main/src/postgres)** — 🏷️ official 🛡️ read-only
-  Reference Postgres server: read-only SELECT against the configured DB.
-- **[postgres-mcp](https://github.com/crystaldba/postgres-mcp)** — 🏷️ community ⚠️ mutating
-  Crystal DBA's Postgres MCP with schema mutation and tuning advisors.
-- **[sqlite](https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite)** — 🏷️ official ⚠️ mutating 🔒 local
-  Read and modify a local SQLite database.
-- **[mysql](https://github.com/benborla/mcp-server-mysql)** — 🏷️ community ⚠️ mutating
-  MySQL/MariaDB read + write with safe-mode toggle.
-- **[clickhouse](https://github.com/ClickHouse/mcp-clickhouse)** — 🏷️ official 🛡️ read-only
+- **[clickhouse](https://github.com/ClickHouse/mcp-clickhouse)** — 🏷️ official 🛡️ read-only  
   ClickHouse analytics queries with first-party SQL safety guardrails.
+- **[mysql](https://github.com/benborla/mcp-server-mysql)** — 🏷️ community ⚠️ mutating  
+  MySQL/MariaDB read + write with safe-mode toggle.
+- **[postgres-mcp](https://github.com/crystaldba/postgres-mcp)** — 🏷️ community ⚠️ mutating  
+  Crystal DBA's Postgres MCP with schema mutation and tuning advisors.
 
 ## NoSQL & Document Databases
 
-- **[mongodb](https://github.com/mongodb-developer/mongodb-mcp-server)** — 🏷️ official ⚠️ mutating
+- **[mongodb](https://github.com/mongodb-developer/mongodb-mcp-server)** — 🏷️ official ⚠️ mutating  
   MongoDB query, aggregation, and CRUD.
-- **[redis](https://github.com/modelcontextprotocol/servers/tree/main/src/redis)** — 🏷️ official ⚠️ mutating
-  Redis keys, hashes, streams, pub/sub.
-- **[surrealdb](https://github.com/aichipped/surrealdb-mcp-server)** — 🏷️ community ⚠️ mutating
-  SurrealDB graph + document queries via SurrealQL.
-- **[neo4j](https://github.com/neo4j-contrib/mcp-neo4j)** — 🏷️ community ⚠️ mutating
+- **[neo4j](https://github.com/neo4j-contrib/mcp-neo4j)** — 🏷️ community ⚠️ mutating  
   Neo4j Cypher query execution and schema introspection.
 
 ## Vector & Memory Stores
 
-- **[chroma](https://github.com/chroma-core/chroma-mcp)** — 🏷️ official ⚠️ mutating 🔒 local
+- **[chroma](https://github.com/chroma-core/chroma-mcp)** — 🏷️ official ⚠️ mutating 🔒 local  
   ChromaDB collections, similarity search, persistent embeddings.
-- **[qdrant](https://github.com/qdrant/mcp-server-qdrant)** — 🏷️ official ⚠️ mutating
-  Qdrant vector search and collection management.
-- **[pinecone](https://github.com/pinecone-io/pinecone-mcp)** — 🏷️ official ⚠️ mutating
+- **[pinecone](https://github.com/pinecone-io/pinecone-mcp)** — 🏷️ official ⚠️ mutating  
   Pinecone managed vector search.
-- **[weaviate](https://github.com/weaviate/mcp-server-weaviate)** — 🏷️ official ⚠️ mutating
+- **[qdrant](https://github.com/qdrant/mcp-server-qdrant)** — 🏷️ official ⚠️ mutating  
+  Qdrant vector search and collection management.
+- **[weaviate](https://github.com/weaviate/mcp-server-weaviate)** — 🏷️ official ⚠️ mutating  
   Weaviate hybrid (vector + keyword) retrieval.
 
 ## Productivity & Notes
 
-- **[notion](https://github.com/makenotion/notion-mcp-server)** — 🏷️ official ⚠️ mutating
-  Notion's first-party MCP. Read, edit, search pages and databases.
-- **[google-drive](https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive)** — 🏷️ official 🛡️ read-only
-  Search and read Google Drive files.
-- **[google-calendar](https://github.com/nspady/google-calendar-mcp)** — 🏷️ community ⚠️ mutating
-  Read and create calendar events.
-- **[apple-notes](https://github.com/sirmews/apple-notes-mcp)** — 🏷️ community 🛡️ read-only 🔒 local
-  Read Apple Notes on macOS.
-- **[airtable](https://github.com/felores/airtable-mcp)** — 🏷️ community ⚠️ mutating
+- **[airtable](https://github.com/felores/airtable-mcp)** — 🏷️ community ⚠️ mutating  
   Airtable bases, tables, records.
+- **[apple-notes](https://github.com/sirmews/apple-notes-mcp)** — 🏷️ community 🛡️ read-only 🔒 local  
+  Read Apple Notes on macOS.
+- **[google-calendar](https://github.com/nspady/google-calendar-mcp)** — 🏷️ community ⚠️ mutating  
+  Read and create calendar events.
+- **[notion](https://github.com/makenotion/notion-mcp-server)** — 🏷️ official ⚠️ mutating  
+  Notion's first-party MCP. Read, edit, search pages and databases.
 
 ## Design & Creative
 
-- **[figma](https://www.figma.com/blog/mcp-figma-design-context-claude/)** — 🏷️ official 🛡️ read-only
-  Figma's first-party MCP. Read design files, components, and variables
-  to ground code-generation in real designs.
-- **[blender-mcp](https://github.com/ahujasid/blender-mcp)** — 🏷️ community ⚠️ mutating 🔒 local
+- **[blender-mcp](https://github.com/ahujasid/blender-mcp)** — 🏷️ community ⚠️ mutating 🔒 local  
   Drive Blender via Python — modify scenes, run renders, manage assets.
 
 ## Operations & Infrastructure
 
-- **[kubernetes](https://github.com/Flux159/mcp-server-kubernetes)** — 🏷️ community ⚠️ mutating
-  kubectl-equivalent operations on the configured cluster.
-- **[helm](https://github.com/zekker6/mcp-helm)** — 🏷️ community ⚠️ mutating
-  Manage Helm releases against a Kubernetes cluster.
-- **[docker](https://github.com/QuantGeekDev/docker-mcp)** — 🏷️ community ⚠️ mutating 🔒 local
-  Inspect, run, build, and remove containers via the local Docker daemon.
-- **[aws](https://github.com/awslabs/mcp)** — 🏷️ official ⚠️ mutating
+- **[aws](https://github.com/awslabs/mcp)** — 🏷️ official ⚠️ mutating  
   Amazon-published MCPs covering AWS service catalog, Bedrock, S3, etc.
+- **[docker](https://github.com/QuantGeekDev/docker-mcp)** — 🏷️ community ⚠️ mutating 🔒 local  
+  Inspect, run, build, and remove containers via the local Docker daemon.
+- **[helm](https://github.com/zekker6/mcp-helm)** — 🏷️ community ⚠️ mutating  
+  Manage Helm releases against a Kubernetes cluster.
+- **[kubernetes](https://github.com/Flux159/mcp-server-kubernetes)** — 🏷️ community ⚠️ mutating  
+  kubectl-equivalent operations on the configured cluster.
 
 ## AI & ML Platforms
 
-- **[huggingface](https://github.com/evalstate/mcp-hfspace)** — 🏷️ community ⚠️ mutating
+- **[huggingface](https://github.com/evalstate/mcp-hfspace)** — 🏷️ community ⚠️ mutating  
   Use HuggingFace Spaces as MCP-callable tools.
-- **[ollama](https://github.com/NightTrek/Ollama-mcp)** — 🏷️ community ⚠️ mutating 🔒 local
+- **[lmstudio](https://lmstudio.ai/blog/lmstudio-v0.3.17)** — 🏷️ official ⚠️ mutating 🔒 local  
+  LM Studio's built-in MCP host (since v0.3.17). Run local models as MCP tools.
+- **[ollama](https://github.com/NightTrek/Ollama-mcp)** — 🏷️ community ⚠️ mutating 🔒 local  
   Pull, run, and manage Ollama models locally.
-- **[lmstudio](https://lmstudio.ai/blog/lmstudio-v0.3.17)** — 🏷️ official ⚠️ mutating 🔒 local
-  LM Studio's built-in MCP host (since v0.3.17). Run local models as
-  MCP tools.
 
 ## Specialised / Vertical
 
-- **[stripe](https://github.com/stripe/agent-toolkit)** — 🏷️ official ⚠️ mutating
-  Stripe payments, customers, subscriptions, refunds. Includes safety
-  rails for production keys.
-- **[plaid](https://github.com/plaid/agent-toolkit)** — 🏷️ official 🛡️ read-only
-  Banking data via Plaid for finance agents.
-- **[quickbooks](https://github.com/notocrats/quickbooks-mcp)** — 🏷️ community ⚠️ mutating
-  QuickBooks Online integration for accounting workflows.
-- **[google-maps](https://github.com/modelcontextprotocol/servers/tree/main/src/google-maps)** — 🏷️ official 🛡️ read-only
-  Google Maps directions, places, geocoding.
-- **[spotify](https://github.com/varunneal/spotify-mcp)** — 🏷️ community ⚠️ mutating
+- **[spotify](https://github.com/varunneal/spotify-mcp)** — 🏷️ community ⚠️ mutating  
   Spotify Web API: search, queue, playlists.
+- **[stripe](https://github.com/stripe/agent-toolkit)** — 🏷️ official ⚠️ mutating  
+  Stripe payments, customers, subscriptions, refunds. Includes safety rails for production keys.
 
 ## Frameworks & SDKs for Building MCP Servers
 
-- **[mcp-python](https://github.com/modelcontextprotocol/python-sdk)** — 🏷️ official
-  Reference Python SDK. Includes `FastMCP` for terse decorator-based
-  servers.
-- **[mcp-typescript](https://github.com/modelcontextprotocol/typescript-sdk)** — 🏷️ official
-  Reference TypeScript / Node SDK. Powers most npm-distributed servers.
-- **[mcp-go](https://github.com/modelcontextprotocol/go-sdk)** — 🏷️ official
+- **[fastmcp](https://github.com/jlowin/fastmcp)** — 🏷️ community  
+  Originally-third-party Python framework that became the inspiration for the official `FastMCP` integration.
+- **[mcp-go](https://github.com/modelcontextprotocol/go-sdk)** — 🏷️ official  
   Go SDK for building MCP servers. Single-binary deployment friendly.
-- **[fastmcp](https://github.com/jlowin/fastmcp)** — 🏷️ community
-  Originally-third-party Python framework that became the inspiration
-  for the official `FastMCP` integration.
-- **[mcp-rust](https://github.com/jeanlucthumm/mcp-rust)** — 🏷️ community
-  Rust SDK for building servers with low memory + fast startup.
+- **[mcp-python](https://github.com/modelcontextprotocol/python-sdk)** — 🏷️ official  
+  Reference Python SDK. Includes `FastMCP` for terse decorator-based servers.
+- **[mcp-typescript](https://github.com/modelcontextprotocol/typescript-sdk)** — 🏷️ official  
+  Reference TypeScript / Node SDK. Powers most npm-distributed servers.
 
 ## Discovery hubs
 
@@ -270,16 +216,17 @@ Where to look for new servers as the ecosystem grows.
 ## Related work
 
 - **[awesome-llms-txt](https://github.com/BrethofAI/awesome-llms-txt)** — Tools that make themselves discoverable to AI agents.
-- **[awesome-ai-coding-agents](https://github.com/BrethofAI/awesome-ai-coding-agents)** — Honest comparison of AI coding assistants. Most of them either ship MCP-host support or are themselves embeddable as MCP servers.
+- **[awesome-ai-coding-agents](https://github.com/BrethofAI/awesome-ai-coding-agents)** — Honest comparison of AI coding assistants. Most either ship MCP-host support or are themselves embeddable as MCP servers.
 - **[awesome-local-ai](https://github.com/BrethofAI/awesome-local-ai)** — Local-AI tools, many of which integrate with these MCPs.
 - **[awesome-private-ai](https://github.com/BrethofAI/awesome-private-ai)** — Privacy-respecting AI architectures; relevant when picking which MCPs you let touch your data.
 
 ## Contributing
 
-Open an issue with the server name, repo URL, what category it belongs
-to, and one paragraph on what makes it worth listing. We will not list
-servers that have not had a maintained release in the last 6 months
-unless the maintainer explicitly tells us they're keeping it alive.
+Open an issue with the server name, repo URL, the category it belongs to, and
+one paragraph on what makes it worth listing. Entries live as one YAML file
+each under `entries/`; this README is generated from them, so edit the YAML,
+not the list above. We won't list servers without a maintained release in the
+last 6 months unless the maintainer says they're keeping it alive.
 
 ## License
 

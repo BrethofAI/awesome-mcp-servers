@@ -1,0 +1,10 @@
+# Per-category intro paragraphs, keyed by category slug (slugified label).
+# Emitted right under the category heading by scripts/gen_awesome_readme.py.
+# Only categories that need an intro are listed; the rest go straight to bullets.
+
+official-anthropic-servers: >
+  Reference implementations from Anthropic, kept in
+  [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers).
+  (Several earlier reference servers — github, slack, postgres, gdrive and
+  others — have moved to their vendors' own MCP servers or the project's
+  archive; we list them under their current homes as they're re-verified.)
