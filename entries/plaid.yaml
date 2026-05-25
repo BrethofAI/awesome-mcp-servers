@@ -1,0 +1,12 @@
+name: plaid
+slug: plaid
+url: https://github.com/plaid/agent-toolkit
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: Banking data via Plaid for finance agents.
+tags:
+- official
+- read-only
+list: mcp-servers
+added: '2026-04-30'
+category_order: 15

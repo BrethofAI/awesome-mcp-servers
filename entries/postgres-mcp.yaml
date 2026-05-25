@@ -1,0 +1,12 @@
+name: postgres-mcp
+slug: postgres-mcp
+url: https://github.com/crystaldba/postgres-mcp
+category: relational-databases
+category_label: Relational Databases
+tagline: Crystal DBA's Postgres MCP with schema mutation and tuning advisors.
+tags:
+- community
+- mutating
+list: mcp-servers
+added: '2026-04-30'
+category_order: 8

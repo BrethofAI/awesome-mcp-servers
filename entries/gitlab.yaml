@@ -1,0 +1,12 @@
+name: gitlab
+slug: gitlab
+url: https://github.com/modelcontextprotocol/servers/tree/main/src/gitlab
+category: source-control
+category_label: Source Control
+tagline: GitLab equivalent of the GitHub server.
+tags:
+- official
+- mutating
+list: mcp-servers
+added: '2026-04-30'
+category_order: 5

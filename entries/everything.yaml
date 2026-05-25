@@ -1,0 +1,11 @@
+name: everything
+slug: everything
+url: https://github.com/modelcontextprotocol/servers/tree/main/src/everything
+category: official-anthropic-servers
+category_label: Official Anthropic Servers
+tagline: Demo server exercising every MCP feature. Useful for testing clients.
+tags:
+- official
+list: mcp-servers
+added: '2026-04-30'
+category_order: 0

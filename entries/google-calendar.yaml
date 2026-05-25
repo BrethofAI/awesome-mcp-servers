@@ -1,0 +1,12 @@
+name: google-calendar
+slug: google-calendar
+url: https://github.com/nspady/google-calendar-mcp
+category: productivity-notes
+category_label: Productivity & Notes
+tagline: Read and create calendar events.
+tags:
+- community
+- mutating
+list: mcp-servers
+added: '2026-04-30'
+category_order: 11

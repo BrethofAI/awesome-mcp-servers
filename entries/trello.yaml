@@ -1,0 +1,12 @@
+name: trello
+slug: trello
+url: https://github.com/delorenj/mcp-server-trello
+category: issue-trackers-project-management
+category_label: Issue Trackers & Project Management
+tagline: Trello board, list, and card operations.
+tags:
+- community
+- mutating
+list: mcp-servers
+added: '2026-04-30'
+category_order: 6

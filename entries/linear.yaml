@@ -1,0 +1,12 @@
+name: linear
+slug: linear
+url: https://github.com/jerhadf/linear-mcp-server
+category: issue-trackers-project-management
+category_label: Issue Trackers & Project Management
+tagline: Read and modify Linear issues, projects, cycles, comments.
+tags:
+- community
+- mutating
+list: mcp-servers
+added: '2026-04-30'
+category_order: 6

@@ -1,0 +1,11 @@
+name: mcp-python
+slug: mcp-python
+url: https://github.com/modelcontextprotocol/python-sdk
+category: frameworks-sdks-for-building-mcp-servers
+category_label: Frameworks & SDKs for Building MCP Servers
+tagline: Reference Python SDK. Includes `FastMCP` for terse decorator-based servers.
+tags:
+- official
+list: mcp-servers
+added: '2026-04-30'
+category_order: 16

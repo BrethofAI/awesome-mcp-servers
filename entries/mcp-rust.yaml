@@ -1,0 +1,11 @@
+name: mcp-rust
+slug: mcp-rust
+url: https://github.com/jeanlucthumm/mcp-rust
+category: frameworks-sdks-for-building-mcp-servers
+category_label: Frameworks & SDKs for Building MCP Servers
+tagline: Rust SDK for building servers with low memory + fast startup.
+tags:
+- community
+list: mcp-servers
+added: '2026-04-30'
+category_order: 16

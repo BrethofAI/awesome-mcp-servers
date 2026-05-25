@@ -1,0 +1,12 @@
+name: firecrawl
+slug: firecrawl
+url: https://github.com/mendableai/firecrawl-mcp-server
+category: web-search-browsing
+category_label: Web Search & Browsing
+tagline: Crawl + scrape websites and extract structured data.
+tags:
+- official
+- read-only
+list: mcp-servers
+added: '2026-04-30'
+category_order: 3

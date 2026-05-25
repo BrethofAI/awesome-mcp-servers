@@ -1,0 +1,12 @@
+name: neo4j
+slug: neo4j
+url: https://github.com/neo4j-contrib/mcp-neo4j
+category: nosql-document-databases
+category_label: NoSQL & Document Databases
+tagline: Neo4j Cypher query execution and schema introspection.
+tags:
+- community
+- mutating
+list: mcp-servers
+added: '2026-04-30'
+category_order: 9

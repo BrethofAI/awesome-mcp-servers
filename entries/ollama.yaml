@@ -1,0 +1,13 @@
+name: ollama
+slug: ollama
+url: https://github.com/NightTrek/Ollama-mcp
+category: ai-ml-platforms
+category_label: AI & ML Platforms
+tagline: Pull, run, and manage Ollama models locally.
+tags:
+- community
+- mutating
+- local
+list: mcp-servers
+added: '2026-04-30'
+category_order: 14

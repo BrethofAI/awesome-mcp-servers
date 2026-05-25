@@ -1,0 +1,12 @@
+name: fastmcp
+slug: fastmcp
+url: https://github.com/jlowin/fastmcp
+category: frameworks-sdks-for-building-mcp-servers
+category_label: Frameworks & SDKs for Building MCP Servers
+tagline: Originally-third-party Python framework that became the inspiration for the
+  official `FastMCP` integration.
+tags:
+- community
+list: mcp-servers
+added: '2026-04-30'
+category_order: 16

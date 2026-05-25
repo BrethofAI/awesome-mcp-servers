@@ -1,0 +1,13 @@
+name: obsidian
+slug: obsidian
+url: https://github.com/MarkusPfundstein/mcp-obsidian
+category: files-filesystem-local-data
+category_label: Files, Filesystem & Local Data
+tagline: Read and edit notes in your Obsidian vault.
+tags:
+- community
+- mutating
+- local
+list: mcp-servers
+added: '2026-04-30'
+category_order: 2

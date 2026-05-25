@@ -1,0 +1,12 @@
+name: qdrant
+slug: qdrant
+url: https://github.com/qdrant/mcp-server-qdrant
+category: vector-memory-stores
+category_label: Vector & Memory Stores
+tagline: Qdrant vector search and collection management.
+tags:
+- official
+- mutating
+list: mcp-servers
+added: '2026-04-30'
+category_order: 10

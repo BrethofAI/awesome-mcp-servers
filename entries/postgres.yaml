@@ -1,0 +1,12 @@
+name: postgres
+slug: postgres
+url: https://github.com/modelcontextprotocol/servers/tree/main/src/postgres
+category: relational-databases
+category_label: Relational Databases
+tagline: 'Reference Postgres server: read-only SELECT against the configured DB.'
+tags:
+- official
+- read-only
+list: mcp-servers
+added: '2026-04-30'
+category_order: 8

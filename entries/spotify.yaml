@@ -1,0 +1,12 @@
+name: spotify
+slug: spotify
+url: https://github.com/varunneal/spotify-mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'Spotify Web API: search, queue, playlists.'
+tags:
+- community
+- mutating
+list: mcp-servers
+added: '2026-04-30'
+category_order: 15

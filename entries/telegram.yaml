@@ -1,0 +1,12 @@
+name: telegram
+slug: telegram
+url: https://github.com/chigwell/telegram-mcp
+category: communication
+category_label: Communication
+tagline: Send and read messages via Telegram bots.
+tags:
+- community
+- mutating
+list: mcp-servers
+added: '2026-04-30'
+category_order: 7

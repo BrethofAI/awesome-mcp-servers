@@ -1,0 +1,13 @@
+name: playwright
+slug: playwright
+url: https://github.com/microsoft/playwright-mcp
+category: browser-automation
+category_label: Browser Automation
+tagline: Microsoft's official Playwright MCP. Multi-browser, accessibility-tree snapshots
+  designed for agent loops.
+tags:
+- official
+- mutating
+list: mcp-servers
+added: '2026-04-30'
+category_order: 4

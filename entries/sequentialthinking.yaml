@@ -1,0 +1,12 @@
+name: sequentialthinking
+slug: sequentialthinking
+url: https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking
+category: official-anthropic-servers
+category_label: Official Anthropic Servers
+tagline: Helper that exposes a structured "think step by step" planning tool.
+tags:
+- official
+- read-only
+list: mcp-servers
+added: '2026-04-30'
+category_order: 0

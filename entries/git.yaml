@@ -1,0 +1,13 @@
+name: git
+slug: git
+url: https://github.com/modelcontextprotocol/servers/tree/main/src/git
+category: official-anthropic-servers
+category_label: Official Anthropic Servers
+tagline: Read repository state, view diffs, run common git commands.
+tags:
+- official
+- mutating
+- local
+list: mcp-servers
+added: '2026-04-30'
+category_order: 0

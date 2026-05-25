@@ -1,0 +1,12 @@
+name: brave-search
+slug: brave-search
+url: https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search
+category: web-search-browsing
+category_label: Web Search & Browsing
+tagline: Brave Search API integration. Web + local results.
+tags:
+- official
+- read-only
+list: mcp-servers
+added: '2026-04-30'
+category_order: 3

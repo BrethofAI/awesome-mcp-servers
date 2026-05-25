@@ -1,0 +1,12 @@
+name: tavily
+slug: tavily
+url: https://github.com/tavily-ai/tavily-mcp
+category: web-search-browsing
+category_label: Web Search & Browsing
+tagline: Tavily's research-optimised search API for agents.
+tags:
+- official
+- read-only
+list: mcp-servers
+added: '2026-04-30'
+category_order: 3

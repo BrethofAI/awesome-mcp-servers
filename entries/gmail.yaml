@@ -1,0 +1,12 @@
+name: gmail
+slug: gmail
+url: https://github.com/GongRzhe/Gmail-MCP-Server
+category: communication
+category_label: Communication
+tagline: Read, send, and search Gmail. Requires Google OAuth setup.
+tags:
+- community
+- mutating
+list: mcp-servers
+added: '2026-04-30'
+category_order: 7

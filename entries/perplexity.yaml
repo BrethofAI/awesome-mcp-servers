@@ -1,0 +1,12 @@
+name: perplexity
+slug: perplexity
+url: https://github.com/jsonallen/perplexity-mcp
+category: web-search-browsing
+category_label: Web Search & Browsing
+tagline: Perplexity Sonar models for grounded web answers.
+tags:
+- community
+- read-only
+list: mcp-servers
+added: '2026-04-30'
+category_order: 3

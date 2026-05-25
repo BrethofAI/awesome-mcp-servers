@@ -1,0 +1,14 @@
+name: everything-search
+slug: everything-search
+url: https://github.com/anaisbetts/mcp-everything-search
+category: files-filesystem-local-data
+category_label: Files, Filesystem & Local Data
+tagline: Voidtools `Everything` index integration for instant filesystem search on
+  Windows.
+tags:
+- community
+- read-only
+- local
+list: mcp-servers
+added: '2026-04-30'
+category_order: 2

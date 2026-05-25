@@ -1,0 +1,13 @@
+name: lmstudio
+slug: lmstudio
+url: https://lmstudio.ai/blog/lmstudio-v0.3.17
+category: ai-ml-platforms
+category_label: AI & ML Platforms
+tagline: LM Studio's built-in MCP host (since v0.3.17). Run local models as MCP tools.
+tags:
+- official
+- mutating
+- local
+list: mcp-servers
+added: '2026-04-30'
+category_order: 14

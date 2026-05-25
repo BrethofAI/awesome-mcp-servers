@@ -1,0 +1,12 @@
+name: google-drive
+slug: google-drive
+url: https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive
+category: productivity-notes
+category_label: Productivity & Notes
+tagline: Search and read Google Drive files.
+tags:
+- official
+- read-only
+list: mcp-servers
+added: '2026-04-30'
+category_order: 11

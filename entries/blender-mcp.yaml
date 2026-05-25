@@ -1,0 +1,13 @@
+name: blender-mcp
+slug: blender-mcp
+url: https://github.com/ahujasid/blender-mcp
+category: design-creative
+category_label: Design & Creative
+tagline: Drive Blender via Python — modify scenes, run renders, manage assets.
+tags:
+- community
+- mutating
+- local
+list: mcp-servers
+added: '2026-04-30'
+category_order: 12

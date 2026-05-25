@@ -1,0 +1,12 @@
+name: puppeteer
+slug: puppeteer
+url: https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer
+category: browser-automation
+category_label: Browser Automation
+tagline: Drive a Chromium browser. Click, type, screenshot, evaluate JS.
+tags:
+- official
+- mutating
+list: mcp-servers
+added: '2026-04-30'
+category_order: 4

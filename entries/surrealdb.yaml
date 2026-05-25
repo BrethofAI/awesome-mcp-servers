@@ -1,0 +1,12 @@
+name: surrealdb
+slug: surrealdb
+url: https://github.com/aichipped/surrealdb-mcp-server
+category: nosql-document-databases
+category_label: NoSQL & Document Databases
+tagline: SurrealDB graph + document queries via SurrealQL.
+tags:
+- community
+- mutating
+list: mcp-servers
+added: '2026-04-30'
+category_order: 9

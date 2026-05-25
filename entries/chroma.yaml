@@ -1,0 +1,13 @@
+name: chroma
+slug: chroma
+url: https://github.com/chroma-core/chroma-mcp
+category: vector-memory-stores
+category_label: Vector & Memory Stores
+tagline: ChromaDB collections, similarity search, persistent embeddings.
+tags:
+- official
+- mutating
+- local
+list: mcp-servers
+added: '2026-04-30'
+category_order: 10

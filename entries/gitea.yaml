@@ -1,0 +1,12 @@
+name: gitea
+slug: gitea
+url: https://gitea.com/gitea/mcp-server
+category: source-control
+category_label: Source Control
+tagline: Self-hosted Gitea instances; full repo + issue + PR control.
+tags:
+- official
+- mutating
+list: mcp-servers
+added: '2026-04-30'
+category_order: 5

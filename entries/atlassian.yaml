@@ -1,0 +1,12 @@
+name: atlassian
+slug: atlassian
+url: https://www.atlassian.com/blog/announcements/remote-mcp-server
+category: issue-trackers-project-management
+category_label: Issue Trackers & Project Management
+tagline: First-party Jira + Confluence MCP from Atlassian.
+tags:
+- official
+- mutating
+list: mcp-servers
+added: '2026-04-30'
+category_order: 6

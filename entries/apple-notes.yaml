@@ -1,0 +1,13 @@
+name: apple-notes
+slug: apple-notes
+url: https://github.com/sirmews/apple-notes-mcp
+category: productivity-notes
+category_label: Productivity & Notes
+tagline: Read Apple Notes on macOS.
+tags:
+- community
+- read-only
+- local
+list: mcp-servers
+added: '2026-04-30'
+category_order: 11

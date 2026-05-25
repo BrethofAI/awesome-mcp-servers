@@ -1,0 +1,13 @@
+name: sqlite
+slug: sqlite
+url: https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite
+category: relational-databases
+category_label: Relational Databases
+tagline: Read and modify a local SQLite database.
+tags:
+- official
+- mutating
+- local
+list: mcp-servers
+added: '2026-04-30'
+category_order: 8

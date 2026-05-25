@@ -1,0 +1,12 @@
+name: notion
+slug: notion
+url: https://github.com/makenotion/notion-mcp-server
+category: productivity-notes
+category_label: Productivity & Notes
+tagline: Notion's first-party MCP. Read, edit, search pages and databases.
+tags:
+- official
+- mutating
+list: mcp-servers
+added: '2026-04-30'
+category_order: 11

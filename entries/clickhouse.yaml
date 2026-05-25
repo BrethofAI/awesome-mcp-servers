@@ -1,0 +1,12 @@
+name: clickhouse
+slug: clickhouse
+url: https://github.com/ClickHouse/mcp-clickhouse
+category: relational-databases
+category_label: Relational Databases
+tagline: ClickHouse analytics queries with first-party SQL safety guardrails.
+tags:
+- official
+- read-only
+list: mcp-servers
+added: '2026-04-30'
+category_order: 8

@@ -1,0 +1,13 @@
+name: stripe
+slug: stripe
+url: https://github.com/stripe/agent-toolkit
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: Stripe payments, customers, subscriptions, refunds. Includes safety rails
+  for production keys.
+tags:
+- official
+- mutating
+list: mcp-servers
+added: '2026-04-30'
+category_order: 15

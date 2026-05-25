@@ -1,0 +1,12 @@
+name: duckduckgo
+slug: duckduckgo
+url: https://github.com/nickclyde/duckduckgo-mcp-server
+category: web-search-browsing
+category_label: Web Search & Browsing
+tagline: No-tracking search via DuckDuckGo.
+tags:
+- community
+- read-only
+list: mcp-servers
+added: '2026-04-30'
+category_order: 3

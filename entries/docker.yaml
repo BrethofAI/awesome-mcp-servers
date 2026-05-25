@@ -1,0 +1,13 @@
+name: docker
+slug: docker
+url: https://github.com/QuantGeekDev/docker-mcp
+category: operations-infrastructure
+category_label: Operations & Infrastructure
+tagline: Inspect, run, build, and remove containers via the local Docker daemon.
+tags:
+- community
+- mutating
+- local
+list: mcp-servers
+added: '2026-04-30'
+category_order: 13

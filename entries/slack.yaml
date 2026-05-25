@@ -1,0 +1,12 @@
+name: slack
+slug: slack
+url: https://github.com/modelcontextprotocol/servers/tree/main/src/slack
+category: communication
+category_label: Communication
+tagline: Read and post Slack messages, manage channels.
+tags:
+- official
+- mutating
+list: mcp-servers
+added: '2026-04-30'
+category_order: 7

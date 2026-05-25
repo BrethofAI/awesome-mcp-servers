@@ -1,0 +1,12 @@
+name: exa
+slug: exa
+url: https://github.com/exa-labs/exa-mcp-server
+category: web-search-browsing
+category_label: Web Search & Browsing
+tagline: Exa neural-search API; semantic + similarity search over the web.
+tags:
+- official
+- read-only
+list: mcp-servers
+added: '2026-04-30'
+category_order: 3

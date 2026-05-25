@@ -1,0 +1,13 @@
+name: figma
+slug: figma
+url: https://www.figma.com/blog/mcp-figma-design-context-claude/
+category: design-creative
+category_label: Design & Creative
+tagline: Figma's first-party MCP. Read design files, components, and variables to
+  ground code-generation in real designs.
+tags:
+- official
+- read-only
+list: mcp-servers
+added: '2026-04-30'
+category_order: 12

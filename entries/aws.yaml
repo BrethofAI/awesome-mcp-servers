@@ -1,0 +1,12 @@
+name: aws
+slug: aws
+url: https://github.com/awslabs/mcp
+category: operations-infrastructure
+category_label: Operations & Infrastructure
+tagline: Amazon-published MCPs covering AWS service catalog, Bedrock, S3, etc.
+tags:
+- official
+- mutating
+list: mcp-servers
+added: '2026-04-30'
+category_order: 13

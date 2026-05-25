@@ -1,0 +1,12 @@
+name: mysql
+slug: mysql
+url: https://github.com/benborla/mcp-server-mysql
+category: relational-databases
+category_label: Relational Databases
+tagline: MySQL/MariaDB read + write with safe-mode toggle.
+tags:
+- community
+- mutating
+list: mcp-servers
+added: '2026-04-30'
+category_order: 8

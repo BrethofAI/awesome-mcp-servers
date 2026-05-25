@@ -1,0 +1,12 @@
+name: mongodb
+slug: mongodb
+url: https://github.com/mongodb-developer/mongodb-mcp-server
+category: nosql-document-databases
+category_label: NoSQL & Document Databases
+tagline: MongoDB query, aggregation, and CRUD.
+tags:
+- official
+- mutating
+list: mcp-servers
+added: '2026-04-30'
+category_order: 9

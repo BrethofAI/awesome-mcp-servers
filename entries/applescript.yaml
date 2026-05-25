@@ -1,0 +1,13 @@
+name: applescript
+slug: applescript
+url: https://github.com/jasonjmcghee/mcp-server-applescript
+category: files-filesystem-local-data
+category_label: Files, Filesystem & Local Data
+tagline: AppleScript bridge for driving Finder, Spotlight, and other macOS apps.
+tags:
+- community
+- mutating
+- local
+list: mcp-servers
+added: '2026-04-30'
+category_order: 2

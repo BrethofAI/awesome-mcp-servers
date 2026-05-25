@@ -1,0 +1,12 @@
+name: airtable
+slug: airtable
+url: https://github.com/felores/airtable-mcp
+category: productivity-notes
+category_label: Productivity & Notes
+tagline: Airtable bases, tables, records.
+tags:
+- community
+- mutating
+list: mcp-servers
+added: '2026-04-30'
+category_order: 11

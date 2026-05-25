@@ -1,0 +1,12 @@
+name: weaviate
+slug: weaviate
+url: https://github.com/weaviate/mcp-server-weaviate
+category: vector-memory-stores
+category_label: Vector & Memory Stores
+tagline: Weaviate hybrid (vector + keyword) retrieval.
+tags:
+- official
+- mutating
+list: mcp-servers
+added: '2026-04-30'
+category_order: 10

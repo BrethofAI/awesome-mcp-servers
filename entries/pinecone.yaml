@@ -1,0 +1,12 @@
+name: pinecone
+slug: pinecone
+url: https://github.com/pinecone-io/pinecone-mcp
+category: vector-memory-stores
+category_label: Vector & Memory Stores
+tagline: Pinecone managed vector search.
+tags:
+- official
+- mutating
+list: mcp-servers
+added: '2026-04-30'
+category_order: 10
