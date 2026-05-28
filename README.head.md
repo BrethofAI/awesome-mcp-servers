@@ -2,7 +2,7 @@
 
 > Curated, working MCP servers for Claude Desktop, Claude Code, the Claude Agent SDK, and other MCP-compatible clients in 2026.
 
-Maintained by [Brethof AI](https://brethof.com). Companion to
+Maintained by [Brethof AI](https://brethof.ai). Companion to
 [awesome-llms-txt](https://github.com/BrethofAI/awesome-llms-txt) and
 [awesome-ai-coding-agents](https://github.com/BrethofAI/awesome-ai-coding-agents).
 

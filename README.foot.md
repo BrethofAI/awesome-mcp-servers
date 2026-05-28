@@ -28,5 +28,5 @@ last 6 months unless the maintainer says they're keeping it alive.
 
 ---
 
-Maintained by **[Brethof AI](https://brethof.com)** — AI tools built for
+Maintained by **[Brethof AI](https://brethof.ai)** — AI tools built for
 people who take their data seriously.
