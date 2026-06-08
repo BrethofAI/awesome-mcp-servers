@@ -1,0 +1,13 @@
+name: twzrd-agent-intel
+slug: twzrd-agent-intel
+url: https://intel.twzrd.xyz
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: Trust scoring for Solana AI agent wallets. Verify agent identity before x402 USDC micropayments via score_agent, preflight_check (free), and get_trust_receipt (HTTP 402 paid).
+tags:
+- community
+- blockchain
+- solana
+list: mcp-servers
+added: '2026-06-08'
+category_order: 15
