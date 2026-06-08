@@ -190,6 +190,8 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
 
 - **[spotify](https://github.com/varunneal/spotify-mcp)** — 🏷️ community ⚠️ mutating  
   Spotify Web API: search, queue, playlists.
+- **[twzrd-agent-intel](https://intel.twzrd.xyz)** — 🏷️ community
+  Trust scoring for Solana AI agent wallets. Verify agent identity before x402 USDC micropayments (`score_agent`, `preflight_check` free; `get_trust_receipt` via HTTP 402). Zero-install streamable-HTTP MCP.
 - **[stripe](https://github.com/stripe/agent-toolkit)** — 🏷️ official ⚠️ mutating  
   Stripe payments, customers, subscriptions, refunds. Includes safety rails for production keys.
 
