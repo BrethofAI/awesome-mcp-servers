@@ -72,6 +72,7 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
   Reference knowledge-graph memory server. Persistent JSON-graph store.
 - **[sequentialthinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking)** — 🏷️ official 🛡️ read-only  
   Helper that exposes a structured "think step by step" planning tool.
+- [Helium MCP](https://github.com/connerlambden/helium-mcp) — Real-time news with 37-dimension bias scoring, ML options pricing, and live market data. [Interactive demo](https://connerlambden.github.io/helium-news-explorer/) · [REST API](https://heliumtrades.com/mcp-page/)
 
 ## Files, Filesystem & Local Data
 
