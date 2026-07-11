@@ -1,0 +1,12 @@
+name: runapi
+slug: runapi
+url: https://github.com/runapi-ai/mcp
+category: ai-ml-platforms
+category_label: AI & ML Platforms
+tagline: Run AI image, video, music/audio, text-to-speech, and LLM jobs through RunAPI.
+tags:
+- community
+- mutating
+list: mcp-servers
+added: '2026-07-11'
+category_order: 14
