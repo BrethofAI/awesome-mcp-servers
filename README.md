@@ -51,7 +51,7 @@ multiple forks compete, the most active fork at audit time wins.
 - [Design & Creative](#design--creative) (1)
 - [Operations & Infrastructure](#operations--infrastructure) (4)
 - [AI & ML Platforms](#ai--ml-platforms) (3)
-- [Specialised / Vertical](#specialised--vertical) (2)
+- [Specialised / Vertical](#specialised--vertical) (3)
 - [Frameworks & SDKs for Building MCP Servers](#frameworks--sdks-for-building-mcp-servers) (4)
 
 <!-- The list below is generated from entries/*.yaml by scripts/gen_awesome_readme.py. Edit the YAML, not this section. -->
@@ -192,6 +192,8 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
   Spotify Web API: search, queue, playlists.
 - **[stripe](https://github.com/stripe/agent-toolkit)** — 🏷️ official ⚠️ mutating  
   Stripe payments, customers, subscriptions, refunds. Includes safety rails for production keys.
+- **[Xquik](https://github.com/Xquik-dev/x-twitter-scraper)** - 🏷️ official ⚠️ mutating
+  Public X/Twitter data workflows, monitors, webhooks, and confirmation-gated actions. Xquik is an independent third-party service. Not affiliated with X Corp. "Twitter" and "X" are trademarks of X Corp.
 
 ## Frameworks & SDKs for Building MCP Servers
 
