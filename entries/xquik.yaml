@@ -1,0 +1,12 @@
+name: Xquik
+slug: xquik
+url: https://github.com/Xquik-dev/x-twitter-scraper
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: Public X/Twitter data workflows, monitors, webhooks, and confirmation-gated actions. Xquik is an independent third-party service. Not affiliated with X Corp. "Twitter" and "X" are trademarks of X Corp.
+tags:
+- official
+- mutating
+list: mcp-servers
+added: '2026-07-18'
+category_order: 15
