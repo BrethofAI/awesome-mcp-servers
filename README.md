@@ -51,7 +51,7 @@ multiple forks compete, the most active fork at audit time wins.
 - [Design & Creative](#design--creative) (1)
 - [Operations & Infrastructure](#operations--infrastructure) (4)
 - [AI & ML Platforms](#ai--ml-platforms) (3)
-- [Specialised / Vertical](#specialised--vertical) (2)
+- [Specialised / Vertical](#specialised--vertical) (3)
 - [Frameworks & SDKs for Building MCP Servers](#frameworks--sdks-for-building-mcp-servers) (4)
 
 <!-- The list below is generated from entries/*.yaml by scripts/gen_awesome_readme.py. Edit the YAML, not this section. -->
@@ -192,6 +192,8 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
   Spotify Web API: search, queue, playlists.
 - **[stripe](https://github.com/stripe/agent-toolkit)** — 🏷️ official ⚠️ mutating  
   Stripe payments, customers, subscriptions, refunds. Includes safety rails for production keys.
+- **[wine-labs](https://github.com/imiraoui/winelabs-mcp)** — 🏷️ official ⚠️ mutating  
+  Fine-wine identity, pricing, auction, exchange, merchant, portfolio, and cellar intelligence. Hosted Streamable HTTP with browser OAuth; account-scoped workflows can mutate Wine Labs data.
 
 ## Frameworks & SDKs for Building MCP Servers
 

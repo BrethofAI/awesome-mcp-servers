@@ -1,0 +1,12 @@
+name: wine-labs
+slug: wine-labs
+url: https://github.com/imiraoui/winelabs-mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: Fine-wine identity, pricing, auction, exchange, merchant, portfolio, and cellar intelligence. Hosted Streamable HTTP with browser OAuth; account-scoped workflows can mutate Wine Labs data.
+tags:
+- official
+- mutating
+list: mcp-servers
+added: '2026-08-29'
+category_order: 15
