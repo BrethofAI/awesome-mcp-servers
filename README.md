@@ -51,7 +51,7 @@ multiple forks compete, the most active fork at audit time wins.
 - [Design & Creative](#design--creative) (1)
 - [Operations & Infrastructure](#operations--infrastructure) (4)
 - [AI & ML Platforms](#ai--ml-platforms) (3)
-- [Specialised / Vertical](#specialised--vertical) (2)
+- [Specialised / Vertical](#specialised--vertical) (3)
 - [Frameworks & SDKs for Building MCP Servers](#frameworks--sdks-for-building-mcp-servers) (4)
 
 <!-- The list below is generated from entries/*.yaml by scripts/gen_awesome_readme.py. Edit the YAML, not this section. -->
@@ -188,6 +188,8 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
 
 ## Specialised / Vertical
 
+- **[contextstream](https://github.com/contextstream/mcp-server)** — 🏷️ official ⚠️ mutating  
+  Shared project context for AI coding agents — hosted MCP with code search plus decisions, lessons, and plans.
 - **[spotify](https://github.com/varunneal/spotify-mcp)** — 🏷️ community ⚠️ mutating  
   Spotify Web API: search, queue, playlists.
 - **[stripe](https://github.com/stripe/agent-toolkit)** — 🏷️ official ⚠️ mutating  

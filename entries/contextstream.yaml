@@ -1,0 +1,13 @@
+name: contextstream
+slug: contextstream
+url: https://github.com/contextstream/mcp-server
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: Shared project context for AI coding agents — hosted MCP with code search
+  plus decisions, lessons, and plans.
+tags:
+- official
+- mutating
+list: mcp-servers
+added: '2026-09-16'
+category_order: 15
