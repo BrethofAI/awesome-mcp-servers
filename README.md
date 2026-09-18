@@ -75,6 +75,7 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
 
 ## Files, Filesystem & Local Data
 
+- [Statsnet](https://github.com/usenetstate/statsnet-mcp) - Background check any company in the world: registration, executives, courts and finances. Remote: `https://statsnet.co/mcp` · Registry: `io.github.usenetstate/statsnet`
 - **[obsidian](https://github.com/MarkusPfundstein/mcp-obsidian)** — 🏷️ community ⚠️ mutating 🔒 local  
   Read and edit notes in your Obsidian vault.
 
