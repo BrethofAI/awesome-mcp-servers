@@ -37,19 +37,19 @@ multiple forks compete, the most active fork at audit time wins.
 
 ## Contents
 
-- [Official Anthropic Servers](#official-anthropic-servers) (6)
+- [Official Anthropic Servers](#official-anthropic-servers) (7)
 - [Files, Filesystem & Local Data](#files-filesystem--local-data) (1)
-- [Web Search & Browsing](#web-search--browsing) (5)
-- [Browser Automation](#browser-automation) (2)
-- [Source Control](#source-control) (1)
+- [Web Search & Browsing](#web-search--browsing) (7)
+- [Browser Automation](#browser-automation) (3)
+- [Source Control](#source-control) (2)
 - [Issue Trackers & Project Management](#issue-trackers--project-management) (4)
-- [Communication](#communication) (3)
-- [Relational Databases](#relational-databases) (3)
+- [Communication](#communication) (4)
+- [Relational Databases](#relational-databases) (4)
 - [NoSQL & Document Databases](#nosql--document-databases) (2)
 - [Vector & Memory Stores](#vector--memory-stores) (4)
 - [Productivity & Notes](#productivity--notes) (4)
 - [Design & Creative](#design--creative) (1)
-- [Operations & Infrastructure](#operations--infrastructure) (4)
+- [Operations & Infrastructure](#operations--infrastructure) (6)
 - [AI & ML Platforms](#ai--ml-platforms) (1)
 - [Specialised / Vertical](#specialised--vertical) (2)
 - [Frameworks & SDKs for Building MCP Servers](#frameworks--sdks-for-building-mcp-servers) (4)
@@ -72,6 +72,8 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
   Reference knowledge-graph memory server. Persistent JSON-graph store.
 - **[sequentialthinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking)** — 🏷️ official 🛡️ read-only  
   Helper that exposes a structured "think step by step" planning tool.
+- **[time](https://github.com/modelcontextprotocol/servers/tree/main/src/time)** — 🏷️ official 🛡️ read-only 🔒 local  
+  Current time and timezone conversion (`get_current_time`, `convert_time`).
 
 ## Files, Filesystem & Local Data
 
@@ -80,6 +82,10 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
 
 ## Web Search & Browsing
 
+- **[brave-search](https://github.com/brave/brave-search-mcp-server)** — 🏷️ official 🛡️ read-only  
+  Brave's official server for the Brave Search API: web, local, image, video, and news search plus summarizer; needs `BRAVE_API_KEY`. Replaces the archived reference Brave server.
+- **[context7](https://github.com/upstash/context7)** — 🏷️ official 🛡️ read-only  
+  Upstash's up-to-date library documentation for coding agents (`resolve-library-id`, `query-docs`). Remote at `https://mcp.context7.com/mcp`; an API key is recommended.
 - **[duckduckgo](https://github.com/nickclyde/duckduckgo-mcp-server)** — 🏷️ community 🛡️ read-only  
   No-tracking search via DuckDuckGo.
 - **[exa](https://github.com/exa-labs/exa-mcp-server)** — 🏷️ official 🛡️ read-only  
@@ -95,6 +101,8 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
 
 - **[browser-use](https://github.com/browser-use/browser-use)** — 🏷️ community ⚠️ mutating  
   Vision + DOM-graph hybrid for resilient browser automation.
+- **[chrome-devtools](https://github.com/ChromeDevTools/chrome-devtools-mcp)** — 🏷️ official ⚠️ mutating  
+  Chrome DevTools team's server: control and inspect a live Chrome for automation, debugging (network, console, screenshots), and performance traces. Sends usage statistics to Google by default (`--no-usage-statistics` opts out).
 - **[playwright](https://github.com/microsoft/playwright-mcp)** — 🏷️ official ⚠️ mutating  
   Microsoft's official Playwright MCP. Multi-browser, accessibility-tree snapshots designed for agent loops.
 
@@ -102,6 +110,8 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
 
 - **[gitea](https://gitea.com/gitea/gitea-mcp)** — 🏷️ official ⚠️ mutating  
   Self-hosted Gitea instances; full repo + issue + PR control.
+- **[github](https://github.com/github/github-mcp-server)** — 🏷️ official ⚠️ mutating  
+  GitHub's official server: repos, issues, pull requests, Actions, code security, grouped into toolsets. Local binary or remote at `https://api.githubcopilot.com/mcp/`; `--read-only` drops all write tools.
 
 ## Issue Trackers & Project Management
 
@@ -120,6 +130,8 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
   Send, search, and moderate Discord messages.
 - **[google-workspace](https://github.com/taylorwilsdon/google_workspace_mcp)** — 🏷️ community ⚠️ mutating  
   Gmail, Calendar, Drive, Docs, Sheets, Chat and more behind one server (120+ tools in core/extended/complete tiers). Uses your own Google OAuth client.
+- **[slack](https://docs.slack.dev/ai/slack-mcp-server/)** — 🏷️ official ⚠️ mutating  
+  Slack's hosted MCP server (`https://mcp.slack.com/mcp`): search channels, send messages, manage canvases. OAuth with per-tool scopes; workspace admins approve and manage access.
 - **[telegram](https://github.com/chigwell/telegram-mcp)** — 🏷️ community ⚠️ mutating  
   Read and send Telegram messages, chats, contacts, and media as your own user account (Telethon session), not a bot.
 
@@ -131,6 +143,8 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
   MySQL/MariaDB read + write with safe-mode toggle.
 - **[postgres-mcp](https://github.com/crystaldba/postgres-mcp)** — 🏷️ community ⚠️ mutating  
   Crystal DBA's Postgres MCP with schema mutation and tuning advisors.
+- **[supabase](https://github.com/supabase/mcp)** — 🏷️ official ⚠️ mutating  
+  Supabase's official server (`https://mcp.supabase.com/mcp`): database, docs, and project tools. Scope it with `project_ref` and `read_only=true`.
 
 ## NoSQL & Document Databases
 
@@ -172,10 +186,14 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
   Amazon-published MCPs covering AWS service catalog, Bedrock, S3, etc.
 - **[docker-mcp-gateway](https://github.com/docker/mcp-gateway)** — 🏷️ official ⚠️ mutating  
   Docker's MCP Toolkit CLI plugin (`docker mcp`): runs catalog MCP servers in isolated containers behind one gateway, with Docker Desktop secrets management.
+- **[grafana](https://github.com/grafana/mcp-grafana)** — 🏷️ official ⚠️ mutating  
+  Grafana's official server: dashboards, datasource queries, incidents, annotations. Can create and update dashboards and incidents; `--disable-write` makes it read-only.
 - **[helm](https://github.com/zekker6/mcp-helm)** — 🏷️ community ⚠️ mutating  
   Manage Helm releases against a Kubernetes cluster.
 - **[kubernetes](https://github.com/Flux159/mcp-server-kubernetes)** — 🏷️ community ⚠️ mutating  
   kubectl-equivalent operations on the configured cluster.
+- **[sentry](https://github.com/getsentry/sentry-mcp)** — 🏷️ official ⚠️ mutating  
+  Sentry's official server: issues, events, projects, alerts and monitors; can update issues and create projects. Remote at `https://mcp.sentry.dev/mcp` or stdio. Licence: FSL-1.1-Apache-2.0.
 
 ## AI & ML Platforms
 

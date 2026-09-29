@@ -1,0 +1,13 @@
+name: time
+slug: time
+url: https://github.com/modelcontextprotocol/servers/tree/main/src/time
+category: official-anthropic-servers
+category_label: Official Anthropic Servers
+tagline: Current time and timezone conversion (`get_current_time`, `convert_time`).
+tags:
+- official
+- read-only
+- local
+list: mcp-servers
+added: '2026-09-29'
+category_order: 0

@@ -1,0 +1,13 @@
+name: grafana
+slug: grafana
+url: https://github.com/grafana/mcp-grafana
+category: operations-infrastructure
+category_label: Operations & Infrastructure
+tagline: 'Grafana''s official server: dashboards, datasource queries, incidents, annotations.
+  Can create and update dashboards and incidents; `--disable-write` makes it read-only.'
+tags:
+- official
+- mutating
+list: mcp-servers
+added: '2026-09-29'
+category_order: 13

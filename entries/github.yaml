@@ -1,0 +1,14 @@
+name: github
+slug: github
+url: https://github.com/github/github-mcp-server
+category: source-control
+category_label: Source Control
+tagline: 'GitHub''s official server: repos, issues, pull requests, Actions, code security,
+  grouped into toolsets. Local binary or remote at `https://api.githubcopilot.com/mcp/`;
+  `--read-only` drops all write tools.'
+tags:
+- official
+- mutating
+list: mcp-servers
+added: '2026-09-29'
+category_order: 5

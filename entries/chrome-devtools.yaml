@@ -1,0 +1,14 @@
+name: chrome-devtools
+slug: chrome-devtools
+url: https://github.com/ChromeDevTools/chrome-devtools-mcp
+category: browser-automation
+category_label: Browser Automation
+tagline: 'Chrome DevTools team''s server: control and inspect a live Chrome for automation,
+  debugging (network, console, screenshots), and performance traces. Sends usage statistics
+  to Google by default (`--no-usage-statistics` opts out).'
+tags:
+- official
+- mutating
+list: mcp-servers
+added: '2026-09-29'
+category_order: 4

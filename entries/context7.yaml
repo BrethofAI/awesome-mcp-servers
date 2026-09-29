@@ -1,0 +1,13 @@
+name: context7
+slug: context7
+url: https://github.com/upstash/context7
+category: web-search-browsing
+category_label: Web Search & Browsing
+tagline: Upstash's up-to-date library documentation for coding agents (`resolve-library-id`,
+  `query-docs`). Remote at `https://mcp.context7.com/mcp`; an API key is recommended.
+tags:
+- official
+- read-only
+list: mcp-servers
+added: '2026-09-29'
+category_order: 3
