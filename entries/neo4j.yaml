@@ -1,11 +1,12 @@
 name: neo4j
 slug: neo4j
-url: https://github.com/neo4j-contrib/mcp-neo4j
+url: https://github.com/neo4j/mcp
 category: nosql-document-databases
 category_label: NoSQL & Document Databases
-tagline: Neo4j Cypher query execution and schema introspection.
+tagline: 'Neo4j''s official server: `read-cypher` and `write-cypher` tools against
+  your graph; `NEO4J_MCP_READ_ONLY=true` disables writes.'
 tags:
-- community
+- official
 - mutating
 list: mcp-servers
 added: '2026-04-30'

@@ -1,11 +1,12 @@
 name: airtable
 slug: airtable
-url: https://github.com/felores/airtable-mcp
+url: https://support.airtable.com/articles/9897799762-using-the-airtable-mcp-server
 category: productivity-notes
 category_label: Productivity & Notes
-tagline: Airtable bases, tables, records.
+tagline: 'Airtable''s hosted MCP server (`https://mcp.airtable.com/mcp`): bases, tables,
+  records. OAuth or personal access token.'
 tags:
-- community
+- official
 - mutating
 list: mcp-servers
 added: '2026-04-30'

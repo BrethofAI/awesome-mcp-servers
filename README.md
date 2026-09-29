@@ -86,8 +86,8 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
   Exa neural-search API; semantic + similarity search over the web.
 - **[firecrawl](https://github.com/mendableai/firecrawl-mcp-server)** — 🏷️ official 🛡️ read-only  
   Crawl + scrape websites and extract structured data.
-- **[perplexity](https://github.com/jsonallen/perplexity-mcp)** — 🏷️ community 🛡️ read-only  
-  Perplexity Sonar models for grounded web answers.
+- **[perplexity](https://github.com/perplexityai/modelcontextprotocol)** — 🏷️ official 🛡️ read-only  
+  Perplexity's official server for its API Platform: grounded web search and answers. Hosted remote, or `npx @perplexity-ai/mcp-server` with an API key.
 - **[tavily](https://github.com/tavily-ai/tavily-mcp)** — 🏷️ official 🛡️ read-only  
   Tavily's research-optimised search API for agents.
 
@@ -105,12 +105,12 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
 
 ## Issue Trackers & Project Management
 
-- **[asana](https://github.com/cristip73/mcp-server-asana)** — 🏷️ community ⚠️ mutating  
-  Tasks, projects, sections, comments via the Asana API.
+- **[asana](https://developers.asana.com/docs/using-asanas-mcp-server)** — 🏷️ official ⚠️ mutating  
+  Asana's hosted MCP server (`https://mcp.asana.com/v2/mcp`): tasks, projects, reports. OAuth; replaces the deprecated `/sse` beta endpoint.
 - **[atlassian](https://www.atlassian.com/blog/announcements/remote-mcp-server)** — 🏷️ official ⚠️ mutating  
   First-party Jira + Confluence MCP from Atlassian.
-- **[linear](https://github.com/jerhadf/linear-mcp-server)** — 🏷️ community ⚠️ mutating  
-  Read and modify Linear issues, projects, cycles, comments.
+- **[linear](https://linear.app/docs/mcp)** — 🏷️ official ⚠️ mutating  
+  Linear's hosted MCP server (`https://mcp.linear.app/mcp`; read-only variant at `/mcp/readonly`): issues, projects, cycles, comments. OAuth 2.1 or API key.
 - **[trello](https://github.com/delorenj/mcp-server-trello)** — 🏷️ community ⚠️ mutating  
   Trello board, list, and card operations.
 
@@ -118,8 +118,8 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
 
 - **[discord](https://github.com/SaseQ/discord-mcp)** — 🏷️ community ⚠️ mutating  
   Send, search, and moderate Discord messages.
-- **[gmail](https://github.com/GongRzhe/Gmail-MCP-Server)** — 🏷️ community ⚠️ mutating  
-  Read, send, and search Gmail. Requires Google OAuth setup.
+- **[google-workspace](https://github.com/taylorwilsdon/google_workspace_mcp)** — 🏷️ community ⚠️ mutating  
+  Gmail, Calendar, Drive, Docs, Sheets, Chat and more behind one server (120+ tools in core/extended/complete tiers). Uses your own Google OAuth client.
 - **[telegram](https://github.com/chigwell/telegram-mcp)** — 🏷️ community ⚠️ mutating  
   Send and read messages via Telegram bots.
 
@@ -134,10 +134,10 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
 
 ## NoSQL & Document Databases
 
-- **[mongodb](https://github.com/mongodb-developer/mongodb-mcp-server)** — 🏷️ official ⚠️ mutating  
-  MongoDB query, aggregation, and CRUD.
-- **[neo4j](https://github.com/neo4j-contrib/mcp-neo4j)** — 🏷️ community ⚠️ mutating  
-  Neo4j Cypher query execution and schema introspection.
+- **[mongodb](https://github.com/mongodb-js/mongodb-mcp-server)** — 🏷️ official ⚠️ mutating  
+  MongoDB's official server for databases and Atlas clusters: query, aggregation, CRUD. `--readOnly` restricts it to read tools.
+- **[neo4j](https://github.com/neo4j/mcp)** — 🏷️ official ⚠️ mutating  
+  Neo4j's official server: `read-cypher` and `write-cypher` tools against your graph; `NEO4J_MCP_READ_ONLY=true` disables writes.
 
 ## Vector & Memory Stores
 
@@ -147,19 +147,19 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
   Pinecone managed vector search.
 - **[qdrant](https://github.com/qdrant/mcp-server-qdrant)** — 🏷️ official ⚠️ mutating  
   Qdrant vector search and collection management.
-- **[weaviate](https://github.com/weaviate/mcp-server-weaviate)** — 🏷️ official ⚠️ mutating  
-  Weaviate hybrid (vector + keyword) retrieval.
+- **[weaviate](https://docs.weaviate.io/weaviate/configuration/mcp-server)** — 🏷️ official ⚠️ mutating  
+  MCP server built into Weaviate (preview from v1.37.1; `MCP_SERVER_ENABLED=true`, served at `/v1/mcp`): hybrid search, collection config, object upsert; respects RBAC. Replaces the deprecated standalone server.
 
 ## Productivity & Notes
 
-- **[airtable](https://github.com/felores/airtable-mcp)** — 🏷️ community ⚠️ mutating  
-  Airtable bases, tables, records.
-- **[apple-notes](https://github.com/sirmews/apple-notes-mcp)** — 🏷️ community 🛡️ read-only 🔒 local  
-  Read Apple Notes on macOS.
+- **[airtable](https://support.airtable.com/articles/9897799762-using-the-airtable-mcp-server)** — 🏷️ official ⚠️ mutating  
+  Airtable's hosted MCP server (`https://mcp.airtable.com/mcp`): bases, tables, records. OAuth or personal access token.
+- **[apple-notes](https://github.com/sweetrb/apple-notes-mcp)** — 🏷️ community ⚠️ mutating 🔒 local  
+  Read, search, create, edit, and organise Apple Notes on macOS via AppleScript.
 - **[google-calendar](https://github.com/nspady/google-calendar-mcp)** — 🏷️ community ⚠️ mutating  
   Read and create calendar events.
-- **[notion](https://github.com/makenotion/notion-mcp-server)** — 🏷️ official ⚠️ mutating  
-  Notion's first-party MCP. Read, edit, search pages and databases.
+- **[notion](https://developers.notion.com/docs/mcp)** — 🏷️ official ⚠️ mutating  
+  Notion's hosted MCP server: search the workspace, read and edit pages in Markdown. OAuth, respects each user's existing permissions. (The self-hosted makenotion/notion-mcp-server is no longer maintained.)
 
 ## Design & Creative
 
@@ -170,8 +170,8 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
 
 - **[aws](https://github.com/awslabs/mcp)** — 🏷️ official ⚠️ mutating  
   Amazon-published MCPs covering AWS service catalog, Bedrock, S3, etc.
-- **[docker](https://github.com/QuantGeekDev/docker-mcp)** — 🏷️ community ⚠️ mutating 🔒 local  
-  Inspect, run, build, and remove containers via the local Docker daemon.
+- **[docker-mcp-gateway](https://github.com/docker/mcp-gateway)** — 🏷️ official ⚠️ mutating  
+  Docker's MCP Toolkit CLI plugin (`docker mcp`): runs catalog MCP servers in isolated containers behind one gateway, with Docker Desktop secrets management.
 - **[helm](https://github.com/zekker6/mcp-helm)** — 🏷️ community ⚠️ mutating  
   Manage Helm releases against a Kubernetes cluster.
 - **[kubernetes](https://github.com/Flux159/mcp-server-kubernetes)** — 🏷️ community ⚠️ mutating  
@@ -179,8 +179,8 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
 
 ## AI & ML Platforms
 
-- **[huggingface](https://github.com/evalstate/mcp-hfspace)** — 🏷️ community ⚠️ mutating  
-  Use HuggingFace Spaces as MCP-callable tools.
+- **[huggingface](https://github.com/huggingface/hf-mcp-server)** — 🏷️ official ⚠️ mutating  
+  Hugging Face's official server: Hub search and details, plus Gradio Spaces as tools. Hosted at `https://hf.co/mcp` or run locally.
 - **[lmstudio](https://lmstudio.ai/blog/lmstudio-v0.3.17)** — 🏷️ official ⚠️ mutating 🔒 local  
   LM Studio's built-in MCP host (since v0.3.17). Run local models as MCP tools.
 - **[ollama](https://github.com/NightTrek/Ollama-mcp)** — 🏷️ community ⚠️ mutating 🔒 local  

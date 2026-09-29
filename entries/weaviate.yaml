@@ -1,9 +1,11 @@
 name: weaviate
 slug: weaviate
-url: https://github.com/weaviate/mcp-server-weaviate
+url: https://docs.weaviate.io/weaviate/configuration/mcp-server
 category: vector-memory-stores
 category_label: Vector & Memory Stores
-tagline: Weaviate hybrid (vector + keyword) retrieval.
+tagline: 'MCP server built into Weaviate (preview from v1.37.1; `MCP_SERVER_ENABLED=true`,
+  served at `/v1/mcp`): hybrid search, collection config, object upsert; respects
+  RBAC. Replaces the deprecated standalone server.'
 tags:
 - official
 - mutating

@@ -1,12 +1,12 @@
 name: apple-notes
 slug: apple-notes
-url: https://github.com/sirmews/apple-notes-mcp
+url: https://github.com/sweetrb/apple-notes-mcp
 category: productivity-notes
 category_label: Productivity & Notes
-tagline: Read Apple Notes on macOS.
+tagline: Read, search, create, edit, and organise Apple Notes on macOS via AppleScript.
 tags:
 - community
-- read-only
+- mutating
 - local
 list: mcp-servers
 added: '2026-04-30'

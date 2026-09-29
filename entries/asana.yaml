@@ -1,11 +1,12 @@
 name: asana
 slug: asana
-url: https://github.com/cristip73/mcp-server-asana
+url: https://developers.asana.com/docs/using-asanas-mcp-server
 category: issue-trackers-project-management
 category_label: Issue Trackers & Project Management
-tagline: Tasks, projects, sections, comments via the Asana API.
+tagline: 'Asana''s hosted MCP server (`https://mcp.asana.com/v2/mcp`): tasks, projects,
+  reports. OAuth; replaces the deprecated `/sse` beta endpoint.'
 tags:
-- community
+- official
 - mutating
 list: mcp-servers
 added: '2026-04-30'

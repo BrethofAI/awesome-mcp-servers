@@ -1,9 +1,10 @@
 name: mongodb
 slug: mongodb
-url: https://github.com/mongodb-developer/mongodb-mcp-server
+url: https://github.com/mongodb-js/mongodb-mcp-server
 category: nosql-document-databases
 category_label: NoSQL & Document Databases
-tagline: MongoDB query, aggregation, and CRUD.
+tagline: 'MongoDB''s official server for databases and Atlas clusters: query, aggregation,
+  CRUD. `--readOnly` restricts it to read tools.'
 tags:
 - official
 - mutating

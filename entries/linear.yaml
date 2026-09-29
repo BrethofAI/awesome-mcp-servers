@@ -1,11 +1,12 @@
 name: linear
 slug: linear
-url: https://github.com/jerhadf/linear-mcp-server
+url: https://linear.app/docs/mcp
 category: issue-trackers-project-management
 category_label: Issue Trackers & Project Management
-tagline: Read and modify Linear issues, projects, cycles, comments.
+tagline: 'Linear''s hosted MCP server (`https://mcp.linear.app/mcp`; read-only variant
+  at `/mcp/readonly`): issues, projects, cycles, comments. OAuth 2.1 or API key.'
 tags:
-- community
+- official
 - mutating
 list: mcp-servers
 added: '2026-04-30'

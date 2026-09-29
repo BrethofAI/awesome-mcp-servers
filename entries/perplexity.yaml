@@ -1,11 +1,12 @@
 name: perplexity
 slug: perplexity
-url: https://github.com/jsonallen/perplexity-mcp
+url: https://github.com/perplexityai/modelcontextprotocol
 category: web-search-browsing
 category_label: Web Search & Browsing
-tagline: Perplexity Sonar models for grounded web answers.
+tagline: 'Perplexity''s official server for its API Platform: grounded web search
+  and answers. Hosted remote, or `npx @perplexity-ai/mcp-server` with an API key.'
 tags:
-- community
+- official
 - read-only
 list: mcp-servers
 added: '2026-04-30'
