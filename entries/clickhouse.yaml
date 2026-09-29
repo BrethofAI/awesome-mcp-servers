@@ -3,7 +3,8 @@ slug: clickhouse
 url: https://github.com/ClickHouse/mcp-clickhouse
 category: relational-databases
 category_label: Relational Databases
-tagline: ClickHouse analytics queries with first-party SQL safety guardrails.
+tagline: ClickHouse analytics queries. Read-only by default; writes need `CLICKHOUSE_ALLOW_WRITE_ACCESS=true`,
+  and destructive statements a further opt-in.
 tags:
 - official
 - read-only

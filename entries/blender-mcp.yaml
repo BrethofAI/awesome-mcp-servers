@@ -1,9 +1,10 @@
-name: blender-mcp
+name: mcp-for-blender
 slug: blender-mcp
-url: https://github.com/ahujasid/blender-mcp
+url: https://github.com/ahujasid/mcp-for-blender
 category: design-creative
 category_label: Design & Creative
-tagline: Drive Blender via Python — modify scenes, run renders, manage assets.
+tagline: Drive Blender via Python — modify scenes, run renders, manage assets. Formerly
+  blender-mcp; the PyPI package is now `mcp-for-blender`.
 tags:
 - community
 - mutating

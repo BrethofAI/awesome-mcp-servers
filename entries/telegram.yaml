@@ -3,7 +3,8 @@ slug: telegram
 url: https://github.com/chigwell/telegram-mcp
 category: communication
 category_label: Communication
-tagline: Send and read messages via Telegram bots.
+tagline: Read and send Telegram messages, chats, contacts, and media as your own user
+  account (Telethon session), not a bot.
 tags:
 - community
 - mutating

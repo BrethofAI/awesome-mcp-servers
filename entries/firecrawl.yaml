@@ -1,6 +1,6 @@
 name: firecrawl
 slug: firecrawl
-url: https://github.com/mendableai/firecrawl-mcp-server
+url: https://github.com/firecrawl/firecrawl-mcp-server
 category: web-search-browsing
 category_label: Web Search & Browsing
 tagline: Crawl + scrape websites and extract structured data.

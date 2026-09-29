@@ -1,10 +1,11 @@
 name: stripe
 slug: stripe
-url: https://github.com/stripe/agent-toolkit
+url: https://docs.stripe.com/mcp
 category: specialised-vertical
 category_label: Specialised / Vertical
-tagline: Stripe payments, customers, subscriptions, refunds. Includes safety rails
-  for production keys.
+tagline: 'Stripe''s hosted MCP server (`https://mcp.stripe.com`): payments, customers,
+  subscriptions, refunds via OAuth or agent API keys. Refunds and outbound payments
+  need human confirmation. From 2026-10-31 it accepts only Agent-tagged keys or OAuth.'
 tags:
 - official
 - mutating

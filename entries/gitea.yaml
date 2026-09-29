@@ -1,6 +1,6 @@
 name: gitea
 slug: gitea
-url: https://gitea.com/gitea/mcp-server
+url: https://gitea.com/gitea/gitea-mcp
 category: source-control
 category_label: Source Control
 tagline: Self-hosted Gitea instances; full repo + issue + PR control.

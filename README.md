@@ -84,7 +84,7 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
   No-tracking search via DuckDuckGo.
 - **[exa](https://github.com/exa-labs/exa-mcp-server)** — 🏷️ official 🛡️ read-only  
   Exa neural-search API; semantic + similarity search over the web.
-- **[firecrawl](https://github.com/mendableai/firecrawl-mcp-server)** — 🏷️ official 🛡️ read-only  
+- **[firecrawl](https://github.com/firecrawl/firecrawl-mcp-server)** — 🏷️ official 🛡️ read-only  
   Crawl + scrape websites and extract structured data.
 - **[perplexity](https://github.com/perplexityai/modelcontextprotocol)** — 🏷️ official 🛡️ read-only  
   Perplexity's official server for its API Platform: grounded web search and answers. Hosted remote, or `npx @perplexity-ai/mcp-server` with an API key.
@@ -100,15 +100,15 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
 
 ## Source Control
 
-- **[gitea](https://gitea.com/gitea/mcp-server)** — 🏷️ official ⚠️ mutating  
+- **[gitea](https://gitea.com/gitea/gitea-mcp)** — 🏷️ official ⚠️ mutating  
   Self-hosted Gitea instances; full repo + issue + PR control.
 
 ## Issue Trackers & Project Management
 
 - **[asana](https://developers.asana.com/docs/using-asanas-mcp-server)** — 🏷️ official ⚠️ mutating  
   Asana's hosted MCP server (`https://mcp.asana.com/v2/mcp`): tasks, projects, reports. OAuth; replaces the deprecated `/sse` beta endpoint.
-- **[atlassian](https://www.atlassian.com/blog/announcements/remote-mcp-server)** — 🏷️ official ⚠️ mutating  
-  First-party Jira + Confluence MCP from Atlassian.
+- **[atlassian](https://github.com/atlassian/atlassian-mcp-server)** — 🏷️ official ⚠️ mutating  
+  Atlassian's official remote MCP server: Jira, Confluence, Jira Service Management, Bitbucket, Compass. OAuth 2.1 or API tokens.
 - **[linear](https://linear.app/docs/mcp)** — 🏷️ official ⚠️ mutating  
   Linear's hosted MCP server (`https://mcp.linear.app/mcp`; read-only variant at `/mcp/readonly`): issues, projects, cycles, comments. OAuth 2.1 or API key.
 - **[trello](https://github.com/delorenj/mcp-server-trello)** — 🏷️ community ⚠️ mutating  
@@ -121,12 +121,12 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
 - **[google-workspace](https://github.com/taylorwilsdon/google_workspace_mcp)** — 🏷️ community ⚠️ mutating  
   Gmail, Calendar, Drive, Docs, Sheets, Chat and more behind one server (120+ tools in core/extended/complete tiers). Uses your own Google OAuth client.
 - **[telegram](https://github.com/chigwell/telegram-mcp)** — 🏷️ community ⚠️ mutating  
-  Send and read messages via Telegram bots.
+  Read and send Telegram messages, chats, contacts, and media as your own user account (Telethon session), not a bot.
 
 ## Relational Databases
 
 - **[clickhouse](https://github.com/ClickHouse/mcp-clickhouse)** — 🏷️ official 🛡️ read-only  
-  ClickHouse analytics queries with first-party SQL safety guardrails.
+  ClickHouse analytics queries. Read-only by default; writes need `CLICKHOUSE_ALLOW_WRITE_ACCESS=true`, and destructive statements a further opt-in.
 - **[mysql](https://github.com/benborla/mcp-server-mysql)** — 🏷️ community ⚠️ mutating  
   MySQL/MariaDB read + write with safe-mode toggle.
 - **[postgres-mcp](https://github.com/crystaldba/postgres-mcp)** — 🏷️ community ⚠️ mutating  
@@ -163,8 +163,8 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
 
 ## Design & Creative
 
-- **[blender-mcp](https://github.com/ahujasid/blender-mcp)** — 🏷️ community ⚠️ mutating 🔒 local  
-  Drive Blender via Python — modify scenes, run renders, manage assets.
+- **[mcp-for-blender](https://github.com/ahujasid/mcp-for-blender)** — 🏷️ community ⚠️ mutating 🔒 local  
+  Drive Blender via Python — modify scenes, run renders, manage assets. Formerly blender-mcp; the PyPI package is now `mcp-for-blender`.
 
 ## Operations & Infrastructure
 
@@ -190,13 +190,13 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
 
 - **[spotify](https://github.com/varunneal/spotify-mcp)** — 🏷️ community ⚠️ mutating  
   Spotify Web API: search, queue, playlists.
-- **[stripe](https://github.com/stripe/agent-toolkit)** — 🏷️ official ⚠️ mutating  
-  Stripe payments, customers, subscriptions, refunds. Includes safety rails for production keys.
+- **[stripe](https://docs.stripe.com/mcp)** — 🏷️ official ⚠️ mutating  
+  Stripe's hosted MCP server (`https://mcp.stripe.com`): payments, customers, subscriptions, refunds via OAuth or agent API keys. Refunds and outbound payments need human confirmation. From 2026-10-31 it accepts only Agent-tagged keys or OAuth.
 
 ## Frameworks & SDKs for Building MCP Servers
 
-- **[fastmcp](https://github.com/jlowin/fastmcp)** — 🏷️ community  
-  Originally-third-party Python framework that became the inspiration for the official `FastMCP` integration.
+- **[fastmcp](https://github.com/PrefectHQ/fastmcp)** — 🏷️ community  
+  Python framework for MCP servers and clients, now under PrefectHQ. FastMCP 1.0 was incorporated into the official Python SDK in 2024; this is the actively maintained standalone project.
 - **[mcp-go](https://github.com/modelcontextprotocol/go-sdk)** — 🏷️ official  
   Go SDK for building MCP servers. Single-binary deployment friendly.
 - **[mcp-python](https://github.com/modelcontextprotocol/python-sdk)** — 🏷️ official  

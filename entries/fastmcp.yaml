@@ -1,10 +1,11 @@
 name: fastmcp
 slug: fastmcp
-url: https://github.com/jlowin/fastmcp
+url: https://github.com/PrefectHQ/fastmcp
 category: frameworks-sdks-for-building-mcp-servers
 category_label: Frameworks & SDKs for Building MCP Servers
-tagline: Originally-third-party Python framework that became the inspiration for the
-  official `FastMCP` integration.
+tagline: Python framework for MCP servers and clients, now under PrefectHQ. FastMCP
+  1.0 was incorporated into the official Python SDK in 2024; this is the actively
+  maintained standalone project.
 tags:
 - community
 list: mcp-servers

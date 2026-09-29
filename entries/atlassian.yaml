@@ -1,9 +1,10 @@
 name: atlassian
 slug: atlassian
-url: https://www.atlassian.com/blog/announcements/remote-mcp-server
+url: https://github.com/atlassian/atlassian-mcp-server
 category: issue-trackers-project-management
 category_label: Issue Trackers & Project Management
-tagline: First-party Jira + Confluence MCP from Atlassian.
+tagline: 'Atlassian''s official remote MCP server: Jira, Confluence, Jira Service
+  Management, Bitbucket, Compass. OAuth 2.1 or API tokens.'
 tags:
 - official
 - mutating
