@@ -46,7 +46,7 @@ multiple forks compete, the most active fork at audit time wins.
 - [Communication](#communication) (4)
 - [Relational Databases](#relational-databases) (4)
 - [NoSQL & Document Databases](#nosql--document-databases) (2)
-- [Vector & Memory Stores](#vector--memory-stores) (4)
+- [Vector & Memory Stores](#vector--memory-stores) (5)
 - [Productivity & Notes](#productivity--notes) (5)
 - [Design & Creative](#design--creative) (1)
 - [Operations & Infrastructure](#operations--infrastructure) (6)
@@ -155,6 +155,8 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
 
 ## Vector & Memory Stores
 
+- **[brethof-brain](https://brethof.ai/brain/)** — 🏷️ brethof ⚠️ mutating  
+  Persistent memory for AI agents across sessions, projects and machines. Every session opens with a brief — your standing rules, what each project is, where the last sessions stopped — and the records that bear on a prompt arrive with it. It curates itself into records per project, keeps the full chat history searchable, and adds notes, playbooks and an optional knowledge graph with dated connections you can query in Cypher. Proven on nine platforms: Claude Code (Linux, Windows), Codex, Qwen Code, Cline, OpenCode, Kilo Code, OpenClaw, Hermes Agent and dsh. Memory lives on your machine (local edition, Docker or Podman) or encrypted under a passphrase only you hold (hosted); each exchange is processed by our hub, which keeps none of it. Free tier; the client is source-available. Disclosure: maintained by us.
 - **[chroma](https://github.com/chroma-core/chroma-mcp)** — 🏷️ official ⚠️ mutating 🔒 local  
   ChromaDB collections, similarity search, persistent embeddings.
 - **[pinecone](https://github.com/pinecone-io/pinecone-mcp)** — 🏷️ official ⚠️ mutating  
