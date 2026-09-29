@@ -3,7 +3,7 @@ slug: chroma
 url: https://github.com/chroma-core/chroma-mcp
 category: vector-memory-stores
 category_label: Vector & Memory Stores
-tagline: ChromaDB collections, similarity search, persistent embeddings.
+tagline: ChromaDB collections, similarity search, persistent embeddings. Still in Chroma's docs, but no release since v0.2.6 (Aug 2025).
 tags:
 - official
 - mutating
