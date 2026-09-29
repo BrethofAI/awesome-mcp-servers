@@ -47,7 +47,7 @@ multiple forks compete, the most active fork at audit time wins.
 - [Relational Databases](#relational-databases) (4)
 - [NoSQL & Document Databases](#nosql--document-databases) (2)
 - [Vector & Memory Stores](#vector--memory-stores) (4)
-- [Productivity & Notes](#productivity--notes) (4)
+- [Productivity & Notes](#productivity--notes) (5)
 - [Design & Creative](#design--creative) (1)
 - [Operations & Infrastructure](#operations--infrastructure) (6)
 - [AI & ML Platforms](#ai--ml-platforms) (1)
@@ -174,6 +174,8 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
   Read and create calendar events.
 - **[notion](https://developers.notion.com/docs/mcp)** — 🏷️ official ⚠️ mutating  
   Notion's hosted MCP server: search the workspace, read and edit pages in Markdown. OAuth, respects each user's existing permissions. (The self-hosted makenotion/notion-mcp-server is no longer maintained.)
+- **[screenpipe](https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp)** — 🏷️ official ⚠️ mutating  
+  Search your recorded screen text, audio transcripts, meetings, and activity summaries; can also control recording, run pipes, and edit memories. Reads your full screen and audio history, so grant it with care. Source-available under the Screenpipe Commercial License (not an OSI open-source licence).
 
 ## Design & Creative
 
