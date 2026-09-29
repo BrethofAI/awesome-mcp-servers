@@ -7,7 +7,7 @@ tagline: 'Persistent memory for AI agents across sessions, projects and machines
   opens with a brief — your standing rules, what each project is, where the last sessions
   stopped — and the records that bear on a prompt arrive with it. It curates itself into records
   per project, keeps the full chat history searchable, and adds notes, playbooks and an optional
-  knowledge graph with dated connections you can query in Cypher. Proven on nine platforms:
+  graph of decisions: each one dated, with its reason and what it replaced, returned alongside search results. Proven on nine platforms:
   Claude Code (Linux, Windows), Codex, Qwen Code, Cline, OpenCode, Kilo Code, OpenClaw, Hermes
   Agent and dsh. Memory lives on your machine (local edition, Docker or Podman) or encrypted
   under a passphrase only you hold (hosted); each exchange is processed by our hub, which
