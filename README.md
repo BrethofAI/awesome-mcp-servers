@@ -50,7 +50,7 @@ multiple forks compete, the most active fork at audit time wins.
 - [Productivity & Notes](#productivity--notes) (4)
 - [Design & Creative](#design--creative) (1)
 - [Operations & Infrastructure](#operations--infrastructure) (4)
-- [AI & ML Platforms](#ai--ml-platforms) (3)
+- [AI & ML Platforms](#ai--ml-platforms) (1)
 - [Specialised / Vertical](#specialised--vertical) (2)
 - [Frameworks & SDKs for Building MCP Servers](#frameworks--sdks-for-building-mcp-servers) (4)
 
@@ -181,10 +181,6 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
 
 - **[huggingface](https://github.com/huggingface/hf-mcp-server)** — 🏷️ official ⚠️ mutating  
   Hugging Face's official server: Hub search and details, plus Gradio Spaces as tools. Hosted at `https://hf.co/mcp` or run locally.
-- **[lmstudio](https://lmstudio.ai/blog/lmstudio-v0.3.17)** — 🏷️ official ⚠️ mutating 🔒 local  
-  LM Studio's built-in MCP host (since v0.3.17). Run local models as MCP tools.
-- **[ollama](https://github.com/NightTrek/Ollama-mcp)** — 🏷️ community ⚠️ mutating 🔒 local  
-  Pull, run, and manage Ollama models locally.
 
 ## Specialised / Vertical
 
