@@ -1,0 +1,13 @@
+name: robot-speed
+slug: robot-speed
+url: https://github.com/robot-speed/mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'SEO / AI visibility MCP (remote). Free no-auth tools at `https://www.robot-speed.com/api/mcp/free`;
+  full server at `/api/mcp`. Registry `io.github.robot-speed/mcp`.'
+tags:
+- official
+- mutating
+list: mcp-servers
+added: '2026-09-30'
+category_order: 15
