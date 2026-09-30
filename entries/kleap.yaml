@@ -1,0 +1,13 @@
+name: kleap
+slug: kleap
+url: https://github.com/kleaphq/cli
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'No-code website builder MCP (remote at `https://kleap.co/api/mcp`): create,
+  edit, and publish live sites from an AI agent. Registry `io.github.kleaphq/kleap`.'
+tags:
+- official
+- mutating
+list: mcp-servers
+added: '2026-09-30'
+category_order: 15
