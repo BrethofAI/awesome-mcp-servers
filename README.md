@@ -51,7 +51,7 @@ multiple forks compete, the most active fork at audit time wins.
 - [Design & Creative](#design--creative) (1)
 - [Operations & Infrastructure](#operations--infrastructure) (6)
 - [AI & ML Platforms](#ai--ml-platforms) (1)
-- [Specialised / Vertical](#specialised--vertical) (2)
+- [Specialised / Vertical](#specialised--vertical) (3)
 - [Frameworks & SDKs for Building MCP Servers](#frameworks--sdks-for-building-mcp-servers) (4)
 
 <!-- The list below is generated from entries/*.yaml by scripts/gen_awesome_readme.py. Edit the YAML, not this section. -->
@@ -206,6 +206,8 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
 
 ## Specialised / Vertical
 
+- **[robot-speed](https://github.com/robot-speed/mcp)** — 🏷️ official ⚠️ mutating  
+  SEO / AI visibility MCP (remote). Free no-auth tools at `https://www.robot-speed.com/api/mcp/free`; full server at `/api/mcp`. Registry `io.github.robot-speed/mcp`.
 - **[spotify](https://github.com/varunneal/spotify-mcp)** — 🏷️ community ⚠️ mutating  
   Spotify Web API: search, queue, playlists.
 - **[stripe](https://docs.stripe.com/mcp)** — 🏷️ official ⚠️ mutating  
