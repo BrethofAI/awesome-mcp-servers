@@ -51,7 +51,7 @@ multiple forks compete, the most active fork at audit time wins.
 - [Design & Creative](#design--creative) (1)
 - [Operations & Infrastructure](#operations--infrastructure) (6)
 - [AI & ML Platforms](#ai--ml-platforms) (1)
-- [Specialised / Vertical](#specialised--vertical) (2)
+- [Specialised / Vertical](#specialised--vertical) (3)
 - [Frameworks & SDKs for Building MCP Servers](#frameworks--sdks-for-building-mcp-servers) (4)
 
 <!-- The list below is generated from entries/*.yaml by scripts/gen_awesome_readme.py. Edit the YAML, not this section. -->
@@ -206,6 +206,8 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
 
 ## Specialised / Vertical
 
+- **[kleap](https://github.com/kleaphq/cli)** — 🏷️ official ⚠️ mutating  
+  No-code website builder MCP (remote at `https://kleap.co/api/mcp`): create, edit, and publish live sites from an AI agent. Registry `io.github.kleaphq/kleap`.
 - **[spotify](https://github.com/varunneal/spotify-mcp)** — 🏷️ community ⚠️ mutating  
   Spotify Web API: search, queue, playlists.
 - **[stripe](https://docs.stripe.com/mcp)** — 🏷️ official ⚠️ mutating  
