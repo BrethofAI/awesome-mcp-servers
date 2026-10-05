@@ -1,6 +1,6 @@
 # awesome-mcp-servers
 
-> Curated, working MCP servers for Claude Desktop, Claude Code, the Claude Agent SDK, and other MCP-compatible clients in 2026.
+> Working MCP servers for Claude Desktop, Claude Code, the Claude Agent SDK, and other MCP-compatible clients in 2026, each labelled with who publishes it, where it runs, and what it can change.
 
 Maintained by [Brethof AI](https://brethof.ai). Companion to
 [awesome-llms-txt](https://github.com/BrethofAI/awesome-llms-txt) and
@@ -10,27 +10,41 @@ Maintained by [Brethof AI](https://brethof.ai). Companion to
 
 The Model Context Protocol ([spec](https://modelcontextprotocol.io)) lets
 LLM clients call out to external tools and data sources through a uniform
-interface. By 2026 there are hundreds of community MCP servers — many stale,
-prototype-quality, or so under-documented they hide what they actually do.
-This list curates servers that:
+interface. By 2026 there are hundreds of MCP servers, and many hide what they
+actually do. This list is a catalog: it takes every submission that is
 
-- **Work today** with Claude Desktop ≥ 1.0 or Claude Code ≥ 2.0.
-- **Resolve to a real artefact** — installable from a registry, a published
-  repo, or a working binary release. No "coming soon" placeholders, and every
-  link is checked (a CI-style sweep cuts entries whose URL 404s).
-- **State their permissions clearly** — so you know what the server can
-  read, write, or execute on your behalf before you allow it.
+- **Real** — there is code to read or install, or a documented hosted
+  endpoint that answers.
+- **Working** — it connects from an MCP client such as Claude Desktop or
+  Claude Code.
+- **Honest** — what it says it does holds up.
+- **In scope** — it is an MCP server.
 
-Our entries default to the most-recently-maintained official build. If
-multiple forks compete, the most active fork at audit time wins.
+New, small, and single-vendor servers are welcome. Instead of filtering by
+taste, we label every entry: who publishes it, where it runs, what it can
+change, and whether it needs a paid account. Licences are named when they
+are not OSI open source, or when there is no public source at all.
+
+We decline only:
+
+1. Nothing real to point at — no code and no documented, reachable endpoint.
+2. Crypto pay-per-call or wallet-signing servers (x402 and similar).
+3. Misleading claims we can't label around.
+4. Off-topic submissions and spam.
+
+Entries that stop working are removed by our weekly check. Where several
+builds of the same server exist, we link the most-recently-maintained
+official one; if forks compete, the most active fork wins.
 
 ## Legend
 
 - 🏷️ `official` — published by the originating company (Anthropic, Stripe,
   Atlassian, etc.) or the project itself.
-- 🏷️ `community` — third-party server. Quality varies; we link only ones
-  we've used or that have credible maintainers.
+- 🏷️ `community` — third-party server, not published by the company or
+  project it connects to.
 - 🏷️ `brethof` — maintained by Brethof AI.
 - 🛡️ `read-only` — server cannot mutate anything in the connected system.
 - ⚠️ `mutating` — server can write, send, or modify state. Authorise with care.
 - 🔒 `local` — runs entirely on your machine, no remote calls during use.
+- ☁️ `hosted` — runs on the vendor's servers; you connect to their endpoint.
+- 💰 `paid` — needs a paid account (a time-limited trial doesn't count as free).

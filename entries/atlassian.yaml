@@ -8,6 +8,7 @@ tagline: 'Atlassian''s official remote MCP server: Jira, Confluence, Jira Servic
 tags:
 - official
 - mutating
+- hosted
 list: mcp-servers
 added: '2026-04-30'
 category_order: 6

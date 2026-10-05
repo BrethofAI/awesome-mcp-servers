@@ -29,7 +29,7 @@ except ImportError:
 REPO_ROOT = Path(__file__).resolve().parents[1]
 
 # tag -> badge rendering for this list (empty = render the tag verbatim)
-BADGES: dict[str, str] = {'official': '🏷️ official', 'community': '🏷️ community', 'brethof': '🏷️ brethof', 'read-only': '🛡️ read-only', 'mutating': '⚠️ mutating', 'local': '🔒 local'}
+BADGES: dict[str, str] = {'official': '🏷️ official', 'community': '🏷️ community', 'brethof': '🏷️ brethof', 'read-only': '🛡️ read-only', 'mutating': '⚠️ mutating', 'local': '🔒 local', 'hosted': '☁️ hosted', 'paid': '💰 paid'}
 
 NOTE = ("<!-- The list below is generated from entries/*.yaml by "
         "scripts/gen_awesome_readme.py. Edit the YAML, not this section. -->")

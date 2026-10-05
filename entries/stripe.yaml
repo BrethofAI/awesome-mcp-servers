@@ -9,6 +9,7 @@ tagline: 'Stripe''s hosted MCP server (`https://mcp.stripe.com`): payments, cust
 tags:
 - official
 - mutating
+- hosted
 list: mcp-servers
 added: '2026-04-30'
 category_order: 15

@@ -8,6 +8,7 @@ tagline: 'Linear''s hosted MCP server (`https://mcp.linear.app/mcp`; read-only v
 tags:
 - official
 - mutating
+- hosted
 list: mcp-servers
 added: '2026-04-30'
 category_order: 6

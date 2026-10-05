@@ -8,6 +8,7 @@ tagline: 'Airtable''s hosted MCP server (`https://mcp.airtable.com/mcp`): bases,
 tags:
 - official
 - mutating
+- hosted
 list: mcp-servers
 added: '2026-04-30'
 category_order: 11

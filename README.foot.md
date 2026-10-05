@@ -19,8 +19,7 @@ Where to look for new servers as the ecosystem grows.
 Open an issue with the server name, repo URL, the category it belongs to, and
 one paragraph on what makes it worth listing. Entries live as one YAML file
 each under `entries/`; this README is generated from them, so edit the YAML,
-not the list above. We won't list servers without a maintained release in the
-last 6 months unless the maintainer says they're keeping it alive.
+not the list above. If you built the server, say so in the issue.
 
 ## License
 

@@ -9,6 +9,7 @@ tagline: 'Notion''s hosted MCP server: search the workspace, read and edit pages
 tags:
 - official
 - mutating
+- hosted
 list: mcp-servers
 added: '2026-04-30'
 category_order: 11

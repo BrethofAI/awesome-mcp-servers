@@ -8,6 +8,7 @@ tagline: 'Asana''s hosted MCP server (`https://mcp.asana.com/v2/mcp`): tasks, pr
 tags:
 - official
 - mutating
+- hosted
 list: mcp-servers
 added: '2026-04-30'
 category_order: 6
