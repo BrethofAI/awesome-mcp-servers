@@ -3,10 +3,14 @@ slug: tavily
 url: https://github.com/tavily-ai/tavily-mcp
 category: web-search-browsing
 category_label: Web Search & Browsing
-tagline: Tavily's research-optimised search API for agents.
+tagline: 'Tavily''s agent search API: `tavily_search`, `tavily_extract`, `tavily_map`,
+  `tavily_crawl`, `tavily_research`. Hosted at `https://mcp.tavily.com/mcp/` (API
+  key or OAuth) or run locally with `npx tavily-mcp`; free account tier.'
 tags:
 - official
 - read-only
+- hosted
 list: mcp-servers
 added: '2026-04-30'
 category_order: 3
+verified: '2026-10-05'

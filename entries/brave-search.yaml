@@ -3,8 +3,9 @@ slug: brave-search
 url: https://github.com/brave/brave-search-mcp-server
 category: web-search-browsing
 category_label: Web Search & Browsing
-tagline: 'Brave''s official server for the Brave Search API: web, local, image, video,
-  and news search plus summarizer; needs `BRAVE_API_KEY`. Replaces the archived reference
+tagline: 'Brave''s official server for the Brave Search API: web, local, place, image,
+  video, and news search, summarizer, and LLM-context retrieval; needs `BRAVE_API_KEY`
+  (the free monthly credit requires a card on file). Replaces the archived reference
   Brave server.'
 tags:
 - official
@@ -12,3 +13,4 @@ tags:
 list: mcp-servers
 added: '2026-09-29'
 category_order: 3
+verified: '2026-10-05'

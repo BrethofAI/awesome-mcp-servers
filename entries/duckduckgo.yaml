@@ -3,10 +3,12 @@ slug: duckduckgo
 url: https://github.com/nickclyde/duckduckgo-mcp-server
 category: web-search-browsing
 category_label: Web Search & Browsing
-tagline: No-tracking search via DuckDuckGo.
+tagline: DuckDuckGo web search plus page fetch-and-parse; no API key, runs locally
+  over stdio or HTTP, with built-in rate limiting.
 tags:
 - community
 - read-only
 list: mcp-servers
 added: '2026-04-30'
 category_order: 3
+verified: '2026-10-05'

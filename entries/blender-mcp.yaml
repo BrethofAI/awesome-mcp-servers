@@ -3,8 +3,10 @@ slug: blender-mcp
 url: https://github.com/ahujasid/mcp-for-blender
 category: design-creative
 category_label: Design & Creative
-tagline: Drive Blender via Python — modify scenes, run renders, manage assets. Formerly
-  blender-mcp; the PyPI package is now `mcp-for-blender`.
+tagline: Drive Blender via Python — modify scenes, objects and materials, render views,
+  import Poly Haven/Sketchfab assets, generate 3D models. Formerly blender-mcp; the
+  PyPI package is now `mcp-for-blender`. Sends anonymous usage telemetry by default
+  (`DISABLE_TELEMETRY=true` to turn it off).
 tags:
 - community
 - mutating
@@ -12,3 +14,4 @@ tags:
 list: mcp-servers
 added: '2026-04-30'
 category_order: 12
+verified: '2026-10-05'

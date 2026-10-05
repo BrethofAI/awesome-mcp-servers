@@ -1,0 +1,16 @@
+name: microsoft-learn
+slug: microsoft-learn
+url: https://learn.microsoft.com/en-us/training/support/mcp
+category: web-search-browsing
+category_label: Web Search & Browsing
+tagline: 'Microsoft''s hosted Learn MCP server (`https://learn.microsoft.com/api/mcp`):
+  search official Microsoft/Azure docs, fetch full articles, search code samples.
+  No auth, free; refreshed daily.'
+tags:
+- official
+- read-only
+- hosted
+list: mcp-servers
+added: '2026-10-05'
+category_order: 3
+verified: '2026-10-05'

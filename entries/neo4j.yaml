@@ -3,11 +3,14 @@ slug: neo4j
 url: https://github.com/neo4j/mcp
 category: nosql-document-databases
 category_label: NoSQL & Document Databases
-tagline: 'Neo4j''s official server: `read-cypher` and `write-cypher` tools against
-  your graph; `NEO4J_MCP_READ_ONLY=true` disables writes.'
+tagline: 'Neo4j''s official local server: `read-cypher` and `write-cypher` tools against
+  your graph; `NEO4J_MCP_READ_ONLY=true` disables writes. Aura users can instead use
+  the hosted MCP for Aura (`https://<INSTANCE_ID>.mcp-instances.neo4j.io`, OAuth).'
 tags:
 - official
 - mutating
+- hosted
 list: mcp-servers
 added: '2026-04-30'
 category_order: 9
+verified: '2026-10-05'

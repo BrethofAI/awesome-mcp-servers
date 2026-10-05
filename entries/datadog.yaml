@@ -1,0 +1,16 @@
+name: datadog
+slug: datadog
+url: https://docs.datadoghq.com/bits_ai/mcp_server/
+category: operations-infrastructure
+category_label: Operations & Infrastructure
+tagline: 'Datadog''s hosted MCP server (per-site endpoints, e.g. US1 `https://mcp.datadoghq.com/api/unstable/mcp-server/mcp`;
+  not GovCloud): logs, metrics, monitors, dashboards, incidents, chosen via `?toolsets=`.
+  OAuth, access token or API+app keys; write tools need the `mcp_write` permission.'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-10-05'
+category_order: 13
+verified: '2026-10-05'

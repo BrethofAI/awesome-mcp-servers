@@ -3,10 +3,15 @@ slug: firecrawl
 url: https://github.com/firecrawl/firecrawl-mcp-server
 category: web-search-browsing
 category_label: Web Search & Browsing
-tagline: Crawl + scrape websites and extract structured data.
+tagline: Scrape, search, map, and crawl websites into Markdown or schema-defined JSON;
+  also browser interaction (click/type), an async research agent, and scheduled change
+  monitors. Hosted keyless endpoint covers scrape/search/parse; other tools need a
+  free or paid API key.
 tags:
 - official
-- read-only
+- mutating
+- hosted
 list: mcp-servers
 added: '2026-04-30'
 category_order: 3
+verified: '2026-10-05'

@@ -1,6 +1,6 @@
 name: notion
 slug: notion
-url: https://developers.notion.com/docs/mcp
+url: https://developers.notion.com/guides/mcp/overview
 category: productivity-notes
 category_label: Productivity & Notes
 tagline: 'Notion''s hosted MCP server: search the workspace, read and edit pages in
@@ -13,3 +13,4 @@ tags:
 list: mcp-servers
 added: '2026-04-30'
 category_order: 11
+verified: '2026-10-05'

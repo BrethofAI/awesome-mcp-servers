@@ -6,7 +6,7 @@ category_label: Vector & Memory Stores
 tagline: 'Persistent memory and code search for coding agents: saves decisions, lessons,
   and plans across sessions. Indexing sends your source code to ContextStream''s hosted
   service, and transcript saving and Git metadata capture are on by default. The client
-  is MIT; the hosted backend is closed. Free starting credits.'
+  is MIT; the hosted backend is closed. Free tier: 10,000 credits a month, no card.'
 tags:
 - official
 - mutating
@@ -14,3 +14,4 @@ tags:
 list: mcp-servers
 added: '2026-10-05'
 category_order: 10
+verified: '2026-10-05'

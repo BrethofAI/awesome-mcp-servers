@@ -3,7 +3,8 @@ slug: obsidian
 url: https://github.com/MarkusPfundstein/mcp-obsidian
 category: files-filesystem-local-data
 category_label: Files, Filesystem & Local Data
-tagline: Read and edit notes in your Obsidian vault.
+tagline: Read, search, edit and delete notes in your Obsidian vault, through the Local
+  REST API community plugin (which must be installed and given an API key).
 tags:
 - community
 - mutating
@@ -11,3 +12,4 @@ tags:
 list: mcp-servers
 added: '2026-04-30'
 category_order: 2
+verified: '2026-10-05'

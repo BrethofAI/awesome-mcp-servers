@@ -3,10 +3,14 @@ slug: postgres-mcp
 url: https://github.com/crystaldba/postgres-mcp
 category: relational-databases
 category_label: Relational Databases
-tagline: Crystal DBA's Postgres MCP with schema mutation and tuning advisors.
+tagline: 'Postgres MCP Pro (Crystal DBA): index tuning, EXPLAIN plans with hypothetical
+  indexes, health checks, and schema-aware SQL. Unrestricted read/write mode, or a
+  restricted read-only mode with time limits. Last PyPI release is v0.3.0 (May 2025);
+  main has newer fixes.'
 tags:
 - community
 - mutating
 list: mcp-servers
 added: '2026-04-30'
 category_order: 8
+verified: '2026-10-05'

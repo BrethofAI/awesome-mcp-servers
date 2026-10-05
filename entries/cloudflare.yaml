@@ -1,0 +1,17 @@
+name: cloudflare
+slug: cloudflare
+url: https://github.com/cloudflare/mcp
+category: operations-infrastructure
+category_label: Operations & Infrastructure
+tagline: 'Cloudflare''s official API server (`https://mcp.cloudflare.com/mcp`): the
+  whole Cloudflare API (~2,500 endpoints) through Code Mode `search`/`execute` tools.
+  OAuth or API token. Cloudflare also runs product servers (docs, bindings, builds,
+  observability, Radar, browser, logs) under `*.mcp.cloudflare.com`. Apache-2.0.'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-10-05'
+category_order: 13
+verified: '2026-10-05'

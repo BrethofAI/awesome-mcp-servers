@@ -3,9 +3,11 @@ slug: mcp-go
 url: https://github.com/modelcontextprotocol/go-sdk
 category: frameworks-sdks-for-building-mcp-servers
 category_label: Frameworks & SDKs for Building MCP Servers
-tagline: Go SDK for building MCP servers. Single-binary deployment friendly.
+tagline: Official Go SDK for MCP servers and clients, maintained with Google. Single-binary
+  deployment friendly. Apache-2.0 for new code, MIT for existing code.
 tags:
 - official
 list: mcp-servers
 added: '2026-04-30'
 category_order: 16
+verified: '2026-10-05'

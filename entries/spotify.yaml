@@ -1,12 +1,17 @@
 name: spotify
 slug: spotify
-url: https://github.com/varunneal/spotify-mcp
+url: https://github.com/jamiew/spotify-mcp
 category: specialised-vertical
 category_label: Specialised / Vertical
-tagline: 'Spotify Web API: search, queue, playlists.'
+tagline: 'Spotify Web API: search, playback and queue control, playlists, and library
+  (28 tools); updated for Spotify''s February 2026 API changes. Needs your own Spotify
+  developer app and Premium. Maintained fork of the now-inactive varunneal/spotify-mcp.
+  Spotify''s own connector is currently Claude-only.'
 tags:
 - community
 - mutating
+- paid
 list: mcp-servers
 added: '2026-04-30'
 category_order: 15
+verified: '2026-10-05'

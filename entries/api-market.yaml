@@ -3,10 +3,10 @@ slug: api-market
 url: https://api.market/mcp
 category: ai-ml-platforms
 category_label: AI & ML Platforms
-tagline: Gateway to the API.market catalogue of 580+ third-party APIs (image and video
-  generation, search, scraping, maps, data) through five tools. Hosted at `https://api.market/api/mcp/gateway`
-  (OAuth or API key). Calls can spend quota or wallet funds and change subscriptions.
-  Proprietary; no public source.
+tagline: 'Gateway to the API.market catalogue of 600+ third-party APIs (3,810+ tools:
+  image and video generation, search, scraping, maps, data). Hosted at `https://api.market/api/mcp/gateway`
+  (OAuth or API key). Calls can spend free-tier quota or pay-as-you-go wallet funds.
+  Proprietary; no public source.'
 tags:
 - official
 - mutating
@@ -14,3 +14,4 @@ tags:
 list: mcp-servers
 added: '2026-10-05'
 category_order: 14
+verified: '2026-10-05'

@@ -5,8 +5,8 @@ category: ai-ml-platforms
 category_label: AI & ML Platforms
 tagline: Browse a catalog of image, video, music, and text-to-speech models, check
   current pricing, and create and poll generation jobs. Hosted at `https://mcp.runapi.ai/mcp`
-  or local via `npx @runapi.ai/mcp`. Catalog tools work without sign-in; jobs spend
-  prepaid pay-as-you-go credits.
+  (OAuth or API key) or local via `npx @runapi.ai/mcp`, whose catalog tools work without
+  an API key; jobs spend prepaid pay-as-you-go credits.
 tags:
 - official
 - mutating
@@ -15,3 +15,4 @@ tags:
 list: mcp-servers
 added: '2026-10-05'
 category_order: 14
+verified: '2026-10-05'

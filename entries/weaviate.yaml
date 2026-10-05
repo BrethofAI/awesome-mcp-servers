@@ -3,12 +3,14 @@ slug: weaviate
 url: https://docs.weaviate.io/weaviate/configuration/mcp-server
 category: vector-memory-stores
 category_label: Vector & Memory Stores
-tagline: 'MCP server built into Weaviate (preview from v1.37.1; `MCP_SERVER_ENABLED=true`,
-  served at `/v1/mcp`): hybrid search, collection config, object upsert; respects
-  RBAC. Replaces the deprecated standalone server.'
+tagline: 'MCP server built into Weaviate (GA in v1.38; `MCP_SERVER_ENABLED=true`,
+  served at `/v1/mcp`, always on in Weaviate Cloud): hybrid search, collection config,
+  tenant listing, object upsert. Self-hosted defaults to read-only (`MCP_SERVER_WRITE_ACCESS_ENABLED=true`
+  for writes); respects RBAC. Replaces the deprecated standalone server.'
 tags:
 - official
 - mutating
 list: mcp-servers
 added: '2026-04-30'
 category_order: 10
+verified: '2026-10-05'

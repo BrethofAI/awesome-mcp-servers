@@ -3,9 +3,12 @@ slug: mcp-typescript
 url: https://github.com/modelcontextprotocol/typescript-sdk
 category: frameworks-sdks-for-building-mcp-servers
 category_label: Frameworks & SDKs for Building MCP Servers
-tagline: Reference TypeScript / Node SDK. Powers most npm-distributed servers.
+tagline: Reference TypeScript / Node SDK. v2 ships as `@modelcontextprotocol/server`
+  and `@modelcontextprotocol/client`; v1 `@modelcontextprotocol/sdk` is maintained
+  on the `v1.x` branch.
 tags:
 - official
 list: mcp-servers
 added: '2026-04-30'
 category_order: 16
+verified: '2026-10-05'

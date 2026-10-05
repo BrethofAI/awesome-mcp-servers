@@ -1,0 +1,18 @@
+name: figma
+slug: figma
+url: https://developers.figma.com/docs/figma-mcp-server/
+category: design-creative
+category_label: Design & Creative
+tagline: 'Figma''s official server: design context, variables, screenshots and Code
+  Connect for design-to-code; write tools create and edit native Figma/FigJam content
+  (beta). Remote at `https://mcp.figma.com/mcp` (all plans; only clients in Figma''s
+  MCP Catalog may connect) or via the desktop app (paid Dev/Full seat). Rate limits
+  by plan and seat.'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-10-05'
+category_order: 12
+verified: '2026-10-05'

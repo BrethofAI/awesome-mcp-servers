@@ -1,0 +1,17 @@
+name: gitlab
+slug: gitlab
+url: https://docs.gitlab.com/user/model_context_protocol/mcp_server/
+category: source-control
+category_label: Source Control
+tagline: 'GitLab''s built-in MCP server (beta) at `https://<instance>/api/v4/mcp`
+  (gitlab.com, Self-Managed, Dedicated): issues, merge requests, work items, repository,
+  CI, with opt-in wikis and code security toolsets. OAuth 2.0 with dynamic client
+  registration. All tiers; Free is limited to 60 requests a minute.'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-10-05'
+category_order: 5
+verified: '2026-10-05'

@@ -3,10 +3,14 @@ slug: exa
 url: https://github.com/exa-labs/exa-mcp-server
 category: web-search-browsing
 category_label: Web Search & Browsing
-tagline: Exa neural-search API; semantic + similarity search over the web.
+tagline: Exa web search and page fetch, plus advanced filtered search and multi-step
+  agent_run research. Hosted at mcp.exa.ai with a free keyless rate-limited tier;
+  OAuth or API key for higher limits and agent runs.
 tags:
 - official
 - read-only
+- hosted
 list: mcp-servers
 added: '2026-04-30'
 category_order: 3
+verified: '2026-10-05'

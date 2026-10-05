@@ -1,12 +1,18 @@
 name: browser-use
 slug: browser-use
-url: https://github.com/browser-use/browser-use
+url: https://docs.browser-use.com/open-source/customize/integrations/mcp-server
 category: browser-automation
 category_label: Browser Automation
-tagline: Vision + DOM-graph hybrid for resilient browser automation.
+tagline: Browser Use's own server. Local stdio (`uvx --from 'browser-use[cli]' browser-use
+  --mcp`) gives direct browser tools (navigate, click, type, scroll, tabs, extract,
+  screenshot) plus an autonomous agent tool that needs your OpenAI or Anthropic key.
+  A hosted Cloud MCP at `https://api.browser-use.com/v3/mcp` (API key, pay-as-you-go
+  credits) runs agent sessions in Browser Use's cloud.
 tags:
-- community
+- official
 - mutating
+- hosted
 list: mcp-servers
 added: '2026-04-30'
 category_order: 4
+verified: '2026-10-05'

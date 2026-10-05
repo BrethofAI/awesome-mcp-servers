@@ -3,10 +3,13 @@ slug: helm
 url: https://github.com/zekker6/mcp-helm
 category: operations-infrastructure
 category_label: Operations & Infrastructure
-tagline: Manage Helm releases against a Kubernetes cluster.
+tagline: 'Query Helm chart repositories and OCI registries: list charts and versions,
+  read values, contents, dependencies and images. Cannot touch cluster releases. Public
+  instance at https://mcp-helm.zekker.dev/mcp.'
 tags:
 - community
-- mutating
+- read-only
 list: mcp-servers
 added: '2026-04-30'
 category_order: 13
+verified: '2026-10-05'

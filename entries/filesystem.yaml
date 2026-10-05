@@ -2,7 +2,7 @@ name: filesystem
 slug: filesystem
 url: https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem
 category: official-anthropic-servers
-category_label: Official Anthropic Servers
+category_label: Reference servers (MCP steering group)
 tagline: Read, write, and search files within explicitly-allowed directories.
 tags:
 - official
@@ -11,3 +11,4 @@ tags:
 list: mcp-servers
 added: '2026-04-30'
 category_order: 0
+verified: '2026-10-05'

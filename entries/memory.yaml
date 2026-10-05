@@ -2,8 +2,9 @@ name: memory
 slug: memory
 url: https://github.com/modelcontextprotocol/servers/tree/main/src/memory
 category: official-anthropic-servers
-category_label: Official Anthropic Servers
-tagline: Reference knowledge-graph memory server. Persistent JSON-graph store.
+category_label: Reference servers (MCP steering group)
+tagline: 'Reference knowledge-graph memory server: entities, relations, and observations
+  persisted to a local JSONL file.'
 tags:
 - official
 - mutating
@@ -11,3 +12,4 @@ tags:
 list: mcp-servers
 added: '2026-04-30'
 category_order: 0
+verified: '2026-10-05'

@@ -1,6 +1,6 @@
 name: communicate-docs
 slug: communicate-docs
-url: https://developer.communicate.so/docs/mcp
+url: https://communicate.so/mcp/server-card
 category: web-search-browsing
 category_label: Web Search & Browsing
 tagline: 'Communicate''s public developer-docs server: three read-only tools for its
@@ -13,3 +13,4 @@ tags:
 list: mcp-servers
 added: '2026-10-05'
 category_order: 3
+verified: '2026-10-05'

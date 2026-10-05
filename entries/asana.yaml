@@ -4,7 +4,7 @@ url: https://developers.asana.com/docs/using-asanas-mcp-server
 category: issue-trackers-project-management
 category_label: Issue Trackers & Project Management
 tagline: 'Asana''s hosted MCP server (`https://mcp.asana.com/v2/mcp`): tasks, projects,
-  reports. OAuth; replaces the deprecated `/sse` beta endpoint.'
+  reports. OAuth; the old `/sse` beta endpoint was shut down on 2026-05-11.'
 tags:
 - official
 - mutating
@@ -12,3 +12,4 @@ tags:
 list: mcp-servers
 added: '2026-04-30'
 category_order: 6
+verified: '2026-10-05'

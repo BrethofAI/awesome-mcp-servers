@@ -3,7 +3,10 @@ slug: chroma
 url: https://github.com/chroma-core/chroma-mcp
 category: vector-memory-stores
 category_label: Vector & Memory Stores
-tagline: ChromaDB collections, similarity search, persistent embeddings. Still in Chroma's docs, but no release since v0.2.6 (Aug 2025).
+tagline: 'ChromaDB collections, similarity search, persistent embeddings (ephemeral,
+  persistent, HTTP or Chroma Cloud client). Still the server in Chroma''s docs, but
+  unmaintained: no release since v0.2.6 (Aug 2025), and a reported SQL-injection issue
+  and 15 PRs sit unanswered.'
 tags:
 - official
 - mutating
@@ -11,3 +14,4 @@ tags:
 list: mcp-servers
 added: '2026-04-30'
 category_order: 10
+verified: '2026-10-05'

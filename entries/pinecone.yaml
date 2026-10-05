@@ -3,10 +3,15 @@ slug: pinecone
 url: https://github.com/pinecone-io/pinecone-mcp
 category: vector-memory-stores
 category_label: Vector & Memory Stores
-tagline: Pinecone managed vector search.
+tagline: 'Pinecone''s Developer MCP: search Pinecone docs, list, describe and create
+  indexes, upsert and search records, and rerank. Runs with `npx @pinecone-database/mcp`
+  and an API key (docs search works without one). Only indexes with integrated embedding
+  are supported. Separately, each Pinecone Assistant is a hosted MCP endpoint for
+  retrieving context.'
 tags:
 - official
 - mutating
 list: mcp-servers
 added: '2026-04-30'
 category_order: 10
+verified: '2026-10-05'

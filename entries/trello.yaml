@@ -1,12 +1,16 @@
 name: trello
 slug: trello
-url: https://github.com/delorenj/mcp-server-trello
+url: https://support.atlassian.com/trello/docs/connect-trello-to-ai-assistants-with-trello-mcp/
 category: issue-trackers-project-management
 category_label: Issue Trackers & Project Management
-tagline: Trello board, list, and card operations.
+tagline: 'Atlassian''s hosted Trello server (`https://mcp.trello.com/v1`, OAuth 2.0):
+  read, search, create, update, move, and archive boards, lists, cards, checklists,
+  labels, and comments. No permanent deletes. Works on all Trello plans.'
 tags:
-- community
+- official
 - mutating
+- hosted
 list: mcp-servers
 added: '2026-04-30'
 category_order: 6
+verified: '2026-10-05'

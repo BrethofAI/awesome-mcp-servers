@@ -1,0 +1,16 @@
+name: azure
+slug: azure
+url: https://github.com/microsoft/mcp/tree/main/servers/Azure.Mcp.Server
+category: operations-infrastructure
+category_label: Operations & Infrastructure
+tagline: 'Microsoft''s official Azure MCP Server (GA in 2.0): tools for 45+ Azure
+  service areas (storage, databases, monitoring/KQL, deployments). Runs locally via
+  `npx -y @azure/mcp@latest server start`, NuGet, PyPI or Docker, or self-hosted remotely.
+  Entra ID via Azure Identity, respects RBAC; `--read-only` blocks writes. MIT.'
+tags:
+- official
+- mutating
+list: mcp-servers
+added: '2026-10-05'
+category_order: 13
+verified: '2026-10-05'

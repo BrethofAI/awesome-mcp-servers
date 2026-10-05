@@ -6,7 +6,7 @@ category_label: Specialised / Vertical
 tagline: Search, quote, and check availability for peer-to-peer luxury, exotic, and
   EV car rentals from independent hosts (five US markets at listing time). Hosted
   at `https://pocketdrives.ai/mcp`, no auth; it does not book, which happens in the
-  iOS app. No public source or licence.
+  iOS app or on pocketdrives.ai. No public source or licence.
 tags:
 - official
 - read-only
@@ -14,3 +14,4 @@ tags:
 list: mcp-servers
 added: '2026-10-05'
 category_order: 15
+verified: '2026-10-05'

@@ -3,7 +3,7 @@
 # Only categories that need an intro are listed; the rest go straight to bullets.
 
 official-anthropic-servers: >
-  Reference implementations from Anthropic, kept in
+  Reference implementations maintained by the MCP steering group, kept in
   [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers).
   (Several earlier reference servers — github, slack, postgres, gdrive and
   others — have moved to their vendors' own MCP servers or the project's

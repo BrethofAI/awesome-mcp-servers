@@ -3,11 +3,14 @@ slug: huggingface
 url: https://github.com/huggingface/hf-mcp-server
 category: ai-ml-platforms
 category_label: AI & ML Platforms
-tagline: 'Hugging Face''s official server: Hub search and details, plus Gradio Spaces
-  as tools. Hosted at `https://hf.co/mcp` or run locally.'
+tagline: 'Hugging Face''s official server: Hub search and details, docs search, Gradio
+  Spaces as tools, plus optional repo creation, Jobs and Sandboxes. Hosted at https://huggingface.co/mcp
+  or run locally.'
 tags:
 - official
 - mutating
+- hosted
 list: mcp-servers
 added: '2026-04-30'
 category_order: 14
+verified: '2026-10-05'

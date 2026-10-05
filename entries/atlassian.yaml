@@ -3,8 +3,9 @@ slug: atlassian
 url: https://github.com/atlassian/atlassian-mcp-server
 category: issue-trackers-project-management
 category_label: Issue Trackers & Project Management
-tagline: 'Atlassian''s official remote MCP server: Jira, Confluence, Jira Service
-  Management, Bitbucket, Compass. OAuth 2.1 or API tokens.'
+tagline: 'Atlassian''s official remote MCP server (`https://mcp.atlassian.com/v2/mcp`):
+  Jira, Confluence, Jira Service Management, Bitbucket, Compass, Loom. OAuth 2.1 or
+  API tokens; the legacy `/sse` endpoint was retired after 2026-06-30.'
 tags:
 - official
 - mutating
@@ -12,3 +13,4 @@ tags:
 list: mcp-servers
 added: '2026-04-30'
 category_order: 6
+verified: '2026-10-05'

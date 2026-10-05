@@ -5,9 +5,9 @@ category: specialised-vertical
 category_label: Specialised / Vertical
 tagline: 'AI-search visibility analytics: brand mentions, citations, sentiment, and
   share of voice. With the write scope it can add prompts, competitors, tags, and
-  annotations, and launch content tasks. Hosted at `https://api.llmpulse.ai/api/v1/mcp`
-  (OAuth or API key). Needs a paid LLM Pulse plan after a 14-day trial. The server
-  source is private; the repo holds an MIT stdio wrapper.'
+  annotations, generate content briefs, and launch audits. Hosted at `https://api.llmpulse.ai/api/v1/mcp`
+  (OAuth 2.1; API key on Scale plan and above). Needs a paid LLM Pulse plan after
+  a 14-day trial. The server source is private; the repo holds an MIT stdio wrapper.'
 tags:
 - official
 - mutating
@@ -16,3 +16,4 @@ tags:
 list: mcp-servers
 added: '2026-10-05'
 category_order: 15
+verified: '2026-10-05'

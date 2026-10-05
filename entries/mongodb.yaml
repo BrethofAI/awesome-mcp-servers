@@ -4,10 +4,14 @@ url: https://github.com/mongodb-js/mongodb-mcp-server
 category: nosql-document-databases
 category_label: NoSQL & Document Databases
 tagline: 'MongoDB''s official server for databases and Atlas clusters: query, aggregation,
-  CRUD. `--readOnly` restricts it to read tools.'
+  CRUD, Atlas admin. Run it locally (`--readOnly` restricts it to read tools) or use
+  the Atlas-managed hosted endpoint `https://mcp.mongodb.com` (OAuth; org-level read-only
+  mode).'
 tags:
 - official
 - mutating
+- hosted
 list: mcp-servers
 added: '2026-04-30'
 category_order: 9
+verified: '2026-10-05'

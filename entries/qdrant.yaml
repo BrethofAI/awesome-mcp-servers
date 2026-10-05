@@ -3,10 +3,13 @@ slug: qdrant
 url: https://github.com/qdrant/mcp-server-qdrant
 category: vector-memory-stores
 category_label: Vector & Memory Stores
-tagline: Qdrant vector search and collection management.
+tagline: 'Semantic memory on Qdrant: store text with metadata and search it (`qdrant-store`,
+  `qdrant-find`); a missing collection is created automatically. Connects to a Qdrant
+  URL or runs an embedded local database. Last release v0.8.1 (Dec 2025).'
 tags:
 - official
 - mutating
 list: mcp-servers
 added: '2026-04-30'
 category_order: 10
+verified: '2026-10-05'

@@ -4,14 +4,16 @@ url: https://winelabs.ai/agents
 category: specialised-vertical
 category_label: Specialised / Vertical
 tagline: 'Fine-wine market data: wine and LWIN matching, retail and auction prices,
-  exchange order books, merchants, and critic data. Account-scoped cellar and portfolio
-  workflows can create or update data. Hosted at `https://chat.wine-labs.com/mcp`
-  (browser OAuth); free tier, with deeper workflows on paid plans. No public server
+  exchange order books, merchants, and critic data, plus cellar CSV/Excel processing
+  jobs. Hosted at `https://chat.wine-labs.com/mcp` (browser OAuth). Billed in credits:
+  existing API allowance, monthly from $25, or pay-as-you-go from $5. No public server
   source.'
 tags:
 - official
 - mutating
 - hosted
+- paid
 list: mcp-servers
 added: '2026-10-05'
 category_order: 15
+verified: '2026-10-05'

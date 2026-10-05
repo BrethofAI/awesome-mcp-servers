@@ -3,11 +3,16 @@ slug: perplexity
 url: https://github.com/perplexityai/modelcontextprotocol
 category: web-search-browsing
 category_label: Web Search & Browsing
-tagline: 'Perplexity''s official server for its API Platform: grounded web search
-  and answers. Hosted remote, or `npx @perplexity-ai/mcp-server` with an API key.'
+tagline: 'Perplexity''s official server for its API Platform: web search, quick answers,
+  deep research and reasoning, with citations. Hosted at `https://api.perplexity.ai/mcp`
+  (OAuth or API key), or `npx @perplexity-ai/mcp-server` with an API key. Tool calls
+  are billed at API rates.'
 tags:
 - official
 - read-only
+- hosted
+- paid
 list: mcp-servers
 added: '2026-04-30'
 category_order: 3
+verified: '2026-10-05'

@@ -1,0 +1,17 @@
+name: hubspot
+slug: hubspot
+url: https://developers.hubspot.com/mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'HubSpot''s hosted MCP server (`https://mcp.hubspot.com`): read and write
+  CRM records, activities, content, campaigns and pipelines. OAuth with PKCE via an
+  MCP connector you create in HubSpot. A local developer MCP server ships with the
+  HubSpot CLI (`hs mcp setup`).'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-10-05'
+category_order: 15
+verified: '2026-10-05'

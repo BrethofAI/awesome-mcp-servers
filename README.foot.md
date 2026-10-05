@@ -2,7 +2,7 @@
 
 Where to look for new servers as the ecosystem grows.
 
-- **[modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)** — Anthropic's reference servers + a list of community ones at the bottom.
+- **[modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)** — the reference servers maintained by the MCP steering group + a list of community ones at the bottom.
 - **[punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)** — Largest community list. Less curation than ours; useful for completeness.
 - **[Smithery](https://smithery.ai)** — Hosted MCP-server registry with one-click install for many clients.
 - **[mcp.so](https://mcp.so)** — Searchable directory of public MCP servers.

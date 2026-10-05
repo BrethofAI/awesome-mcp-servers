@@ -1,0 +1,17 @@
+name: vercel
+slug: vercel
+url: https://vercel.com/docs/agent-resources/vercel-mcp
+category: operations-infrastructure
+category_label: Operations & Infrastructure
+tagline: 'Vercel''s hosted MCP server (`https://mcp.vercel.com`): docs search, teams,
+  projects, deployments and logs, Web Analytics; can deploy code and make purchases.
+  OAuth; only Vercel-approved clients can connect. Acts with your full Vercel account
+  access. All plans.'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-10-05'
+category_order: 13
+verified: '2026-10-05'

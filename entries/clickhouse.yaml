@@ -3,11 +3,16 @@ slug: clickhouse
 url: https://github.com/ClickHouse/mcp-clickhouse
 category: relational-databases
 category_label: Relational Databases
-tagline: ClickHouse analytics queries. Read-only by default; writes need `CLICKHOUSE_ALLOW_WRITE_ACCESS=true`,
-  and destructive statements a further opt-in.
+tagline: 'ClickHouse''s official server: `run_query`, `list_databases`, `list_tables`
+  (plus chDB). Read-only by default; writes need `CLICKHOUSE_ALLOW_WRITE_ACCESS=true`,
+  and destructive statements also need `CLICKHOUSE_ALLOW_DROP=true`. ClickHouse Cloud
+  users can instead use the hosted remote MCP at `https://mcp.clickhouse.cloud/mcp`
+  (OAuth, SELECT-only, enabled per service).'
 tags:
 - official
-- read-only
+- mutating
+- hosted
 list: mcp-servers
 added: '2026-04-30'
 category_order: 8
+verified: '2026-10-05'

@@ -2,7 +2,7 @@ name: fetch
 slug: fetch
 url: https://github.com/modelcontextprotocol/servers/tree/main/src/fetch
 category: official-anthropic-servers
-category_label: Official Anthropic Servers
+category_label: Reference servers (MCP steering group)
 tagline: Fetch a single URL and return its content as Markdown for the model.
 tags:
 - official
@@ -10,3 +10,4 @@ tags:
 list: mcp-servers
 added: '2026-04-30'
 category_order: 0
+verified: '2026-10-05'

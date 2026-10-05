@@ -1,0 +1,17 @@
+name: zapier
+slug: zapier
+url: https://docs.zapier.com/mcp/home
+category: productivity-notes
+category_label: Productivity & Notes
+tagline: 'Zapier''s hosted MCP server (`https://mcp.zapier.com/api/v1/connect`): 40,000+
+  actions across 9,000+ apps using the accounts you''ve connected in Zapier. OAuth
+  or connection token (send it in a header, not the URL). Each successful call uses
+  2 tasks from your Zapier plan.'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-10-05'
+category_order: 11
+verified: '2026-10-05'
