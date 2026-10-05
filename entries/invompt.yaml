@@ -1,0 +1,16 @@
+name: invompt
+slug: invompt
+url: https://github.com/Invompt/invompt-mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: Create, revise, archive, and email invoices, quotes, estimates, and pro formas
+  from chat. Hosted at `https://mcp.invompt.com/mcp` (OAuth); you can start without
+  an account, but emailing documents needs a registered one. The MIT repo also has
+  a local-beta CLI.
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-10-05'
+category_order: 15

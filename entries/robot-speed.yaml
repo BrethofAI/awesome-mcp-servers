@@ -1,0 +1,16 @@
+name: robot-speed
+slug: robot-speed
+url: https://www.robot-speed.com/mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'SEO tools: 12 free audit tools with no account at `https://www.robot-speed.com/api/mcp/free`;
+  the full 39-tool server at `/api/mcp` (OAuth) also manages content, Search Console
+  data, and reports, and needs a Robot Speed subscription after its trial. No public
+  server source.'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-10-05'
+category_order: 15

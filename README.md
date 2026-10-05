@@ -53,19 +53,19 @@ official one; if forks compete, the most active fork wins.
 
 - [Official Anthropic Servers](#official-anthropic-servers) (7)
 - [Files, Filesystem & Local Data](#files-filesystem--local-data) (1)
-- [Web Search & Browsing](#web-search--browsing) (7)
+- [Web Search & Browsing](#web-search--browsing) (8)
 - [Browser Automation](#browser-automation) (3)
 - [Source Control](#source-control) (2)
 - [Issue Trackers & Project Management](#issue-trackers--project-management) (4)
-- [Communication](#communication) (4)
+- [Communication](#communication) (5)
 - [Relational Databases](#relational-databases) (4)
 - [NoSQL & Document Databases](#nosql--document-databases) (2)
 - [Vector & Memory Stores](#vector--memory-stores) (5)
 - [Productivity & Notes](#productivity--notes) (5)
 - [Design & Creative](#design--creative) (1)
-- [Operations & Infrastructure](#operations--infrastructure) (6)
-- [AI & ML Platforms](#ai--ml-platforms) (1)
-- [Specialised / Vertical](#specialised--vertical) (2)
+- [Operations & Infrastructure](#operations--infrastructure) (7)
+- [AI & ML Platforms](#ai--ml-platforms) (2)
+- [Specialised / Vertical](#specialised--vertical) (5)
 - [Frameworks & SDKs for Building MCP Servers](#frameworks--sdks-for-building-mcp-servers) (4)
 
 <!-- The list below is generated from entries/*.yaml by scripts/gen_awesome_readme.py. Edit the YAML, not this section. -->
@@ -98,6 +98,8 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
 
 - **[brave-search](https://github.com/brave/brave-search-mcp-server)** — 🏷️ official 🛡️ read-only  
   Brave's official server for the Brave Search API: web, local, image, video, and news search plus summarizer; needs `BRAVE_API_KEY`. Replaces the archived reference Brave server.
+- **[communicate-docs](https://developer.communicate.so/docs/mcp)** — 🏷️ official 🛡️ read-only ☁️ hosted  
+  Communicate's public developer-docs server: three read-only tools for its developer guide, OpenAPI summary, and support contact. Hosted at `https://communicate.so/mcp`, no auth; it cannot reach workspaces or send messages. No public source.
 - **[context7](https://github.com/upstash/context7)** — 🏷️ official 🛡️ read-only  
   Upstash's up-to-date library documentation for coding agents (`resolve-library-id`, `query-docs`). Remote at `https://mcp.context7.com/mcp`; an API key is recommended.
 - **[duckduckgo](https://github.com/nickclyde/duckduckgo-mcp-server)** — 🏷️ community 🛡️ read-only  
@@ -140,6 +142,8 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
 
 ## Communication
 
+- **[autoposting](https://docs.autoposting.ai/mcp/overview)** — 🏷️ official ⚠️ mutating ☁️ hosted 💰 paid  
+  Draft, schedule, and publish social posts (X, LinkedIn, Instagram, Threads, YouTube), carousels, and video clips. Hosted at `https://app.autoposting.ai/mcp` (OAuth 2.1); the tools you see depend on the scopes you grant, and some are destructive. Needs a paid Autoposting plan. No public server source or licence.
 - **[discord](https://github.com/SaseQ/discord-mcp)** — 🏷️ community ⚠️ mutating  
   Send, search, and moderate Discord messages.
 - **[google-workspace](https://github.com/taylorwilsdon/google_workspace_mcp)** — 🏷️ community ⚠️ mutating  
@@ -212,14 +216,24 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
   kubectl-equivalent operations on the configured cluster.
 - **[sentry](https://github.com/getsentry/toolkit)** — 🏷️ official ⚠️ mutating  
   Sentry's official server: issues, events, projects, alerts and monitors; can update issues and create projects. Remote at `https://mcp.sentry.dev/mcp` or stdio. Licence: FSL-1.1-Apache-2.0.
+- **[shipvela](https://github.com/stefanautomateed/shipvela-codex)** — 🏷️ official ⚠️ mutating ☁️ hosted  
+  Public beta. Create hosting projects, deploy a connected GitHub repo or a small static site, and read deployment status, build logs, and usage. Hosted at `https://shipvela.com/mcp` (OAuth with PKCE); free Hobby plan, and each publish counts against your plan's allowance. Plugin files are MIT per the README; the hosted service is proprietary.
 
 ## AI & ML Platforms
 
+- **[aident-loadout](https://github.com/Aident-AI/aident-skill)** — 🏷️ official ⚠️ mutating ☁️ hosted  
+  Gateway that lets an agent use 1,000+ third-party apps and tools (Gmail, Slack, Linear, Notion, HubSpot, and more) through your connected accounts, with credentials in Aident's vault and an audit history. Hosted at `https://loadout.aident.ai/mcp` (OAuth); free to start, with top-ups for more usage. The skill repo is MIT; the service is proprietary.
 - **[huggingface](https://github.com/huggingface/hf-mcp-server)** — 🏷️ official ⚠️ mutating  
   Hugging Face's official server: Hub search and details, plus Gradio Spaces as tools. Hosted at `https://hf.co/mcp` or run locally.
 
 ## Specialised / Vertical
 
+- **[invompt](https://github.com/Invompt/invompt-mcp)** — 🏷️ official ⚠️ mutating ☁️ hosted  
+  Create, revise, archive, and email invoices, quotes, estimates, and pro formas from chat. Hosted at `https://mcp.invompt.com/mcp` (OAuth); you can start without an account, but emailing documents needs a registered one. The MIT repo also has a local-beta CLI.
+- **[kleap](https://github.com/kleaphq/cli)** — 🏷️ official ⚠️ mutating ☁️ hosted  
+  No-code website builder: create, edit, and publish sites, manage files, site databases, and custom domains (including a `buy_domain` tool). Hosted at `https://kleap.co/api/mcp` (OAuth) or a local stdio server from the MIT CLI; read-only API keys are available. AI edits use Kleap credits; there is a free plan.
+- **[robot-speed](https://www.robot-speed.com/mcp)** — 🏷️ official ⚠️ mutating ☁️ hosted  
+  SEO tools: 12 free audit tools with no account at `https://www.robot-speed.com/api/mcp/free`; the full 39-tool server at `/api/mcp` (OAuth) also manages content, Search Console data, and reports, and needs a Robot Speed subscription after its trial. No public server source.
 - **[spotify](https://github.com/varunneal/spotify-mcp)** — 🏷️ community ⚠️ mutating  
   Spotify Web API: search, queue, playlists.
 - **[stripe](https://docs.stripe.com/mcp)** — 🏷️ official ⚠️ mutating ☁️ hosted  

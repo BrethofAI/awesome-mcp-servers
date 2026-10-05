@@ -1,0 +1,17 @@
+name: aident-loadout
+slug: aident-loadout
+url: https://github.com/Aident-AI/aident-skill
+category: ai-ml-platforms
+category_label: AI & ML Platforms
+tagline: Gateway that lets an agent use 1,000+ third-party apps and tools (Gmail,
+  Slack, Linear, Notion, HubSpot, and more) through your connected accounts, with
+  credentials in Aident's vault and an audit history. Hosted at `https://loadout.aident.ai/mcp`
+  (OAuth); free to start, with top-ups for more usage. The skill repo is MIT; the
+  service is proprietary.
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-10-05'
+category_order: 14

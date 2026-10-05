@@ -1,0 +1,17 @@
+name: shipvela
+slug: shipvela
+url: https://github.com/stefanautomateed/shipvela-codex
+category: operations-infrastructure
+category_label: Operations & Infrastructure
+tagline: Public beta. Create hosting projects, deploy a connected GitHub repo or a
+  small static site, and read deployment status, build logs, and usage. Hosted at
+  `https://shipvela.com/mcp` (OAuth with PKCE); free Hobby plan, and each publish
+  counts against your plan's allowance. Plugin files are MIT per the README; the hosted
+  service is proprietary.
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-10-05'
+category_order: 13

@@ -1,0 +1,16 @@
+name: kleap
+slug: kleap
+url: https://github.com/kleaphq/cli
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'No-code website builder: create, edit, and publish sites, manage files,
+  site databases, and custom domains (including a `buy_domain` tool). Hosted at `https://kleap.co/api/mcp`
+  (OAuth) or a local stdio server from the MIT CLI; read-only API keys are available.
+  AI edits use Kleap credits; there is a free plan.'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-10-05'
+category_order: 15

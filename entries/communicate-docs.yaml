@@ -1,0 +1,15 @@
+name: communicate-docs
+slug: communicate-docs
+url: https://developer.communicate.so/docs/mcp
+category: web-search-browsing
+category_label: Web Search & Browsing
+tagline: 'Communicate''s public developer-docs server: three read-only tools for its
+  developer guide, OpenAPI summary, and support contact. Hosted at `https://communicate.so/mcp`,
+  no auth; it cannot reach workspaces or send messages. No public source.'
+tags:
+- official
+- read-only
+- hosted
+list: mcp-servers
+added: '2026-10-05'
+category_order: 3
