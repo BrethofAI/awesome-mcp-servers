@@ -1,0 +1,16 @@
+name: trends-mcp
+slug: trends-mcp
+url: https://github.com/trendsmcp-ai/Trends-MCP
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: Live trend data from Google Search, YouTube, TikTok, Reddit, Amazon, Wikipedia,
+  news, app stores, npm, Steam, and more (`get_time_series`, `get_growth`, `get_top_trends`).
+  Hosted at `https://api.trendsmcp.ai/mcp` or through the repo's MIT stdio adapter.
+  Needs an API key, which comes with a free monthly quota.
+tags:
+- official
+- read-only
+- hosted
+list: mcp-servers
+added: '2026-10-05'
+category_order: 15

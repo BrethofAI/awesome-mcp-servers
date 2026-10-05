@@ -1,0 +1,17 @@
+name: claimidx
+slug: claimidx
+url: https://github.com/claimidx/claimidx
+category: vector-memory-stores
+category_label: Vector & Memory Stores
+tagline: 'Shared index of known software failures and their fixes, for coding agents:
+  ask before retrying, then record the fix. Runs locally (PyPI `claimidx`, Apache-2.0)
+  but connects to a public commons at home.claimidx.com by default and syncs with
+  it at session start. Since v0.7.14, publishing a claim to the commons asks for confirmation
+  (earlier versions shared automatically); `CLAIMIDX_COMMONS=0` turns the commons
+  off.'
+tags:
+- official
+- mutating
+list: mcp-servers
+added: '2026-10-05'
+category_order: 10

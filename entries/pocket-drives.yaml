@@ -1,0 +1,16 @@
+name: pocket-drives
+slug: pocket-drives
+url: https://github.com/RevList/pocket-drives-mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: Search, quote, and check availability for peer-to-peer luxury, exotic, and
+  EV car rentals from independent hosts (five US markets at listing time). Hosted
+  at `https://pocketdrives.ai/mcp`, no auth; it does not book, which happens in the
+  iOS app. No public source or licence.
+tags:
+- official
+- read-only
+- hosted
+list: mcp-servers
+added: '2026-10-05'
+category_order: 15

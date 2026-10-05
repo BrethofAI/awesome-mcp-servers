@@ -1,0 +1,16 @@
+name: contextstream
+slug: contextstream
+url: https://github.com/contextstream/mcp-server
+category: vector-memory-stores
+category_label: Vector & Memory Stores
+tagline: 'Persistent memory and code search for coding agents: saves decisions, lessons,
+  and plans across sessions. Indexing sends your source code to ContextStream''s hosted
+  service, and transcript saving and Git metadata capture are on by default. The client
+  is MIT; the hosted backend is closed. Free starting credits.'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-10-05'
+category_order: 10

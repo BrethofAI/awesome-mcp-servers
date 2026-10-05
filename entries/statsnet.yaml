@@ -1,0 +1,16 @@
+name: statsnet
+slug: statsnet
+url: https://github.com/usenetstate/statsnet-mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'Company background checks worldwide: registration, executives, government
+  contracts, courts, and finances (`search_companies`, `get_company`). Hosted at `https://statsnet.co/mcp`;
+  the public company card needs no auth, while contacts, relations, and exports need
+  a Statsnet subscription. No public server source.'
+tags:
+- official
+- read-only
+- hosted
+list: mcp-servers
+added: '2026-10-05'
+category_order: 15

@@ -1,0 +1,16 @@
+name: cadre
+slug: cadre
+url: https://github.com/ArthurBrioche/cadre-video-editor-plugin
+category: design-creative
+category_label: Design & Creative
+tagline: 'Bridge to Cadre, a screen recorder and non-destructive video editor for
+  Apple Silicon Macs: start and stop recordings, then apply cuts, zooms, captions,
+  and styling, preview, and export MP4 through the running app. The bridge is MIT;
+  Cadre itself is proprietary, and export needs a Cadre Pro subscription.'
+tags:
+- official
+- mutating
+- local
+list: mcp-servers
+added: '2026-10-05'
+category_order: 12

@@ -57,15 +57,15 @@ official one; if forks compete, the most active fork wins.
 - [Browser Automation](#browser-automation) (3)
 - [Source Control](#source-control) (2)
 - [Issue Trackers & Project Management](#issue-trackers--project-management) (4)
-- [Communication](#communication) (5)
+- [Communication](#communication) (6)
 - [Relational Databases](#relational-databases) (4)
 - [NoSQL & Document Databases](#nosql--document-databases) (2)
-- [Vector & Memory Stores](#vector--memory-stores) (5)
+- [Vector & Memory Stores](#vector--memory-stores) (7)
 - [Productivity & Notes](#productivity--notes) (5)
-- [Design & Creative](#design--creative) (1)
+- [Design & Creative](#design--creative) (2)
 - [Operations & Infrastructure](#operations--infrastructure) (7)
-- [AI & ML Platforms](#ai--ml-platforms) (2)
-- [Specialised / Vertical](#specialised--vertical) (5)
+- [AI & ML Platforms](#ai--ml-platforms) (4)
+- [Specialised / Vertical](#specialised--vertical) (11)
 - [Frameworks & SDKs for Building MCP Servers](#frameworks--sdks-for-building-mcp-servers) (4)
 
 <!-- The list below is generated from entries/*.yaml by scripts/gen_awesome_readme.py. Edit the YAML, not this section. -->
@@ -144,6 +144,8 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
 
 - **[autoposting](https://docs.autoposting.ai/mcp/overview)** — 🏷️ official ⚠️ mutating ☁️ hosted 💰 paid  
   Draft, schedule, and publish social posts (X, LinkedIn, Instagram, Threads, YouTube), carousels, and video clips. Hosted at `https://app.autoposting.ai/mcp` (OAuth 2.1); the tools you see depend on the scopes you grant, and some are destructive. Needs a paid Autoposting plan. No public server source or licence.
+- **[bulkpublish](https://github.com/azeemkafridi/bulkpublish-api/tree/main/mcp-server)** — 🏷️ official ⚠️ mutating ☁️ hosted  
+  Schedule and publish social posts to 15 platforms, upload media, and read analytics. 72 tools in the MIT stdio server (`@bulkpublish/mcp-server`); a 20-tool core set is hosted at `https://mcp.bulkpublish.com/mcp` (OAuth 2.1). There is a free plan.
 - **[discord](https://github.com/SaseQ/discord-mcp)** — 🏷️ community ⚠️ mutating  
   Send, search, and moderate Discord messages.
 - **[google-workspace](https://github.com/taylorwilsdon/google_workspace_mcp)** — 🏷️ community ⚠️ mutating  
@@ -177,6 +179,10 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
   Persistent memory for AI agents across sessions, projects and machines. Every session opens with a brief — your standing rules, what each project is, where the last sessions stopped — and the records that bear on a prompt arrive with it. It curates itself into records per project, keeps the full chat history searchable, and adds notes, playbooks and an optional graph of decisions: each one dated, with its reason and what it replaced, returned alongside search results. Proven on nine platforms: Claude Code (Linux, Windows), Codex, Qwen Code, Cline, OpenCode, Kilo Code, OpenClaw, Hermes Agent and dsh. Memory lives on your machine (local edition, Docker or Podman) or encrypted under a passphrase only you hold (hosted); each exchange is processed by our hub, which keeps none of it. Free tier; the client is source-available. Disclosure: maintained by us.
 - **[chroma](https://github.com/chroma-core/chroma-mcp)** — 🏷️ official ⚠️ mutating 🔒 local  
   ChromaDB collections, similarity search, persistent embeddings. Still in Chroma's docs, but no release since v0.2.6 (Aug 2025).
+- **[claimidx](https://github.com/claimidx/claimidx)** — 🏷️ official ⚠️ mutating  
+  Shared index of known software failures and their fixes, for coding agents: ask before retrying, then record the fix. Runs locally (PyPI `claimidx`, Apache-2.0) but connects to a public commons at home.claimidx.com by default and syncs with it at session start. Since v0.7.14, publishing a claim to the commons asks for confirmation (earlier versions shared automatically); `CLAIMIDX_COMMONS=0` turns the commons off.
+- **[contextstream](https://github.com/contextstream/mcp-server)** — 🏷️ official ⚠️ mutating ☁️ hosted  
+  Persistent memory and code search for coding agents: saves decisions, lessons, and plans across sessions. Indexing sends your source code to ContextStream's hosted service, and transcript saving and Git metadata capture are on by default. The client is MIT; the hosted backend is closed. Free starting credits.
 - **[pinecone](https://github.com/pinecone-io/pinecone-mcp)** — 🏷️ official ⚠️ mutating  
   Pinecone managed vector search.
 - **[qdrant](https://github.com/qdrant/mcp-server-qdrant)** — 🏷️ official ⚠️ mutating  
@@ -199,6 +205,8 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
 
 ## Design & Creative
 
+- **[cadre](https://github.com/ArthurBrioche/cadre-video-editor-plugin)** — 🏷️ official ⚠️ mutating 🔒 local  
+  Bridge to Cadre, a screen recorder and non-destructive video editor for Apple Silicon Macs: start and stop recordings, then apply cuts, zooms, captions, and styling, preview, and export MP4 through the running app. The bridge is MIT; Cadre itself is proprietary, and export needs a Cadre Pro subscription.
 - **[mcp-for-blender](https://github.com/ahujasid/mcp-for-blender)** — 🏷️ community ⚠️ mutating 🔒 local  
   Drive Blender via Python — modify scenes, run renders, manage assets. Formerly blender-mcp; the PyPI package is now `mcp-for-blender`.
 
@@ -223,21 +231,37 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
 
 - **[aident-loadout](https://github.com/Aident-AI/aident-skill)** — 🏷️ official ⚠️ mutating ☁️ hosted  
   Gateway that lets an agent use 1,000+ third-party apps and tools (Gmail, Slack, Linear, Notion, HubSpot, and more) through your connected accounts, with credentials in Aident's vault and an audit history. Hosted at `https://loadout.aident.ai/mcp` (OAuth); free to start, with top-ups for more usage. The skill repo is MIT; the service is proprietary.
+- **[api-market](https://api.market/mcp)** — 🏷️ official ⚠️ mutating ☁️ hosted  
+  Gateway to the API.market catalogue of 580+ third-party APIs (image and video generation, search, scraping, maps, data) through five tools. Hosted at `https://api.market/api/mcp/gateway` (OAuth or API key). Calls can spend quota or wallet funds and change subscriptions. Proprietary; no public source.
 - **[huggingface](https://github.com/huggingface/hf-mcp-server)** — 🏷️ official ⚠️ mutating  
   Hugging Face's official server: Hub search and details, plus Gradio Spaces as tools. Hosted at `https://hf.co/mcp` or run locally.
+- **[runapi](https://github.com/runapi-ai/mcp)** — 🏷️ official ⚠️ mutating ☁️ hosted 💰 paid  
+  Browse a catalog of image, video, music, and text-to-speech models, check current pricing, and create and poll generation jobs. Hosted at `https://mcp.runapi.ai/mcp` or local via `npx @runapi.ai/mcp`. Catalog tools work without sign-in; jobs spend prepaid pay-as-you-go credits.
 
 ## Specialised / Vertical
 
+- **[careclinic](https://careclinic.io/careclinic-mcp/)** — 🏷️ official ⚠️ mutating ☁️ hosted  
+  Your CareClinic health record in chat: today's medication schedule, recent symptoms and mood, and insights. A check-in tool logs entries after you confirm them. Hosted at `https://mcp.careclinic.io/mcp` (OAuth with your CareClinic account). Handles personal health data. No public source; the repo is all rights reserved.
 - **[invompt](https://github.com/Invompt/invompt-mcp)** — 🏷️ official ⚠️ mutating ☁️ hosted  
   Create, revise, archive, and email invoices, quotes, estimates, and pro formas from chat. Hosted at `https://mcp.invompt.com/mcp` (OAuth); you can start without an account, but emailing documents needs a registered one. The MIT repo also has a local-beta CLI.
 - **[kleap](https://github.com/kleaphq/cli)** — 🏷️ official ⚠️ mutating ☁️ hosted  
   No-code website builder: create, edit, and publish sites, manage files, site databases, and custom domains (including a `buy_domain` tool). Hosted at `https://kleap.co/api/mcp` (OAuth) or a local stdio server from the MIT CLI; read-only API keys are available. AI edits use Kleap credits; there is a free plan.
+- **[llm-pulse](https://llmpulse.ai/features/mcp)** — 🏷️ official ⚠️ mutating ☁️ hosted 💰 paid  
+  AI-search visibility analytics: brand mentions, citations, sentiment, and share of voice. With the write scope it can add prompts, competitors, tags, and annotations, and launch content tasks. Hosted at `https://api.llmpulse.ai/api/v1/mcp` (OAuth or API key). Needs a paid LLM Pulse plan after a 14-day trial. The server source is private; the repo holds an MIT stdio wrapper.
+- **[pocket-drives](https://github.com/RevList/pocket-drives-mcp)** — 🏷️ official 🛡️ read-only ☁️ hosted  
+  Search, quote, and check availability for peer-to-peer luxury, exotic, and EV car rentals from independent hosts (five US markets at listing time). Hosted at `https://pocketdrives.ai/mcp`, no auth; it does not book, which happens in the iOS app. No public source or licence.
 - **[robot-speed](https://www.robot-speed.com/mcp)** — 🏷️ official ⚠️ mutating ☁️ hosted  
   SEO tools: 12 free audit tools with no account at `https://www.robot-speed.com/api/mcp/free`; the full 39-tool server at `/api/mcp` (OAuth) also manages content, Search Console data, and reports, and needs a Robot Speed subscription after its trial. No public server source.
 - **[spotify](https://github.com/varunneal/spotify-mcp)** — 🏷️ community ⚠️ mutating  
   Spotify Web API: search, queue, playlists.
+- **[statsnet](https://github.com/usenetstate/statsnet-mcp)** — 🏷️ official 🛡️ read-only ☁️ hosted  
+  Company background checks worldwide: registration, executives, government contracts, courts, and finances (`search_companies`, `get_company`). Hosted at `https://statsnet.co/mcp`; the public company card needs no auth, while contacts, relations, and exports need a Statsnet subscription. No public server source.
 - **[stripe](https://docs.stripe.com/mcp)** — 🏷️ official ⚠️ mutating ☁️ hosted  
   Stripe's hosted MCP server (`https://mcp.stripe.com`): payments, customers, subscriptions, refunds via OAuth or agent API keys. Refunds and outbound payments need human confirmation. From 2026-10-31 it accepts only Agent-tagged keys or OAuth.
+- **[trends-mcp](https://github.com/trendsmcp-ai/Trends-MCP)** — 🏷️ official 🛡️ read-only ☁️ hosted  
+  Live trend data from Google Search, YouTube, TikTok, Reddit, Amazon, Wikipedia, news, app stores, npm, Steam, and more (`get_time_series`, `get_growth`, `get_top_trends`). Hosted at `https://api.trendsmcp.ai/mcp` or through the repo's MIT stdio adapter. Needs an API key, which comes with a free monthly quota.
+- **[wine-labs](https://winelabs.ai/agents)** — 🏷️ official ⚠️ mutating ☁️ hosted  
+  Fine-wine market data: wine and LWIN matching, retail and auction prices, exchange order books, merchants, and critic data. Account-scoped cellar and portfolio workflows can create or update data. Hosted at `https://chat.wine-labs.com/mcp` (browser OAuth); free tier, with deeper workflows on paid plans. No public server source.
 
 ## Frameworks & SDKs for Building MCP Servers
 

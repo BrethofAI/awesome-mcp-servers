@@ -1,0 +1,18 @@
+name: llm-pulse
+slug: llm-pulse
+url: https://llmpulse.ai/features/mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'AI-search visibility analytics: brand mentions, citations, sentiment, and
+  share of voice. With the write scope it can add prompts, competitors, tags, and
+  annotations, and launch content tasks. Hosted at `https://api.llmpulse.ai/api/v1/mcp`
+  (OAuth or API key). Needs a paid LLM Pulse plan after a 14-day trial. The server
+  source is private; the repo holds an MIT stdio wrapper.'
+tags:
+- official
+- mutating
+- hosted
+- paid
+list: mcp-servers
+added: '2026-10-05'
+category_order: 15

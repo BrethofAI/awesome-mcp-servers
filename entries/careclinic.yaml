@@ -1,0 +1,16 @@
+name: careclinic
+slug: careclinic
+url: https://careclinic.io/careclinic-mcp/
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'Your CareClinic health record in chat: today''s medication schedule, recent
+  symptoms and mood, and insights. A check-in tool logs entries after you confirm
+  them. Hosted at `https://mcp.careclinic.io/mcp` (OAuth with your CareClinic account).
+  Handles personal health data. No public source; the repo is all rights reserved.'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-10-05'
+category_order: 15
