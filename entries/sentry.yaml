@@ -1,6 +1,6 @@
 name: sentry
 slug: sentry
-url: https://github.com/getsentry/sentry-mcp
+url: https://github.com/getsentry/toolkit
 category: operations-infrastructure
 category_label: Operations & Infrastructure
 tagline: 'Sentry''s official server: issues, events, projects, alerts and monitors;

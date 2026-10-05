@@ -196,7 +196,7 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
   Manage Helm releases against a Kubernetes cluster.
 - **[kubernetes](https://github.com/Flux159/mcp-server-kubernetes)** — 🏷️ community ⚠️ mutating  
   kubectl-equivalent operations on the configured cluster.
-- **[sentry](https://github.com/getsentry/sentry-mcp)** — 🏷️ official ⚠️ mutating  
+- **[sentry](https://github.com/getsentry/toolkit)** — 🏷️ official ⚠️ mutating  
   Sentry's official server: issues, events, projects, alerts and monitors; can update issues and create projects. Remote at `https://mcp.sentry.dev/mcp` or stdio. Licence: FSL-1.1-Apache-2.0.
 
 ## AI & ML Platforms
