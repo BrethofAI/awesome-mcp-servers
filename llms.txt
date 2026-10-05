@@ -1,0 +1,9 @@
+# awesome-mcp-servers
+
+> A curated catalog of working Model Context Protocol servers for AI clients, labeling each entry by publisher, execution environment, and mutation capabilities.
+
+The project is a maintained list of verified MCP servers, categorized by function such as web search, databases, and operations. It includes reference implementations and community tools, with entries removed if they stop working or fail verification checks.
+
+## Docs
+
+- [awesome-mcp-servers](https://raw.githubusercontent.com/BrethofAI/awesome-mcp-servers/main/README.md): A catalog of working MCP servers for Claude clients, labelled by publisher, runtime, and capabilities.
