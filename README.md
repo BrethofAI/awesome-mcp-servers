@@ -50,6 +50,7 @@ official one; if forks compete, the most active fork wins.
 - 💰 `paid` — needs a paid account (a time-limited trial doesn't count as free).
 - 🆕 `new` — listed in the last 60 days.
 
+<!-- LIST:START -->
 ## Contents
 
 - [Official Anthropic Servers](#official-anthropic-servers) (7)
@@ -280,6 +281,8 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
   Reference Python SDK. Includes `FastMCP` for terse decorator-based servers.
 - **[mcp-typescript](https://github.com/modelcontextprotocol/typescript-sdk)** — 🏷️ official  
   Reference TypeScript / Node SDK. Powers most npm-distributed servers.
+
+<!-- LIST:END -->
 
 ## Discovery hubs
 
