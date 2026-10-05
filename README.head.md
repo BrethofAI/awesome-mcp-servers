@@ -48,3 +48,4 @@ official one; if forks compete, the most active fork wins.
 - 🔒 `local` — runs entirely on your machine, no remote calls during use.
 - ☁️ `hosted` — runs on the vendor's servers; you connect to their endpoint.
 - 💰 `paid` — needs a paid account (a time-limited trial doesn't count as free).
+- 🆕 `new` — listed in the last 60 days.

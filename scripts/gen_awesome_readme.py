@@ -29,7 +29,22 @@ except ImportError:
 REPO_ROOT = Path(__file__).resolve().parents[1]
 
 # tag -> badge rendering for this list (empty = render the tag verbatim)
-BADGES: dict[str, str] = {'official': '🏷️ official', 'community': '🏷️ community', 'brethof': '🏷️ brethof', 'read-only': '🛡️ read-only', 'mutating': '⚠️ mutating', 'local': '🔒 local', 'hosted': '☁️ hosted', 'paid': '💰 paid'}
+BADGES: dict[str, str] = {'new': '🆕 new', 'official': '🏷️ official', 'community': '🏷️ community', 'brethof': '🏷️ brethof', 'read-only': '🛡️ read-only', 'mutating': '⚠️ mutating', 'local': '🔒 local', 'hosted': '☁️ hosted', 'paid': '💰 paid'}
+
+# Entries added in the last NEW_DAYS days carry a "new" label, computed from
+# their `added` date, so a reader can tell a fresh listing from an established
+# one. The weekly routine regenerates the README, which ages the label out.
+NEW_DAYS = 60
+
+
+def is_new(e: dict) -> bool:
+    import datetime as _dt
+    try:
+        added = _dt.date.fromisoformat(str(e.get("added", ""))[:10])
+    except ValueError:
+        return False
+    return (_dt.date.today() - added).days <= NEW_DAYS
+
 
 NOTE = ("<!-- The list below is generated from entries/*.yaml by "
         "scripts/gen_awesome_readme.py. Edit the YAML, not this section. -->")
@@ -95,7 +110,7 @@ def render() -> str:
             out.append(intro + "\n")
         for e in sorted(c["items"], key=lambda e: str(e.get("name", "")).lower()):
             name, url = e.get("name", "?"), (e.get("url") or "")
-            tag = badges(e.get("tags"), BADGES)
+            tag = badges((["new"] if is_new(e) else []) + list(e.get("tags") or []), BADGES)
             tagline = (e.get("tagline") or "").strip()
             line = f"- **[{name}]({url})**" if url else f"- **{name}**"
             if tag:
