@@ -1,0 +1,12 @@
+{
+ "checked": "2026-10-05",
+ "since": false,
+ "changes": [
+  {
+   "slug": "chroma",
+   "name": "chroma",
+   "kind": "dormant",
+   "detail": "no push for 383 days (since 2025-09-17)"
+  }
+ ]
+}
