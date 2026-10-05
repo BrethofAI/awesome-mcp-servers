@@ -1,0 +1,15 @@
+name: orkas-video-studio
+slug: orkas-video-studio
+url: https://github.com/Orkas-AI/Orkas-VideoStudio
+category: design-creative
+category_label: Design & Creative
+tagline: 'Local-first video toolkit for coding agents: compose, edit, generate, and
+  assemble videos from an editable `plan.json` timeline, through a CLI and an MCP
+  server. Early development: install from source, since the npm packages aren''t published
+  yet. Optional generation calls providers with your own keys. MIT.'
+tags:
+- official
+- mutating
+list: mcp-servers
+added: '2026-10-05'
+category_order: 12

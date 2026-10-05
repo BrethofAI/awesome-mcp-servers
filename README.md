@@ -56,13 +56,13 @@ official one; if forks compete, the most active fork wins.
 - [Web Search & Browsing](#web-search--browsing) (8)
 - [Browser Automation](#browser-automation) (3)
 - [Source Control](#source-control) (2)
-- [Issue Trackers & Project Management](#issue-trackers--project-management) (4)
+- [Issue Trackers & Project Management](#issue-trackers--project-management) (5)
 - [Communication](#communication) (6)
 - [Relational Databases](#relational-databases) (4)
 - [NoSQL & Document Databases](#nosql--document-databases) (2)
 - [Vector & Memory Stores](#vector--memory-stores) (7)
-- [Productivity & Notes](#productivity--notes) (5)
-- [Design & Creative](#design--creative) (2)
+- [Productivity & Notes](#productivity--notes) (6)
+- [Design & Creative](#design--creative) (3)
 - [Operations & Infrastructure](#operations--infrastructure) (7)
 - [AI & ML Platforms](#ai--ml-platforms) (4)
 - [Specialised / Vertical](#specialised--vertical) (11)
@@ -137,6 +137,8 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
   Atlassian's official remote MCP server: Jira, Confluence, Jira Service Management, Bitbucket, Compass. OAuth 2.1 or API tokens.
 - **[linear](https://linear.app/docs/mcp)** — 🏷️ official ⚠️ mutating ☁️ hosted  
   Linear's hosted MCP server (`https://mcp.linear.app/mcp`; read-only variant at `/mcp/readonly`): issues, projects, cycles, comments. OAuth 2.1 or API key.
+- **[orbit](https://github.com/Noveum/orbit/blob/main/docs/mcp.md)** — 🏷️ official ⚠️ mutating ☁️ hosted  
+  Open-source task manager (issues, boards, sprints, projects, docs) with an MCP server. The `orbit.write` scope creates and updates issues, comments, projects, and sprints. Hosted free at `https://orbit.noveum.ai/mcp` (OAuth), or self-host it (self-hosting is in preview). Apache-2.0.
 - **[trello](https://github.com/delorenj/mcp-server-trello)** — 🏷️ community ⚠️ mutating  
   Trello board, list, and card operations.
 
@@ -200,6 +202,8 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
   Read and create calendar events.
 - **[notion](https://developers.notion.com/docs/mcp)** — 🏷️ official ⚠️ mutating ☁️ hosted  
   Notion's hosted MCP server: search the workspace, read and edit pages in Markdown. OAuth, respects each user's existing permissions. (The self-hosted makenotion/notion-mcp-server is no longer maintained.)
+- **[process-street](https://www.process.st/help/docs/mcp-server/)** — 🏷️ official ⚠️ mutating ☁️ hosted 💰 paid  
+  Process Street's hosted server: workflows, workflow runs, tasks, users, and data sets. It can create and manage runs and assigned tasks within your Process Street permissions. `https://mcp.process.st/` (interactive auth or API key). Needs a paid plan after a 14-day trial; organisations that require SAML SSO are not supported. No public source.
 - **[screenpipe](https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp)** — 🏷️ official ⚠️ mutating  
   Search your recorded screen text, audio transcripts, meetings, and activity summaries; can also control recording, run pipes, and edit memories. Reads your full screen and audio history, so grant it with care. Source-available under the Screenpipe Commercial License (not an OSI open-source licence).
 
@@ -209,6 +213,8 @@ Reference implementations from Anthropic, kept in [modelcontextprotocol/servers]
   Bridge to Cadre, a screen recorder and non-destructive video editor for Apple Silicon Macs: start and stop recordings, then apply cuts, zooms, captions, and styling, preview, and export MP4 through the running app. The bridge is MIT; Cadre itself is proprietary, and export needs a Cadre Pro subscription.
 - **[mcp-for-blender](https://github.com/ahujasid/mcp-for-blender)** — 🏷️ community ⚠️ mutating 🔒 local  
   Drive Blender via Python — modify scenes, run renders, manage assets. Formerly blender-mcp; the PyPI package is now `mcp-for-blender`.
+- **[orkas-video-studio](https://github.com/Orkas-AI/Orkas-VideoStudio)** — 🏷️ official ⚠️ mutating  
+  Local-first video toolkit for coding agents: compose, edit, generate, and assemble videos from an editable `plan.json` timeline, through a CLI and an MCP server. Early development: install from source, since the npm packages aren't published yet. Optional generation calls providers with your own keys. MIT.
 
 ## Operations & Infrastructure
 

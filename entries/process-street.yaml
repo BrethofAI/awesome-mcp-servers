@@ -1,0 +1,18 @@
+name: process-street
+slug: process-street
+url: https://www.process.st/help/docs/mcp-server/
+category: productivity-notes
+category_label: Productivity & Notes
+tagline: 'Process Street''s hosted server: workflows, workflow runs, tasks, users,
+  and data sets. It can create and manage runs and assigned tasks within your Process
+  Street permissions. `https://mcp.process.st/` (interactive auth or API key). Needs
+  a paid plan after a 14-day trial; organisations that require SAML SSO are not supported.
+  No public source.'
+tags:
+- official
+- mutating
+- hosted
+- paid
+list: mcp-servers
+added: '2026-10-05'
+category_order: 11

@@ -1,0 +1,16 @@
+name: orbit
+slug: orbit
+url: https://github.com/Noveum/orbit/blob/main/docs/mcp.md
+category: issue-trackers-project-management
+category_label: Issue Trackers & Project Management
+tagline: Open-source task manager (issues, boards, sprints, projects, docs) with an
+  MCP server. The `orbit.write` scope creates and updates issues, comments, projects,
+  and sprints. Hosted free at `https://orbit.noveum.ai/mcp` (OAuth), or self-host
+  it (self-hosting is in preview). Apache-2.0.
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-10-05'
+category_order: 6
