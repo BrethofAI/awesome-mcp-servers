@@ -67,7 +67,7 @@ official one; if forks compete, the most active fork wins.
 - [Design & Creative](#design--creative) (4)
 - [Operations & Infrastructure](#operations--infrastructure) (11)
 - [AI & ML Platforms](#ai--ml-platforms) (4)
-- [Specialised / Vertical](#specialised--vertical) (12)
+- [Specialised / Vertical](#specialised--vertical) (13)
 - [Frameworks & SDKs for Building MCP Servers](#frameworks--sdks-for-building-mcp-servers) (4)
 
 <!-- The list below is generated from entries/*.yaml by scripts/gen_awesome_readme.py. Edit the YAML, not this section. -->
@@ -333,6 +333,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   <sub>★ 0 · last push 2026-09-16</sub>
 - **[stripe](https://docs.stripe.com/mcp)** — 🏷️ official ⚠️ mutating ☁️ hosted  
   Stripe's hosted MCP server (`https://mcp.stripe.com`): payments, customers, subscriptions, refunds via OAuth or agent API keys. Refunds and outbound payments need human confirmation. From 2026-10-31 it accepts only Agent-tagged keys or OAuth.
+- **[synci](https://github.com/synciio/synci-mcp)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted 💰 paid  
+  Read-only access to bank, brokerage, and crypto accounts connected through Synci: connection health, accounts, balance snapshots, transactions, and holdings (5 tools). Hosted at `https://api.synci.io/mcp` (OAuth; you pick which accounts the assistant sees); it cannot move money or trade. Needs an active Synci subscription. The repo holds docs and setup examples; no public server source or licence.
 - **[trends-mcp](https://github.com/trendsmcp-ai/Trends-MCP)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
   Live trend data from Google Search, YouTube, TikTok, Reddit, Amazon, Wikipedia, news, app stores, npm, Steam, and more (`get_time_series`, `get_growth`, `get_top_trends`). Hosted at `https://api.trendsmcp.ai/mcp` or through the repo's MIT stdio adapter. Needs an API key, which comes with a free monthly quota.  
   <sub>★ 44 · last push 2026-08-29</sub>

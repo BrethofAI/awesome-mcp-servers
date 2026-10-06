@@ -1,0 +1,19 @@
+name: synci
+slug: synci
+url: https://github.com/synciio/synci-mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'Read-only access to bank, brokerage, and crypto accounts connected through
+  Synci: connection health, accounts, balance snapshots, transactions, and holdings
+  (5 tools). Hosted at `https://api.synci.io/mcp` (OAuth; you pick which accounts
+  the assistant sees); it cannot move money or trade. Needs an active Synci subscription.
+  The repo holds docs and setup examples; no public server source or licence.'
+tags:
+- official
+- read-only
+- hosted
+- paid
+list: mcp-servers
+added: '2026-10-06'
+category_order: 15
+verified: '2026-10-06'
