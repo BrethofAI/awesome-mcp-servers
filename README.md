@@ -63,11 +63,11 @@ official one; if forks compete, the most active fork wins.
 - [Relational Databases](#relational-databases) (4)
 - [NoSQL & Document Databases](#nosql--document-databases) (2)
 - [Vector & Memory Stores](#vector--memory-stores) (7)
-- [Productivity & Notes](#productivity--notes) (7)
-- [Design & Creative](#design--creative) (4)
+- [Productivity & Notes](#productivity--notes) (8)
+- [Design & Creative](#design--creative) (5)
 - [Operations & Infrastructure](#operations--infrastructure) (11)
 - [AI & ML Platforms](#ai--ml-platforms) (4)
-- [Specialised / Vertical](#specialised--vertical) (13)
+- [Specialised / Vertical](#specialised--vertical) (14)
 - [Frameworks & SDKs for Building MCP Servers](#frameworks--sdks-for-building-mcp-servers) (4)
 
 <!-- The list below is generated from entries/*.yaml by scripts/gen_awesome_readme.py. Edit the YAML, not this section. -->
@@ -242,6 +242,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   Process Street's hosted server: workflows, workflow runs, tasks, users, data sets and reports. It can create and manage runs and assigned tasks within your Process Street permissions. `https://mcp.process.st/` (OAuth sign-in, including SAML SSO organisations, or an admin-generated API key). Needs a paid plan after a 14-day trial. No public source.
 - **[screenpipe](https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp)** — 🆕 new 🏷️ official ⚠️ mutating  
   Search your recorded screen text, audio transcripts, meetings, and activity summaries; can also control recording, run pipes, and edit memories. Reads your full screen and audio history, so grant it with care. Source-available under the Screenpipe Commercial License (not an OSI open-source licence).
+- **[tale](https://github.com/tale-project/tale)** — 🆕 new 🏷️ official ⚠️ mutating  
+  Tale's own MCP endpoint on a Tale team workspace you deploy yourself: `get_knowledge` retrieves your organisation's knowledge passages, and agents can author, validate, save and run the workspace's automations (`run_automation` tests against mocks; `run_deployed` runs them live). HTTPS JSON-RPC with a Bearer API key plus an `X-Organization-Slug` header, so the client must support custom headers; no public hosted endpoint. MIT, free to self-host.
 - **[zapier](https://docs.zapier.com/mcp/home)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   Zapier's hosted MCP server (`https://mcp.zapier.com/api/v1/connect`): 40,000+ actions across 9,000+ apps using the accounts you've connected in Zapier. OAuth or connection token (send it in a header, not the URL). Each successful call uses 2 tasks from your Zapier plan.
 
@@ -258,6 +260,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 - **[orkas-video-studio](https://github.com/Orkas-AI/Orkas-VideoStudio)** — 🆕 new 🏷️ official ⚠️ mutating  
   Local-first video toolkit for coding agents: compose, edit, generate, and assemble videos from an editable `plan.json` timeline, through a CLI and an MCP server. Early development: install from source, since the npm packages aren't published yet. Optional generation calls providers with your own keys. MIT.  
   <sub>★ 497 · last push 2026-09-22</sub>
+- **[videogen](https://github.com/video-gen/videogen-mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
+  VideoGen's server (50 tools): generate and edit videos, images, voiceovers, music and avatars, upload assets, run workflows and export editable projects. Hosted at `https://mcp.videogen.io/mcp` (OAuth or API key) or `npx @videogen/mcp` locally, which still calls the VideoGen API: prompts and assets go to VideoGen and actions can spend credits. Free plan with limits (watermarked exports). MIT.
 
 ## Operations & Infrastructure
 
@@ -310,6 +314,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 
 - **[careclinic](https://careclinic.io/careclinic-mcp/)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   Your CareClinic health record in chat: today's medication schedule, recent symptoms and mood, and insights. A check-in tool logs entries after you confirm them. Hosted at `https://mcp.careclinic.io/mcp` (OAuth with your CareClinic account). Handles personal health data. No public source; the repo is all rights reserved.
+- **[fincept](https://docs.fincept.in)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted 💰 paid  
+  Fincept Terminal's hosted server (`https://enterprise.fincept.in/mcp`, OAuth 2.1): market quotes and candles, options and futures, fundamentals, economic series and SEC filings, news and sentiment, screeners, backtests, portfolio analytics and quant engines (about 440 tools). Trading tools reach only the Fincept Paper account, no real money; tools spend plan credits. Needs the paid Fincept Exclusive Pro plan. The server source is private; the public repo holds docs only.
 - **[hubspot](https://developers.hubspot.com/mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   HubSpot's hosted MCP server (`https://mcp.hubspot.com`): read and write CRM records, activities, content, campaigns and pipelines. OAuth with PKCE via an MCP connector you create in HubSpot. A local developer MCP server ships with the HubSpot CLI (`hs mcp setup`).
 - **[invompt](https://github.com/Invompt/invompt-mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  

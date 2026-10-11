@@ -1,0 +1,20 @@
+name: fincept
+slug: fincept
+url: https://docs.fincept.in
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'Fincept Terminal''s hosted server (`https://enterprise.fincept.in/mcp`, OAuth 2.1):
+  market quotes and candles, options and futures, fundamentals, economic series and SEC filings,
+  news and sentiment, screeners, backtests, portfolio analytics and quant engines (about 440
+  tools). Trading tools reach only the Fincept Paper account, no real money; tools spend plan
+  credits. Needs the paid Fincept Exclusive Pro plan. The server source is private; the public
+  repo holds docs only.'
+tags:
+- official
+- mutating
+- hosted
+- paid
+list: mcp-servers
+added: '2026-10-11'
+category_order: 15
+verified: '2026-10-11'

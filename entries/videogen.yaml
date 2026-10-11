@@ -1,0 +1,18 @@
+name: videogen
+slug: videogen
+url: https://github.com/video-gen/videogen-mcp
+category: design-creative
+category_label: Design & Creative
+tagline: 'VideoGen''s server (50 tools): generate and edit videos, images, voiceovers, music
+  and avatars, upload assets, run workflows and export editable projects. Hosted at `https://mcp.videogen.io/mcp`
+  (OAuth or API key) or `npx @videogen/mcp` locally, which still calls the VideoGen API: prompts
+  and assets go to VideoGen and actions can spend credits. Free plan with limits (watermarked
+  exports). MIT.'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-10-11'
+category_order: 12
+verified: '2026-10-11'

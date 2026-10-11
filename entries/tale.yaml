@@ -1,0 +1,17 @@
+name: tale
+slug: tale
+url: https://github.com/tale-project/tale
+category: productivity-notes
+category_label: Productivity & Notes
+tagline: 'Tale''s own MCP endpoint on a Tale team workspace you deploy yourself: `get_knowledge`
+  retrieves your organisation''s knowledge passages, and agents can author, validate, save
+  and run the workspace''s automations (`run_automation` tests against mocks; `run_deployed`
+  runs them live). HTTPS JSON-RPC with a Bearer API key plus an `X-Organization-Slug` header,
+  so the client must support custom headers; no public hosted endpoint. MIT, free to self-host.'
+tags:
+- official
+- mutating
+list: mcp-servers
+added: '2026-10-11'
+category_order: 11
+verified: '2026-10-11'
