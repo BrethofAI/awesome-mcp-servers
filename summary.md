@@ -1,3 +1,11 @@
-## Facts 2026-10-05 — 90 entries, 1 change(s) (first run: baseline only)
+## Facts 2026-10-12 — 94 entries, 9 change(s)
 
-- **dormant** chroma: no push for 383 days (since 2025-09-17)
+- **release** apple-notes: v2.14.0 → v2.15.0 (2026-10-09)
+- **release** context7: @upstash/context7-opencode@0.2.0 → @upstash/context7-mcp@4.3.0 (2026-10-09)
+- **release** contextstream: v1.0.13 → v1.0.20 (2026-10-10)
+- **release** fastmcp: v4.0.11 → v4.1.0 (2026-10-08)
+- **release** github: v1.14.0 → v2.0.2 (2026-10-08)
+- **release** google-workspace: v2.0.1 → v2.1.0 (2026-10-09)
+- **release** grafana: v2.0.0 → v2.0.2 (2026-10-07)
+- **release** sentry: cli@0.46.0 → cli@0.47.0 (2026-10-05)
+- **release** telegram: v3.2.66 → v3.2.75 (2026-10-10)

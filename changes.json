@@ -1,12 +1,60 @@
 {
- "checked": "2026-10-05",
- "since": false,
+ "checked": "2026-10-12",
+ "since": true,
  "changes": [
   {
-   "slug": "chroma",
-   "name": "chroma",
-   "kind": "dormant",
-   "detail": "no push for 383 days (since 2025-09-17)"
+   "slug": "apple-notes",
+   "name": "apple-notes",
+   "kind": "release",
+   "detail": "v2.14.0 → v2.15.0 (2026-10-09)"
+  },
+  {
+   "slug": "context7",
+   "name": "context7",
+   "kind": "release",
+   "detail": "@upstash/context7-opencode@0.2.0 → @upstash/context7-mcp@4.3.0 (2026-10-09)"
+  },
+  {
+   "slug": "contextstream",
+   "name": "contextstream",
+   "kind": "release",
+   "detail": "v1.0.13 → v1.0.20 (2026-10-10)"
+  },
+  {
+   "slug": "fastmcp",
+   "name": "fastmcp",
+   "kind": "release",
+   "detail": "v4.0.11 → v4.1.0 (2026-10-08)"
+  },
+  {
+   "slug": "github",
+   "name": "github",
+   "kind": "release",
+   "detail": "v1.14.0 → v2.0.2 (2026-10-08)"
+  },
+  {
+   "slug": "google-workspace",
+   "name": "google-workspace",
+   "kind": "release",
+   "detail": "v2.0.1 → v2.1.0 (2026-10-09)"
+  },
+  {
+   "slug": "grafana",
+   "name": "grafana",
+   "kind": "release",
+   "detail": "v2.0.0 → v2.0.2 (2026-10-07)"
+  },
+  {
+   "slug": "sentry",
+   "name": "sentry",
+   "kind": "release",
+   "detail": "cli@0.46.0 → cli@0.47.0 (2026-10-05)"
+  },
+  {
+   "slug": "telegram",
+   "name": "telegram",
+   "kind": "release",
+   "detail": "v3.2.66 → v3.2.75 (2026-10-10)"
   }
  ]
 }
