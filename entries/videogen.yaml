@@ -7,7 +7,7 @@ tagline: 'VideoGen''s server (50 tools): generate and edit videos, images, voice
   and avatars, upload assets, run workflows and export editable projects. Hosted at `https://mcp.videogen.io/mcp`
   (OAuth or API key) or `npx @videogen/mcp` locally, which still calls the VideoGen API: prompts
   and assets go to VideoGen and actions can spend credits. Free plan with limits (watermarked
-  exports). MIT.'
+  exports). MIT. [MCP setup and client configuration](https://videogen.io/videogen-mcp).'
 tags:
 - official
 - mutating
