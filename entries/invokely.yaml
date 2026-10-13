@@ -1,0 +1,18 @@
+name: invokely
+slug: invokely
+url: https://invokely.ai/docs
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'Official statistics with their sources: search indicators and places, get values
+  and time series, compare and rank places (U.S. states and counties, EU countries and NUTS
+  2 regions, Spanish municipalities, World Bank data for every country). Hosted at `https://invokely.ai/mcp`
+  (OAuth or API key; free plan of 500 calls a month) plus a no-account trial endpoint at `https://invokely.ai/mcp/trial`
+  (25 calls a day). Proprietary; no public source.'
+tags:
+- official
+- read-only
+- hosted
+list: mcp-servers
+added: '2026-10-13'
+category_order: 15
+verified: '2026-10-13'

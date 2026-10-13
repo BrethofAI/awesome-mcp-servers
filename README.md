@@ -67,7 +67,7 @@ official one; if forks compete, the most active fork wins.
 - [Design & Creative](#design--creative) (5)
 - [Operations & Infrastructure](#operations--infrastructure) (11)
 - [AI & ML Platforms](#ai--ml-platforms) (4)
-- [Specialised / Vertical](#specialised--vertical) (14)
+- [Specialised / Vertical](#specialised--vertical) (15)
 - [Frameworks & SDKs for Building MCP Servers](#frameworks--sdks-for-building-mcp-servers) (4)
 
 <!-- The list below is generated from entries/*.yaml by scripts/gen_awesome_readme.py. Edit the YAML, not this section. -->
@@ -207,7 +207,7 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 ## Vector & Memory Stores
 
 - **[brethof-brain](https://brethof.ai/brain/)** — 🆕 new 🏷️ brethof ⚠️ mutating ☁️ hosted  
-  Persistent memory for AI agents across sessions, projects and machines. Every session opens with a brief — your standing rules, what each project is, where the last sessions stopped — and the records that bear on a prompt arrive with it. It curates itself into records per project, keeps the full chat history searchable, and adds notes, playbooks and an optional graph of decisions: each one dated, with its reason and what it replaced, returned alongside search results. Proven on nine platforms: Claude Code (Linux, Windows), Codex, Qwen Code, Cline, OpenCode, Kilo Code, OpenClaw, Hermes Agent and dsh. Memory lives on your machine (local edition, Docker or Podman) or encrypted under a passphrase only you hold (hosted); each exchange is processed by our hub, which keeps none of it. Free tier; the client is source-available. Disclosure: maintained by us.
+  Persistent memory for AI agents across sessions, projects and machines. Every session opens with a brief — your standing rules, what each project is, where the last sessions stopped — and the records that bear on a prompt arrive with it. It curates itself into records per project, keeps the full chat history searchable, and adds notes, playbooks and an optional graph of decisions: each one dated, with its reason and what it replaced, returned alongside search results. Proven on twenty platforms, including Claude Code, Codex, Gemini CLI, GitHub Copilot CLI, OpenCode, OpenClaw and Hermes Agent on Linux and Windows, and Cline on Linux. Memory lives on your machine (local edition, Docker or Podman) or encrypted under a passphrase only you hold (hosted); each exchange is processed by our hub, which keeps none of it. Free tier; the client is source-available. Disclosure: maintained by us.
 - **[chroma](https://github.com/chroma-core/chroma-mcp)** — 🏷️ official ⚠️ mutating 🔒 local  
   ChromaDB collections, similarity search, persistent embeddings (ephemeral, persistent, HTTP or Chroma Cloud client). Still the server in Chroma's docs, but unmaintained: no release since v0.2.6 (Aug 2025), and a reported SQL-injection issue and 15 PRs sit unanswered.  
   <sub>★ 598 · v0.2.6 (2025-08-14)</sub>
@@ -318,6 +318,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   Fincept Terminal's hosted server (`https://enterprise.fincept.in/mcp`, OAuth 2.1): market quotes and candles, options and futures, fundamentals, economic series and SEC filings, news and sentiment, screeners, backtests, portfolio analytics and quant engines (about 440 tools). Trading tools reach only the Fincept Paper account, no real money; tools spend plan credits. Needs the paid Fincept Exclusive Pro plan. The server source is private; the public repo holds docs only.
 - **[hubspot](https://developers.hubspot.com/mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   HubSpot's hosted MCP server (`https://mcp.hubspot.com`): read and write CRM records, activities, content, campaigns and pipelines. OAuth with PKCE via an MCP connector you create in HubSpot. A local developer MCP server ships with the HubSpot CLI (`hs mcp setup`).
+- **[invokely](https://invokely.ai/docs)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
+  Official statistics with their sources: search indicators and places, get values and time series, compare and rank places (U.S. states and counties, EU countries and NUTS 2 regions, Spanish municipalities, World Bank data for every country). Hosted at `https://invokely.ai/mcp` (OAuth or API key; free plan of 500 calls a month) plus a no-account trial endpoint at `https://invokely.ai/mcp/trial` (25 calls a day). Proprietary; no public source.
 - **[invompt](https://github.com/Invompt/invompt-mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   Create, revise, archive, and email invoices, quotes, estimates, and pro formas from chat. Hosted at `https://mcp.invompt.com/mcp` (OAuth); you can start without an account, but emailing documents needs a registered one. The MIT repo also has a local-beta CLI.  
   <sub>★ 0 · last push 2026-09-30</sub>
