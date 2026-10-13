@@ -106,13 +106,13 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   Communicate's public developer-docs server: three read-only tools for its developer guide, OpenAPI summary, and support contact. Hosted at `https://communicate.so/mcp`, no auth; it cannot reach workspaces or send messages. No public source.
 - **[context7](https://github.com/upstash/context7)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
   Upstash's up-to-date library documentation for coding agents (`resolve-library-id`, `query-docs`). Remote at `https://mcp.context7.com/mcp`; an API key is recommended.  
-  <sub>★ 62.7k · @upstash/context7-opencode@0.2.0 (2026-10-02)</sub>
+  <sub>★ 62.9k · @upstash/context7-mcp@4.3.0 (2026-10-09)</sub>
 - **[duckduckgo](https://github.com/nickclyde/duckduckgo-mcp-server)** — 🏷️ community 🛡️ read-only  
   DuckDuckGo web search plus page fetch-and-parse; no API key, runs locally over stdio or HTTP, with built-in rate limiting.  
   <sub>★ 1.5k · v0.7.0 (2026-09-04)</sub>
 - **[exa](https://github.com/exa-labs/exa-mcp-server)** — 🏷️ official 🛡️ read-only ☁️ hosted  
   Exa web search and page fetch, plus advanced filtered search and multi-step agent_run research. Hosted at mcp.exa.ai with a free keyless rate-limited tier; OAuth or API key for higher limits and agent runs.  
-  <sub>★ 5.1k · last push 2026-10-02</sub>
+  <sub>★ 5.1k · last push 2026-10-07</sub>
 - **[firecrawl](https://github.com/firecrawl/firecrawl-mcp-server)** — 🏷️ official ⚠️ mutating ☁️ hosted  
   Scrape, search, map, and crawl websites into Markdown or schema-defined JSON; also browser interaction (click/type), an async research agent, and scheduled change monitors. Hosted keyless endpoint covers scrape/search/parse; other tools need a free or paid API key.  
   <sub>★ 7.6k · v3.2.1 (2025-09-26)</sub>
@@ -123,7 +123,7 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   <sub>★ 2.6k · last push 2026-09-25</sub>
 - **[tavily](https://github.com/tavily-ai/tavily-mcp)** — 🏷️ official 🛡️ read-only ☁️ hosted  
   Tavily's agent search API: `tavily_search`, `tavily_extract`, `tavily_map`, `tavily_crawl`, `tavily_research`. Hosted at `https://mcp.tavily.com/mcp/` (API key or OAuth) or run locally with `npx tavily-mcp`; free account tier.  
-  <sub>★ 2.4k · last push 2026-09-29</sub>
+  <sub>★ 2.4k · last push 2026-10-05</sub>
 
 ## Browser Automation
 
@@ -131,10 +131,10 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   Browser Use's own server. Local stdio (`uvx --from 'browser-use[cli]' browser-use --mcp`) gives direct browser tools (navigate, click, type, scroll, tabs, extract, screenshot) plus an autonomous agent tool that needs your OpenAI or Anthropic key. A hosted Cloud MCP at `https://api.browser-use.com/v3/mcp` (API key, pay-as-you-go credits) runs agent sessions in Browser Use's cloud.
 - **[chrome-devtools](https://github.com/ChromeDevTools/chrome-devtools-mcp)** — 🆕 new 🏷️ official ⚠️ mutating  
   Chrome DevTools team's server: control and inspect a live Chrome for automation, debugging (network, console, screenshots), and performance traces. Sends usage statistics to Google by default (`--no-usage-statistics` opts out).  
-  <sub>★ 53k · chrome-devtools-mcp-v1.10.1 (2026-09-23)</sub>
+  <sub>★ 53.3k · chrome-devtools-mcp-v1.10.1 (2026-09-23)</sub>
 - **[playwright](https://github.com/microsoft/playwright-mcp)** — 🏷️ official ⚠️ mutating  
   Microsoft's official Playwright MCP. Multi-browser, accessibility-tree snapshots designed for agent loops.  
-  <sub>★ 37.8k · v0.0.83 (2026-09-28)</sub>
+  <sub>★ 38k · v0.0.83 (2026-09-28)</sub>
 
 ## Source Control
 
@@ -142,7 +142,7 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   Self-hosted Gitea instances; full repo + issue + PR control.
 - **[github](https://github.com/github/github-mcp-server)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   GitHub's official server: repos, issues, pull requests, Actions, code security, grouped into toolsets. Local binary or remote at `https://api.githubcopilot.com/mcp/`; `--read-only` drops all write tools.  
-  <sub>★ 33.4k · v1.14.0 (2026-10-02)</sub>
+  <sub>★ 33.5k · v2.0.2 (2026-10-08)</sub>
 - **[gitlab](https://docs.gitlab.com/user/model_context_protocol/mcp_server/)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   GitLab's built-in MCP server (beta) at `https://<instance>/api/v4/mcp` (gitlab.com, Self-Managed, Dedicated): issues, merge requests, work items, repository, CI, with opt-in wikis and code security toolsets. OAuth 2.0 with dynamic client registration. All tiers; Free is limited to 60 requests a minute.
 
@@ -152,7 +152,7 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   Asana's hosted MCP server (`https://mcp.asana.com/v2/mcp`): tasks, projects, reports. OAuth; the old `/sse` beta endpoint was shut down on 2026-05-11.
 - **[atlassian](https://github.com/atlassian/atlassian-mcp-server)** — 🏷️ official ⚠️ mutating ☁️ hosted  
   Atlassian's official remote MCP server (`https://mcp.atlassian.com/v2/mcp`): Jira, Confluence, Jira Service Management, Bitbucket, Compass, Loom. OAuth 2.1 or API tokens; the legacy `/sse` endpoint was retired after 2026-06-30.  
-  <sub>★ 1.1k · last push 2026-09-15</sub>
+  <sub>★ 1.1k · last push 2026-10-10</sub>
 - **[linear](https://linear.app/docs/mcp)** — 🏷️ official ⚠️ mutating ☁️ hosted  
   Linear's hosted MCP server (`https://mcp.linear.app/mcp`; read-only variant at `/mcp/readonly`): issues, projects, cycles, comments. OAuth 2.1 or API key.
 - **[orbit](https://github.com/Noveum/orbit/blob/main/docs/mcp.md)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
@@ -168,26 +168,26 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   Schedule and publish social posts to 15 platforms, upload media, and read analytics. 79 tools in the MIT stdio server (`@bulkpublish/mcp-server`); a 20-tool core set is hosted at `https://mcp.bulkpublish.com/mcp` (OAuth 2.1). There is a free plan.
 - **[discord](https://github.com/SaseQ/discord-mcp)** — 🏷️ community ⚠️ mutating  
   Discord bot (needs a bot token): send, edit, read, and react to messages and DMs; manage channels, roles, webhooks, events, invites, and forums; kick, ban, and timeout members.  
-  <sub>★ 530 · v1.0.0 (2026-03-16)</sub>
+  <sub>★ 540 · v1.0.0 (2026-03-16)</sub>
 - **[google-workspace](https://github.com/taylorwilsdon/google_workspace_mcp)** — 🏷️ community ⚠️ mutating  
   Gmail, Calendar, Drive, Docs, Sheets, Chat, Forms, Tasks, Apps Script and more behind one server (120+ tools in core/extended/complete tiers; --read-only available). Uses your own Google OAuth client.  
-  <sub>★ 3.3k · v2.0.1 (2026-10-04)</sub>
+  <sub>★ 3.3k · v2.1.0 (2026-10-09)</sub>
 - **[google-workspace-official](https://developers.google.com/workspace/guides/configure-mcp-servers)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   Google's official remote servers, one per product: Gmail (drafts only, no send), Drive, Docs, Sheets, Slides, Calendar, Chat, People. Developer Preview; needs a Google Cloud project and your own OAuth client.
 - **[slack](https://docs.slack.dev/ai/slack-mcp-server/)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   Slack's hosted MCP server (`https://mcp.slack.com/mcp`): search channels, send messages, manage canvases. OAuth with per-tool scopes; workspace admins approve and manage access.
 - **[telegram](https://github.com/chigwell/telegram-mcp)** — 🏷️ community ⚠️ mutating  
   Read and send Telegram messages, chats, contacts, and media as your own user account (Telethon session), not a bot.  
-  <sub>★ 1.8k · v3.2.66 (2026-10-05)</sub>
+  <sub>★ 1.8k · v3.2.75 (2026-10-10)</sub>
 
 ## Relational Databases
 
 - **[clickhouse](https://github.com/ClickHouse/mcp-clickhouse)** — 🏷️ official ⚠️ mutating ☁️ hosted  
   ClickHouse's official server: `run_query`, `list_databases`, `list_tables` (plus chDB). Read-only by default; writes need `CLICKHOUSE_ALLOW_WRITE_ACCESS=true`, and destructive statements also need `CLICKHOUSE_ALLOW_DROP=true`. ClickHouse Cloud users can instead use the hosted remote MCP at `https://mcp.clickhouse.cloud/mcp` (OAuth, SELECT-only, enabled per service).  
-  <sub>★ 879 · v0.7.0 (2026-09-21)</sub>
+  <sub>★ 884 · v0.7.0 (2026-09-21)</sub>
 - **[mysql](https://github.com/benborla/mcp-server-mysql)** — 🏷️ community ⚠️ mutating  
   MySQL via one `mysql_query` tool: read-only by default; INSERT/UPDATE/DELETE each enabled by env flag. Multi-DB mode, SSH tunnelling, optional HTTP transport.  
-  <sub>★ 2.1k · v2.0.9 (2026-06-19)</sub>
+  <sub>★ 2.2k · v2.0.9 (2026-06-19)</sub>
 - **[postgres-mcp](https://github.com/crystaldba/postgres-mcp)** — 🏷️ community ⚠️ mutating  
   Postgres MCP Pro (Crystal DBA): index tuning, EXPLAIN plans with hypothetical indexes, health checks, and schema-aware SQL. Unrestricted read/write mode, or a restricted read-only mode with time limits. Last PyPI release is v0.3.0 (May 2025); main has newer fixes.  
   <sub>★ 3.4k · v0.3.0 (2025-05-16)</sub>
@@ -202,7 +202,7 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   <sub>★ 1.1k · v3.0.5 (2026-10-01)</sub>
 - **[neo4j](https://github.com/neo4j/mcp)** — 🏷️ official ⚠️ mutating ☁️ hosted  
   Neo4j's official local server: `read-cypher` and `write-cypher` tools against your graph; `NEO4J_MCP_READ_ONLY=true` disables writes. Aura users can instead use the hosted MCP for Aura (`https://<INSTANCE_ID>.mcp-instances.neo4j.io`, OAuth).  
-  <sub>★ 296 · v1.6.0 (2026-09-10)</sub>
+  <sub>★ 298 · v1.6.0 (2026-09-10)</sub>
 
 ## Vector & Memory Stores
 
@@ -210,13 +210,13 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   Persistent memory for AI agents across sessions, projects and machines. Every session opens with a brief — your standing rules, what each project is, where the last sessions stopped — and the records that bear on a prompt arrive with it. It curates itself into records per project, keeps the full chat history searchable, and adds notes, playbooks and an optional graph of decisions: each one dated, with its reason and what it replaced, returned alongside search results. Proven on twenty platforms, including Claude Code, Codex, Gemini CLI, GitHub Copilot CLI, OpenCode, OpenClaw and Hermes Agent on Linux and Windows, and Cline on Linux. Memory lives on your machine (local edition, Docker or Podman) or encrypted under a passphrase only you hold (hosted); each exchange is processed by our hub, which keeps none of it. Free tier; the client is source-available. Disclosure: maintained by us.
 - **[chroma](https://github.com/chroma-core/chroma-mcp)** — 🏷️ official ⚠️ mutating 🔒 local  
   ChromaDB collections, similarity search, persistent embeddings (ephemeral, persistent, HTTP or Chroma Cloud client). Still the server in Chroma's docs, but unmaintained: no release since v0.2.6 (Aug 2025), and a reported SQL-injection issue and 15 PRs sit unanswered.  
-  <sub>★ 598 · v0.2.6 (2025-08-14)</sub>
+  <sub>★ 600 · v0.2.6 (2025-08-14)</sub>
 - **[claimidx](https://github.com/claimidx/claimidx)** — 🆕 new 🏷️ official ⚠️ mutating  
   Shared index of known software failures and their fixes, for coding agents: ask before retrying, then record the fix. Runs locally (PyPI `claimidx`, Apache-2.0) but connects to a public commons at home.claimidx.com by default and syncs with it at session start. Since v0.7.14, publishing a claim to the commons asks for confirmation (earlier versions shared automatically); `CLAIMIDX_COMMONS=0` turns the commons off.  
-  <sub>★ 2 · v0.7.14 (2026-10-02)</sub>
+  <sub>★ 3 · v0.7.14 (2026-10-02)</sub>
 - **[contextstream](https://github.com/contextstream/mcp-server)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   Persistent memory and code search for coding agents: saves decisions, lessons, and plans across sessions. Indexing sends your source code to ContextStream's hosted service, and transcript saving and Git metadata capture are on by default. The client is MIT; the hosted backend is closed. Free tier: 10,000 credits a month, no card.  
-  <sub>★ 44 · v1.0.13 (2026-10-04)</sub>
+  <sub>★ 44 · v1.0.20 (2026-10-10)</sub>
 - **[pinecone](https://github.com/pinecone-io/pinecone-mcp)** — 🏷️ official ⚠️ mutating  
   Pinecone's Developer MCP: search Pinecone docs, list, describe and create indexes, upsert and search records, and rerank. Runs with `npx @pinecone-database/mcp` and an API key (docs search works without one). Only indexes with integrated embedding are supported. Separately, each Pinecone Assistant is a hosted MCP endpoint for retrieving context.  
   <sub>★ 71 · v0.3.0 (2026-08-07)</sub>
@@ -232,7 +232,7 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   Airtable's hosted MCP server (`https://mcp.airtable.com/mcp`): bases, tables, records. OAuth or personal access token.
 - **[apple-notes](https://github.com/sweetrb/apple-notes-mcp)** — 🏷️ community ⚠️ mutating 🔒 local  
   Read, search, create, edit, organise, and export Apple Notes on macOS via AppleScript, Shortcuts, and read-only access to the Notes database; no network requests.  
-  <sub>★ 145 · v2.14.0 (2026-10-03)</sub>
+  <sub>★ 151 · v2.15.0 (2026-10-09)</sub>
 - **[google-calendar](https://github.com/nspady/google-calendar-mcp)** — 🏷️ community ⚠️ mutating  
   Read, create, update, delete and respond to events across multiple accounts and calendars, with free/busy lookup. Uses your own Google OAuth client. (Google's own Calendar server is listed separately as a Developer Preview.)  
   <sub>★ 1.2k · v2.7.0 (2026-09-28)</sub>
@@ -243,7 +243,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 - **[screenpipe](https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp)** — 🆕 new 🏷️ official ⚠️ mutating  
   Search your recorded screen text, audio transcripts, meetings, and activity summaries; can also control recording, run pipes, and edit memories. Reads your full screen and audio history, so grant it with care. Source-available under the Screenpipe Commercial License (not an OSI open-source licence).
 - **[tale](https://github.com/tale-project/tale)** — 🆕 new 🏷️ official ⚠️ mutating  
-  Tale's own MCP endpoint on a Tale team workspace you deploy yourself: `get_knowledge` retrieves your organisation's knowledge passages, and agents can author, validate, save and run the workspace's automations (`run_automation` tests against mocks; `run_deployed` runs them live). HTTPS JSON-RPC with a Bearer API key plus an `X-Organization-Slug` header, so the client must support custom headers; no public hosted endpoint. MIT, free to self-host.
+  Tale's own MCP endpoint on a Tale team workspace you deploy yourself: `get_knowledge` retrieves your organisation's knowledge passages, and agents can author, validate, save and run the workspace's automations (`run_automation` tests against mocks; `run_deployed` runs them live). HTTPS JSON-RPC with a Bearer API key plus an `X-Organization-Slug` header, so the client must support custom headers; no public hosted endpoint. MIT, free to self-host.  
+  <sub>★ 34 · v0.5.86 (2026-10-11)</sub>
 - **[zapier](https://docs.zapier.com/mcp/home)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   Zapier's hosted MCP server (`https://mcp.zapier.com/api/v1/connect`): 40,000+ actions across 9,000+ apps using the accounts you've connected in Zapier. OAuth or connection token (send it in a header, not the URL). Each successful call uses 2 tasks from your Zapier plan.
 
@@ -256,12 +257,13 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   Figma's official server: design context, variables, screenshots and Code Connect for design-to-code; write tools create and edit native Figma/FigJam content (beta). Remote at `https://mcp.figma.com/mcp` (all plans; only clients in Figma's MCP Catalog may connect) or via the desktop app (paid Dev/Full seat). Rate limits by plan and seat.
 - **[mcp-for-blender](https://github.com/ahujasid/mcp-for-blender)** — 🏷️ community ⚠️ mutating 🔒 local  
   Drive Blender via Python — modify scenes, objects and materials, render views, import Poly Haven/Sketchfab assets, generate 3D models. Formerly blender-mcp; the PyPI package is now `mcp-for-blender`. Sends anonymous usage telemetry by default (`DISABLE_TELEMETRY=true` to turn it off).  
-  <sub>★ 30k · last push 2026-10-05</sub>
+  <sub>★ 30.5k · last push 2026-10-06</sub>
 - **[orkas-video-studio](https://github.com/Orkas-AI/Orkas-VideoStudio)** — 🆕 new 🏷️ official ⚠️ mutating  
   Local-first video toolkit for coding agents: compose, edit, generate, and assemble videos from an editable `plan.json` timeline, through a CLI and an MCP server. Early development: install from source, since the npm packages aren't published yet. Optional generation calls providers with your own keys. MIT.  
-  <sub>★ 497 · last push 2026-09-22</sub>
+  <sub>★ 500 · last push 2026-09-22</sub>
 - **[videogen](https://github.com/video-gen/videogen-mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
-  VideoGen's server (50 tools): generate and edit videos, images, voiceovers, music and avatars, upload assets, run workflows and export editable projects. Hosted at `https://mcp.videogen.io/mcp` (OAuth or API key) or `npx @videogen/mcp` locally, which still calls the VideoGen API: prompts and assets go to VideoGen and actions can spend credits. Free plan with limits (watermarked exports). MIT.
+  VideoGen's server (50 tools): generate and edit videos, images, voiceovers, music and avatars, upload assets, run workflows and export editable projects. Hosted at `https://mcp.videogen.io/mcp` (OAuth or API key) or `npx @videogen/mcp` locally, which still calls the VideoGen API: prompts and assets go to VideoGen and actions can spend credits. Free plan with limits (watermarked exports). MIT.  
+  <sub>★ 4 · last push 2026-10-02</sub>
 
 ## Operations & Infrastructure
 
@@ -272,7 +274,7 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   Microsoft's official Azure MCP Server (GA in 2.0): tools for 45+ Azure service areas (storage, databases, monitoring/KQL, deployments). Runs locally via `npx -y @azure/mcp@latest server start`, NuGet, PyPI or Docker, or self-hosted remotely. Entra ID via Azure Identity, respects RBAC; `--read-only` blocks writes. MIT.
 - **[cloudflare](https://github.com/cloudflare/mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   Cloudflare's official API server (`https://mcp.cloudflare.com/mcp`): the whole Cloudflare API (~2,500 endpoints) through Code Mode `search`/`execute` tools. OAuth or API token. Cloudflare also runs product servers (docs, bindings, builds, observability, Radar, browser, logs) under `*.mcp.cloudflare.com`. Apache-2.0.  
-  <sub>★ 922 · last push 2026-10-02</sub>
+  <sub>★ 939 · last push 2026-10-09</sub>
 - **[datadog](https://docs.datadoghq.com/bits_ai/mcp_server/)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   Datadog's hosted MCP server (per-site endpoints, e.g. US1 `https://mcp.datadoghq.com/api/unstable/mcp-server/mcp`; not GovCloud): logs, metrics, monitors, dashboards, incidents, chosen via `?toolsets=`. OAuth, access token or API+app keys; write tools need the `mcp_write` permission.
 - **[docker-mcp-gateway](https://github.com/docker/mcp-gateway)** — 🏷️ official ⚠️ mutating  
@@ -280,16 +282,16 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   <sub>★ 1.6k · last push 2026-09-23</sub>
 - **[grafana](https://github.com/grafana/mcp-grafana)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   Grafana's official server: dashboards, datasource queries, alerting, incidents, annotations. Can create and update dashboards, alerts and incidents; --disable-write makes it read-only. Grafana Cloud users can connect to the hosted https://mcp.grafana.com/mcp (OAuth) instead.  
-  <sub>★ 3.5k · v2.0.0 (2026-10-01)</sub>
+  <sub>★ 3.5k · v2.0.2 (2026-10-07)</sub>
 - **[helm](https://github.com/zekker6/mcp-helm)** — 🏷️ community 🛡️ read-only  
   Query Helm chart repositories and OCI registries: list charts and versions, read values, contents, dependencies and images. Cannot touch cluster releases. Public instance at https://mcp-helm.zekker.dev/mcp.  
-  <sub>★ 26 · v1.4.2 (2026-09-30)</sub>
+  <sub>★ 27 · v1.4.2 (2026-09-30)</sub>
 - **[kubernetes](https://github.com/Flux159/mcp-server-kubernetes)** — 🏷️ community ⚠️ mutating  
   kubectl-equivalent operations on the configured cluster.  
   <sub>★ 1.6k · v4.1.9 (2026-10-02)</sub>
 - **[sentry](https://github.com/getsentry/toolkit)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   Sentry's official server: issues, events, traces, logs, replays, releases, alerts and monitors; can update issues and projects, create teams and DSNs, and create or delete alert rules and monitors. Hosted at `https://mcp.sentry.dev/mcp` (OAuth) or stdio via `npx @sentry/mcp-server` for self-hosted Sentry; AI search tools need your own LLM key. Licence: FSL-1.1-Apache-2.0.  
-  <sub>★ 912 · cli@0.46.0 (2026-10-01)</sub>
+  <sub>★ 927 · cli@0.47.0 (2026-10-05)</sub>
 - **[shipvela](https://github.com/stefanautomateed/shipvela-codex)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   Public beta. Create hosting projects, deploy a connected GitHub repo or a small static site, and read deployment status, build logs, and usage. Hosted at `https://shipvela.com/mcp` (OAuth with PKCE); free Hobby plan, and each publish counts against your plan's allowance. Plugin files are MIT per the README; the hosted service is proprietary.  
   <sub>★ 0 · last push 2026-10-05</sub>
@@ -300,12 +302,12 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 
 - **[aident-loadout](https://github.com/Aident-AI/aident-skill)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   Gateway that lets an agent use 1,000+ third-party apps and tools (Gmail, Slack, Linear, Notion, HubSpot, and more) through your connected accounts, with credentials in Aident's vault and an audit history. Hosted at `https://loadout.aident.ai/mcp` (OAuth); free to start, with top-ups for more usage. The skill repo is MIT; the service is proprietary.  
-  <sub>★ 5 · last push 2026-09-27</sub>
+  <sub>★ 5 · last push 2026-10-08</sub>
 - **[api-market](https://api.market/mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   Gateway to the API.market catalogue of 600+ third-party APIs (3,810+ tools: image and video generation, search, scraping, maps, data). Hosted at `https://api.market/api/mcp/gateway` (OAuth or API key). Calls can spend free-tier quota or pay-as-you-go wallet funds. Proprietary; no public source.
 - **[huggingface](https://github.com/huggingface/hf-mcp-server)** — 🏷️ official ⚠️ mutating ☁️ hosted  
   Hugging Face's official server: Hub search and details, docs search, Gradio Spaces as tools, plus optional repo creation, Jobs and Sandboxes. Hosted at https://huggingface.co/mcp or run locally.  
-  <sub>★ 302 · v0.4.28 (2026-10-05)</sub>
+  <sub>★ 303 · v0.4.28 (2026-10-05)</sub>
 - **[runapi](https://github.com/runapi-ai/mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted 💰 paid  
   Browse a catalog of image, video, music, and text-to-speech models, check current pricing, and create and poll generation jobs. Hosted at `https://mcp.runapi.ai/mcp` (OAuth or API key) or local via `npx @runapi.ai/mcp`, whose catalog tools work without an API key; jobs spend prepaid pay-as-you-go credits.  
   <sub>★ 55 · v0.15.0 (2026-09-30)</sub>
@@ -342,7 +344,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 - **[stripe](https://docs.stripe.com/mcp)** — 🏷️ official ⚠️ mutating ☁️ hosted  
   Stripe's hosted MCP server (`https://mcp.stripe.com`): payments, customers, subscriptions, refunds via OAuth or agent API keys. Refunds and outbound payments need human confirmation. From 2026-10-31 it accepts only Agent-tagged keys or OAuth.
 - **[synci](https://github.com/synciio/synci-mcp)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted 💰 paid  
-  Read-only access to bank, brokerage, and crypto accounts connected through Synci: connection health, accounts, balance snapshots, transactions, and holdings (5 tools). Hosted at `https://api.synci.io/mcp` (OAuth; you pick which accounts the assistant sees); it cannot move money or trade. Needs an active Synci subscription. The repo holds docs and setup examples; no public server source or licence.
+  Read-only access to bank, brokerage, and crypto accounts connected through Synci: connection health, accounts, balance snapshots, transactions, and holdings (5 tools). Hosted at `https://api.synci.io/mcp` (OAuth; you pick which accounts the assistant sees); it cannot move money or trade. Needs an active Synci subscription. The repo holds docs and setup examples; no public server source or licence.  
+  <sub>★ 0 · last push 2026-10-05</sub>
 - **[trends-mcp](https://github.com/trendsmcp-ai/Trends-MCP)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
   Live trend data from Google Search, YouTube, TikTok, Reddit, Amazon, Wikipedia, news, app stores, npm, Steam, and more (`get_time_series`, `get_growth`, `get_top_trends`). Hosted at `https://api.trendsmcp.ai/mcp` or through the repo's MIT stdio adapter. Needs an API key, which comes with a free monthly quota.  
   <sub>★ 44 · last push 2026-08-29</sub>
@@ -353,7 +356,7 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 
 - **[fastmcp](https://github.com/PrefectHQ/fastmcp)** — 🏷️ community  
   Python framework for MCP servers and clients, now under PrefectHQ. FastMCP 1.0 was incorporated into the official Python SDK in 2024; this is the actively maintained standalone project.  
-  <sub>★ 28k · v4.0.11 (2026-10-04)</sub>
+  <sub>★ 28k · v4.1.0 (2026-10-08)</sub>
 - **[mcp-go](https://github.com/modelcontextprotocol/go-sdk)** — 🏷️ official  
   Official Go SDK for MCP servers and clients, maintained with Google. Single-binary deployment friendly. Apache-2.0 for new code, MIT for existing code.  
   <sub>★ 5.2k · v1.8.0 (2026-09-14)</sub>
@@ -362,7 +365,7 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   <sub>★ 24.5k · v2.3.0 (2026-10-02)</sub>
 - **[mcp-typescript](https://github.com/modelcontextprotocol/typescript-sdk)** — 🏷️ official  
   Reference TypeScript / Node SDK. v2 ships as `@modelcontextprotocol/server` and `@modelcontextprotocol/client`; v1 `@modelcontextprotocol/sdk` is maintained on the `v1.x` branch.  
-  <sub>★ 13.5k · v2.3.1 (2026-10-05)</sub>
+  <sub>★ 13.6k · v2.3.1 (2026-10-05)</sub>
 
 <!-- LIST:END -->
 
