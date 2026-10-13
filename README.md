@@ -314,7 +314,7 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 
 ## Specialised / Vertical
 
-- **[dchub](https://github.com/azmartone67/dchub-mcp-server)** — 🆕 new 🏷️ community 🛡️ read-only ☁️ hosted  
+- **[dchub](https://github.com/azmartone67/dchub-mcp-server)** — 🆕 new 🏷️ community ⚠️ mutating ☁️ hosted  
   Live data-center, power, grid, fiber and deal data for AI agents and site selection. Daily DCPI scores where data centers can get grid power across 300+ markets. Hosted at `https://dchub.cloud/mcp` (94 tools); free tier needs no key. MIT.  
   <sub>★ 3 · v2.12.36 (2026-10-12)</sub>
 - **[careclinic](https://careclinic.io/careclinic-mcp/)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
