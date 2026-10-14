@@ -64,10 +64,10 @@ official one; if forks compete, the most active fork wins.
 - [NoSQL & Document Databases](#nosql--document-databases) (2)
 - [Vector & Memory Stores](#vector--memory-stores) (7)
 - [Productivity & Notes](#productivity--notes) (8)
-- [Design & Creative](#design--creative) (5)
+- [Design & Creative](#design--creative) (6)
 - [Operations & Infrastructure](#operations--infrastructure) (11)
 - [AI & ML Platforms](#ai--ml-platforms) (4)
-- [Specialised / Vertical](#specialised--vertical) (15)
+- [Specialised / Vertical](#specialised--vertical) (17)
 - [Frameworks & SDKs for Building MCP Servers](#frameworks--sdks-for-building-mcp-servers) (4)
 
 <!-- The list below is generated from entries/*.yaml by scripts/gen_awesome_readme.py. Edit the YAML, not this section. -->
@@ -261,6 +261,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 - **[orkas-video-studio](https://github.com/Orkas-AI/Orkas-VideoStudio)** — 🆕 new 🏷️ official ⚠️ mutating  
   Local-first video toolkit for coding agents: compose, edit, generate, and assemble videos from an editable `plan.json` timeline, through a CLI and an MCP server. Early development: install from source, since the npm packages aren't published yet. Optional generation calls providers with your own keys. MIT.  
   <sub>★ 500 · last push 2026-09-22</sub>
+- **[playable-gift](https://playablegift.com/agents)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
+  Playable Gift's server (8 tools): makes a small browser game about one person from habits or inside jokes the sender supplies, returns a play link to share, and saves and revises self-written HTML games as private drafts. Hosted at `https://playablegift.com/mcp` with no sign-in; once the daily free pool for assistants is used up, it asks for an email-code sign-in or hands off to the website. Free within daily limits; optional subscription for more games. Its terms let it store and share, license or sell game content, including the names in it, after asking for consent. No public source.
 - **[videogen](https://github.com/video-gen/videogen-mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   VideoGen's server (50 tools): generate and edit videos, images, voiceovers, music and avatars, upload assets, run workflows and export editable projects. Hosted at `https://mcp.videogen.io/mcp` (OAuth or API key) or `npx @videogen/mcp` locally, which still calls the VideoGen API: prompts and assets go to VideoGen and actions can spend credits. Free plan with limits (watermarked exports). MIT. [MCP setup and client configuration](https://videogen.io/videogen-mcp).  
   <sub>★ 4 · last push 2026-10-02</sub>
@@ -316,6 +318,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 
 - **[careclinic](https://careclinic.io/careclinic-mcp/)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   Your CareClinic health record in chat: today's medication schedule, recent symptoms and mood, and insights. A check-in tool logs entries after you confirm them. Hosted at `https://mcp.careclinic.io/mcp` (OAuth with your CareClinic account). Handles personal health data. No public source; the repo is all rights reserved.
+- **[dchub](https://github.com/azmartone67/dchub-mcp-server)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
+  DC Hub's server for data-center site selection: facilities and markets, grid and interconnection queues, power, gas and energy prices, fiber, permitting and M&A deals, with DC Hub's Data Center Power Index market scores (94 tools). Also saves sites and shortlists, sets email and webhook alerts, and sends capacity introduction requests to providers. Hosted at `https://dchub.cloud/mcp`; previews need no key, a free key adds two full answers per tool per day, and full results on some tools need a paid plan or a $0.50 per-call Stripe payment. The MCP gateway is MIT; the data backend it calls is not public.
 - **[fincept](https://docs.fincept.in)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted 💰 paid  
   Fincept Terminal's hosted server (`https://enterprise.fincept.in/mcp`, OAuth 2.1): market quotes and candles, options and futures, fundamentals, economic series and SEC filings, news and sentiment, screeners, backtests, portfolio analytics and quant engines (about 440 tools). Trading tools reach only the Fincept Paper account, no real money; tools spend plan credits. Needs the paid Fincept Exclusive Pro plan. The server source is private; the public repo holds docs only.
 - **[hubspot](https://developers.hubspot.com/mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
@@ -330,6 +334,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   <sub>★ 1 · last push 2026-09-27</sub>
 - **[llm-pulse](https://llmpulse.ai/features/mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted 💰 paid  
   AI-search visibility analytics: brand mentions, citations, sentiment, and share of voice. With the write scope it can add prompts, competitors, tags, and annotations, generate content briefs, and launch audits. Hosted at `https://api.llmpulse.ai/api/v1/mcp` (OAuth 2.1; API key on Scale plan and above). Needs a paid LLM Pulse plan after a 14-day trial. The server source is private; the repo holds an MIT stdio wrapper.
+- **[looot](https://github.com/loootai/looot-mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted 💰 paid  
+  Pay-per-call gateway to about 2,400 runnable endpoints from about 80 third-party data providers (Hunter, People Data Labs, Lusha, Apify, DataForSEO, TikHub and others): work-email and phone finding and verification, people and company enrichment, LinkedIn and social profiles, SERP and SEO data, web scraping. It resells the providers' data, including contact details of named people. Catalog search and price checks are free; `run` spends prepaid credit, `top_up` returns a Stripe checkout link, and some endpoints act on accounts you connect (Gmail, Instantly). Hosted at `https://api.looot.ai/mcp` (OAuth or bearer token). No free tier or trial. Service source is private; the stdio bridge repo is MIT.
 - **[pocket-drives](https://github.com/RevList/pocket-drives-mcp)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
   Search, quote, and check availability for peer-to-peer luxury, exotic, and EV car rentals from independent hosts (five US markets at listing time). Hosted at `https://pocketdrives.ai/mcp`, no auth; it does not book, which happens in the iOS app or on pocketdrives.ai. No public source or licence.  
   <sub>★ 0 · last push 2026-08-21</sub>

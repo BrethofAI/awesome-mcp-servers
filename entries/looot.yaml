@@ -1,0 +1,23 @@
+name: looot
+slug: looot
+url: https://github.com/loootai/looot-mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'Pay-per-call gateway to about 2,400 runnable endpoints from about 80 third-party
+  data providers (Hunter, People Data Labs, Lusha, Apify, DataForSEO, TikHub and others):
+  work-email and phone finding and verification, people and company enrichment, LinkedIn
+  and social profiles, SERP and SEO data, web scraping. It resells the providers'' data,
+  including contact details of named people. Catalog search and price checks are free;
+  `run` spends prepaid credit, `top_up` returns a Stripe checkout link, and some endpoints
+  act on accounts you connect (Gmail, Instantly). Hosted at `https://api.looot.ai/mcp`
+  (OAuth or bearer token). No free tier or trial. Service source is private; the stdio
+  bridge repo is MIT.'
+tags:
+- official
+- mutating
+- hosted
+- paid
+list: mcp-servers
+added: '2026-10-14'
+category_order: 15
+verified: '2026-10-14'
