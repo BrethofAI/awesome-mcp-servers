@@ -39,7 +39,7 @@ except ImportError:
         return ""
 
 # tag -> badge rendering for this list (empty = render the tag verbatim)
-BADGES: dict[str, str] = {'new': '🆕 new', 'official': '🏷️ official', 'community': '🏷️ community', 'brethof': '🏷️ brethof', 'read-only': '🛡️ read-only', 'mutating': '⚠️ mutating', 'local': '🔒 local', 'hosted': '☁️ hosted', 'paid': '💰 paid'}
+BADGES: dict[str, str] = {'new': '🆕 new', 'official': '🏷️ official', 'community': '🏷️ community', 'brethof': '🏷️ brethof', 'read-only': '🛡️ read-only', 'mutating': '⚠️ mutating', 'local': '🔒 local', 'hosted': '☁️ hosted', 'paid': '💰 paid', 'crypto': '🪙 crypto'}
 
 # Entries added in the last NEW_DAYS days carry a "new" label, computed from
 # their `added` date, so a reader can tell a fresh listing from an established

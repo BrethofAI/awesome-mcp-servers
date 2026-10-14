@@ -22,15 +22,15 @@ actually do. This list is a catalog: it takes every submission that is
 
 New, small, and single-vendor servers are welcome. Instead of filtering by
 taste, we label every entry: who publishes it, where it runs, what it can
-change, and whether it needs a paid account. Licences are named when they
-are not OSI open source, or when there is no public source at all.
+change, whether it needs a paid account, and whether it takes crypto
+payment. Licences are named when they are not OSI open source, or when
+there is no public source at all.
 
 We decline only:
 
 1. Nothing real to point at — no code and no documented, reachable endpoint.
-2. Crypto pay-per-call or wallet-signing servers (x402 and similar).
-3. Misleading claims we can't label around.
-4. Off-topic submissions and spam.
+2. Misleading claims we can't label around, and scams.
+3. Off-topic submissions and spam.
 
 Entries that stop working are removed by our weekly check. Where several
 builds of the same server exist, we link the most-recently-maintained
@@ -48,6 +48,9 @@ official one; if forks compete, the most active fork wins.
 - 🔒 `local` — runs entirely on your machine, no remote calls during use.
 - ☁️ `hosted` — runs on the vendor's servers; you connect to their endpoint.
 - 💰 `paid` — needs a paid account (a time-limited trial doesn't count as free).
+- 🪙 `crypto` — takes payment in cryptocurrency, for example x402, where your
+  AI client pays per call from a wallet. Crypto is one payment option among
+  others; the label shows it so you can decide what the client may spend.
 - 🆕 `new` — listed in the last 60 days.
 
 <!-- LIST:START -->
