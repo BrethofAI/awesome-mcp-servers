@@ -1,0 +1,22 @@
+name: madeonsol
+slug: madeonsol
+url: https://github.com/MadeOnSol/mcp-server-madeonsol
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'MadeOnSol''s Solana trading-data server: KOL wallet trades and leaderboards,
+  Pump.fun deployer reputation, token risk, holders and buyer quality, wallet PnL and
+  holdings, and DEX trade data. Also creates and deletes webhooks, price and coordination
+  alerts, copy-trade signal rules and watchlists on your MadeOnSol account; it does not
+  place trades. Runs locally over stdio (`npm install -g mcp-server-madeonsol`) and calls
+  the MadeOnSol API. Use a MadeOnSol API key (free tier 200 requests a day with delayed
+  live feeds; some tools need a paid plan), or keyless x402: you put a Solana wallet''s
+  private key in an env var and the server signs USDC payments of $0.005 to $0.02 per
+  call, within per-call and total caps you must set. MIT.'
+tags:
+- official
+- mutating
+- crypto
+list: mcp-servers
+added: '2026-10-14'
+category_order: 15
+verified: '2026-10-14'

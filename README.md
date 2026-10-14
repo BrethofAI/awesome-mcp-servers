@@ -70,7 +70,7 @@ official one; if forks compete, the most active fork wins.
 - [Design & Creative](#design--creative) (6)
 - [Operations & Infrastructure](#operations--infrastructure) (11)
 - [AI & ML Platforms](#ai--ml-platforms) (4)
-- [Specialised / Vertical](#specialised--vertical) (17)
+- [Specialised / Vertical](#specialised--vertical) (18)
 - [Frameworks & SDKs for Building MCP Servers](#frameworks--sdks-for-building-mcp-servers) (4)
 
 <!-- The list below is generated from entries/*.yaml by scripts/gen_awesome_readme.py. Edit the YAML, not this section. -->
@@ -339,6 +339,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   AI-search visibility analytics: brand mentions, citations, sentiment, and share of voice. With the write scope it can add prompts, competitors, tags, and annotations, generate content briefs, and launch audits. Hosted at `https://api.llmpulse.ai/api/v1/mcp` (OAuth 2.1; API key on Scale plan and above). Needs a paid LLM Pulse plan after a 14-day trial. The server source is private; the repo holds an MIT stdio wrapper.
 - **[looot](https://github.com/loootai/looot-mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted 💰 paid  
   Pay-per-call gateway to about 2,400 runnable endpoints from about 80 third-party data providers (Hunter, People Data Labs, Lusha, Apify, DataForSEO, TikHub and others): work-email and phone finding and verification, people and company enrichment, LinkedIn and social profiles, SERP and SEO data, web scraping. It resells the providers' data, including contact details of named people. Catalog search and price checks are free; `run` spends prepaid credit, `top_up` returns a Stripe checkout link, and some endpoints act on accounts you connect (Gmail, Instantly). Hosted at `https://api.looot.ai/mcp` (OAuth or bearer token). No free tier or trial. Service source is private; the stdio bridge repo is MIT.
+- **[madeonsol](https://github.com/MadeOnSol/mcp-server-madeonsol)** — 🆕 new 🏷️ official ⚠️ mutating 🪙 crypto  
+  MadeOnSol's Solana trading-data server: KOL wallet trades and leaderboards, Pump.fun deployer reputation, token risk, holders and buyer quality, wallet PnL and holdings, and DEX trade data. Also creates and deletes webhooks, price and coordination alerts, copy-trade signal rules and watchlists on your MadeOnSol account; it does not place trades. Runs locally over stdio (`npm install -g mcp-server-madeonsol`) and calls the MadeOnSol API. Use a MadeOnSol API key (free tier 200 requests a day with delayed live feeds; some tools need a paid plan), or keyless x402: you put a Solana wallet's private key in an env var and the server signs USDC payments of $0.005 to $0.02 per call, within per-call and total caps you must set. MIT.
 - **[pocket-drives](https://github.com/RevList/pocket-drives-mcp)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
   Search, quote, and check availability for peer-to-peer luxury, exotic, and EV car rentals from independent hosts (five US markets at listing time). Hosted at `https://pocketdrives.ai/mcp`, no auth; it does not book, which happens in the iOS app or on pocketdrives.ai. No public source or licence.  
   <sub>★ 0 · last push 2026-08-21</sub>
