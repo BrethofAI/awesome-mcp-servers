@@ -305,9 +305,9 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 
 ## AI & ML Platforms
 
-- **[aident-loadout](https://github.com/Aident-AI/aident-skill)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
-  Gateway that lets an agent use 1,000+ third-party apps and tools (Gmail, Slack, Linear, Notion, HubSpot, and more) through your connected accounts, with credentials in Aident's vault and an audit history. Hosted at `https://loadout.aident.ai/mcp` (OAuth); free to start, with top-ups for more usage. The skill repo is MIT; the service is proprietary.  
-  <sub>★ 5 · last push 2026-10-08</sub>
+- **[aident-loadout](https://aident.ai)** ([GitHub](https://github.com/Aident-AI/aident-skill)) — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
+  Gateway that lets an agent use 400+ Skills (Gmail, Slack, Linear, Notion, HubSpot, and more) through your connected accounts, with credentials in Aident's vault and an audit history. Hosted at `https://loadout.aident.ai/mcp` (OAuth); free pay-as-you-go start, with top-ups for more usage. The skill repo is MIT; the service is proprietary.  
+  <sub>★ 6 · last push 2026-10-12</sub>
 - **[api-market](https://api.market/mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   Gateway to the API.market catalogue of 600+ third-party APIs (3,810+ tools: image and video generation, search, scraping, maps, data). Hosted at `https://api.market/api/mcp/gateway` (OAuth or API key). Calls can spend free-tier quota or pay-as-you-go wallet funds. Proprietary; no public source.
 - **[huggingface](https://github.com/huggingface/hf-mcp-server)** — 🏷️ official ⚠️ mutating ☁️ hosted  
