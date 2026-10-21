@@ -1,0 +1,20 @@
+name: sfxmint
+slug: sfxmint
+url: https://github.com/flreey/sfxmint-mcp
+category: design-creative
+category_label: Design & Creative
+tagline: 'SFXMint''s server (7 tools): finds sound effects for apps and games by interface
+  event, by one of 18 sets or by description, and returns permanent WAV/MP3 download URLs.
+  Hosted at `https://sfxmint.com/mcp`; the library tools need no account or key. Optional
+  tools make new sounds with an SFXMint API key: after the account''s free tries, a paid
+  24-hour pass ($3.90) or 30-day plan (from $9.90), one-time payments. Sounds are AI-generated
+  (Stability AI models) or procedurally synthesized and dedicated to the public domain under
+  CC0 1.0. No public server source; the repo (connection docs and an Agent Skill) is CC0.'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-10-21'
+category_order: 12
+verified: '2026-10-21'

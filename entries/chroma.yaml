@@ -5,8 +5,8 @@ category: vector-memory-stores
 category_label: Vector & Memory Stores
 tagline: 'ChromaDB collections, similarity search, persistent embeddings (ephemeral,
   persistent, HTTP or Chroma Cloud client). Still the server in Chroma''s docs, but
-  unmaintained: no release since v0.2.6 (Aug 2025), and a reported SQL-injection issue
-  and 15 PRs sit unanswered.'
+  unmaintained: no release since v0.2.6 (Aug 2025), a reported SQL-injection issue
+  and 15 PRs sit unanswered, and it pins an MCP SDK version with published security advisories.'
 tags:
 - official
 - mutating
@@ -14,4 +14,4 @@ tags:
 list: mcp-servers
 added: '2026-04-30'
 category_order: 10
-verified: '2026-10-13'
+verified: '2026-10-21'

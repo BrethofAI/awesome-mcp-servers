@@ -1,0 +1,22 @@
+name: mac-mcp
+slug: mac-mcp
+url: https://github.com/bulutarkan/mac-mcp
+category: browser-automation
+category_label: Browser Automation
+tagline: 'Whole-Mac control (107 tools): native apps through macOS Accessibility (observe,
+  click, type), Safari and Chrome tabs worked in the background, files with undo, screenshots,
+  clipboard, Spotlight, scheduled tasks, paired Macs and iPhone Mirroring, and hand-off to
+  agent CLIs such as Codex and Claude Code. Menu bar app plus a server on 127.0.0.1 (`npx
+  @bulutarkan/mac-mcp install`, a curl installer, or an unnotarized .pkg); needs Accessibility,
+  Screen Recording and Automation permissions. Switching from the default `standard` profile
+  to `trusted` lets it run any shell command, AppleScript or page JavaScript as your user;
+  it is not a sandbox. No telemetry; optional ngrok/Cloudflare tunnel for ChatGPT and voice
+  via Edge TTS and Groq go online. MIT.'
+tags:
+- community
+- mutating
+- local
+list: mcp-servers
+added: '2026-10-21'
+category_order: 4
+verified: '2026-10-21'
