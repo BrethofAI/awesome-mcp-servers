@@ -1,0 +1,20 @@
+name: sitepatent
+slug: sitepatent
+url: https://sitepatent.com/mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'Search the SitePatent directory of startups, SaaS and AI tools, seven tools:
+  keyword search with category and pricing filters, a listing''s full profile, alternatives
+  to a named product, category browsing, the category tree, trending and the Site of
+  the Day. Listings are submitted by their makers; paid ("verified") listings rank first
+  in results, and outbound links carry SitePatent UTM tags. Hosted at `https://sitepatent.com/api/mcp`
+  (no account or key, free to use). No public server source; the GitHub repo holds
+  only a README.'
+tags:
+- official
+- read-only
+- hosted
+list: mcp-servers
+added: '2026-10-22'
+category_order: 15
+verified: '2026-10-22'

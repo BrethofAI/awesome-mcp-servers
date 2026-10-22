@@ -70,7 +70,7 @@ official one; if forks compete, the most active fork wins.
 - [Design & Creative](#design--creative) (7)
 - [Operations & Infrastructure](#operations--infrastructure) (11)
 - [AI & ML Platforms](#ai--ml-platforms) (4)
-- [Specialised / Vertical](#specialised--vertical) (18)
+- [Specialised / Vertical](#specialised--vertical) (19)
 - [Frameworks & SDKs for Building MCP Servers](#frameworks--sdks-for-building-mcp-servers) (4)
 
 <!-- The list below is generated from entries/*.yaml by scripts/gen_awesome_readme.py. Edit the YAML, not this section. -->
@@ -357,6 +357,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   <sub>★ 0 · last push 2026-08-21</sub>
 - **[robot-speed](https://www.robot-speed.com/mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   SEO tools: 12 free audit tools with no account at `https://www.robot-speed.com/api/mcp/free`; the full 39-tool server at `/api/mcp` (OAuth) also manages content, Search Console data, and reports, and needs a Robot Speed subscription after its trial. No public server source.
+- **[sitepatent](https://sitepatent.com/mcp)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
+  Search the SitePatent directory of startups, SaaS and AI tools, seven tools: keyword search with category and pricing filters, a listing's full profile, alternatives to a named product, category browsing, the category tree, trending and the Site of the Day. Listings are submitted by their makers; paid ("verified") listings rank first in results, and outbound links carry SitePatent UTM tags. Hosted at `https://sitepatent.com/api/mcp` (no account or key, free to use). No public server source; the GitHub repo holds only a README.
 - **[spotify](https://github.com/jamiew/spotify-mcp)** — 🏷️ community ⚠️ mutating 💰 paid  
   Spotify Web API: search, playback and queue control, playlists, and library (28 tools); updated for Spotify's February 2026 API changes. Needs your own Spotify developer app and Premium. Maintained fork of the now-inactive varunneal/spotify-mcp. Spotify's own connector is currently Claude-only.  
   <sub>★ 12 · v0.7.0 (2026-09-20)</sub>
