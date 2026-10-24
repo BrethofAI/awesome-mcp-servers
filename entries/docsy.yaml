@@ -1,0 +1,19 @@
+name: docsy
+slug: docsy
+url: https://github.com/getremcp/docsy-plugin
+category: web-search-browsing
+category_label: Web Search & Browsing
+tagline: >-
+  Docsy's version-aware developer documentation MCP provides five read-only tools
+  with original source links. Hosted Streamable HTTP at
+  https://docsy.remcp.site/mcp/registry, OAuth 2.1 login required.
+  The public repo contains the plugin manifests and installation guides;
+  the hosted server backend is private.
+tags:
+- official
+- read-only
+- hosted
+list: mcp-servers
+added: '2026-10-24'
+category_order: 3
+verified: '2026-10-24'
