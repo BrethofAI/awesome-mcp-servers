@@ -59,7 +59,7 @@ official one; if forks compete, the most active fork wins.
 - [Reference servers (MCP steering group)](#reference-servers-mcp-steering-group) (7)
 - [Files, Filesystem & Local Data](#files-filesystem--local-data) (1)
 - [Web Search & Browsing](#web-search--browsing) (10)
-- [Browser Automation](#browser-automation) (4)
+- [Browser Automation](#browser-automation) (5)
 - [Source Control](#source-control) (3)
 - [Issue Trackers & Project Management](#issue-trackers--project-management) (5)
 - [Communication](#communication) (8)
@@ -142,6 +142,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 - **[playwright](https://github.com/microsoft/playwright-mcp)** — 🏷️ official ⚠️ mutating  
   Microsoft's official Playwright MCP. Multi-browser, accessibility-tree snapshots designed for agent loops.  
   <sub>★ 38.3k · v0.0.83 (2026-09-28)</sub>
+- **[remcp](https://github.com/getremcp/remcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
+  ReMCP remotely controls only computers explicitly paired to the user's account. It offers file management, terminal execution, browser and native desktop automation, screenshots and diagnostics, with state-changing tools. Hosted MCP at https://remcp.site/mcp requires ReMCP OAuth; the paired device agent connects outbound. MIT client/runtime source.
 
 ## Source Control
 
