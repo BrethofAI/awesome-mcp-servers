@@ -1,0 +1,19 @@
+name: remcp
+slug: remcp
+url: https://github.com/getremcp/remcp
+category: browser-automation
+category_label: Browser Automation
+tagline: >-
+  ReMCP remotely controls only computers explicitly paired to the user's
+  account. It offers file management, terminal execution, browser and native
+  desktop automation, screenshots and diagnostics, with state-changing tools.
+  Hosted MCP at https://remcp.site/mcp requires ReMCP OAuth; the paired device
+  agent connects outbound. MIT client/runtime source.
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-10-24'
+category_order: 4
+verified: '2026-10-24'
