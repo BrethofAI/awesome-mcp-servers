@@ -58,7 +58,7 @@ official one; if forks compete, the most active fork wins.
 
 - [Reference servers (MCP steering group)](#reference-servers-mcp-steering-group) (7)
 - [Files, Filesystem & Local Data](#files-filesystem--local-data) (1)
-- [Web Search & Browsing](#web-search--browsing) (10)
+- [Web Search & Browsing](#web-search--browsing) (11)
 - [Browser Automation](#browser-automation) (4)
 - [Source Control](#source-control) (3)
 - [Issue Trackers & Project Management](#issue-trackers--project-management) (5)
@@ -112,6 +112,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   <sub>★ 63.3k · @upstash/context7-mcp@4.4.2 (2026-10-15)</sub>
 - **[curlshot](https://github.com/SergiuPogor/curlshot-mcp)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
   CurlShot screenshots of public web pages, two tools: `take_screenshot` renders a page in a real browser and returns PNG, JPEG, WebP, PDF or a scrolling video, with ads and cookie banners hidden by default; `list_devices` lists phone, tablet and desktop presets. Hosted at `https://curlshot.com/api/mcp` (API key as a Bearer token; `list_devices` works without one). Each successful render uses one screenshot of the monthly quota: free plan 100 a month with no card, paid plans from $19 a month. No public server source; the MIT repo holds docs and client configs.
+- **[docsy](https://github.com/getremcp/docsy-plugin)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
+  Docsy's version-aware developer documentation MCP provides five read-only tools with original source links. Hosted Streamable HTTP at https://docsy.remcp.site/mcp/registry, OAuth 2.1 login required. The public repo contains the plugin manifests and installation guides; the hosted server backend is private.
 - **[duckduckgo](https://github.com/nickclyde/duckduckgo-mcp-server)** — 🏷️ community 🛡️ read-only  
   DuckDuckGo web search plus page fetch-and-parse; no API key, runs locally over stdio or HTTP, with built-in rate limiting.  
   <sub>★ 1.5k · v0.7.0 (2026-09-04)</sub>
