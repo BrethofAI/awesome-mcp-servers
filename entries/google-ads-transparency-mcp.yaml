@@ -1,0 +1,19 @@
+name: google-ads-transparency-mcp
+slug: google-ads-transparency-mcp
+url: https://github.com/GeminiGeorge22/google-ads-transparency-mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'Competitor Google ads from the Google Ads Transparency Center: give it a domain,
+  advertiser ID, Transparency Center link or advertiser name and get the ads that are
+  new, still running or stopped, with first and last shown dates, format and ad links.
+  Open-source (MIT) stdio server (`npx -y github:GeminiGeorge22/google-ads-transparency-mcp` or `uvx google-ads-transparency-mcp-server`)
+  that calls a hosted Apify endpoint with your own `APIFY_TOKEN`; hosted Streamable HTTP
+  at `https://mcp.apify.com?tools=publicrecords/google-ads-transparency-scraper` with Apify OAuth. Disclosure: I maintain this server.'
+tags:
+- read-only
+- hosted
+- paid
+list: mcp-servers
+added: '2026-11-03'
+category_order: 15
+verified: '2026-11-03'
