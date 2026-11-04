@@ -1,0 +1,18 @@
+name: spotify-play-count-mcp
+slug: spotify-play-count-mcp
+url: https://github.com/GeminiGeorge22/spotify-play-count-mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'Spotify play counts for every track on a track, album, artist or playlist
+  link, plus artist monthly listeners, followers, world rank and top cities. No Spotify
+  login. Open-source (MIT) stdio server (`npx -y github:GeminiGeorge22/spotify-play-count-mcp`) that calls a hosted
+  Apify endpoint with your own `APIFY_TOKEN`; hosted Streamable HTTP at `https://mcp.apify.com?tools=publicrecords/spotify-play-count-scraper`
+  with Apify OAuth. Disclosure: I maintain this server.'
+tags:
+- read-only
+- hosted
+- paid
+list: mcp-servers
+added: '2026-11-03'
+category_order: 15
+verified: '2026-11-03'
