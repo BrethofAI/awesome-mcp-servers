@@ -1,0 +1,22 @@
+name: coding-tools-mcp
+slug: coding-tools-mcp
+url: https://github.com/mybolide/coding-tools-mcp
+category: files-filesystem-local-data
+category_label: Files, Filesystem & Local Data
+tagline: 'Desktop app (Rust and Tauri 2; Windows installer and an unsigned macOS build) that
+  turns a project folder into an MCP workspace: read and search files, `apply_patch`, run
+  shell commands (`exec_command`), Git status, diff, log and blame, and history-session tools
+  that save progress under `docs/history-session/`. Writes, deletes and commands are confined
+  to the workspace by a policy check (on Windows not an OS sandbox). Serves Streamable HTTP
+  on 127.0.0.1 and can publish it through an frp or Cloudflare tunnel with OAuth, so ChatGPT
+  and other remote clients can reach it; it can also proxy other MCP servers you configure.
+  Free. A rewrite in a GitHub fork of xyTom/coding-tools-mcp; it declares Apache-2.0 in its
+  package metadata, but the repo has no LICENSE file.'
+tags:
+- community
+- mutating
+- local
+list: mcp-servers
+added: '2026-11-05'
+category_order: 2
+verified: '2026-11-05'

@@ -1,0 +1,23 @@
+name: melso
+slug: melso
+url: https://melso.ai/en/mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'Melso''s own server for its Spanish tax and bookkeeping service (gestoría): read
+  invoices, customers, expenses, income, bank data, returns and the tax calendar; record,
+  correct or delete expenses and income, save customers, draft invoices and, when the owner
+  asks through their own connection, issue the saved version (Verifactu/TicketBAI), mark invoices
+  paid and open cases for Melso''s professionals. It cannot approve, file or pay a tax return;
+  that stays in the Melso app. Hosted at `https://mcp.melso.ai/mcp` (OAuth, one company per
+  connection); needs a Melso account on a plan with tool access (Pro for the self-employed:
+  €49 a month), and the tools listed depend on plan and role. Run by Melso, not by Spain''s
+  tax agency. No public server source.'
+tags:
+- official
+- mutating
+- hosted
+- paid
+list: mcp-servers
+added: '2026-11-05'
+category_order: 15
+verified: '2026-11-05'

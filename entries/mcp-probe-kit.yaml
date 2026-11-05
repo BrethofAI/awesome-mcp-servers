@@ -1,0 +1,20 @@
+name: mcp-probe-kit
+slug: mcp-probe-kit
+url: https://github.com/mybolide/mcp-probe-kit
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'Spec-driven development workflow for coding agents, 29 tools by default: `start_feature`,
+  `start_bugfix` and other orchestrations, specs and estimates, `code_insight` (through an
+  optional GitNexus code graph), `code_review`, `gentest`, `gencommit`, UI design-system helpers,
+  and History Session tools that archive chat handoffs under `docs/history-session/`. It writes
+  spec, plan and history files into your project; six optional Memory tools read and write
+  a shared pool in a Qdrant instance and embedding service you run yourself. Local stdio (`npx
+  -y mcp-probe-kit@latest`, Node 20+), no account or key. MIT.'
+tags:
+- community
+- mutating
+- local
+list: mcp-servers
+added: '2026-11-05'
+category_order: 15
+verified: '2026-11-05'

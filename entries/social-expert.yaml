@@ -1,0 +1,21 @@
+name: social-expert
+slug: social-expert
+url: https://socialexpert.app/tiktok-mcp
+category: communication
+category_label: Communication
+tagline: 'TikTok content research and draft feedback from Social Expert (ForUsApps, LLC; not
+  affiliated with TikTok): trending video formats and their sounds, posting times by audience
+  market, keyword and hashtag suggestions, content ideas, and timestamped feedback on an uploaded
+  MP4/MOV draft. Uploading and analysing a draft creates a saved report (kept 14 days) and
+  uses up your allowance; it does not post, schedule or edit videos. Hosted at `https://api.socialexpert.app/functions/v1/mcp`
+  (OAuth with a Social Expert account). Free: 10 research lookups and 3 video reviews, once;
+  after that a paid monthly plan, with prices shown in your account. No public server source.'
+tags:
+- official
+- mutating
+- hosted
+- paid
+list: mcp-servers
+added: '2026-11-05'
+category_order: 7
+verified: '2026-11-05'

@@ -1,0 +1,19 @@
+name: holos33
+slug: holos33
+url: https://github.com/aiagentcycle/holos33-mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'Read-only server about Holos33, a wellbeing app (stress, sleep, breathing, hypnosis,
+  nutrition, movement) currently in free, waitlisted Early Access: its modules, knowledge-base
+  articles, site pages, FAQ, access and pricing, privacy and data handling, and partner information
+  (11 tools). Covers only Holos33''s own public content; Holos33 states it is not medical
+  care. Hosted at `https://mcp.holos33.com/mcp` (no login, free). MIT. Run by Good Nature
+  Vibe B.V., which also runs AIAgentCycle.'
+tags:
+- official
+- read-only
+- hosted
+list: mcp-servers
+added: '2026-11-05'
+category_order: 15
+verified: '2026-11-05'

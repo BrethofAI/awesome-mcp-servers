@@ -1,0 +1,22 @@
+name: kilobat
+slug: kilobat
+url: https://github.com/seifip/kilobat-cli
+category: operations-infrastructure
+category_label: Operations & Infrastructure
+tagline: 'macOS network diagnostics from the Kilobat CLI (`kilobat mcp`, local stdio): live
+  per-app traffic, connection and DNS diagnosis, Wi-Fi signal and channels, speed and DNS
+  benchmarks, traceroute, VPN leak checks, local devices, about 85 tools. Some tools change
+  the Mac: set DNS servers, reconnect Wi-Fi, keep the Mac awake, AirDrop visibility, and (with
+  the separate Kilobat Mac app) app and domain blocking, budgets and quotas; settings changes
+  may ask for confirmation or admin rights. Network checks contact test endpoints; speed tests
+  transfer data. Install with `brew install seifip/kilobat/kilobat` (macOS 14+, builds from
+  source with Xcode 16+). No account. The CLI is free and GPL-3.0-only; the Mac app is a separate
+  product with free and paid features.'
+tags:
+- official
+- mutating
+- local
+list: mcp-servers
+added: '2026-11-05'
+category_order: 13
+verified: '2026-11-05'

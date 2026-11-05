@@ -1,0 +1,22 @@
+name: saas-pro-max
+slug: saas-pro-max
+url: https://saaspro.dev/docs/mcp
+category: operations-infrastructure
+category_label: Operations & Infrastructure
+tagline: 'SaaS Pro Max''s server for its analytics and monitoring console (44 tools): web
+  and product analytics, funnels, retention, people, errors, metrics, incidents, revenue and
+  Meta ads reports. With write or admin scope it also creates apps, funnels, feature flags
+  and alert rules, updates people and error status, creates ingest keys and runs Management
+  API operations; protected actions wait for a member''s passkey approval. Hosted at `https://saaspro.dev/api/mcp`
+  (OAuth with PKCE; you grant read, write or admin scope for one organization, and your role
+  still applies); also a stdio package (`npx -y @saaspro/mcp` with an access token). Free
+  plan (50,000 events a month), paid plans from $12 a month. No public server source; the
+  npm package is MIT, but the repo it links to is not public.'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-11-05'
+category_order: 13
+verified: '2026-11-05'

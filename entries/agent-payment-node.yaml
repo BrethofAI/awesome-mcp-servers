@@ -1,0 +1,24 @@
+name: agent-payment-node
+slug: agent-payment-node
+url: https://github.com/nuanu-ai/agent-payment-node
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'Agent Payment Node (APN), a local payment runtime for AI agents: wallets on EVM
+  networks, Solana and TRON, balances, direct transfers, x402 purchases, gasless USDC transfers,
+  bridges and swaps, each kept as a durable operation with status, resume and receipt tools.
+  It spends real money. The owner sets per-asset caps in an allowlist policy, and commands
+  that sign (transfers, EVM x402, swaps, bridges) don''t run over MCP: the server returns
+  the exact command for the owner to approve in a terminal. The exception is Solana x402 (`x402
+  solana pay`), which pays unattended within the owner''s policy. Stdio server (`apn mcp serve`)
+  for Apple Silicon macOS only, installed with `brew install nuanu-ai/tap/apn` (Node 24);
+  wallet keys are encrypted with a secret held in the macOS Keychain, and payments go out
+  to the blockchains and providers. The software is free; network and provider fees apply.
+  MIT.'
+tags:
+- official
+- mutating
+- crypto
+list: mcp-servers
+added: '2026-11-05'
+category_order: 15
+verified: '2026-11-05'

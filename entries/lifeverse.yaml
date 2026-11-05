@@ -1,0 +1,21 @@
+name: lifeverse
+slug: lifeverse
+url: https://github.com/lifeversegu/lifeverse-mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'LifeVerse''s public catalogue of its own AI products and interactive experiences
+  (11 listed, such as a parallel-life story simulator, a sales-practice coach and A-share
+  stock screening and backtest tools): four tools list, search, show and recommend products,
+  returning descriptions and links to the LifeVerse site. Product content and tool descriptions
+  are in Chinese. Some listed products are paid one-time purchases on LifeVerse (Alipay);
+  the server only reads the public catalogue and has no access to accounts or orders. Hosted
+  at `https://lifeverse.gufreelancer.com/api/mcp` (no account or key, free). No public server
+  source; the MIT repo holds docs and client configs.'
+tags:
+- official
+- read-only
+- hosted
+list: mcp-servers
+added: '2026-11-05'
+category_order: 15
+verified: '2026-11-05'

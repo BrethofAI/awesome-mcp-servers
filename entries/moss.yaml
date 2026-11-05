@@ -1,0 +1,20 @@
+name: moss
+slug: moss
+url: https://www.npmjs.com/package/@moss-tools/mcp-server
+category: vector-memory-stores
+category_label: Vector & Memory Stores
+tagline: 'Moss''s server for its semantic search service (17 tools): semantic, keyword or
+  hybrid search over your Moss indexes, run locally once an index has been downloaded into
+  memory. It also creates, fills and deletes indexes and documents, builds indexes from local
+  PDF or DOCX files (with OCR) and crawls websites into indexes. Runs locally over stdio (`npx
+  -y @moss-tools/mcp-server`, currently a beta) and needs a Moss project ID and key; needs
+  glibc Linux, macOS or Windows (no Alpine). Free Developer plan (1 project, 3 indexes), paid
+  plans from $30 a month. The npm package is MIT and ships readable compiled JavaScript; its
+  source repo is not public.'
+tags:
+- official
+- mutating
+list: mcp-servers
+added: '2026-11-05'
+category_order: 10
+verified: '2026-11-05'

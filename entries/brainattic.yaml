@@ -1,0 +1,20 @@
+name: brainattic
+slug: brainattic
+url: https://brainattic.ai/docs/connect
+category: vector-memory-stores
+category_label: Vector & Memory Stores
+tagline: 'Finite Software Systems'' hosted team knowledge base for agents: hybrid keyword
+  and semantic search (`kb_documents_search`, `kb_chunks_retrieve`) and document reads, and,
+  where workspace permissions allow, creating, editing (staged edit sessions), archiving and
+  restoring documents with version history, plus projects, groups, human-written rules, versioned
+  skills, attachments and reminders. EU-hosted at `https://app.brainattic.ai/api/mcp` (OAuth
+  2.1 with dynamic client registration; Brainattic account required). Currently a free pilot.
+  No public server source; the GitHub repo holds docs (CC-BY-4.0).'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-11-05'
+category_order: 10
+verified: '2026-11-05'

@@ -1,0 +1,27 @@
+name: blockvectra
+slug: blockvectra
+url: https://github.com/blockvectra/mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'BlockVectra''s server for EVM chain access on 13 networks (Ethereum, Base,
+  Arbitrum, BNB Chain, Polygon and others), 15 tools: search and read its docs, list
+  chains with the JSON-RPC methods each allows, check live status, prices and cost
+  estimates, and run read-only JSON-RPC calls. With an API key it also queries the
+  Data API (balances, transfers, token holders, DEX swaps, NFTs) and broadcasts transactions
+  signed elsewhere (`send_raw_transaction`); it does not sign or hold private keys.
+  Hosted at `https://docs.blockvectra.com/mcp`; docs, chain lists, status and pricing
+  need no key, and keyless RPC is limited to each chain''s public methods. A key (sign
+  up with GitHub, Google or an Ethereum wallet) includes 30 million free compute units
+  per 30-day cycle; past that it is pay-as-you-go, funded only by sending USDC, USDT
+  or USDG to your account''s deposit address (eth_call works out to $1.50 per million
+  calls). The MIT repo holds a stdio bridge and client configs; the hosted backend is
+  not public.'
+tags:
+- official
+- mutating
+- hosted
+- crypto
+list: mcp-servers
+added: '2026-11-05'
+category_order: 15
+verified: '2026-11-05'

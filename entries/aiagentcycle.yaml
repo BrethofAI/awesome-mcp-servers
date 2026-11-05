@@ -1,0 +1,19 @@
+name: aiagentcycle
+slug: aiagentcycle
+url: https://github.com/aiagentcycle/aiagentcycle-mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'Read-only server about AIAgentCycle, a Dutch company (trade name of Good Nature
+  Vibe B.V.) that builds n8n automations and AI agents for small businesses: its services
+  with indicative prices, the 190 systems it integrates, case studies, FAQ, contact details
+  and full-text search over its website, in Dutch and English (10 tools). Covers only the
+  company''s own public content. Hosted at `https://mcp.aiagentcycle.com/mcp` (no login, free).
+  MIT.'
+tags:
+- official
+- read-only
+- hosted
+list: mcp-servers
+added: '2026-11-05'
+category_order: 15
+verified: '2026-11-05'

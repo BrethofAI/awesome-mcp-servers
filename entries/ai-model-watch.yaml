@@ -1,0 +1,21 @@
+name: ai-model-watch
+slug: ai-model-watch
+url: https://github.com/markksantos/ai-model-watch
+category: ai-ml-platforms
+category_label: AI & ML Platforms
+tagline: 'Lists the models each AI provider''s API serves (OpenAI, Anthropic, Gemini, Mistral,
+  xAI, DeepSeek, OpenRouter) and reports which model IDs are new since the last check. Two
+  tools: `check_new_models` (IDs each provider started listing since the previous call, kept
+  in a local state file under `~/.cache`) and `list_models` (what one provider lists now,
+  with a substring filter). It only calls the providers'' list-models endpoints, which spend
+  no tokens, and changes nothing but its own state file. Runs locally over stdio (`npx -y
+  github:markksantos/ai-model-watch --mcp`, or Homebrew); OpenRouter needs no key, the other
+  providers use your own API key from the environment and are skipped without one. Free, MIT,
+  no dependencies.'
+tags:
+- official
+- read-only
+list: mcp-servers
+added: '2026-11-05'
+category_order: 14
+verified: '2026-11-05'

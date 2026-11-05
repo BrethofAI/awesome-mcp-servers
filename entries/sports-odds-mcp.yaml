@@ -1,0 +1,23 @@
+name: sports-odds-mcp
+slug: sports-odds-mcp
+url: https://github.com/GeminiGeorge22/sports-odds-mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'Sportsbook odds from Kambi-powered books (BetRivers, Unibet, Paf, Svenska Spel, ATG and others;
+  the maker counts 24): one row per game with each book''s price and the best price per outcome, headline
+  markets or the full board including props, pre-game or live. One read-only tool that runs the maker''s
+  Apify Actor `publicrecords/sports-odds-api`, which reads Kambi''s odds feeds and switches Apify Proxy
+  IPs when Kambi rate-limits it. Hosted by Apify at `https://mcp.apify.com?tools=publicrecords/sports-odds-api`
+  (Apify OAuth or your own Apify token), or a small MIT stdio proxy (`uvx sports-odds-mcp` or `npx -y
+  github:GeminiGeorge22/sports-odds-mcp`) that lists the tool without a token and forwards calls to that
+  endpoint. Billed to your Apify account: $0.01 per game for headline markets or $0.03 with all markets,
+  plus $0.005 per run; Apify''s free plan includes $5 of usage a month. The Actor''s source is not public.'
+tags:
+- official
+- read-only
+- hosted
+- paid
+list: mcp-servers
+added: '2026-11-05'
+category_order: 15
+verified: '2026-11-05'

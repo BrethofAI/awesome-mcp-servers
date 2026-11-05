@@ -1,0 +1,22 @@
+name: carejobs-now
+slug: carejobs-now
+url: https://github.com/yumaheymans/carejobs-mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'CareJobs.Now''s server for US healthcare jobs: search open jobs for nurses,
+  CNAs, doctors, therapists, techs and other care roles, read daily from employers''
+  own career sites plus Adzuna and USAJOBS, with the pay each posting states; also
+  posted pay by kind of job, open jobs by state, and employer lookups (6 tools). Every
+  result links to the job''s page on CareJobs.Now, which links to the employer''s
+  application. Hosted at `https://carejobs.now/api/mcp`, free, no key or account. The
+  site earns referral fees from some staffing agencies and AI-training programs it links,
+  disclosed beside those links. The server source is private; the MIT repo holds docs,
+  `server.json`, a Claude Code plugin and an Agent Skill.'
+tags:
+- official
+- read-only
+- hosted
+list: mcp-servers
+added: '2026-11-05'
+category_order: 15
+verified: '2026-11-05'

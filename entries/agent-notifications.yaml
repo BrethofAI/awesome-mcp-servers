@@ -1,0 +1,20 @@
+name: agent-notifications
+slug: agent-notifications
+url: https://github.com/777genius/agent-notifications
+category: communication
+category_label: Communication
+tagline: 'Desktop notifications for coding agents (Claude, Codex, OpenCode, Gemini CLI, Cursor
+  CLI, Qoder, Pi) on macOS, Linux and Windows, mostly driven by lifecycle hooks. The bundled
+  MCP server, installed by the Claude and Codex setup, adds two tools: `notify` sends an attention,
+  blocker or progress alert mid-task through the delivery you configured, and `notification_status`
+  reads the configuration without sending. The project also offers sounds, click-to-focus
+  and optional Slack, Discord, Telegram, Lark/Feishu or custom webhooks. Local Go binary over
+  stdio; no account or hosted service. GPL-3.0-or-later.'
+tags:
+- community
+- mutating
+- local
+list: mcp-servers
+added: '2026-11-05'
+category_order: 7
+verified: '2026-11-05'

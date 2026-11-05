@@ -1,0 +1,24 @@
+name: inkroom
+slug: inkroom
+url: https://inkroom.ai/en/solutions/mcp-server
+category: design-creative
+category_label: Design & Creative
+tagline: 'InkRoom''s image server: generate images from text with GPT Image, Gemini
+  and other models, edit from reference images, batch-generate variants, upscale (2x,
+  4x, anime, face restoration) and fetch finished images (`generate_image`, `derive_image`,
+  `batch_generate`, `upscale_image`, `wait_images`), with a credit estimate before each
+  paid run. Without a token only three read-only tools answer: `help`, `list_models`
+  (models and their credit prices) and `prompts` (published prompt examples). Hosted
+  at `https://mcp.inkroom.ai`; generation and editing need an InkRoom account, a personal
+  Bearer MCP token and paid credits, which the tools spend. No public server source;
+  the GitHub repo holds the client, integration docs and skills, and its MIT grant covers
+  only a few docs and example configs.'
+tags:
+- official
+- mutating
+- hosted
+- paid
+list: mcp-servers
+added: '2026-11-05'
+category_order: 12
+verified: '2026-11-05'

@@ -1,0 +1,22 @@
+name: spotify-play-count-mcp
+slug: spotify-play-count-mcp
+url: https://github.com/GeminiGeorge22/spotify-play-count-mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'Spotify play counts for every track behind a track, album, artist or playlist link, plus artist
+  monthly listeners and followers, and streams per day for tracks the maker already tracks. One read-only
+  tool that runs the maker''s Apify Actor `publicrecords/spotify-play-count-scraper`, which scrapes Spotify''s
+  public web pages (no Spotify login; not affiliated with Spotify). Hosted by Apify at `https://mcp.apify.com?tools=publicrecords/spotify-play-count-scraper`
+  (Apify OAuth or your own Apify token), or a small MIT stdio proxy (`uvx spotify-play-count-mcp` or `npx
+  -y github:GeminiGeorge22/spotify-play-count-mcp`) that lists the tool without a token and forwards calls
+  to that endpoint. Billed to your Apify account: $2 per 1,000 tracks, $5 per 1,000 artists, plus $0.002
+  per run; Apify''s free plan includes $5 of usage a month. The Actor''s source is not public.'
+tags:
+- official
+- read-only
+- hosted
+- paid
+list: mcp-servers
+added: '2026-11-05'
+category_order: 15
+verified: '2026-11-05'

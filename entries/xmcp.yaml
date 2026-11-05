@@ -1,0 +1,18 @@
+name: xmcp
+slug: xmcp
+url: https://github.com/basementstudio/xmcp
+category: frameworks-sdks-for-building-mcp-servers
+category_label: Frameworks & SDKs for Building MCP Servers
+tagline: 'basement.studio''s TypeScript framework for building and deploying MCP servers:
+  tools, prompts and resources are picked up from files, with hot reload, middleware, HTTP
+  and stdio transports, MCP Apps (React UI), auth integrations, and adapters for Next.js,
+  Express, NestJS, Hono and other web frameworks. Start with `npx create-xmcp-app@latest`.
+  The CLI sends anonymous build telemetry by default (turn it off with `XMCP_TELEMETRY_DISABLED=true`).
+  Its docs are also searchable through a free, keyless, read-only server at `https://xmcp.dev/mcp`.
+  MIT.'
+tags:
+- community
+list: mcp-servers
+added: '2026-11-05'
+category_order: 16
+verified: '2026-11-05'

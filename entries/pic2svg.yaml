@@ -1,0 +1,22 @@
+name: pic2svg
+slug: pic2svg
+url: https://pic2svg.com/mcp/
+category: design-creative
+category_label: Design & Creative
+tagline: Traces a raster image (PNG, JPG, WebP, GIF, BMP, TIFF) into an SVG of filled paths
+  with pic2svg's vtracer-based engine; one tool, `trace_image_to_svg`. The image is uploaded
+  and traced on pic2svg's server, not offline. Hosted at `https://pic2svg.com/api/mcp` (send
+  the image as base64, get SVG text back), or a dependency-free stdio client from the GitHub
+  repo `szj2ys/pic2svg-mcp` (Node 20+, install from source, not on npm) that reads a local
+  file and writes the SVG to disk, overwriting any file already at that path. No account or
+  key; free within a daily allowance (50 traces per client by default). pic2svg's free and
+  Starter plans carry a personal-use licence; commercial use needs a paid plan. Client MIT;
+  the tracing service is not open source.
+tags:
+- official
+- read-only
+- hosted
+list: mcp-servers
+added: '2026-11-05'
+category_order: 12
+verified: '2026-11-05'

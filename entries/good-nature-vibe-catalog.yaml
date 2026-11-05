@@ -1,0 +1,19 @@
+name: good-nature-vibe-catalog
+slug: good-nature-vibe-catalog
+url: https://github.com/aiagentcycle/gnv-catalog-mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'Read-only catalog for Good Nature Vibe, a Dutch web shop for natural wellness products,
+  mainly CBD and CBG oils: product search, one product with its variants and price range,
+  and the shop''s pages and blog posts, in five store languages (6 tools). It cannot touch
+  accounts, carts or checkout, and prices are catalog prices, not checkout quotes. Covers
+  only this shop. Hosted at `https://catalog-mcp.goodnaturevibe.com/mcp` (no login, free).
+  MIT. Run by Good Nature Vibe B.V., which also runs AIAgentCycle.'
+tags:
+- official
+- read-only
+- hosted
+list: mcp-servers
+added: '2026-11-05'
+category_order: 15
+verified: '2026-11-05'

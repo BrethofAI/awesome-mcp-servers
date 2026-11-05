@@ -1,0 +1,22 @@
+name: framethrower
+slug: framethrower
+url: https://github.com/framethrower-ai/framethrower-mcp
+category: design-creative
+category_label: Design & Creative
+tagline: 'FrameThrower''s film-reference library: search stills from 5,489 films by concept,
+  mood or colour or by cinematography attribute (lens, shot size, setting, time of day, director,
+  year), find similar frames, and get a frame''s metadata, full-resolution image and link.
+  The same connector searches a commercials library (spots, shots, credits, brand and director
+  profiles) and an animation library; 16 tools, all read-only. Hosted at `https://framethrower.ai/api/mcp`
+  (OAuth 2.1 sign-in). Calls are metered in credits: a new account gets 200 free (a search
+  costs 2), then $20 buys 20,000. Results are references that link back to FrameThrower, not
+  licences to the imagery. No public server source; the MIT repo holds docs and client configs.'
+tags:
+- official
+- read-only
+- hosted
+- paid
+list: mcp-servers
+added: '2026-11-05'
+category_order: 12
+verified: '2026-11-05'

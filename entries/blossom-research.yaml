@@ -1,0 +1,20 @@
+name: blossom-research
+slug: blossom-research
+url: https://www.moreblossom.com/connect
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'Search Blossom''s catalogue of published psychedelic and mental-health research:
+  papers, clinical-trial registrations, patent families, organization (stakeholder) profiles
+  and editorial overviews, with source links. 20 read-only tools: search, read, count and
+  summarize for each record type, plus a latest-research feed; it cannot change anything.
+  Hosted at `https://www.moreblossom.com/mcp` (OAuth with a free Blossom account; 100 requests
+  a day, 500 for supporters, 60 a minute). Research summaries, not medical advice. No public
+  server source.'
+tags:
+- official
+- read-only
+- hosted
+list: mcp-servers
+added: '2026-11-05'
+category_order: 15
+verified: '2026-11-05'

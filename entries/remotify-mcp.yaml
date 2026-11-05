@@ -1,0 +1,21 @@
+name: remotify-mcp
+slug: remotify-mcp
+url: https://github.com/onlsol/relay.remotify.run/tree/main/mcp
+category: operations-infrastructure
+category_label: Operations & Infrastructure
+tagline: 'Run shell commands on a remote machine without SSH, three tools: `remote_exec`,
+  `remote_session_info` and `remote_session_reset`. You paste a `curl ... | bash` one-liner
+  on the remote; it polls a relay over HTTPS and runs each command after a y/N prompt (supervised)
+  or without asking (auto mode). Runs locally over stdio (`npx -y remotify-mcp@latest`) and
+  uses Online Solution''s free public relay at relay.remotify.run by default, or your own
+  (Docker, `REMOTIFY_URL`). Commands and output pass through the relay, anyone holding the
+  128-bit session key can queue commands, and the relay supplies the wording of the status
+  messages the tool returns to the assistant. No account or key. Apache-2.0.'
+tags:
+- official
+- mutating
+- local
+list: mcp-servers
+added: '2026-11-05'
+category_order: 13
+verified: '2026-11-05'

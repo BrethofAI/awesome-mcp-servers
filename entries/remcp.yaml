@@ -1,0 +1,23 @@
+name: remcp
+slug: remcp
+url: https://github.com/getremcp/remcp
+category: browser-automation
+category_label: Browser Automation
+tagline: 'Remote control of computers you pair to a ReMCP account: read, write, patch, move and delete
+  files, run terminal commands and processes, drive native desktop apps through Accessibility/UI Automation
+  and Chrome or Edge through CDP, take screenshots and screen recordings, read system diagnostics and
+  edit DOCX/XLSX/PDF files, plus account tools to list, pair, disable and remove devices. Calls run with
+  the full rights of the account running the agent and there is no per-call confirmation (a catastrophic-command
+  blocklist is on by default; allowed folders are optional). You install an outbound-only device agent
+  (`npx --yes @remcp/remcp@latest connect`, or a PowerShell bootstrap on Windows) and connect your client
+  to `https://remcp.site/mcp` with ReMCP OAuth. File contents pass through ReMCP''s backend and relay
+  (not end-to-end encrypted); usage metrics are on unless you opt out. No public pricing page. Device
+  client and runtime are MIT; the hosted backend''s source is not public.'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-11-05'
+category_order: 4
+verified: '2026-11-05'

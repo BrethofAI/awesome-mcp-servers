@@ -1,0 +1,24 @@
+name: google-ads-transparency-mcp
+slug: google-ads-transparency-mcp
+url: https://github.com/GeminiGeorge22/google-ads-transparency-mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'An advertiser''s Google ads from Google''s public Ads Transparency Center: give it website domains,
+  advertiser IDs, Transparency Center links or exact advertiser names and get one row per ad with format,
+  status (new, running or stopped within a window you set), first and last shown dates, days shown and
+  the ad link, optionally filtered by country and with per-country stats. One read-only tool that runs
+  the maker''s Apify Actor `publicrecords/google-ads-transparency-scraper` (an unofficial scraper, not
+  a Google API). Hosted by Apify at `https://mcp.apify.com?tools=publicrecords/google-ads-transparency-scraper`
+  (Apify OAuth or your own Apify token), or a small MIT stdio proxy (`uvx google-ads-transparency-mcp-server`
+  or `npx -y github:GeminiGeorge22/google-ads-transparency-mcp`) that lists the tool without a token and
+  forwards calls to that endpoint. Billed to your Apify account: $1 per 1,000 ads plus $0.002 per run;
+  Apify''s free plan includes $5 of usage a month. The Actor''s source is not public.'
+tags:
+- official
+- read-only
+- hosted
+- paid
+list: mcp-servers
+added: '2026-11-05'
+category_order: 15
+verified: '2026-11-05'
