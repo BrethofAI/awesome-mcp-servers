@@ -1,0 +1,22 @@
+name: synento
+slug: synento
+url: https://synento.com/docs/guides/mcp
+category: communication
+category_label: Communication
+tagline: 'Synento''s server for its live-video API, where every session is also its recording:
+  a coding agent creates projects and sessions, mints short-lived connection tokens and
+  restricted `rk_live_` server keys for your app, reads a session''s manifest and checks
+  that each participant''s camera and mic tracks actually hold media (`verify_session`,
+  and `run_media_check`, which runs a short synthetic call as real usage). 11 tools. Hosted
+  at `https://api.synento.com/mcp`, OAuth 2.1 sign-in where you pick the projects and permissions
+  (or a dashboard agent token for headless clients); it cannot see owner keys, change
+  billing or delete anything. Free plan of 10,000 participant-minutes a month, then $0.003
+  a participant-minute. No public server source.'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-11-05'
+category_order: 7
+verified: '2026-11-05'

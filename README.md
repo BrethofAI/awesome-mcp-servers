@@ -62,7 +62,7 @@ official one; if forks compete, the most active fork wins.
 - [Browser Automation](#browser-automation) (5)
 - [Source Control](#source-control) (3)
 - [Issue Trackers & Project Management](#issue-trackers--project-management) (5)
-- [Communication](#communication) (10)
+- [Communication](#communication) (11)
 - [Relational Databases](#relational-databases) (4)
 - [NoSQL & Document Databases](#nosql--document-databases) (2)
 - [Vector & Memory Stores](#vector--memory-stores) (9)
@@ -195,6 +195,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   Slack's hosted MCP server (`https://mcp.slack.com/mcp`): search channels, send messages, manage canvases. OAuth with per-tool scopes; workspace admins approve and manage access.
 - **[social-expert](https://socialexpert.app/tiktok-mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted 💰 paid  
   TikTok content research and draft feedback from Social Expert (ForUsApps, LLC; not affiliated with TikTok): trending video formats and their sounds, posting times by audience market, keyword and hashtag suggestions, content ideas, and timestamped feedback on an uploaded MP4/MOV draft. Uploading and analysing a draft creates a saved report (kept 14 days) and uses up your allowance; it does not post, schedule or edit videos. Hosted at `https://api.socialexpert.app/functions/v1/mcp` (OAuth with a Social Expert account). Free: 10 research lookups and 3 video reviews, once; after that a paid monthly plan, with prices shown in your account. No public server source.
+- **[synento](https://synento.com/docs/guides/mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
+  Synento's server for its live-video API, where every session is also its recording: a coding agent creates projects and sessions, mints short-lived connection tokens and restricted `rk_live_` server keys for your app, reads a session's manifest and checks that each participant's camera and mic tracks actually hold media (`verify_session`, and `run_media_check`, which runs a short synthetic call as real usage). 11 tools. Hosted at `https://api.synento.com/mcp`, OAuth 2.1 sign-in where you pick the projects and permissions (or a dashboard agent token for headless clients); it cannot see owner keys, change billing or delete anything. Free plan of 10,000 participant-minutes a month, then $0.003 a participant-minute. No public server source.
 - **[telegram](https://github.com/chigwell/telegram-mcp)** — 🏷️ community ⚠️ mutating  
   Read and send Telegram messages, chats, contacts, and media as your own user account (Telethon session), not a bot.  
   <sub>★ 1.8k · v3.2.88 (2026-10-18)</sub>
