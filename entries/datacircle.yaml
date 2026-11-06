@@ -1,0 +1,14 @@
+name: datacircle
+slug: datacircle
+url: https://datacircle.dev/SKILL.md
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'Datacircle''s hosted MCP to find the best GTM APIs: list every API, see who is best for each and search every plan. Read-only, open to anyone with no key. Endpoint `https://api.datacircle.dev/mcp`. Docs: https://datacircle.dev/SKILL.md.'
+tags:
+- official
+- read-only
+- hosted
+list: mcp-servers
+added: '2026-11-07'
+category_order: 15
+verified: '2026-11-07'
