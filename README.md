@@ -70,7 +70,7 @@ official one; if forks compete, the most active fork wins.
 - [Design & Creative](#design--creative) (10)
 - [Operations & Infrastructure](#operations--infrastructure) (14)
 - [AI & ML Platforms](#ai--ml-platforms) (5)
-- [Specialised / Vertical](#specialised--vertical) (32)
+- [Specialised / Vertical](#specialised--vertical) (33)
 - [Frameworks & SDKs for Building MCP Servers](#frameworks--sdks-for-building-mcp-servers) (5)
 
 <!-- The list below is generated from entries/*.yaml by scripts/gen_awesome_readme.py. Edit the YAML, not this section. -->
@@ -388,6 +388,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 - **[invompt](https://github.com/Invompt/invompt-mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   Create, revise, archive, and email invoices, quotes, estimates, and pro formas from chat. Hosted at `https://mcp.invompt.com/mcp` (OAuth); you can start without an account, but emailing documents needs a registered one. The MIT repo also has a local-beta CLI.  
   <sub>★ 0 · last push 2026-11-01</sub>
+- **[jobspipe](https://github.com/jobspipe/mcp)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
+  JobsPipe's hosted MCP for live job postings from 30+ ATS feeds and job boards, normalized into one schema: search jobs, hiring companies, tech stacks and layoffs, plus docs and pricing tools. Authenticated endpoint at `https://mcp.jobspipe.dev/mcp` (OAuth or API key; free tier with credits at jobspipe.dev/signup); a no-key demo at `https://jobspipe.dev/mcp` exposes catalog tools and capped sandbox search. Docs: https://docs.jobspipe.dev/ai-agents/mcp. MIT repo with server card and client configs; the hosted backend is not public.
 - **[kleap](https://github.com/kleaphq/cli)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   No-code website builder: create, edit, and publish sites, manage files, site databases, and custom domains (including a `buy_domain` tool). Hosted at `https://kleap.co/api/mcp` (OAuth) or a local stdio server from the MIT CLI; read-only API keys are available. AI edits use Kleap credits; there is a free plan.  
   <sub>★ 1 · last push 2026-10-18</sub>
