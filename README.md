@@ -70,7 +70,7 @@ official one; if forks compete, the most active fork wins.
 - [Design & Creative](#design--creative) (10)
 - [Operations & Infrastructure](#operations--infrastructure) (14)
 - [AI & ML Platforms](#ai--ml-platforms) (5)
-- [Specialised / Vertical](#specialised--vertical) (33)
+- [Specialised / Vertical](#specialised--vertical) (34)
 - [Frameworks & SDKs for Building MCP Servers](#frameworks--sdks-for-building-mcp-servers) (5)
 
 <!-- The list below is generated from entries/*.yaml by scripts/gen_awesome_readme.py. Edit the YAML, not this section. -->
@@ -407,6 +407,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   Spec-driven development workflow for coding agents, 29 tools by default: `start_feature`, `start_bugfix` and other orchestrations, specs and estimates, `code_insight` (through an optional GitNexus code graph), `code_review`, `gentest`, `gencommit`, UI design-system helpers, and History Session tools that archive chat handoffs under `docs/history-session/`. It writes spec, plan and history files into your project; six optional Memory tools read and write a shared pool in a Qdrant instance and embedding service you run yourself. Local stdio (`npx -y mcp-probe-kit@latest`, Node 20+), no account or key. MIT.
 - **[melso](https://melso.ai/en/mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted 💰 paid  
   Melso's own server for its Spanish tax and bookkeeping service (gestoría): read invoices, customers, expenses, income, bank data, returns and the tax calendar; record, correct or delete expenses and income, save customers, draft invoices and, when the owner asks through their own connection, issue the saved version (Verifactu/TicketBAI), mark invoices paid and open cases for Melso's professionals. It cannot approve, file or pay a tax return; that stays in the Melso app. Hosted at `https://mcp.melso.ai/mcp` (OAuth, one company per connection); needs a Melso account on a plan with tool access (Pro for the self-employed: €49 a month), and the tools listed depend on plan and role. Run by Melso, not by Spain's tax agency. No public server source.
+- **[Ormas Outcomes](https://ormas.ai/docs/first-task)** — 🆕 new 🏷️ official ⚠️ mutating 💰 paid  
+  Ormas's local stdio MCP server delegates bounded GitHub coding work with agreed automated acceptance checks, an authorized spending limit, job tracking, and a returned branch and receipt. Install the vendor's downloadable Python client using the documented installer; it configures Codex or Claude Code on macOS 14+ and Linux x86_64. On Windows the coding agent must run in WSL2. Standard is early alpha and US-only; an account, Ormas key and credit are required for paid work. Assigned providers, Ormas-operated checkers and provider AI services can read submitted code; private repository sharing requires consent. No public client source; see the vendor licensing guide.
 - **[pocket-drives](https://github.com/RevList/pocket-drives-mcp)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
   Search, quote, and check availability for peer-to-peer luxury, exotic, and EV car rentals from independent hosts (five US markets at listing time). Hosted at `https://pocketdrives.ai/mcp`, no auth; it does not book, which happens in the iOS app or on pocketdrives.ai. No public source or licence.  
   <sub>★ 0 · last push 2026-08-21</sub>

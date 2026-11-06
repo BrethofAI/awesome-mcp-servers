@@ -1,0 +1,22 @@
+name: Ormas Outcomes
+slug: ormas
+url: https://ormas.ai/docs/first-task
+category: specialised-vertical
+category_label: Specialised / Vertical
+category_order: 15
+tagline: >-
+  Ormas's local stdio MCP server delegates bounded GitHub coding work with
+  agreed automated acceptance checks, an authorized spending limit, job
+  tracking, and a returned branch and receipt. Install the vendor's downloadable
+  Python client using the documented installer; it configures Codex or Claude
+  Code on macOS 14+ and Linux x86_64. On Windows the coding agent must run in
+  WSL2. Standard is early alpha and US-only; an account, Ormas key and credit
+  are required for paid work. Assigned providers, Ormas-operated checkers and
+  provider AI services can read submitted code; private repository sharing
+  requires consent. No public client source; see the vendor licensing guide.
+tags:
+  - official
+  - mutating
+  - paid
+list: mcp-servers
+added: '2026-11-06'
