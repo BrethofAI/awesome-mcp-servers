@@ -1,0 +1,20 @@
+name: jobspipe
+slug: jobspipe
+url: https://github.com/jobspipe/mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'JobsPipe''s hosted MCP for live job postings from 30+ ATS feeds and job
+  boards, normalized into one schema: search jobs, hiring companies, tech stacks and
+  layoffs, plus docs and pricing tools. Authenticated endpoint at `https://mcp.jobspipe.dev/mcp`
+  (OAuth or API key; free tier with credits at jobspipe.dev/signup); a no-key demo
+  at `https://jobspipe.dev/mcp` exposes catalog tools and capped sandbox search. Docs:
+  https://docs.jobspipe.dev/ai-agents/mcp. MIT repo with server card and client configs;
+  the hosted backend is not public.'
+tags:
+- official
+- read-only
+- hosted
+list: mcp-servers
+added: '2026-11-06'
+category_order: 15
+verified: '2026-11-06'
