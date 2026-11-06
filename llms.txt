@@ -1,12 +1,12 @@
 # awesome-mcp-servers
 
-> A curated catalog of working Model Context Protocol servers for Claude Desktop and other clients, labelled with publisher, runtime, and mutation capabilities.
+> A curated catalog of working Model Context Protocol servers for Claude Desktop and other clients, labeled with publisher, location, and mutation capabilities.
 
-The project is a static list maintained by Brethof AI, not a software library to install. It categorizes hundreds of MCP servers into sections like Web Search, Databases, and Operations, verifying that each entry is real, working, and honest. Entries are tagged with metadata indicating if they are official, community-made, read-only, mutating, local, or hosted.
+The project is a maintained list of verified MCP servers, categorized by function such as web search, databases, and operations. It labels each entry with metadata including whether it is official, community, or hosted, and if it is read-only or mutating.
 
 ## Docs
 
-- [awesome-mcp-servers](https://raw.githubusercontent.com/BrethofAI/awesome-mcp-servers/main/README.md): A catalog of verified, working MCP servers, labelled by publisher, runtime, and mutation capabilities.
+- [awesome-mcp-servers](https://raw.githubusercontent.com/BrethofAI/awesome-mcp-servers/main/README.md): A catalog of working MCP servers for Claude Desktop and Code, labelled with publisher, runtime, and capabilities.
 - [Why this list exists](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#why-this-list-exists): Inclusion criteria for real, working, honest MCP servers, plus labeling rules for publishers, runtime, and payment methods.
 - [Legend](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#legend): Definitions for labels indicating publisher type, mutation capability, runtime location, payment requirements, and listing recency.
 - [Reference servers (MCP steering group)](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#reference-servers-mcp-steering-group): Official reference implementations from the MCP steering group, including filesystem, git, memory, and sequential thinking servers.
@@ -23,7 +23,7 @@ The project is a static list maintained by Brethof AI, not a software library to
 - [Design & Creative](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#design--creative): MCP servers for video editing, Figma design integration, and film reference libraries.
 - [Operations & Infrastructure](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#operations--infrastructure): Official AWS, Azure, Cloudflare, and Datadog MCP servers for cloud infrastructure management and API access.
 - [AI & ML Platforms](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#ai--ml-platforms): AI model monitoring, third-party app gateway, and API marketplace integrations for AI agents.
-- [Specialised / Vertical](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#specialised--vertical): Local payment runtime for AI agents and read-only company information server for AIAgentCycle.
+- [Specialised / Vertical](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#specialised--vertical): Details for agent-payment-node and aiagentcycle, covering payment runtimes, read-only company data, and installation instructions.
 - [Frameworks & SDKs for Building MCP Servers](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#frameworks--sdks-for-building-mcp-servers): Python, Go, TypeScript, and community frameworks for building and deploying MCP servers.
 - [Discovery hubs](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#discovery-hubs): Reference repositories, community lists, and hosted registries for discovering new MCP servers.
 - [Related work](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#related-work): Curated lists of AI coding agents, local AI tools, and privacy-focused AI architectures.
