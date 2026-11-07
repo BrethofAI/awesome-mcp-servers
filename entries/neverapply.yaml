@@ -1,0 +1,18 @@
+name: neverapply
+slug: neverapply
+url: https://github.com/kasovy/neverapply-mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'NeverApply''s hosted MCP for AI job search: search and match jobs, tailor
+  resumes, answer screening questions, prepare for interviews, and apply with your
+  approval (15 tools). Endpoint `https://neverapply.co/mcp` (Streamable HTTP, OAuth
+  2.1 with PKCE and dynamic client registration). Docs: https://neverapply.co/features/mcp.
+  MIT repo with server card and client configs; the hosted backend is not public.'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-11-07'
+category_order: 15
+verified: '2026-11-07'
