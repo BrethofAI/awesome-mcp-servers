@@ -1,0 +1,19 @@
+name: ichi-mcp
+slug: ichi-mcp
+url: https://github.com/bernik-bot/ichi-mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'ICHI MCP Server for the Internet Cyber Health Index (ichi.global), a free
+  daily barometer of internet-wide cyber threat conditions: 3 read-only tools —
+  `get_current_index` (current score, 5-band rating: NORMAL / GUARDED / ELEVATED
+  / HIGH / CRITICAL, and dimension breakdown), `get_recent_alerts` (recent critical
+  vulnerability advisories from ICHI''s RSS feed), and `get_source_health` (upstream
+  data-feed status). No API key required. Run with `uvx --from git+https://github.com/bernik-bot/ichi-mcp
+  ichi-mcp`. ICHI is an outside-in directional signal, not an org-specific risk score
+  or deterministic forecast. MIT; not on PyPI. Maintained for ICHI''s creator.'
+tags:
+- community
+- read-only
+- local
+list: mcp-servers
+added: '2026-11-09'
