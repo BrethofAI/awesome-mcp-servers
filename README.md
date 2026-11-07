@@ -69,8 +69,8 @@ official one; if forks compete, the most active fork wins.
 - [Productivity & Notes](#productivity--notes) (8)
 - [Design & Creative](#design--creative) (10)
 - [Operations & Infrastructure](#operations--infrastructure) (14)
-- [AI & ML Platforms](#ai--ml-platforms) (5)
-- [Specialised / Vertical](#specialised--vertical) (33)
+- [AI & ML Platforms](#ai--ml-platforms) (6)
+- [Specialised / Vertical](#specialised--vertical) (35)
 - [Frameworks & SDKs for Building MCP Servers](#frameworks--sdks-for-building-mcp-servers) (5)
 
 <!-- The list below is generated from entries/*.yaml by scripts/gen_awesome_readme.py. Edit the YAML, not this section. -->
@@ -352,6 +352,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 - **[huggingface](https://github.com/huggingface/hf-mcp-server)** — 🏷️ official ⚠️ mutating ☁️ hosted  
   Hugging Face's official server: Hub search and details, docs search, Gradio Spaces as tools, plus optional repo creation, Jobs and Sandboxes. Hosted at https://huggingface.co/mcp or run locally.  
   <sub>★ 313 · v0.4.32 (2026-10-26)</sub>
+- **[plugmcp-directory](https://github.com/plugmcp-ai/plugmcp-mcp)** — 🆕 new 🏷️ community 🛡️ read-only ☁️ hosted  
+  One MCP server that finds the rest: search 70,000+ MCP servers and agent skills, compare them, and get the exact install config for Cursor, Claude, VS Code, Codex, Grok Bot and more (9 read-only tools). Hosted at `https://plugmcp.ai/mcp-server` with no required login, or run locally with `npx -y plugmcp-mcp`. Optional free `pb_live_` API key raises rate limits. Official registry name `ai.plugmcp/directory`. MIT. Published by PlugMCP.
 - **[runapi](https://github.com/runapi-ai/mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted 💰 paid  
   Browse a catalog of image, video, music, and text-to-speech models, check current pricing, and create and poll generation jobs. Hosted at `https://mcp.runapi.ai/mcp` (OAuth or API key) or local via `npx @runapi.ai/mcp`, whose catalog tools work without an API key; jobs spend prepaid pay-as-you-go credits.  
   <sub>★ 56 · v0.17.0 (2026-10-29)</sub>
@@ -370,6 +372,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   Your CareClinic health record in chat: today's medication schedule, recent symptoms and mood, and insights. A check-in tool logs entries after you confirm them. Hosted at `https://mcp.careclinic.io/mcp` (OAuth with your CareClinic account). Handles personal health data. No public source; the repo is all rights reserved.
 - **[carejobs-now](https://github.com/yumaheymans/carejobs-mcp)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
   CareJobs.Now's server for US healthcare jobs: search open jobs for nurses, CNAs, doctors, therapists, techs and other care roles, read daily from employers' own career sites plus Adzuna and USAJOBS, with the pay each posting states; also posted pay by kind of job, open jobs by state, and employer lookups (6 tools). Every result links to the job's page on CareJobs.Now, which links to the employer's application. Hosted at `https://carejobs.now/api/mcp`, free, no key or account. The site earns referral fees from some staffing agencies and AI-training programs it links, disclosed beside those links. The server source is private; the MIT repo holds docs, `server.json`, a Claude Code plugin and an Agent Skill.
+- **[datacircle](https://datacircle.dev/SKILL.md)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
+  Datacircle's hosted MCP to find the best GTM APIs: list every API, see who is best for each and search every plan. Read-only, open to anyone with no key. Endpoint `https://api.datacircle.dev/mcp`. Docs: https://datacircle.dev/SKILL.md.
 - **[dchub](https://github.com/azmartone67/dchub-mcp-server)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   DC Hub's server for data-center site selection: facilities and markets, grid and interconnection queues, power, gas and energy prices, fiber, permitting and M&A deals, with DC Hub's Data Center Power Index (DCPI), a daily score of where data centers can get grid power across 300+ markets (94 tools). Also saves sites and shortlists, sets email and webhook alerts, and sends capacity introduction requests to providers. Hosted at `https://dchub.cloud/mcp`; previews need no key, a free key adds two full answers per tool per day (more with an email), and full results need a paid plan or credit pack, or a per-call Stripe payment on some tools. Logs every tool call, with its parameters, to DC Hub. The MCP gateway is MIT; the data backend it calls is not public.  
   <sub>★ 3 · v2.12.44 (2026-10-27)</sub>
@@ -407,6 +411,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   Spec-driven development workflow for coding agents, 29 tools by default: `start_feature`, `start_bugfix` and other orchestrations, specs and estimates, `code_insight` (through an optional GitNexus code graph), `code_review`, `gentest`, `gencommit`, UI design-system helpers, and History Session tools that archive chat handoffs under `docs/history-session/`. It writes spec, plan and history files into your project; six optional Memory tools read and write a shared pool in a Qdrant instance and embedding service you run yourself. Local stdio (`npx -y mcp-probe-kit@latest`, Node 20+), no account or key. MIT.
 - **[melso](https://melso.ai/en/mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted 💰 paid  
   Melso's own server for its Spanish tax and bookkeeping service (gestoría): read invoices, customers, expenses, income, bank data, returns and the tax calendar; record, correct or delete expenses and income, save customers, draft invoices and, when the owner asks through their own connection, issue the saved version (Verifactu/TicketBAI), mark invoices paid and open cases for Melso's professionals. It cannot approve, file or pay a tax return; that stays in the Melso app. Hosted at `https://mcp.melso.ai/mcp` (OAuth, one company per connection); needs a Melso account on a plan with tool access (Pro for the self-employed: €49 a month), and the tools listed depend on plan and role. Run by Melso, not by Spain's tax agency. No public server source.
+- **[neverapply](https://github.com/kasovy/neverapply-mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
+  NeverApply's hosted MCP for job search: match roles to a profile, tailor resumes, answer screening questions, prepare for interviews, and apply with the user's approval (15 tools). Endpoint `https://neverapply.co/mcp` (Streamable HTTP + OAuth 2.1 PKCE with dynamic client registration). Works with Claude, Cursor, Cline and other MCP clients. Free to start; Pro/Max paid tiers for higher volume. Docs: https://neverapply.co/features/mcp. Official registry `co.neverapply/neverapply`. MIT public repo; the hosted backend is not fully open-sourced.
 - **[pocket-drives](https://github.com/RevList/pocket-drives-mcp)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
   Search, quote, and check availability for peer-to-peer luxury, exotic, and EV car rentals from independent hosts (five US markets at listing time). Hosted at `https://pocketdrives.ai/mcp`, no auth; it does not book, which happens in the iOS app or on pocketdrives.ai. No public source or licence.  
   <sub>★ 0 · last push 2026-08-21</sub>
