@@ -1,9 +1,13 @@
 name: datacircle
 slug: datacircle
-url: https://datacircle.dev/SKILL.md
+url: https://datacircle.dev
 category: specialised-vertical
 category_label: Specialised / Vertical
-tagline: 'Datacircle''s hosted MCP to find the best GTM APIs: list every API, see who is best for each and search every plan. Read-only, open to anyone with no key. Endpoint `https://api.datacircle.dev/mcp`. Docs: https://datacircle.dev/SKILL.md.'
+tagline: 'Datacircle''s hosted MCP over its benchmark of GTM data APIs (people, email and
+  phone, companies, social media, e-commerce, real estate, web): list the APIs it tracks,
+  and search every provider''s plans with price per 1,000 results, rate limits and Datacircle''s
+  own score, best first (2 tools). Read-only, open to anyone with no key. Endpoint `https://api.datacircle.dev/mcp`.
+  Docs: https://datacircle.dev/SKILL.md. No public server source.'
 tags:
 - official
 - read-only

@@ -3,15 +3,13 @@ slug: plugmcp-directory
 url: https://github.com/plugmcp-ai/plugmcp-mcp
 category: ai-ml-platforms
 category_label: AI & ML Platforms
-tagline: >-
-  One MCP server that finds the rest: search 70,000+ MCP servers and agent
-  skills, compare them, and get the exact install config for Cursor, Claude,
-  VS Code, Codex, Grok Bot and more (9 read-only tools). Hosted at
-  `https://plugmcp.ai/mcp-server` with no required login, or run locally with
-  `npx -y plugmcp-mcp`. Optional free `pb_live_` API key raises rate limits.
-  Official registry name `ai.plugmcp/directory`. MIT. Published by PlugMCP.
+tagline: 'One MCP server that finds the rest: search 70,000+ MCP servers and agent skills,
+  compare them, and get the exact install config for Cursor, Claude, VS Code, Codex, Grok
+  Bot and more (9 read-only tools). Hosted at `https://plugmcp.ai/mcp-server` with no required
+  login, or run locally with `npx -y plugmcp-mcp`. Optional free `pb_live_` API key raises
+  rate limits. Official registry name `ai.plugmcp/directory`. MIT. Published by PlugMCP.'
 tags:
-- community
+- official
 - read-only
 - hosted
 list: mcp-servers

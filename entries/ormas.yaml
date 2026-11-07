@@ -1,0 +1,22 @@
+name: Ormas Outcomes
+slug: ormas
+url: https://ormas.ai/docs/first-task
+category: specialised-vertical
+category_label: Specialised / Vertical
+category_order: 15
+tagline: >-
+  Ormas's local stdio MCP server hands bounded GitHub coding work to outside
+  providers (miners on Bittensor subnet 76) with agreed automated acceptance
+  checks, a spending limit you authorize, job tracking, and a returned branch
+  and receipt. Its installer sets up the Python client and configures Codex or
+  Claude Code on macOS 14+ and Linux x86_64 (Windows through WSL2). Early alpha
+  and US-only; paid work needs an account, an Ormas key and credit. Assigned
+  providers, Ormas-operated checkers and provider AI services can read the code
+  you submit; private repositories need your consent. No public client source.
+tags:
+  - official
+  - mutating
+  - paid
+list: mcp-servers
+added: '2026-11-07'
+verified: '2026-11-07'
