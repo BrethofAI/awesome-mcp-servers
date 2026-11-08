@@ -1,0 +1,22 @@
+name: cloud-alter-ego
+slug: cloud-alter-ego
+url: https://cloudalterego.cafeboon.com
+category: productivity-notes
+category_label: Productivity & Notes
+tagline: 'Cloud Alter Ego''s hosted connector gives every AI chat your rules, profile,
+  contexts, journals and playbooks, kept as plain Markdown files in your own OneDrive,
+  Google Drive, Dropbox, GitHub or Azure DevOps (9 tools: `start`, `open_context`,
+  `log`, `remember`, `new_context`, `list_files`, `read_file`, `write_file`, `choose_repo`).
+  It writes to that storage (journal lines after answers, new rules and contexts;
+  on GitHub and Azure DevOps every change is a commit), and the maker says it passes
+  files through memory only while a tool runs and keeps no content. Endpoint `https://cloudalterego.cafeboon.com/mcp`
+  (Streamable HTTP, OAuth). The site lists no price. The hosted connector is closed
+  source; the MIT repo is a separate Git-synced template for Claude Code and Codex.'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-11-08'
+category_order: 11
+verified: '2026-11-08'

@@ -66,7 +66,7 @@ official one; if forks compete, the most active fork wins.
 - [Relational Databases](#relational-databases) (4)
 - [NoSQL & Document Databases](#nosql--document-databases) (2)
 - [Vector & Memory Stores](#vector--memory-stores) (9)
-- [Productivity & Notes](#productivity--notes) (8)
+- [Productivity & Notes](#productivity--notes) (9)
 - [Design & Creative](#design--creative) (10)
 - [Operations & Infrastructure](#operations--infrastructure) (14)
 - [AI & ML Platforms](#ai--ml-platforms) (6)
@@ -259,6 +259,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 - **[apple-notes](https://github.com/sweetrb/apple-notes-mcp)** — 🏷️ community ⚠️ mutating 🔒 local  
   Read, search, create, edit, organise, and export Apple Notes on macOS via AppleScript, Shortcuts, and read-only access to the Notes database; no network requests.  
   <sub>★ 174 · v2.15.16 (2026-10-30)</sub>
+- **[cloud-alter-ego](https://cloudalterego.cafeboon.com)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
+  Cloud Alter Ego's hosted connector gives every AI chat your rules, profile, contexts, journals and playbooks, kept as plain Markdown files in your own OneDrive, Google Drive, Dropbox, GitHub or Azure DevOps (9 tools: `start`, `open_context`, `log`, `remember`, `new_context`, `list_files`, `read_file`, `write_file`, `choose_repo`). It writes to that storage (journal lines after answers, new rules and contexts; on GitHub and Azure DevOps every change is a commit), and the maker says it passes files through memory only while a tool runs and keeps no content. Endpoint `https://cloudalterego.cafeboon.com/mcp` (Streamable HTTP, OAuth). The site lists no price. The hosted connector is closed source; the MIT repo is a separate Git-synced template for Claude Code and Codex.
 - **[google-calendar](https://github.com/nspady/google-calendar-mcp)** — 🏷️ community ⚠️ mutating  
   Read, create, update, delete and respond to events across multiple accounts and calendars, with free/busy lookup. Uses your own Google OAuth client. (Google's own Calendar server is listed separately as a Developer Preview.)  
   <sub>★ 1.2k · v2.8.1 (2026-10-29)</sub>
@@ -375,7 +377,7 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 - **[datacircle](https://datacircle.dev)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
   Datacircle's hosted MCP over its benchmark of GTM data APIs (people, email and phone, companies, social media, e-commerce, real estate, web): list the APIs it tracks, and search every provider's plans with price per 1,000 results, rate limits and Datacircle's own score, best first (2 tools). Read-only, open to anyone with no key. Endpoint `https://api.datacircle.dev/mcp`. Docs: https://datacircle.dev/SKILL.md. No public server source.
 - **[dchub](https://github.com/azmartone67/dchub-mcp-server)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
-  DC Hub's server for data-center site selection: facilities and markets, grid and interconnection queues, power, gas and energy prices, fiber, permitting and M&A deals, with DC Hub's Data Center Power Index (DCPI), a daily score of where data centers can get grid power across 300+ markets (94 tools). Also saves sites and shortlists, sets email and webhook alerts, and sends capacity introduction requests to providers. Hosted at `https://dchub.cloud/mcp`; previews need no key, a free key adds two full answers per tool per day (more with an email), and full results need a paid plan or credit pack, or a per-call Stripe payment on some tools. Logs every tool call, with its parameters, to DC Hub. The MCP gateway is MIT; the data backend it calls is not public.  
+  DC Hub's server for data-center site selection: facilities and markets, grid and interconnection queues, power, gas and energy prices, fiber, permitting and M&A deals, with DC Hub's Data Center Power Index (DCPI), a daily score of where data centers can get grid power across 300+ markets (94 tools). Also saves sites and shortlists, sets email and webhook alerts, and sends capacity introduction requests to providers. Hosted at `https://dchub.cloud/mcp`; previews need no key, a free key adds two full answers per tool per day (more with an email), and full results need a paid plan or credit pack, or a per-call Stripe payment on some tools. Logs every tool call, with its parameters, to DC Hub (kept 90 days). The MCP gateway is MIT; the data backend it calls is not public.  
   <sub>★ 3 · v2.12.44 (2026-10-27)</sub>
 - **[fincept](https://docs.fincept.in)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted 💰 paid  
   Fincept Terminal's hosted server (`https://enterprise.fincept.in/mcp`, OAuth 2.1): market quotes and candles, options and futures, fundamentals, economic series and SEC filings, news and sentiment, screeners, backtests, portfolio analytics and quant engines (about 440 tools). Trading tools reach only the Fincept Paper account, no real money; tools spend plan credits. Needs the paid Fincept Exclusive Pro plan. The server source is private; the public repo holds docs only.

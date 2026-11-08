@@ -11,7 +11,7 @@ tagline: 'DC Hub''s server for data-center site selection: facilities and market
   Hosted at `https://dchub.cloud/mcp`; previews need no key, a free key adds two full
   answers per tool per day (more with an email), and full results need a paid plan
   or credit pack, or a per-call Stripe payment on some tools. Logs every tool call,
-  with its parameters, to DC Hub. The MCP gateway is MIT; the data backend it calls
+  with its parameters, to DC Hub (kept 90 days). The MCP gateway is MIT; the data backend it calls
   is not public.'
 tags:
 - official
