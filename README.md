@@ -66,11 +66,11 @@ official one; if forks compete, the most active fork wins.
 - [Relational Databases](#relational-databases) (4)
 - [NoSQL & Document Databases](#nosql--document-databases) (2)
 - [Vector & Memory Stores](#vector--memory-stores) (9)
-- [Productivity & Notes](#productivity--notes) (9)
+- [Productivity & Notes](#productivity--notes) (10)
 - [Design & Creative](#design--creative) (10)
 - [Operations & Infrastructure](#operations--infrastructure) (14)
 - [AI & ML Platforms](#ai--ml-platforms) (6)
-- [Specialised / Vertical](#specialised--vertical) (36)
+- [Specialised / Vertical](#specialised--vertical) (38)
 - [Frameworks & SDKs for Building MCP Servers](#frameworks--sdks-for-building-mcp-servers) (5)
 
 <!-- The list below is generated from entries/*.yaml by scripts/gen_awesome_readme.py. Edit the YAML, not this section. -->
@@ -270,6 +270,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   <sub>★ 1.2k · v2.8.1 (2026-10-29)</sub>
 - **[notion](https://developers.notion.com/guides/mcp/overview)** — 🏷️ official ⚠️ mutating ☁️ hosted  
   Notion's hosted MCP server: search the workspace, read and edit pages in Markdown. OAuth, respects each user's existing permissions. (The self-hosted makenotion/notion-mcp-server is no longer maintained.)
+- **[ORANO Personal Context MCP](https://github.com/manuvamp/orano-mcp-examples)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
+  Hosted Streamable HTTP MCP server for ORANO: lets Claude, ChatGPT, or Cursor search your saved library of Reels, videos, and articles for summaries, plans, and memory with a personal API key. [Public docs](https://oranoai.com/mcp/docs); the hosted service is proprietary.
 - **[process-street](https://www.process.st/help/docs/mcp-server/)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted 💰 paid  
   Process Street's hosted server: workflows, workflow runs, tasks, users, data sets and reports. It can create and manage runs and assigned tasks within your Process Street permissions. `https://mcp.process.st/` (OAuth sign-in, including SAML SSO organisations, or an admin-generated API key). Needs a paid plan after a 14-day trial. No public source.
 - **[screenpipe](https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp)** — 🆕 new 🏷️ official ⚠️ mutating  
@@ -404,6 +406,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   <sub>★ 0 · last push 2026-11-04</sub>
 - **[hubspot](https://developers.hubspot.com/mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   HubSpot's hosted MCP server (`https://mcp.hubspot.com`): read and write CRM records, activities, content, campaigns and pipelines. OAuth with PKCE via an MCP connector you create in HubSpot. A local developer MCP server ships with the HubSpot CLI (`hs mcp setup`).
+- **[ichi-mcp](https://github.com/bernik-bot/ichi-mcp)** — 🆕 new 🏷️ community 🛡️ read-only 🔒 local  
+  ICHI MCP Server for the Internet Cyber Health Index (ichi.global), a free daily barometer of internet-wide cyber threat conditions: 3 read-only tools — `get_current_index` (current score, 5-band rating: NORMAL / GUARDED / ELEVATED / HIGH / CRITICAL, and dimension breakdown), `get_recent_alerts` (recent critical vulnerability advisories from ICHI's RSS feed), and `get_source_health` (upstream data-feed status). No API key required. Run with `uvx --from git+https://github.com/bernik-bot/ichi-mcp ichi-mcp`. ICHI is an outside-in directional signal, not an org-specific risk score or deterministic forecast. MIT; not on PyPI. Maintained for ICHI's creator.
 - **[invokely](https://invokely.ai/docs)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
   Official statistics with their sources: search indicators and places, get values and time series, compare and rank places (U.S. states and counties, EU countries and NUTS 2 regions, Spanish municipalities, World Bank data for every country). Hosted at `https://invokely.ai/mcp` (OAuth or API key; free plan of 500 calls a month) plus a no-account trial endpoint at `https://invokely.ai/mcp/trial` (25 calls a day). Proprietary; no public source.
 - **[invompt](https://github.com/Invompt/invompt-mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
@@ -463,6 +467,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 - **[trends-mcp](https://github.com/trendsmcp-ai/Trends-MCP)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
   Live trend data from Google Search, YouTube, TikTok, Reddit, Amazon, Wikipedia, news, app stores, npm, Steam, and more (`get_time_series`, `get_growth`, `get_top_trends`). Hosted at `https://api.trendsmcp.ai/mcp` or through the repo's MIT stdio adapter. Needs an API key, which comes with a free monthly quota.  
   <sub>★ 47 · last push 2026-11-03</sub>
+- **[vaneform](https://github.com/vaneform/vaneform-mcp)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
+  Vaneform's hosted MCP server (`https://vaneform.com/mcp`, Streamable HTTP): look up estimated monthly visits, month-over-month change, rank, top countries, traffic sources and registry facts for a domain (`lookup_domain`), compare several domains (`compare_bulk`), or the same name across suffixes (`compare_tld`). `get_account` reports plan and remaining credits. A Pro-only `lookup_keyword` tool returns a US keyword brief. Discovery (`initialize`, `tools/list`) is open; tool calls need a Vaneform API key (`Authorization: Bearer` or `X-API-Key`). A free account is enough for domain lookups. Repeating a domain lookup within 24 hours is free. Traffic figures are third-party traffic estimates. MIT server, CLI and agent skill; a local stdio process can proxy the same hosted server. Official server from the Vaneform website traffic checker.
 - **[wine-labs](https://winelabs.ai/agents)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted 💰 paid  
   Fine-wine market data: wine and LWIN matching, retail and auction prices, exchange order books, merchants, and critic data, plus cellar CSV/Excel processing jobs. Hosted at `https://chat.wine-labs.com/mcp` (browser OAuth). Billed in credits: existing API allowance, monthly from $25, or pay-as-you-go from $5. No public server source.
 
