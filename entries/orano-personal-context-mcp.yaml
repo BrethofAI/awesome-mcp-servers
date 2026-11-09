@@ -1,0 +1,13 @@
+name: ORANO Personal Context MCP
+slug: orano-personal-context-mcp
+url: https://github.com/manuvamp/orano-mcp-examples
+category: productivity-notes
+category_label: Productivity & Notes
+tagline: 'Hosted Streamable HTTP MCP server for ORANO: lets Claude, ChatGPT, or Cursor search your saved library of Reels, videos, and articles for summaries, plans, and memory with a personal API key. [Public docs](https://oranoai.com/mcp/docs); the hosted service is proprietary.'
+tags:
+- official
+- read-only
+- hosted
+list: mcp-servers
+added: '2026-11-09'
+category_order: 11
