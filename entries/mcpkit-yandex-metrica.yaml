@@ -1,0 +1,19 @@
+name: mcpkit-yandex-metrica
+slug: mcpkit-yandex-metrica
+url: https://github.com/MCPKit-RU/yandex-metrika-mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'MCPKit''s hosted server for Yandex Metrica (`https://mcpkit.ru/mcp-yandex-metrika/mcp`,
+  OAuth to an MCPKit account): traffic, acquisition, landing-page and goal reports, period
+  comparisons across connected counters, and bounded summaries of visitor paths through the
+  Logs API. Read-only for analytics data and counter settings. Three tools that find, explain
+  and run commands. Free to use for now. The hosted service is closed source; the repo holds
+  docs and examples.'
+tags:
+- official
+- read-only
+- hosted
+list: mcp-servers
+added: '2026-11-09'
+category_order: 15
+verified: '2026-11-09'

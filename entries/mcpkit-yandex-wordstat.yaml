@@ -1,0 +1,19 @@
+name: mcpkit-yandex-wordstat
+slug: mcpkit-yandex-wordstat
+url: https://github.com/MCPKit-RU/yandex-wordstat-mcp
+category: web-search-browsing
+category_label: Web Search & Browsing
+tagline: 'MCPKit''s hosted server for Yandex Wordstat (`https://mcpkit.ru/mcp-wordstat/mcp`,
+  OAuth to an MCPKit account): popular and related queries for seed terms, demand over time,
+  regional demand and device filters for Yandex search. Three tools that find, explain and
+  run commands. MCPKit is free for now; Yandex bills the statistics requests separately through
+  your own Yandex Cloud account. The hosted service is closed source; the repo holds docs
+  and examples.'
+tags:
+- official
+- read-only
+- hosted
+list: mcp-servers
+added: '2026-11-09'
+category_order: 3
+verified: '2026-11-09'

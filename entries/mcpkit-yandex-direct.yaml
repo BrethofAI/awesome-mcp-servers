@@ -1,0 +1,19 @@
+name: mcpkit-yandex-direct
+slug: mcpkit-yandex-direct
+url: https://github.com/MCPKit-RU/yandex-direct-mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'MCPKit''s hosted server for Yandex Direct (`https://mcpkit.ru/mcp-yandex-direct/mcp`,
+  OAuth to an MCPKit account): campaign, spend, conversion and search-term reports, and changes
+  to a connected Yandex Direct account: create supported campaigns, edit settings, pause or
+  resume, manage ads, keywords, negative keywords, bids, audiences and creative assets. Three
+  tools that find, explain and run commands. Free to use for now. Documented for ChatGPT.
+  The hosted service is closed source; the repo holds docs and examples.'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-11-09'
+category_order: 15
+verified: '2026-11-09'

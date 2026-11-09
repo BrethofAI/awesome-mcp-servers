@@ -1,0 +1,21 @@
+name: panda-greetings
+slug: panda-greetings
+url: https://github.com/Gerti05/panda-greetings-mcp
+category: design-creative
+category_label: Design & Creative
+tagline: 'Panda Greetings'' hosted server (`https://www.pandagreetings.com/mcp/designs`, no
+  sign-in or key) with one tool, `find_card_designs`: give it an occasion (birthday, sympathy,
+  Christmas and more) and optionally a message, and it returns up to four ready-made printed
+  card designs with the message inside, each with a picture, a link to change and order it
+  on pandagreetings.com (single or group card, mailed in the US) and the day a card ordered
+  today would arrive. Free to use; you pay only if you order. The maker says the message isn''t
+  stored or logged. Official registry `com.pandagreetings/cards`. The hosted server is closed
+  source; the MIT repo holds setup examples and docs.'
+tags:
+- official
+- read-only
+- hosted
+list: mcp-servers
+added: '2026-11-09'
+category_order: 12
+verified: '2026-11-09'

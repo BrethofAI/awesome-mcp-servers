@@ -58,7 +58,7 @@ official one; if forks compete, the most active fork wins.
 
 - [Reference servers (MCP steering group)](#reference-servers-mcp-steering-group) (7)
 - [Files, Filesystem & Local Data](#files-filesystem--local-data) (2)
-- [Web Search & Browsing](#web-search--browsing) (11)
+- [Web Search & Browsing](#web-search--browsing) (12)
 - [Browser Automation](#browser-automation) (5)
 - [Source Control](#source-control) (3)
 - [Issue Trackers & Project Management](#issue-trackers--project-management) (5)
@@ -67,10 +67,10 @@ official one; if forks compete, the most active fork wins.
 - [NoSQL & Document Databases](#nosql--document-databases) (2)
 - [Vector & Memory Stores](#vector--memory-stores) (9)
 - [Productivity & Notes](#productivity--notes) (10)
-- [Design & Creative](#design--creative) (10)
+- [Design & Creative](#design--creative) (12)
 - [Operations & Infrastructure](#operations--infrastructure) (14)
 - [AI & ML Platforms](#ai--ml-platforms) (6)
-- [Specialised / Vertical](#specialised--vertical) (38)
+- [Specialised / Vertical](#specialised--vertical) (41)
 - [Frameworks & SDKs for Building MCP Servers](#frameworks--sdks-for-building-mcp-servers) (5)
 
 <!-- The list below is generated from entries/*.yaml by scripts/gen_awesome_readme.py. Edit the YAML, not this section. -->
@@ -127,6 +127,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 - **[firecrawl](https://github.com/firecrawl/firecrawl-mcp-server)** — 🏷️ official ⚠️ mutating ☁️ hosted  
   Scrape, search, map, and crawl websites into Markdown or schema-defined JSON; also browser interaction (click/type), an async research agent, and scheduled change monitors. Hosted keyless endpoint covers scrape/search/parse; other tools need a free or paid API key.  
   <sub>★ 7.8k · v3.36.1 (2026-11-03)</sub>
+- **[mcpkit-yandex-wordstat](https://github.com/MCPKit-RU/yandex-wordstat-mcp)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
+  MCPKit's hosted server for Yandex Wordstat (`https://mcpkit.ru/mcp-wordstat/mcp`, OAuth to an MCPKit account): popular and related queries for seed terms, demand over time, regional demand and device filters for Yandex search. Three tools that find, explain and run commands. MCPKit is free for now; Yandex bills the statistics requests separately through your own Yandex Cloud account. The hosted service is closed source; the repo holds docs and examples.
 - **[microsoft-learn](https://learn.microsoft.com/en-us/training/support/mcp)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
   Microsoft's hosted Learn MCP server (`https://learn.microsoft.com/api/mcp`): search official Microsoft/Azure docs, fetch full articles, search code samples. No auth, free; refreshed daily.
 - **[perplexity](https://github.com/perplexityai/modelcontextprotocol)** — 🏷️ official 🛡️ read-only ☁️ hosted 💰 paid  
@@ -270,8 +272,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   <sub>★ 1.2k · v2.8.1 (2026-10-29)</sub>
 - **[notion](https://developers.notion.com/guides/mcp/overview)** — 🏷️ official ⚠️ mutating ☁️ hosted  
   Notion's hosted MCP server: search the workspace, read and edit pages in Markdown. OAuth, respects each user's existing permissions. (The self-hosted makenotion/notion-mcp-server is no longer maintained.)
-- **[ORANO Personal Context MCP](https://github.com/manuvamp/orano-mcp-examples)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
-  Hosted Streamable HTTP MCP server for ORANO: lets Claude, ChatGPT, or Cursor search your saved library of Reels, videos, and articles for summaries, plans, and memory with a personal API key. [Public docs](https://oranoai.com/mcp/docs); the hosted service is proprietary.
+- **[ORANO Personal Context MCP](https://oranoai.com/mcp/docs)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted 💰 paid  
+  ORANO's hosted server for its library of saved videos, posts and links (43 tools): save a link and wait for ORANO's analysis (transcripts, frame evidence, key points, task plans), read and search the library, run research, plan tasks, organize, and ask its assistant Ori. Keys carry read and write scopes unless created read-only; write saves, changes, deletes and runs AI work. Streamable HTTP on Google Cloud Run with a personal `orano_sk_` key as a bearer token (no OAuth). The docs list MCP access at $5 a month. The service is closed source; the repo holds examples.
 - **[process-street](https://www.process.st/help/docs/mcp-server/)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted 💰 paid  
   Process Street's hosted server: workflows, workflow runs, tasks, users, data sets and reports. It can create and manage runs and assigned tasks within your Process Street permissions. `https://mcp.process.st/` (OAuth sign-in, including SAML SSO organisations, or an admin-generated API key). Needs a paid plan after a 14-day trial. No public source.
 - **[screenpipe](https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp)** — 🆕 new 🏷️ official ⚠️ mutating  
@@ -292,6 +294,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 - **[framethrower](https://github.com/framethrower-ai/framethrower-mcp)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted 💰 paid  
   FrameThrower's film-reference library: search stills from 5,489 films by concept, mood or colour or by cinematography attribute (lens, shot size, setting, time of day, director, year), find similar frames, and get a frame's metadata, full-resolution image and link. The same connector searches a commercials library (spots, shots, credits, brand and director profiles) and an animation library; 16 tools, all read-only. Hosted at `https://framethrower.ai/api/mcp` (OAuth 2.1 sign-in). Calls are metered in credits: a new account gets 200 free (a search costs 2), then $20 buys 20,000. Results are references that link back to FrameThrower, not licences to the imagery. No public server source; the MIT repo holds docs and client configs.  
   <sub>★ 3 · last push 2026-08-12</sub>
+- **[imagera](https://imagera.ai/mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted 💰 paid  
+  Imagera's hosted server (`https://mcp.imagera.ai/mcp`, OAuth) for generating and editing images, video, voiceovers and music, and for multi-step jobs such as product photos, ads and reels; saved Character IDs keep a face, product or place consistent across shots. Runs spend the same credits as Imagera's studios, and the price is quoted before anything runs (`estimate_cost`, or `run_skill` with `confirm: false`). Using it from an AI assistant is part of the paid Pro plan. Official registry `ai.imagera/imagera`. No public server source; the MIT repo holds the plugin and skills.
 - **[inkroom](https://inkroom.ai/en/solutions/mcp-server)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted 💰 paid  
   InkRoom's image server: generate images from text with GPT Image, Gemini and other models, edit from reference images, batch-generate variants, upscale (2x, 4x, anime, face restoration) and fetch finished images (`generate_image`, `derive_image`, `batch_generate`, `upscale_image`, `wait_images`), with a credit estimate before each paid run. Without a token only three read-only tools answer: `help`, `list_models` (models and their credit prices) and `prompts` (published prompt examples). Hosted at `https://mcp.inkroom.ai`; generation and editing need an InkRoom account, a personal Bearer MCP token and paid credits, which the tools spend. No public server source; the GitHub repo holds the client, integration docs and skills, and its MIT grant covers only a few docs and example configs.
 - **[mcp-for-blender](https://github.com/ahujasid/mcp-for-blender)** — 🏷️ community ⚠️ mutating 🔒 local  
@@ -300,6 +304,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 - **[orkas-video-studio](https://github.com/Orkas-AI/Orkas-VideoStudio)** — 🆕 new 🏷️ official ⚠️ mutating  
   Local-first video toolkit for coding agents: compose, edit, generate, and assemble videos from an editable `plan.json` timeline, through a CLI and an MCP server. Early development: install from source, since the npm packages aren't published yet. Optional generation calls providers with your own keys. MIT.  
   <sub>★ 344 · last push 2026-11-04</sub>
+- **[panda-greetings](https://github.com/Gerti05/panda-greetings-mcp)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
+  Panda Greetings' hosted server (`https://www.pandagreetings.com/mcp/designs`, no sign-in or key) with one tool, `find_card_designs`: give it an occasion (birthday, sympathy, Christmas and more) and optionally a message, and it returns up to four ready-made printed card designs with the message inside, each with a picture, a link to change and order it on pandagreetings.com (single or group card, mailed in the US) and the day a card ordered today would arrive. Free to use; you pay only if you order. The maker says the message isn't stored or logged. Official registry `com.pandagreetings/cards`. The hosted server is closed source; the MIT repo holds setup examples and docs.
 - **[pic2svg](https://pic2svg.com/mcp/)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
   Traces a raster image (PNG, JPG, WebP, GIF, BMP, TIFF) into an SVG of filled paths with pic2svg's vtracer-based engine; one tool, `trace_image_to_svg`. The image is uploaded and traced on pic2svg's server, not offline. Hosted at `https://pic2svg.com/api/mcp` (send the image as base64, get SVG text back), or a dependency-free stdio client from the GitHub repo `szj2ys/pic2svg-mcp` (Node 20+, install from source, not on npm) that reads a local file and writes the SVG to disk, overwriting any file already at that path. No account or key; free within a daily allowance (50 traces per client by default). pic2svg's free and Starter plans carry a personal-use licence; commercial use needs a paid plan. Client MIT; the tracing service is not open source.
 - **[playable-gift](https://playablegift.com/agents)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
@@ -406,7 +412,7 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   <sub>★ 0 · last push 2026-11-04</sub>
 - **[hubspot](https://developers.hubspot.com/mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   HubSpot's hosted MCP server (`https://mcp.hubspot.com`): read and write CRM records, activities, content, campaigns and pipelines. OAuth with PKCE via an MCP connector you create in HubSpot. A local developer MCP server ships with the HubSpot CLI (`hs mcp setup`).
-- **[ichi-mcp](https://github.com/bernik-bot/ichi-mcp)** — 🆕 new 🏷️ community 🛡️ read-only 🔒 local  
+- **[ichi-mcp](https://github.com/bernik-bot/ichi-mcp)** — 🆕 new 🏷️ official 🛡️ read-only 🔒 local  
   ICHI MCP Server for the Internet Cyber Health Index (ichi.global), a free daily barometer of internet-wide cyber threat conditions: 3 read-only tools — `get_current_index` (current score, 5-band rating: NORMAL / GUARDED / ELEVATED / HIGH / CRITICAL, and dimension breakdown), `get_recent_alerts` (recent critical vulnerability advisories from ICHI's RSS feed), and `get_source_health` (upstream data-feed status). No API key required. Run with `uvx --from git+https://github.com/bernik-bot/ichi-mcp ichi-mcp`. ICHI is an outside-in directional signal, not an org-specific risk score or deterministic forecast. MIT; not on PyPI. Maintained for ICHI's creator.
 - **[invokely](https://invokely.ai/docs)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
   Official statistics with their sources: search indicators and places, get values and time series, compare and rank places (U.S. states and counties, EU countries and NUTS 2 regions, Spanish municipalities, World Bank data for every country). Hosted at `https://invokely.ai/mcp` (OAuth or API key; free plan of 500 calls a month) plus a no-account trial endpoint at `https://invokely.ai/mcp/trial` (25 calls a day). Proprietary; no public source.
@@ -433,6 +439,10 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 - **[mcp-probe-kit](https://github.com/mybolide/mcp-probe-kit)** — 🆕 new 🏷️ community ⚠️ mutating 🔒 local  
   Spec-driven development workflow for coding agents, 29 tools by default: `start_feature`, `start_bugfix` and other orchestrations, specs and estimates, `code_insight` (through an optional GitNexus code graph), `code_review`, `gentest`, `gencommit`, UI design-system helpers, and History Session tools that archive chat handoffs under `docs/history-session/`. It writes spec, plan and history files into your project; six optional Memory tools read and write a shared pool in a Qdrant instance and embedding service you run yourself. Local stdio (`npx -y mcp-probe-kit@latest`, Node 20+), no account or key. MIT.  
   <sub>★ 41 · v4.1.1 (2026-10-13)</sub>
+- **[mcpkit-yandex-direct](https://github.com/MCPKit-RU/yandex-direct-mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
+  MCPKit's hosted server for Yandex Direct (`https://mcpkit.ru/mcp-yandex-direct/mcp`, OAuth to an MCPKit account): campaign, spend, conversion and search-term reports, and changes to a connected Yandex Direct account: create supported campaigns, edit settings, pause or resume, manage ads, keywords, negative keywords, bids, audiences and creative assets. Three tools that find, explain and run commands. Free to use for now. Documented for ChatGPT. The hosted service is closed source; the repo holds docs and examples.
+- **[mcpkit-yandex-metrica](https://github.com/MCPKit-RU/yandex-metrika-mcp)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
+  MCPKit's hosted server for Yandex Metrica (`https://mcpkit.ru/mcp-yandex-metrika/mcp`, OAuth to an MCPKit account): traffic, acquisition, landing-page and goal reports, period comparisons across connected counters, and bounded summaries of visitor paths through the Logs API. Read-only for analytics data and counter settings. Three tools that find, explain and run commands. Free to use for now. The hosted service is closed source; the repo holds docs and examples.
 - **[melso](https://melso.ai/en/mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted 💰 paid  
   Melso's own server for its Spanish tax and bookkeeping service (gestoría): read invoices, customers, expenses, income, bank data, returns and the tax calendar; record, correct or delete expenses and income, save customers, draft invoices and, when the owner asks through their own connection, issue the saved version (Verifactu/TicketBAI), mark invoices paid and open cases for Melso's professionals. It cannot approve, file or pay a tax return; that stays in the Melso app. Hosted at `https://mcp.melso.ai/mcp` (OAuth, one company per connection); needs a Melso account on a plan with tool access (Pro for the self-employed: €49 a month), and the tools listed depend on plan and role. Run by Melso, not by Spain's tax agency. No public server source.
 - **[neverapply](https://github.com/kasovy/neverapply-mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
@@ -440,6 +450,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   <sub>★ 0 · v1.0.0 (2026-10-21)</sub>
 - **[Ormas Outcomes](https://ormas.ai/docs/first-task)** — 🆕 new 🏷️ official ⚠️ mutating 💰 paid  
   Ormas's local stdio MCP server hands bounded GitHub coding work to outside providers (miners on Bittensor subnet 76) with agreed automated acceptance checks, a spending limit you authorize, job tracking, and a returned branch and receipt. Its installer sets up the Python client and configures Codex or Claude Code on macOS 14+ and Linux x86_64 (Windows through WSL2). Early alpha and US-only; paid work needs an account, an Ormas key and credit. Assigned providers, Ormas-operated checkers and provider AI services can read the code you submit; private repositories need your consent. No public client source.
+- **[ottoquest](https://ottoquest.com/mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
+  OttoQuest's hosted server for US used cars (10 tools): cars for sale at US dealers with each car's market value and how far below it it's priced, VIN lookups with reported history and NHTSA recalls, values for cars without a VIN, market prices and listing times, and dealer inventory; it can also list, create and delete your own email deal alerts. Endpoint `https://ottoquest.com/api/mcp` (Streamable HTTP), sign-in with a free OttoQuest account over OAuth 2.1, no API key. Official registry `com.ottoquest/mcp`. Closed source.
 - **[pocket-drives](https://github.com/RevList/pocket-drives-mcp)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
   Search, quote, and check availability for peer-to-peer luxury, exotic, and EV car rentals from independent hosts (five US markets at listing time). Hosted at `https://pocketdrives.ai/mcp`, no auth; it does not book, which happens in the iOS app or on pocketdrives.ai. No public source or licence.  
   <sub>★ 0 · last push 2026-08-21</sub>
@@ -467,8 +479,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 - **[trends-mcp](https://github.com/trendsmcp-ai/Trends-MCP)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
   Live trend data from Google Search, YouTube, TikTok, Reddit, Amazon, Wikipedia, news, app stores, npm, Steam, and more (`get_time_series`, `get_growth`, `get_top_trends`). Hosted at `https://api.trendsmcp.ai/mcp` or through the repo's MIT stdio adapter. Needs an API key, which comes with a free monthly quota.  
   <sub>★ 47 · last push 2026-11-03</sub>
-- **[vaneform](https://github.com/vaneform/vaneform-mcp)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
-  Vaneform's hosted MCP server (`https://vaneform.com/mcp`, Streamable HTTP): look up estimated monthly visits, month-over-month change, rank, top countries, traffic sources and registry facts for a domain (`lookup_domain`), compare several domains (`compare_bulk`), or the same name across suffixes (`compare_tld`). `get_account` reports plan and remaining credits. A Pro-only `lookup_keyword` tool returns a US keyword brief. Discovery (`initialize`, `tools/list`) is open; tool calls need a Vaneform API key (`Authorization: Bearer` or `X-API-Key`). A free account is enough for domain lookups. Repeating a domain lookup within 24 hours is free. Traffic figures are third-party traffic estimates. MIT server, CLI and agent skill; a local stdio process can proxy the same hosted server. Official server from the Vaneform website traffic checker.
+- **[vaneform](https://github.com/vaneform/vaneform-mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
+  Vaneform's hosted server (`https://vaneform.com/mcp`, Streamable HTTP) for website research (10 tools): estimated monthly visits, trend, rank, top countries, traffic sources and registry facts for a domain (`lookup_domain`), side-by-side comparisons (`compare_bulk`, `compare_tld`), Google ads and AdSense research by domain or advertiser (`research_site`), a Pro-only US keyword brief, and a private research workspace where it saves queries and notes and monitors ads daily or weekly. Discovery is open; tool calls need a Vaneform API key, and a free account covers domain lookups. Traffic figures are third-party estimates. MIT server, CLI and agent skill.
 - **[wine-labs](https://winelabs.ai/agents)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted 💰 paid  
   Fine-wine market data: wine and LWIN matching, retail and auction prices, exchange order books, merchants, and critic data, plus cellar CSV/Excel processing jobs. Hosted at `https://chat.wine-labs.com/mcp` (browser OAuth). Billed in credits: existing API allowance, monthly from $25, or pay-as-you-go from $5. No public server source.
 

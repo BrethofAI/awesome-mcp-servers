@@ -1,0 +1,19 @@
+name: ottoquest
+slug: ottoquest
+url: https://ottoquest.com/mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'OttoQuest''s hosted server for US used cars (10 tools): cars for sale at US dealers
+  with each car''s market value and how far below it it''s priced, VIN lookups with reported
+  history and NHTSA recalls, values for cars without a VIN, market prices and listing times,
+  and dealer inventory; it can also list, create and delete your own email deal alerts. Endpoint
+  `https://ottoquest.com/api/mcp` (Streamable HTTP), sign-in with a free OttoQuest account
+  over OAuth 2.1, no API key. Official registry `com.ottoquest/mcp`. Closed source.'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-11-09'
+category_order: 15
+verified: '2026-11-09'

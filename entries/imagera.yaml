@@ -1,0 +1,21 @@
+name: imagera
+slug: imagera
+url: https://imagera.ai/mcp
+category: design-creative
+category_label: Design & Creative
+tagline: 'Imagera''s hosted server (`https://mcp.imagera.ai/mcp`, OAuth) for generating and
+  editing images, video, voiceovers and music, and for multi-step jobs such as product photos,
+  ads and reels; saved Character IDs keep a face, product or place consistent across shots.
+  Runs spend the same credits as Imagera''s studios, and the price is quoted before anything
+  runs (`estimate_cost`, or `run_skill` with `confirm: false`). Using it from an AI assistant
+  is part of the paid Pro plan. Official registry `ai.imagera/imagera`. No public server source;
+  the MIT repo holds the plugin and skills.'
+tags:
+- official
+- mutating
+- hosted
+- paid
+list: mcp-servers
+added: '2026-11-09'
+category_order: 12
+verified: '2026-11-09'
