@@ -1,0 +1,23 @@
+name: vaneform
+slug: vaneform
+url: https://github.com/vaneform/vaneform-mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'Vaneform''s hosted MCP server (`https://vaneform.com/mcp`, Streamable HTTP):
+  look up estimated monthly visits, month-over-month change, rank, top countries,
+  traffic sources and registry facts for a domain (`lookup_domain`), compare several
+  domains (`compare_bulk`), or the same name across suffixes (`compare_tld`). `get_account`
+  reports plan and remaining credits. A Pro-only `lookup_keyword` tool returns a US
+  keyword brief. Discovery (`initialize`, `tools/list`) is open; tool calls need a
+  Vaneform API key (`Authorization: Bearer` or `X-API-Key`). A free account is enough
+  for domain lookups. Repeating a domain lookup within 24 hours is free. Traffic figures
+  are third-party traffic estimates. MIT server, CLI and agent skill; a local stdio
+  process can proxy the same hosted server. Official server from the Vaneform website
+  traffic checker.'
+tags:
+- official
+- read-only
+- hosted
+list: mcp-servers
+added: '2026-11-08'
+category_order: 15
