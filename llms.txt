@@ -1,17 +1,17 @@
 # awesome-mcp-servers
 
-> A curated catalog of working MCP servers for Claude Desktop and other clients, labelled with publisher, runtime, and mutation capabilities.
+> A curated catalog of working Model Context Protocol servers for LLM clients, labelled with publisher, runtime, and mutation capabilities.
 
-The project is a maintained list of verified Model Context Protocol servers, categorized by function such as web search, databases, and operations. It labels each entry with metadata including whether it is official, community-maintained, read-only, or mutating, and notes if it requires paid accounts or crypto payments.
+The project is a maintained list of verified MCP servers for Claude Desktop and other clients. It categorizes tools by function and includes labels for official status, read-only or mutating access, and local or hosted execution.
 
 ## Docs
 
-- [awesome-mcp-servers](https://raw.githubusercontent.com/BrethofAI/awesome-mcp-servers/main/README.md): A catalog of working MCP servers, labelled by publisher, runtime, and mutation capabilities.
+- [awesome-mcp-servers](https://raw.githubusercontent.com/BrethofAI/awesome-mcp-servers/main/README.md): A catalog of verified MCP servers, labelled by publisher, runtime, and mutation capabilities.
 - [Why this list exists](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#why-this-list-exists): Inclusion criteria for real, working, honest MCP servers, plus labeling rules for publishers, runtime, and payment methods.
 - [Legend](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#legend): Definitions for labels indicating publisher type, mutation capability, runtime location, payment requirements, and listing recency.
 - [Reference servers (MCP steering group)](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#reference-servers-mcp-steering-group): Official reference implementations from the MCP steering group, including filesystem, git, memory, and sequential thinking servers.
 - [Files, Filesystem & Local Data](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#files-filesystem--local-data): Local file and Obsidian vault servers for reading, searching, editing, and executing commands.
-- [Web Search & Browsing](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#web-search--browsing): Hosted servers for web search, library documentation, and public page screenshots.
+- [Web Search & Browsing](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#web-search--browsing): Servers for web search, browsing, screenshots, and library documentation retrieval.
 - [Browser Automation](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#browser-automation): Servers for browser automation, Chrome debugging, and full macOS system control.
 - [Source Control](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#source-control): Official servers for Gitea, GitHub, and GitLab repository, issue, and CI management.
 - [Issue Trackers & Project Management](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#issue-trackers--project-management): Hosted servers for Asana, Atlassian, Linear, Orbit, and Trello project management.
@@ -19,11 +19,11 @@ The project is a maintained list of verified Model Context Protocol servers, cat
 - [Relational Databases](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#relational-databases): Official and community MCP servers for ClickHouse, MySQL, Postgres, and Supabase with read/write controls.
 - [NoSQL & Document Databases](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#nosql--document-databases): Official MCP servers for MongoDB and Neo4j, supporting local execution or hosted cloud endpoints.
 - [Vector & Memory Stores](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#vector--memory-stores): Hosted team knowledge bases and persistent cross-session memory systems for AI agents.
-- [Productivity & Notes](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#productivity--notes): Connectors for Airtable, Apple Notes, Cloud Alter Ego, and Google Calendar for data management.
-- [Design & Creative](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#design--creative): Tools for video editing, Figma design integration, and searching film reference libraries.
+- [Productivity & Notes](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#productivity--notes): Servers for managing notes, calendars, and personal productivity workflows.
+- [Design & Creative](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#design--creative): Servers for video editing, Figma design integration, and film reference searching.
 - [Operations & Infrastructure](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#operations--infrastructure): Official MCP servers for AWS, Azure, Cloudflare, and Datadog, covering hosted endpoints, local execution, and API access.
 - [AI & ML Platforms](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#ai--ml-platforms): Tools for monitoring AI model availability, accessing third-party apps via Aident, and querying the API.market gateway.
-- [Specialised / Vertical](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#specialised--vertical): A local payment runtime for AI agents on EVM, Solana, and TRON, plus a read-only server for AIAgentCycle services.
+- [Specialised / Vertical](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#specialised--vertical): Servers for agent payments and business automation services.
 - [Frameworks & SDKs for Building MCP Servers](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#frameworks--sdks-for-building-mcp-servers): Python, Go, TypeScript, and community frameworks for building MCP servers, including FastMCP, mcp-go, and xmcp.
 - [Discovery hubs](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#discovery-hubs): Reference repositories, community lists, and hosted registries for discovering new MCP servers.
 - [Related work](https://github.com/BrethofAI/awesome-mcp-servers/blob/main/README.md#related-work): Curated lists of AI coding agents, local AI tools, and privacy-focused AI architectures.
