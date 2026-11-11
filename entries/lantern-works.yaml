@@ -1,0 +1,18 @@
+name: Lantern Works
+slug: lantern-works
+url: https://github.com/connormatthewdouglas/agent-work-stack-deals
+category: operations-infrastructure
+category_label: Operations & Infrastructure
+tagline: 'Lantern Works'' official read-only MCP for GPU rental price comparison
+  across tracked providers, with cited rates, each price''s age, and job-cost
+  estimates. Install with `uvx lantern-works-deals-mcp`, or use the hosted
+  endpoint `https://lantern-works-mcp.lantern-works.workers.dev/mcp?ref=gh-brethofmcp`.
+  No API key. MIT.'
+tags:
+- official
+- read-only
+- hosted
+list: mcp-servers
+added: '2026-11-11'
+category_order: 13
+verified: '2026-11-11'
