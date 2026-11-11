@@ -1,0 +1,22 @@
+name: imageat
+slug: imageat
+url: https://github.com/incendies/imageat-mcp
+category: design-creative
+category_label: Design & Creative
+tagline: 'imageat''s server for generating images and video and for image edits (background
+  removal, object eraser, relight, virtual try-on and more, one tool per edit). It also builds
+  browser games and publishes them at a shareable link, and drafts, schedules or publishes posts
+  to the Instagram, Facebook, LinkedIn and X accounts you connected in imageat''s Social Hub.
+  Hosted at `https://mcp.imageat.com/mcp` (OAuth), or run as `npx -y @imageat/mcp` with an
+  imageat API key; both call imageat''s API. Generation spends your plan''s credits, then a
+  prepaid API balance, and connecting needs one of the two. Official registry
+  `io.github.incendies/imageat`. MIT.'
+tags:
+- official
+- mutating
+- hosted
+- paid
+list: mcp-servers
+added: '2026-11-11'
+category_order: 12
+verified: '2026-11-11'

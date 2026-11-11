@@ -1,0 +1,19 @@
+name: ArtiGram
+slug: artigram
+url: https://artigram.cafeboon.com/connect
+category: design-creative
+category_label: Design & Creative
+tagline: 'ArtiGram''s hosted server (`https://artigram.cafeboon.com/mcp`, Streamable HTTP) for its
+  gallery of interactive HTML artifacts (calculators, games, charts, explainers) made with AI
+  assistants. Four tools: `search_artifacts` and `list_communities` read the gallery;
+  `post_artifact` publishes an artifact on a public page and `update_artifact` replaces one of
+  your posts with a new version. Posting needs a key from your ArtiGram account settings. The
+  maker says ArtiGram is free. No public source.'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-11-11'
+category_order: 12
+verified: '2026-11-11'

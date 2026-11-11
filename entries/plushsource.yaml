@@ -1,0 +1,19 @@
+name: PlushSource
+slug: plushsource
+url: https://github.com/quickman924/plushsource-mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'PlushSource''s stdio server (`npx -y plushsource-mcp`, no key) for its facts-only
+  directory of 55 custom plush manufacturers: filter by country, category, MOQ, certifications,
+  accepted design inputs, products and OEM/ODM, compare two to five makers side by side, and
+  draft an RFQ email from a project brief. The dataset ships inside the package and the server
+  makes no network calls. Each fact comes from the manufacturer''s own public pages; corrections
+  go to the repo. Official registry `io.github.quickman924/plushsource-mcp`. MIT.'
+tags:
+- official
+- read-only
+- local
+list: mcp-servers
+added: '2026-11-11'
+category_order: 15
+verified: '2026-11-11'

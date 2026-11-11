@@ -1,0 +1,19 @@
+name: GoVisit Tools
+slug: govisit
+url: https://govisit.ai/en/docs/developers/mcp/overview
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'GoVisit''s hosted travel-discovery server (`https://govisit.ai/mcp`, Streamable HTTP,
+  no account or key) with 22 read-only tools: search destinations and places, read a place''s
+  overview, visit facts and sections, browse a destination''s highlights, categories, activities
+  and curated collections, find places near a place, and search GoVisit''s published
+  documentation. GoVisit''s data licence allows attributed travel-planning use and forbids bulk
+  extraction and resale. Official registry `ai.govisit/tools`. The hosted server is closed source.'
+tags:
+- official
+- read-only
+- hosted
+list: mcp-servers
+added: '2026-11-11'
+category_order: 15
+verified: '2026-11-11'
