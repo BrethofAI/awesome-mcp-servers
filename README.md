@@ -69,7 +69,7 @@ official one; if forks compete, the most active fork wins.
 - [Productivity & Notes](#productivity--notes) (10)
 - [Design & Creative](#design--creative) (12)
 - [Operations & Infrastructure](#operations--infrastructure) (14)
-- [AI & ML Platforms](#ai--ml-platforms) (6)
+- [AI & ML Platforms](#ai--ml-platforms) (7)
 - [Specialised / Vertical](#specialised--vertical) (41)
 - [Frameworks & SDKs for Building MCP Servers](#frameworks--sdks-for-building-mcp-servers) (5)
 
@@ -366,6 +366,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   Gateway that lets an agent use third-party apps and tools (Gmail, Slack, Linear, Notion, HubSpot, and more) through your connected accounts, with credentials in Aident's vault and an audit history, plus a catalogue of 400+ Aident-curated Skills (workflow guides that combine those actions). Hosted at `https://loadout.aident.ai/mcp` (OAuth); free to start, with top-ups for more usage. The [skill repo](https://github.com/Aident-AI/aident-skill) is MIT; the service is proprietary.
 - **[api-market](https://api.market/mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   Gateway to the API.market catalogue of 600+ third-party APIs (3,810+ tools: image and video generation, search, scraping, maps, data). Hosted at `https://api.market/api/mcp/gateway` (OAuth or API key). Calls can spend free-tier quota or pay-as-you-go wallet funds. Proprietary; no public source.
+- **[CloudGPU MCP](https://github.com/mrhy7176/cloudgpu-mcp)** — 🆕 new 🏷️ official ⚠️ mutating 💰 paid  
+  Vendor stdio MCP server for CloudGPU: quote a per-minute GPU, rent it only after user confirmation, run a job, download results, and shut the instance down; also lists models on CloudGPU's OpenAI-compatible API. Requires a CloudGPU API key or a browser-approved connect-account flow with a spending limit. Job files and prompts are sent to CloudGPU's API. MIT-licensed. Paid, usage-based account; current rates are on the official pricing page.
 - **[huggingface](https://github.com/huggingface/hf-mcp-server)** — 🏷️ official ⚠️ mutating ☁️ hosted  
   Hugging Face's official server: Hub search and details, docs search, Gradio Spaces as tools, plus optional repo creation, Jobs and Sandboxes. Hosted at https://huggingface.co/mcp or run locally.  
   <sub>★ 314 · v0.4.33 (2026-11-04)</sub>
