@@ -1,0 +1,18 @@
+name: CloudGPU MCP
+slug: cloudgpu-mcp
+url: https://github.com/mrhy7176/cloudgpu-mcp
+category: ai-ml-platforms
+category_label: AI & ML Platforms
+tagline: 'Vendor stdio MCP server for CloudGPU: quote a per-minute GPU, rent it
+  only after user confirmation, run a job, download results, and shut the instance
+  down; also lists models on CloudGPU''s OpenAI-compatible API. Requires a CloudGPU
+  API key or a browser-approved connect-account flow with a spending limit. Job
+  files and prompts are sent to CloudGPU''s API. MIT-licensed. Paid, usage-based
+  account; current rates are on the official pricing page.'
+tags:
+- official
+- mutating
+- paid
+list: mcp-servers
+added: '2026-11-11'
+category_order: 14
