@@ -1,0 +1,21 @@
+name: EarlyLore
+slug: earlylore
+url: https://earlylore.com/mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'EarlyLore''s hosted server (`https://earlylore.com/api/mcp`, HTTP) for product
+  and idea research: search a live catalog (`earlylore_search_products`), inspect or
+  compare product dossiers (`earlylore_inspect_product`, `earlylore_compare_products`),
+  read completed idea evaluations (`earlylore_get_evaluation`), and pull design or niche
+  pricing benchmarks. A personal Bearer key (`el_live_…`) is required; tool access and
+  quotas follow the account plan (the free plan includes limited catalog search and
+  inspections; reading your own completed evaluations is available on all plans). Saving
+  notes or triggering a new evaluation can write to your workspace. Traffic figures are
+  estimates. No public server source.'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-11-12'
+category_order: 15
