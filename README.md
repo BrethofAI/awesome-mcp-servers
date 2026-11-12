@@ -70,7 +70,7 @@ official one; if forks compete, the most active fork wins.
 - [Design & Creative](#design--creative) (14)
 - [Operations & Infrastructure](#operations--infrastructure) (15)
 - [AI & ML Platforms](#ai--ml-platforms) (7)
-- [Specialised / Vertical](#specialised--vertical) (43)
+- [Specialised / Vertical](#specialised--vertical) (44)
 - [Frameworks & SDKs for Building MCP Servers](#frameworks--sdks-for-building-mcp-servers) (5)
 
 <!-- The list below is generated from entries/*.yaml by scripts/gen_awesome_readme.py. Edit the YAML, not this section. -->
@@ -407,6 +407,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 - **[dchub](https://github.com/azmartone67/dchub-mcp-server)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   DC Hub's server for data-center site selection: facilities and markets, grid and interconnection queues, power, gas and energy prices, fiber, permitting and M&A deals, with DC Hub's Data Center Power Index (DCPI), a daily score of where data centers can get grid power across 300+ markets (94 tools). Also saves sites and shortlists, sets email and webhook alerts, and sends capacity introduction requests to providers. Hosted at `https://dchub.cloud/mcp`; previews need no key, a free key adds two full answers per tool per day (more with an email), and full results need a paid plan or credit pack, or a per-call Stripe payment on some tools. Logs every tool call, with its parameters, to DC Hub (kept 90 days). The MCP gateway is MIT; the data backend it calls is not public.  
   <sub>★ 3 · v2.12.45 (2026-11-02)</sub>
+- **[EarlyLore](https://earlylore.com/mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
+  EarlyLore's hosted server (`https://earlylore.com/api/mcp`, HTTP) for product and idea research: search a live catalog (`earlylore_search_products`), inspect or compare product dossiers (`earlylore_inspect_product`, `earlylore_compare_products`), read completed idea evaluations (`earlylore_get_evaluation`), and pull design or niche pricing benchmarks. A personal Bearer key (`el_live_…`) is required; tool access and quotas follow the account plan (the free plan includes limited catalog search and inspections; reading your own completed evaluations is available on all plans). Saving notes or triggering a new evaluation can write to your workspace. Traffic figures are estimates. No public server source.
 - **[fincept](https://docs.fincept.in)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted 💰 paid  
   Fincept Terminal's hosted server (`https://enterprise.fincept.in/mcp`, OAuth 2.1): market quotes and candles, options and futures, fundamentals, economic series and SEC filings, news and sentiment, screeners, backtests, portfolio analytics and quant engines (about 440 tools). Trading tools reach only the Fincept Paper account, no real money; tools spend plan credits. Needs the paid Fincept Exclusive Pro plan. The server source is private; the public repo holds docs only.
 - **[good-nature-vibe-catalog](https://github.com/aiagentcycle/gnv-catalog-mcp)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
