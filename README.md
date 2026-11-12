@@ -68,7 +68,7 @@ official one; if forks compete, the most active fork wins.
 - [Vector & Memory Stores](#vector--memory-stores) (9)
 - [Productivity & Notes](#productivity--notes) (10)
 - [Design & Creative](#design--creative) (14)
-- [Operations & Infrastructure](#operations--infrastructure) (14)
+- [Operations & Infrastructure](#operations--infrastructure) (15)
 - [AI & ML Platforms](#ai--ml-platforms) (7)
 - [Specialised / Vertical](#specialised--vertical) (43)
 - [Frameworks & SDKs for Building MCP Servers](#frameworks--sdks-for-building-mcp-servers) (5)
@@ -348,6 +348,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 - **[kubernetes](https://github.com/Flux159/mcp-server-kubernetes)** — 🏷️ community ⚠️ mutating  
   kubectl-equivalent operations on the configured cluster.  
   <sub>★ 1.6k · v4.2.1 (2026-10-26)</sub>
+- **[Lantern Works](https://github.com/connormatthewdouglas/agent-work-stack-deals)** — 🆕 new 🏷️ official 🛡️ read-only ☁️ hosted  
+  Lantern Works' official read-only MCP for GPU rental price comparison across tracked providers, with cited rates, each price's age, and job-cost estimates. Install with `uvx lantern-works-deals-mcp`, or use the hosted endpoint `https://lantern-works-mcp.lantern-works.workers.dev/mcp?ref=gh-brethofmcp`. No API key. MIT.
 - **[remotify-mcp](https://github.com/onlsol/relay.remotify.run/tree/main/mcp)** — 🆕 new 🏷️ official ⚠️ mutating 🔒 local  
   Run shell commands on a remote machine without SSH, three tools: `remote_exec`, `remote_session_info` and `remote_session_reset`. You paste a `curl ... | bash` one-liner on the remote; it polls a relay over HTTPS and runs each command after a y/N prompt (supervised) or without asking (auto mode). Runs locally over stdio (`npx -y remotify-mcp@latest`) and uses Online Solution's free public relay at relay.remotify.run by default, or your own (Docker, `REMOTIFY_URL`). Commands and output pass through the relay, anyone holding the 128-bit session key can queue commands, and the relay supplies the wording of the status messages the tool returns to the assistant. No account or key. Apache-2.0.
 - **[saas-pro-max](https://saaspro.dev/docs/mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
