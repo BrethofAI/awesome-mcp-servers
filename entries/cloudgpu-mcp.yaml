@@ -1,6 +1,6 @@
 name: CloudGPU MCP
 slug: cloudgpu-mcp
-url: https://github.com/mrhy7176/cloudgpu-mcp
+url: https://github.com/cloudgpu-app/cloudgpu-mcp
 category: ai-ml-platforms
 category_label: AI & ML Platforms
 tagline: 'CloudGPU''s stdio server (`npx -y cloudgpu-mcp`) for renting GPUs by the minute from
