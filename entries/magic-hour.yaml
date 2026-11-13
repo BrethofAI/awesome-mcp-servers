@@ -1,0 +1,22 @@
+name: Magic Hour
+slug: magic-hour
+url: https://github.com/magichourhq/magic-hour-mcp
+category: design-creative
+category_label: Design & Creative
+tagline: 'Magic Hour''s hosted server (`https://mcp.magichour.ai/`, Streamable HTTP; OAuth or a
+  Magic Hour API key) with 53 tools for making and editing images, video and audio: text-to-image
+  and text-to-video, image-to-video, upscaling, background removal, subtitles, video translation,
+  lip sync, talking photos, music, text-to-speech, and face, head and clothes swaps and voice
+  cloning (those tools say to use only your own likeness or content you have consent for). It
+  also checks, downloads and deletes projects on your account. Tools can be listed without
+  signing in. Generations spend account credits; a free account starts with signup credits,
+  and subscriptions and one-time credit packs add more ([pricing](https://magichour.ai/pricing)).
+  Official registry `io.github.magichourhq/magic-hour`. Apache-2.0.'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-11-13'
+category_order: 12
+verified: '2026-11-13'

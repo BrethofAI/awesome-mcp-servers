@@ -67,7 +67,7 @@ official one; if forks compete, the most active fork wins.
 - [NoSQL & Document Databases](#nosql--document-databases) (2)
 - [Vector & Memory Stores](#vector--memory-stores) (9)
 - [Productivity & Notes](#productivity--notes) (10)
-- [Design & Creative](#design--creative) (14)
+- [Design & Creative](#design--creative) (15)
 - [Operations & Infrastructure](#operations--infrastructure) (15)
 - [AI & ML Platforms](#ai--ml-platforms) (7)
 - [Specialised / Vertical](#specialised--vertical) (44)
@@ -302,6 +302,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   Imagera's hosted server (`https://mcp.imagera.ai/mcp`, OAuth) for generating and editing images, video, voiceovers and music, and for multi-step jobs such as product photos, ads and reels; saved Character IDs keep a face, product or place consistent across shots. Runs spend the same credits as Imagera's studios, and the price is quoted before anything runs (`estimate_cost`, or `run_skill` with `confirm: false`). Using it from an AI assistant is part of the paid Pro plan. Official registry `ai.imagera/imagera`. No public server source; the MIT repo holds the plugin and skills.
 - **[inkroom](https://inkroom.ai/en/solutions/mcp-server)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted 💰 paid  
   InkRoom's image server: generate images from text with GPT Image, Gemini and other models, edit from reference images, batch-generate variants, upscale (2x, 4x, anime, face restoration) and fetch finished images (`generate_image`, `derive_image`, `batch_generate`, `upscale_image`, `wait_images`), with a credit estimate before each paid run. Without a token only three read-only tools answer: `help`, `list_models` (models and their credit prices) and `prompts` (published prompt examples). Hosted at `https://mcp.inkroom.ai`; generation and editing need an InkRoom account, a personal Bearer MCP token and paid credits, which the tools spend. No public server source; the GitHub repo holds the client, integration docs and skills, and its MIT grant covers only a few docs and example configs.
+- **[Magic Hour](https://github.com/magichourhq/magic-hour-mcp)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
+  Magic Hour's hosted server (`https://mcp.magichour.ai/`, Streamable HTTP; OAuth or a Magic Hour API key) with 53 tools for making and editing images, video and audio: text-to-image and text-to-video, image-to-video, upscaling, background removal, subtitles, video translation, lip sync, talking photos, music, text-to-speech, and face, head and clothes swaps and voice cloning (those tools say to use only your own likeness or content you have consent for). It also checks, downloads and deletes projects on your account. Tools can be listed without signing in. Generations spend account credits; a free account starts with signup credits, and subscriptions and one-time credit packs add more ([pricing](https://magichour.ai/pricing)). Official registry `io.github.magichourhq/magic-hour`. Apache-2.0.
 - **[mcp-for-blender](https://github.com/ahujasid/mcp-for-blender)** — 🏷️ community ⚠️ mutating 🔒 local  
   Drive Blender via Python — modify scenes, objects and materials, render views, import Poly Haven/Sketchfab assets, generate 3D models. Formerly blender-mcp; the PyPI package is now `mcp-for-blender`. Sends anonymous usage telemetry by default (`DISABLE_TELEMETRY=true` to turn it off).  
   <sub>★ 33.7k · last push 2026-11-04</sub>
