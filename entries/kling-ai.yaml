@@ -1,0 +1,22 @@
+name: Kling AI
+slug: kling-ai
+url: https://kling.ai/app/mcp/guide
+category: design-creative
+category_label: Design & Creative
+tagline: 'Kling''s hosted server for its image and video models (`https://kling.ai/mcp/plugin`,
+  Streamable HTTP; OAuth with a Kling Global account): text-to-image and image-to-image,
+  text-to-video, image-to-video, multimodal reference video and motion control, task status,
+  credit balance, media uploads, and creating, editing and deleting reusable Elements on
+  your account. Generation spends only paid credits from your personal workspace; bonus credits
+  and off-peak free generation do not work through MCP ([credit rules](https://kling.ai/app/mcp/guide)). China-region
+  accounts use a separate server (`https://klingai.com/mcp/plugin`). The server source is
+  not public; Kling''s client plugins are MIT. Official registry `io.github.klingai-dev/kling-ai`.'
+tags:
+- official
+- mutating
+- hosted
+- paid
+list: mcp-servers
+added: '2026-11-14'
+category_order: 12
+verified: '2026-11-14'

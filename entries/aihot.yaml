@@ -1,0 +1,20 @@
+name: AIHOT
+slug: aihot
+url: https://github.com/KKKKhazix/AIHOT
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'AIHOT''s hosted server (`https://aihot.news/api/mcp`, Streamable HTTP; no account
+  or key) with 11 read-only tools over its Chinese-language AI industry news: the latest
+  24-hour or 7-day items, search over the last 7 days, the current top 10 events and a
+  story''s timeline, its edited daily, weekly and monthly reports, and trackers for Codex,
+  Claude, Antigravity and Grok usage-limit resets. Titles and summaries are written in Chinese.
+  The site engine, including the MCP server, is open source under MIT; the reset trackers
+  run only on the hosted site.'
+tags:
+- official
+- read-only
+- hosted
+list: mcp-servers
+added: '2026-11-14'
+category_order: 15
+verified: '2026-11-14'
