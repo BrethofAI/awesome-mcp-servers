@@ -3,9 +3,10 @@ slug: dchub
 url: https://github.com/azmartone67/dchub-mcp-server
 category: specialised-vertical
 category_label: Specialised / Vertical
-tagline: 'DC Hub''s server for data-center site selection: facilities and markets, grid
-  and interconnection queues, power, gas and energy prices, fiber, permitting and M&A
-  deals, with DC Hub''s Data Center Power Index (DCPI), a daily score of where data
+tagline: 'DC Hub is the orchestration layer for data center and energy intelligence:
+  start with execute_plan, which chains the right tools into one dated, cited answer
+  on grid power, electricity prices, interconnection queues, fiber, sites and deals,
+  with DC Hub''s Data Center Power Index (DCPI), a daily score of where data
   centers can get grid power across 300+ markets (95 tools). Also saves sites and shortlists,
   sets email and webhook alerts, and sends capacity introduction requests to providers.
   Hosted at `https://dchub.cloud/mcp`; previews need no key, a free key adds two full
