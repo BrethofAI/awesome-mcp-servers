@@ -1,0 +1,18 @@
+name: agent-qa
+slug: agent-qa
+url: https://github.com/vostride/agent-qa
+category: browser-automation
+category_label: Browser Automation
+tagline: 'Local MCP server (20 tools) that lets a coding agent write, run and refine plain-sentence
+  end-to-end tests of web apps (Playwright) and Android and iOS apps (Appium), and read each
+  run''s steps and screenshots. Bring your own model, local ones included; it keeps notes about
+  your app between runs as files in git. Free; FSL-1.1-ALv2, source-available. Sends usage
+  and error data to PostHog and Sentry unless `analytics.privacy: true` is set.'
+tags:
+- official
+- mutating
+- local
+list: mcp-servers
+added: '2026-11-15'
+category_order: 4
+verified: '2026-11-15'

@@ -59,7 +59,7 @@ official one; if forks compete, the most active fork wins.
 - [Reference servers (MCP steering group)](#reference-servers-mcp-steering-group) (7)
 - [Files, Filesystem & Local Data](#files-filesystem--local-data) (2)
 - [Web Search & Browsing](#web-search--browsing) (12)
-- [Browser Automation](#browser-automation) (5)
+- [Browser Automation](#browser-automation) (6)
 - [Source Control](#source-control) (3)
 - [Issue Trackers & Project Management](#issue-trackers--project-management) (5)
 - [Communication](#communication) (11)
@@ -140,6 +140,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 
 ## Browser Automation
 
+- **[agent-qa](https://github.com/vostride/agent-qa)** — 🆕 new 🏷️ official ⚠️ mutating 🔒 local  
+  Local MCP server (20 tools) that lets a coding agent write, run and refine plain-sentence end-to-end tests of web apps (Playwright) and Android and iOS apps (Appium), and read each run's steps and screenshots. Bring your own model, local ones included; it keeps notes about your app between runs as files in git. Free; FSL-1.1-ALv2, source-available. Sends usage and error data to PostHog and Sentry unless `analytics.privacy: true` is set.
 - **[browser-use](https://docs.browser-use.com/open-source/customize/integrations/mcp-server)** — 🏷️ official ⚠️ mutating ☁️ hosted  
   Browser Use's own server. Local stdio (`uvx --from 'browser-use[cli]' browser-use --mcp`) gives direct browser tools (navigate, click, type, scroll, tabs, extract, screenshot) plus an autonomous agent tool that needs your OpenAI or Anthropic key. A hosted Cloud MCP at `https://api.browser-use.com/v3/mcp` (API key, pay-as-you-go credits) runs agent sessions in Browser Use's cloud.
 - **[chrome-devtools](https://github.com/ChromeDevTools/chrome-devtools-mcp)** — 🆕 new 🏷️ official ⚠️ mutating  
