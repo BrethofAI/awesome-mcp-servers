@@ -1,0 +1,19 @@
+name: oppi-digital-products
+slug: oppi-digital-products
+url: https://github.com/Reggiebro/oppi-digital-products
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'Oppi''s zero-dependency stdio server for a digital-product storefront: browse
+  a catalog of freelance prompt packs and a Notion CRM kit, pull free sample prompts,
+  get verified crypto payment addresses (USDC on Solana or Base, plus ETH, BTC, TRON,
+  LTC and DOGE), and verify a payment read-only on-chain before filing a public delivery
+  request. Paid products with free samples; MIT-licensed server.'
+tags:
+- community
+- mutating
+- crypto
+- local
+list: mcp-servers
+added: '2026-11-18'
+category_order: 15
+verified: '2026-11-18'
