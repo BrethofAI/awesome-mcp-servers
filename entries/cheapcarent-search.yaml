@@ -1,0 +1,18 @@
+name: cheapcarent-search
+slug: cheapcarent-search
+url: https://github.com/aleksandrjefimov4-crypto/cheapcarent-mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'CheapCarRent''s hosted MCP for car rental search: list pickup cities and
+  airports, then search available cars. 15,000 pickup points in 46 countries and 19
+  languages. Tools `list_locations` and `search_cars`. Endpoint `https://cheapcarent.com/mcp`
+  (Streamable HTTP, no auth, read-only). Official registry `com.cheapcarent/search`.
+  Docs: https://cheapcarent.com/developers. MIT repo.'
+tags:
+- official
+- read-only
+- hosted
+list: mcp-servers
+added: '2026-11-19'
+category_order: 15
+verified: '2026-11-19'
