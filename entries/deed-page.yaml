@@ -1,0 +1,21 @@
+name: deed.page
+slug: deed-page
+url: https://deed.page/docs
+category: operations-infrastructure
+category_label: Operations & Infrastructure
+tagline: 'Permanent static hosting for agents. Hosted at `https://deed.page/mcp`
+  (Streamable HTTP, no sign-in to publish): `publish_site` puts a files map on a
+  public HTTPS URL at the slug you pick and returns a token once for later edits;
+  31 tools in all, covering updates, versions and restore, custom domains,
+  analytics, webhooks and token rotation. Free plan with no account (25 sites,
+  25 MB each); paid plans raise limits. Companion agent skill (MIT):
+  [f-o-x11/deed-page-skill](https://github.com/f-o-x11/deed-page-skill). The hosted
+  service is proprietary.'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-11-20'
+category_order: 13
+verified: '2026-11-20'

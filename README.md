@@ -68,7 +68,7 @@ official one; if forks compete, the most active fork wins.
 - [Vector & Memory Stores](#vector--memory-stores) (9)
 - [Productivity & Notes](#productivity--notes) (10)
 - [Design & Creative](#design--creative) (16)
-- [Operations & Infrastructure](#operations--infrastructure) (15)
+- [Operations & Infrastructure](#operations--infrastructure) (16)
 - [AI & ML Platforms](#ai--ml-platforms) (7)
 - [Specialised / Vertical](#specialised--vertical) (45)
 - [Frameworks & SDKs for Building MCP Servers](#frameworks--sdks-for-building-mcp-servers) (5)
@@ -344,6 +344,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
   <sub>★ 1.1k · last push 2026-11-15</sub>
 - **[datadog](https://docs.datadoghq.com/bits_ai/mcp_server/)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
   Datadog's hosted MCP server (per-site endpoints, e.g. US1 `https://mcp.datadoghq.com/api/unstable/mcp-server/mcp`; not GovCloud): logs, metrics, monitors, dashboards, incidents, chosen via `?toolsets=`. OAuth, access token or API+app keys; write tools need the `mcp_write` permission.
+- **[deed.page](https://deed.page/docs)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
+  Permanent static hosting for agents. Hosted at `https://deed.page/mcp` (Streamable HTTP, no sign-in to publish): `publish_site` puts a files map on a public HTTPS URL at the slug you pick and returns a token once for later edits; 31 tools in all, covering updates, versions and restore, custom domains, analytics, webhooks and token rotation. Free plan with no account (25 sites, 25 MB each); paid plans raise limits. Companion agent skill (MIT): [f-o-x11/deed-page-skill](https://github.com/f-o-x11/deed-page-skill). The hosted service is proprietary.
 - **[docker-mcp-gateway](https://github.com/docker/mcp-gateway)** — 🏷️ official ⚠️ mutating  
   Docker's MCP Toolkit CLI plugin (`docker mcp`): runs catalog MCP servers in isolated containers behind one gateway, with Docker Desktop secrets management.  
   <sub>★ 1.6k · last push 2026-10-26</sub>
