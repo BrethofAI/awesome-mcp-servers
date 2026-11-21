@@ -1,0 +1,14 @@
+name: oppi-digital-products
+slug: oppi-digital-products
+url: https://github.com/Reggiebro/oppi-digital-products
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'MCP server for browsing sample-first digital products (freelancer prompt packs, Notion CRM kit), getting verified crypto payment instructions, performing read-only on-chain payment verification, and requesting manual delivery. Zero-dependency Node stdio server; install with `npx -y oppi-digital-products-mcp`. No API key required.'
+tags:
+- e-commerce
+- crypto
+- mutating
+list: mcp-servers
+added: '2026-11-21'
+category_order: 15
+verified: '2026-11-21'
