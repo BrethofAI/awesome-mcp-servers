@@ -1,0 +1,22 @@
+name: Ironheights
+slug: ironheights
+url: https://github.com/Frank-Masciopinto/ironheights
+category: operations-infrastructure
+category_label: Operations & Infrastructure
+tagline: 'Security checks for agent skills and MCP tools before you install or trust them
+  (`npx -y ironheights mcp`, local stdio, 17 tools). `check_skill` scans a local skill folder or a
+  ClawHub `owner/slug@version` and returns a fail-closed allow/blocked decision with grade, findings
+  (rule, file, line, fix) and provenance; `check_shortlist` compares candidates; `tool_manifest_check`
+  pins MCP tool descriptions and flags drift; plus `verify_check`, `drift_status`, `threatmodel_check`
+  and `get_rule`. Nothing it does changes your skills, configs or other files: it writes only its own
+  state in the Ironheights home folder (a receipt per check, plus tool pins and single-use install
+  authorizations), and contacts the network only to fetch a ClawHub skill you name. Early, rule-based,
+  and misses some plain-language attacks. No account. Apache-2.0.'
+tags:
+- official
+- read-only
+- local
+list: mcp-servers
+added: '2026-11-23'
+category_order: 13
+verified: '2026-11-23'
