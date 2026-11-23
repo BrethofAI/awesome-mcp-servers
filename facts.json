@@ -1,56 +1,56 @@
 {
- "checked": "2026-11-16",
+ "checked": "2026-11-23",
  "entries": {
   "agent-notifications": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "🔔 Cross-platform smart notifications for Claude/Codex/OpenCode/Cursor/Gemini/Qoder/Pi. Desktop alerts, sounds, click-to-focus, and webhooks. macOS, Linux, and Windows.",
     "licence": "NOASSERTION",
-    "pushed": "2026-11-16",
+    "pushed": "2026-11-23",
     "release": "v1.51.4",
     "released": "2026-11-11",
     "repo": "777genius/agent-notifications",
-    "stars": 832
+    "stars": 835
    },
    "github_ref": "777genius/agent-notifications",
    "name": "agent-notifications",
    "url": "https://github.com/777genius/agent-notifications"
   },
   "agent-payment-node": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
-    "description": "Open-source local-first payment runtime for AI agents",
+    "description": "Agent Payment Node (APN): open-source local-first payment runtime and MCP server for AI agents. x402, USDC, EVM, Solana, TRON.",
     "licence": "MIT",
-    "pushed": "2026-11-15",
-    "release": "v0.5.108",
-    "released": "2026-11-15",
+    "pushed": "2026-11-19",
+    "release": "v0.5.110",
+    "released": "2026-11-18",
     "repo": "nuanu-ai/agent-payment-node",
-    "stars": 72
+    "stars": 73
    },
    "github_ref": "nuanu-ai/agent-payment-node",
    "name": "agent-payment-node",
    "url": "https://github.com/nuanu-ai/agent-payment-node"
   },
   "agent-qa": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Open-source self-improving QA agent for software teams. A test harness with memory. Write tests in natural language for web and mobile. agent-qa learns from every run, adapts to UI changes, and catches regressions before you ship.",
     "licence": "NOASSERTION",
-    "pushed": "2026-11-14",
-    "release": "v0.3.9",
-    "released": "2026-11-14",
+    "pushed": "2026-11-22",
+    "release": "v0.3.10",
+    "released": "2026-11-19",
     "repo": "vostride/agent-qa",
-    "stars": 857
+    "stars": 820
    },
    "github_ref": "vostride/agent-qa",
    "name": "agent-qa",
    "url": "https://github.com/vostride/agent-qa"
   },
   "ai-model-watch": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "List the models each AI provider's API serves (OpenAI, Anthropic, Gemini, Mistral, xAI, DeepSeek, OpenRouter) and see what's new since the last run. Zero-dependency CLI, library and MCP server.",
@@ -66,12 +66,12 @@
    "url": "https://github.com/markksantos/ai-model-watch"
   },
   "aiagentcycle": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Read-only MCP server for aiagentcycle.com: n8n automation, AI agents, 190 integrations, prices and cases (NL/EN)",
     "licence": "MIT",
-    "pushed": "2026-11-11",
+    "pushed": "2026-11-17",
     "release": null,
     "released": null,
     "repo": "aiagentcycle/aiagentcycle-mcp",
@@ -82,7 +82,7 @@
    "url": "https://github.com/aiagentcycle/aiagentcycle-mcp"
   },
   "aident-loadout": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "aident-loadout",
    "url": "https://aident.ai",
    "web": {
@@ -92,23 +92,23 @@
    }
   },
   "aihot": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
     "licence": "MIT",
-    "pushed": "2026-11-15",
+    "pushed": "2026-11-23",
     "release": null,
     "released": null,
     "repo": "KKKKhazix/AIHOT",
-    "stars": 10739
+    "stars": 11238
    },
    "github_ref": "KKKKhazix/AIHOT",
    "name": "AIHOT",
    "url": "https://github.com/KKKKhazix/AIHOT"
   },
   "airtable": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "airtable",
    "url": "https://support.airtable.com/articles/9897799762-using-the-airtable-mcp-server",
    "web": {
@@ -118,33 +118,33 @@
    }
   },
   "api-market": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "api-market",
    "url": "https://api.market/mcp",
    "web": {
     "final": "https://api.market/mcp",
     "status": 200,
-    "title": "MCP Gateway: 3,410+ API Tools for AI Agents | API.market"
+    "title": "MCP Gateway: 6,430+ API Tools for AI Agents | API.market"
    }
   },
   "apple-notes": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "MCP server for Apple Notes - read, search, create, edit, organize, and export notes on macOS via Claude and other AI assistants",
     "licence": "MIT",
-    "pushed": "2026-11-13",
-    "release": "v2.16.8",
-    "released": "2026-11-12",
+    "pushed": "2026-11-21",
+    "release": "v2.16.11",
+    "released": "2026-11-21",
     "repo": "sweetrb/apple-notes-mcp",
-    "stars": 193
+    "stars": 198
    },
    "github_ref": "sweetrb/apple-notes-mcp",
    "name": "apple-notes",
    "url": "https://github.com/sweetrb/apple-notes-mcp"
   },
   "artigram": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "ArtiGram",
    "url": "https://artigram.cafeboon.com/connect",
    "web": {
@@ -154,7 +154,7 @@
    }
   },
   "asana": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "asana",
    "url": "https://developers.asana.com/docs/using-asanas-mcp-server",
    "web": {
@@ -164,23 +164,23 @@
    }
   },
   "atlassian": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Official remote MCP server for Atlassian. Securely connect Jira, Confluence, Jira Service Management, Bitbucket, and Compass to Claude, ChatGPT, Cursor, VS Code, and other AI tools using OAuth 2.1 or API tokens.",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-14",
+    "pushed": "2026-11-19",
     "release": null,
     "released": null,
     "repo": "atlassian/atlassian-mcp-server",
-    "stars": 1165
+    "stars": 1186
    },
    "github_ref": "atlassian/atlassian-mcp-server",
    "name": "atlassian",
    "url": "https://github.com/atlassian/atlassian-mcp-server"
   },
   "autoposting": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "autoposting",
    "url": "https://docs.autoposting.ai/mcp/overview",
    "web": {
@@ -190,23 +190,23 @@
    }
   },
   "aws": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Open source MCP Servers for AWS",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-15",
-    "release": "2026.11.20261109200750",
-    "released": "2026-11-09",
+    "pushed": "2026-11-21",
+    "release": "2026.11.20261119223057",
+    "released": "2026-11-20",
     "repo": "awslabs/mcp",
-    "stars": 9927
+    "stars": 9940
    },
    "github_ref": "awslabs/mcp",
    "name": "aws",
    "url": "https://github.com/awslabs/mcp"
   },
   "azure": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "azure",
    "url": "https://github.com/microsoft/mcp/tree/main/servers/Azure.Mcp.Server",
    "web": {
@@ -216,23 +216,23 @@
    }
   },
   "blender-mcp": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Community plugin to control Blender 3D with any LLM of your choice. Not affiliated with the official Blender Foundation.",
     "licence": "MIT",
-    "pushed": "2026-11-15",
+    "pushed": "2026-11-18",
     "release": null,
     "released": null,
     "repo": "ahujasid/mcp-for-blender",
-    "stars": 34536
+    "stars": 35392
    },
    "github_ref": "ahujasid/mcp-for-blender",
    "name": "mcp-for-blender",
    "url": "https://github.com/ahujasid/mcp-for-blender"
   },
   "blockvectra": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "BlockVectra MCP for AI agents: Robinhood Chain and multi-chain EVM RPC; keyless docs/discovery; RPC follows chain policy; Data API/account tools require an API key.",
@@ -248,7 +248,7 @@
    "url": "https://github.com/blockvectra/mcp"
   },
   "blossom-research": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "blossom-research",
    "url": "https://www.moreblossom.com/connect",
    "web": {
@@ -258,32 +258,33 @@
    }
   },
   "brainattic": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "brainattic",
    "url": "https://brainattic.ai/docs/connect",
    "web": {
-    "error": "ReadTimeout",
-    "status": null
+    "final": "https://brainattic.ai/docs/connect",
+    "status": 200,
+    "title": "Connect brainattic to Claude, Mistral & ChatGPT — Docs"
    }
   },
   "brave-search": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": null,
     "licence": "MIT",
-    "pushed": "2026-11-13",
-    "release": "v2.1.4",
-    "released": "2026-09-17",
+    "pushed": "2026-11-20",
+    "release": "v2.2.0",
+    "released": "2026-11-19",
     "repo": "brave/brave-search-mcp-server",
-    "stars": 1583
+    "stars": 1585
    },
    "github_ref": "brave/brave-search-mcp-server",
    "name": "brave-search",
    "url": "https://github.com/brave/brave-search-mcp-server"
   },
   "brethof-brain": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "brethof-brain",
    "url": "https://brethof.ai/brain/",
    "web": {
@@ -293,7 +294,7 @@
    }
   },
   "browser-use": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "browser-use",
    "url": "https://docs.browser-use.com/open-source/customize/integrations/mcp-server",
    "web": {
@@ -303,7 +304,7 @@
    }
   },
   "bulkpublish": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "bulkpublish",
    "url": "https://github.com/azeemkafridi/bulkpublish-api/tree/main/mcp-server",
    "web": {
@@ -313,7 +314,7 @@
    }
   },
   "cadre": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Official MIT-licensed Cadre editing skill and Claude plugin for local MCP-controlled macOS screen recording and video editing.",
@@ -329,7 +330,7 @@
    "url": "https://github.com/ArthurBrioche/cadre-video-editor-plugin"
   },
   "careclinic": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "careclinic",
    "url": "https://careclinic.io/careclinic-mcp/",
    "web": {
@@ -339,7 +340,7 @@
    }
   },
   "carejobs-now": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Free, hosted, read-only MCP server for US healthcare jobs and posted pay (CareJobs.Now). Endpoint: https://carejobs.now/api/mcp",
@@ -355,7 +356,7 @@
    "url": "https://github.com/yumaheymans/carejobs-mcp"
   },
   "chroma": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "A Model Context Protocol (MCP) server implementation that provides database capabilities for Chroma",
@@ -364,37 +365,37 @@
     "release": "v0.2.6",
     "released": "2025-08-14",
     "repo": "chroma-core/chroma-mcp",
-    "stars": 604
+    "stars": 605
    },
    "github_ref": "chroma-core/chroma-mcp",
    "name": "chroma",
    "url": "https://github.com/chroma-core/chroma-mcp"
   },
   "chrome-devtools": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Chrome DevTools for coding agents",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-15",
+    "pushed": "2026-11-22",
     "release": "chrome-devtools-mcp-v1.13.0",
     "released": "2026-11-11",
     "repo": "ChromeDevTools/chrome-devtools-mcp",
-    "stars": 56927
+    "stars": 58847
    },
    "github_ref": "ChromeDevTools/chrome-devtools-mcp",
    "name": "chrome-devtools",
    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
   },
   "claimidx": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Prior art for AI agents. Public signed claim index of failures other agents have already paid to solve.",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-15",
-    "release": "v0.7.25",
-    "released": "2026-11-15",
+    "pushed": "2026-11-22",
+    "release": "v0.7.31",
+    "released": "2026-11-22",
     "repo": "claimidx/claimidx",
     "stars": 3
    },
@@ -403,23 +404,23 @@
    "url": "https://github.com/claimidx/claimidx"
   },
   "clickhouse": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Connect ClickHouse to your AI assistants.",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-14",
+    "pushed": "2026-11-16",
     "release": "v0.7.0",
     "released": "2026-09-21",
     "repo": "ClickHouse/mcp-clickhouse",
-    "stars": 906
+    "stars": 914
    },
    "github_ref": "ClickHouse/mcp-clickhouse",
    "name": "clickhouse",
    "url": "https://github.com/ClickHouse/mcp-clickhouse"
   },
   "cloud-alter-ego": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "cloud-alter-ego",
    "url": "https://cloudalterego.cafeboon.com",
    "web": {
@@ -429,39 +430,39 @@
    }
   },
   "cloudflare": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "MCP server for the Cloudflare API",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-15",
+    "pushed": "2026-11-21",
     "release": null,
     "released": null,
     "repo": "cloudflare/mcp",
-    "stars": 1098
+    "stars": 1155
    },
    "github_ref": "cloudflare/mcp",
    "name": "cloudflare",
    "url": "https://github.com/cloudflare/mcp"
   },
   "cloudgpu-mcp": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
-    "description": "CloudGPU MCP server: let MCP clients rent a per-minute GPU, run a job, download results and shut it down.",
+    "description": "GPU compute for AI agents: live quotes, minute or started-hour billing, budget-capped tasks, result saving and release. Local and remote MCP.",
     "licence": "MIT",
-    "pushed": "2026-11-14",
+    "pushed": "2026-11-22",
     "release": "python-v0.1.0",
     "released": "2026-11-13",
     "repo": "cloudgpu-app/cloudgpu-mcp",
-    "stars": 1
+    "stars": 2
    },
    "github_ref": "cloudgpu-app/cloudgpu-mcp",
    "name": "CloudGPU MCP",
    "url": "https://github.com/cloudgpu-app/cloudgpu-mcp"
   },
   "coding-tools-mcp": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Give any AI agent the ability to code",
@@ -470,14 +471,14 @@
     "release": "v0.2.5",
     "released": "2026-10-28",
     "repo": "mybolide/coding-tools-mcp",
-    "stars": 438
+    "stars": 439
    },
    "github_ref": "mybolide/coding-tools-mcp",
    "name": "coding-tools-mcp",
    "url": "https://github.com/mybolide/coding-tools-mcp"
   },
   "communicate-docs": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "communicate-docs",
    "url": "https://communicate.so/mcp/server-card",
    "web": {
@@ -487,39 +488,39 @@
    }
   },
   "context7": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Context7 Platform -- Up-to-date docs for AI agents",
     "licence": "MIT",
-    "pushed": "2026-11-15",
-    "release": "@upstash/context7-mcp@4.7.0",
-    "released": "2026-11-12",
+    "pushed": "2026-11-22",
+    "release": "@upstash/context7-mcp@4.7.3",
+    "released": "2026-11-17",
     "repo": "upstash/context7",
-    "stars": 64877
+    "stars": 65295
    },
    "github_ref": "upstash/context7",
    "name": "context7",
    "url": "https://github.com/upstash/context7"
   },
   "contextstream": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "The context platform for AI agents. Code search, team decisions, and shared project context with traceable sources and scoped access, carried across sessions and tools.",
     "licence": "MIT",
-    "pushed": "2026-11-16",
-    "release": "v1.0.80",
-    "released": "2026-11-15",
+    "pushed": "2026-11-23",
+    "release": "v1.0.95",
+    "released": "2026-11-22",
     "repo": "contextstream/mcp-server",
-    "stars": 46
+    "stars": 48
    },
    "github_ref": "contextstream/mcp-server",
    "name": "contextstream",
    "url": "https://github.com/contextstream/mcp-server"
   },
   "curlshot": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "curlshot",
    "url": "https://curlshot.com/docs/guides/ai-agents",
    "web": {
@@ -529,7 +530,7 @@
    }
   },
   "datacircle": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "datacircle",
    "url": "https://datacircle.dev",
    "web": {
@@ -539,7 +540,7 @@
    }
   },
   "datadog": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "datadog",
    "url": "https://docs.datadoghq.com/bits_ai/mcp_server/",
    "web": {
@@ -549,14 +550,14 @@
    }
   },
   "dchub": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
-    "description": "DCPI (Data Center Power Index): a daily score of where data centers can get grid power, across 300+ markets. Live power-grid, energy, queue, fiber, gas & M&A data for AI agents: 96 tools, global facility map, 1,900+ tracked M&A deals. Capacity to buy or lease via source_capacity. Remote MCP at dchub.cloud/mcp. Query & cite (CC-BY-4.0).",
+    "description": "DCPI (Data Center Power Index): a daily score of where data centers can get grid power, market by market. Live power-grid, energy, queue, fiber, gas & M&A data for AI agents: a global facility map and tracked M&A deals. Capacity to buy or lease via source_capacity. Remote MCP at dchub.cloud/mcp. Query & cite (CC-BY-4.0).",
     "licence": "MIT",
-    "pushed": "2026-11-16",
-    "release": "v2.12.58",
-    "released": "2026-11-15",
+    "pushed": "2026-11-23",
+    "release": "v2.12.62",
+    "released": "2026-11-22",
     "repo": "azmartone67/dchub-mcp-server",
     "stars": 3
    },
@@ -565,7 +566,7 @@
    "url": "https://github.com/azmartone67/dchub-mcp-server"
   },
   "discord": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "A MCP server for the Discord integration. Enable your AI assistants to seamlessly interact with Discord. Enhance your Discord experience with powerful automation capabilities.",
@@ -574,30 +575,30 @@
     "release": "v1.0.0",
     "released": "2026-03-16",
     "repo": "SaseQ/discord-mcp",
-    "stars": 606
+    "stars": 615
    },
    "github_ref": "SaseQ/discord-mcp",
    "name": "discord",
    "url": "https://github.com/SaseQ/discord-mcp"
   },
   "docker": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "docker mcp CLI plugin / MCP Gateway",
     "licence": "MIT",
-    "pushed": "2026-10-26",
+    "pushed": "2026-11-19",
     "release": null,
     "released": null,
     "repo": "docker/mcp-gateway",
-    "stars": 1637
+    "stars": 1643
    },
    "github_ref": "docker/mcp-gateway",
    "name": "docker-mcp-gateway",
    "url": "https://github.com/docker/mcp-gateway"
   },
   "docsy": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Docsy MCP for ChatGPT, Claude Code, Codex & Cursor — version-specific developer docs with source links. Public plugin releases.",
@@ -613,7 +614,7 @@
    "url": "https://github.com/getremcp/docsy-plugin"
   },
   "duckduckgo": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "A Model Context Protocol (MCP) server that provides web search capabilities through DuckDuckGo, with additional features for content fetching and parsing.",
@@ -622,14 +623,14 @@
     "release": "v0.7.0",
     "released": "2026-09-04",
     "repo": "nickclyde/duckduckgo-mcp-server",
-    "stars": 1584
+    "stars": 1583
    },
    "github_ref": "nickclyde/duckduckgo-mcp-server",
    "name": "duckduckgo",
    "url": "https://github.com/nickclyde/duckduckgo-mcp-server"
   },
   "earlylore": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "EarlyLore",
    "url": "https://earlylore.com/mcp",
    "web": {
@@ -639,7 +640,7 @@
    }
   },
   "everything": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "everything",
    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/everything",
    "web": {
@@ -649,39 +650,39 @@
    }
   },
   "exa": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Exa MCP for web search and web crawling!",
     "licence": "MIT",
-    "pushed": "2026-11-05",
+    "pushed": "2026-11-21",
     "release": null,
     "released": null,
     "repo": "exa-labs/exa-mcp-server",
-    "stars": 5234
+    "stars": 5258
    },
    "github_ref": "exa-labs/exa-mcp-server",
    "name": "exa",
    "url": "https://github.com/exa-labs/exa-mcp-server"
   },
   "fastmcp": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "🚀 The fast, Pythonic way to build MCP servers and clients.",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-16",
-    "release": "v4.2.0",
-    "released": "2026-11-13",
+    "pushed": "2026-11-23",
+    "release": "v4.2.4",
+    "released": "2026-11-21",
     "repo": "PrefectHQ/fastmcp",
-    "stars": 28535
+    "stars": 28715
    },
    "github_ref": "PrefectHQ/fastmcp",
    "name": "fastmcp",
    "url": "https://github.com/PrefectHQ/fastmcp"
   },
   "fetch": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "fetch",
    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/fetch",
    "web": {
@@ -691,7 +692,7 @@
    }
   },
   "figma": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "figma",
    "url": "https://developers.figma.com/docs/figma-mcp-server/",
    "web": {
@@ -701,7 +702,7 @@
    }
   },
   "filesystem": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "filesystem",
    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem",
    "web": {
@@ -711,7 +712,7 @@
    }
   },
   "fincept": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "fincept",
    "url": "https://docs.fincept.in",
    "web": {
@@ -721,23 +722,23 @@
    }
   },
   "firecrawl": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Official Firecrawl MCP server, the context API for AI agents: search, scrape, and interact with the web, plus parse, crawl, map, Agent and Monitor, from any MCP client.",
     "licence": "MIT",
-    "pushed": "2026-11-14",
+    "pushed": "2026-11-22",
     "release": "v3.36.1",
     "released": "2026-11-03",
     "repo": "firecrawl/firecrawl-mcp-server",
-    "stars": 7833
+    "stars": 7883
    },
    "github_ref": "firecrawl/firecrawl-mcp-server",
    "name": "firecrawl",
    "url": "https://github.com/firecrawl/firecrawl-mcp-server"
   },
   "framethrower": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "MCP server for film references — connect any MCP client to a cinematography library of 5,489 films. Four tools, OAuth 2.1, $2 of credits free.",
@@ -753,7 +754,7 @@
    "url": "https://github.com/framethrower-ai/framethrower-mcp"
   },
   "git": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "git",
    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/git",
    "web": {
@@ -763,7 +764,7 @@
    }
   },
   "gitea": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "gitea",
    "url": "https://gitea.com/gitea/gitea-mcp",
    "web": {
@@ -773,23 +774,23 @@
    }
   },
   "github": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "GitHub's official MCP Server",
     "licence": "MIT",
-    "pushed": "2026-11-15",
-    "release": "v2.1.0",
-    "released": "2026-11-03",
+    "pushed": "2026-11-21",
+    "release": "v2.2.0",
+    "released": "2026-11-16",
     "repo": "github/github-mcp-server",
-    "stars": 34496
+    "stars": 34673
    },
    "github_ref": "github/github-mcp-server",
    "name": "github",
    "url": "https://github.com/github/github-mcp-server"
   },
   "gitlab": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "gitlab",
    "url": "https://docs.gitlab.com/user/model_context_protocol/mcp_server/",
    "web": {
@@ -799,12 +800,12 @@
    }
   },
   "good-nature-vibe-catalog": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Public read-only MCP server for Good Nature Vibe's product catalog and published shop knowledge. No login, cart, checkout, ordering or personal health advice.",
     "licence": "MIT",
-    "pushed": "2026-11-13",
+    "pushed": "2026-11-17",
     "release": null,
     "released": null,
     "repo": "aiagentcycle/gnv-catalog-mcp",
@@ -815,7 +816,7 @@
    "url": "https://github.com/aiagentcycle/gnv-catalog-mcp"
   },
   "google-ads-transparency-mcp": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Google Ads Transparency MCP: competitor Google ads (new, running, stopped) - hosted MCP via Apify, plus Node and Python stdio servers",
@@ -831,7 +832,7 @@
    "url": "https://github.com/GeminiGeorge22/google-ads-transparency-mcp"
   },
   "google-calendar": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "MCP integration for Google Calendar to manage events.",
@@ -840,30 +841,30 @@
     "release": "v2.8.1",
     "released": "2026-10-29",
     "repo": "nspady/google-calendar-mcp",
-    "stars": 1215
+    "stars": 1220
    },
    "github_ref": "nspady/google-calendar-mcp",
    "name": "google-calendar",
    "url": "https://github.com/nspady/google-calendar-mcp"
   },
   "google-workspace": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google Workspace MCP Server & CLI Tool",
     "licence": "MIT",
-    "pushed": "2026-11-14",
-    "release": "v2.5.0",
-    "released": "2026-11-14",
+    "pushed": "2026-11-19",
+    "release": "v2.6.0",
+    "released": "2026-11-19",
     "repo": "taylorwilsdon/google_workspace_mcp",
-    "stars": 3522
+    "stars": 3565
    },
    "github_ref": "taylorwilsdon/google_workspace_mcp",
    "name": "google-workspace",
    "url": "https://github.com/taylorwilsdon/google_workspace_mcp"
   },
   "google-workspace-official": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "google-workspace-official",
    "url": "https://developers.google.com/workspace/guides/configure-mcp-servers",
    "web": {
@@ -873,7 +874,7 @@
    }
   },
   "govisit": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "GoVisit Tools",
    "url": "https://govisit.ai/en/docs/developers/mcp/overview",
    "web": {
@@ -883,28 +884,28 @@
    }
   },
   "grafana": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "MCP server for Grafana",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-13",
+    "pushed": "2026-11-21",
     "release": "v2.3.0",
     "released": "2026-11-10",
     "repo": "grafana/mcp-grafana",
-    "stars": 3669
+    "stars": 3694
    },
    "github_ref": "grafana/mcp-grafana",
    "name": "grafana",
    "url": "https://github.com/grafana/mcp-grafana"
   },
   "helm": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "MCP server for Helm package manager",
     "licence": "MIT",
-    "pushed": "2026-11-12",
+    "pushed": "2026-11-22",
     "release": "v1.4.3",
     "released": "2026-10-23",
     "repo": "zekker6/mcp-helm",
@@ -915,12 +916,12 @@
    "url": "https://github.com/zekker6/mcp-helm"
   },
   "holos33": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Public read-only MCP server with sourced facts about Holos33, an EU privacy-first wellbeing platform: modules, Early Access, privacy, access and contact. No medical advice.",
     "licence": "MIT",
-    "pushed": "2026-11-04",
+    "pushed": "2026-11-17",
     "release": null,
     "released": null,
     "repo": "aiagentcycle/holos33-mcp",
@@ -931,7 +932,7 @@
    "url": "https://github.com/aiagentcycle/holos33-mcp"
   },
   "hubspot": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "hubspot",
    "url": "https://developers.hubspot.com/mcp",
    "web": {
@@ -941,44 +942,37 @@
    }
   },
   "huggingface": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Hugging Face MCP Server",
     "licence": "MIT",
-    "pushed": "2026-11-10",
-    "release": "v0.4.34",
-    "released": "2026-11-10",
+    "pushed": "2026-11-19",
+    "release": "v0.4.38",
+    "released": "2026-11-19",
     "repo": "huggingface/hf-mcp-server",
-    "stars": 317
+    "stars": 325
    },
    "github_ref": "huggingface/hf-mcp-server",
    "name": "huggingface",
    "url": "https://github.com/huggingface/hf-mcp-server"
   },
   "ichi-mcp": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
-    "archived": false,
-    "description": "MCP stdio server for the free ICHI (Internet Cyber Health Index) public API at ichi.global",
-    "licence": "MIT",
-    "pushed": "2026-11-11",
-    "release": "v0.1.1",
-    "released": "2026-11-07",
-    "repo": "bernik-bot/ichi-mcp",
-    "stars": 0
+    "gone": true
    },
    "github_ref": "bernik-bot/ichi-mcp",
    "name": "ichi-mcp",
    "url": "https://github.com/bernik-bot/ichi-mcp"
   },
   "imageat": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Official MCP server for imageat — AI image and video generation for AI assistants. Generate images and videos, and use 20+ editing tools (background remove/replace, inpainting, object eraser, relight, virtual try-on) directly from Claude, ChatGPT, Cursor, or any MCP-compatible client.",
     "licence": "MIT",
-    "pushed": "2026-11-12",
+    "pushed": "2026-11-19",
     "release": null,
     "released": null,
     "repo": "incendies/imageat-mcp",
@@ -989,7 +983,7 @@
    "url": "https://github.com/incendies/imageat-mcp"
   },
   "imagera": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "imagera",
    "url": "https://imagera.ai/mcp",
    "web": {
@@ -999,7 +993,7 @@
    }
   },
   "inkroom": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "inkroom",
    "url": "https://inkroom.ai/en/solutions/mcp-server",
    "web": {
@@ -1009,7 +1003,7 @@
    }
   },
   "invokely": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "invokely",
    "url": "https://invokely.ai/docs",
    "web": {
@@ -1019,7 +1013,7 @@
    }
   },
   "invompt": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Create invoices, quotes, estimates, and pro formas from your AI assistant. Review before sending. Hosted MCP with OAuth; start without an account.",
@@ -1035,7 +1029,7 @@
    "url": "https://github.com/Invompt/invompt-mcp"
   },
   "jobspipe": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Hosted MCP server for JobsPipe: search live job postings from 30+ ATS feeds and job boards. Live (Bearer key): https://mcp.jobspipe.dev/mcp - no-key demo: https://jobspipe.dev/mcp",
@@ -1051,23 +1045,23 @@
    "url": "https://github.com/jobspipe/mcp"
   },
   "kilobat": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "macOS network diagnostics CLI and MCP server",
     "licence": "GPL-3.0",
-    "pushed": "2026-11-05",
+    "pushed": "2026-11-22",
     "release": "v0.45.1",
     "released": "2026-11-02",
     "repo": "seifip/kilobat-cli",
-    "stars": 1
+    "stars": 6
    },
    "github_ref": "seifip/kilobat-cli",
    "name": "kilobat",
    "url": "https://github.com/seifip/kilobat-cli"
   },
   "kleap": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Website infrastructure for AI agents — the Kleap MCP server & CLI. Drive Kleap from Claude, ChatGPT or Cursor: create, edit and publish real websites with the verified-live guarantee.",
@@ -1083,7 +1077,7 @@
    "url": "https://github.com/kleaphq/cli"
   },
   "kling-ai": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "Kling AI",
    "url": "https://kling.ai/app/mcp/guide",
    "web": {
@@ -1093,28 +1087,28 @@
    }
   },
   "kubernetes": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "MCP Server for kubernetes management commands",
     "licence": "MIT",
-    "pushed": "2026-11-13",
+    "pushed": "2026-11-18",
     "release": "v4.2.3",
     "released": "2026-11-13",
     "repo": "Flux159/mcp-server-kubernetes",
-    "stars": 1612
+    "stars": 1614
    },
    "github_ref": "Flux159/mcp-server-kubernetes",
    "name": "kubernetes",
    "url": "https://github.com/Flux159/mcp-server-kubernetes"
   },
   "lantern-works": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
-    "description": "Agent work-stack deals page + query helpers (smoke test)",
+    "description": "Lantern Works MCP server: live GPU cloud stock, pricing and deals for AI agents. Hosted, free, no API key.",
     "licence": "MIT",
-    "pushed": "2026-11-16",
+    "pushed": "2026-11-23",
     "release": null,
     "released": null,
     "repo": "connormatthewdouglas/agent-work-stack-deals",
@@ -1125,12 +1119,12 @@
    "url": "https://github.com/connormatthewdouglas/agent-work-stack-deals"
   },
   "lifeverse": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Public read-only MCP server for discovering and recommending LifeVerse products.",
     "licence": "MIT",
-    "pushed": "2026-10-28",
+    "pushed": "2026-11-16",
     "release": null,
     "released": null,
     "repo": "lifeversegu/lifeverse-mcp",
@@ -1141,7 +1135,7 @@
    "url": "https://github.com/lifeversegu/lifeverse-mcp"
   },
   "linear": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "linear",
    "url": "https://linear.app/docs/mcp",
    "web": {
@@ -1151,7 +1145,7 @@
    }
   },
   "llm-pulse": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "llm-pulse",
    "url": "https://llmpulse.ai/features/mcp",
    "web": {
@@ -1161,7 +1155,7 @@
    }
   },
   "looot": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "looot MCP bridge, registry entry and install steps",
@@ -1177,7 +1171,7 @@
    "url": "https://github.com/loootai/looot-mcp"
   },
   "mac-mcp": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Let your AI apps use your Mac: a local server and menu bar app that lets Claude, ChatGPT, Codex and other MCP apps work in your Mac's apps, files, terminal and browser, with approvals you control.",
@@ -1186,14 +1180,14 @@
     "release": "v2.3.1-r5",
     "released": "2026-10-28",
     "repo": "bulutarkan/mac-mcp",
-    "stars": 98
+    "stars": 99
    },
    "github_ref": "bulutarkan/mac-mcp",
    "name": "mac-mcp",
    "url": "https://github.com/bulutarkan/mac-mcp"
   },
   "madeonsol": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "MCP server for MadeOnSol Solana KOL intelligence — use from Claude, Cursor, or any MCP client",
@@ -1209,12 +1203,12 @@
    "url": "https://github.com/MadeOnSol/mcp-server-madeonsol"
   },
   "magic-hour": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Hosted MCP server for generating and editing video, images, and audio with the Magic Hour API.",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-14",
+    "pushed": "2026-11-22",
     "release": null,
     "released": null,
     "repo": "magichourhq/magic-hour-mcp",
@@ -1225,23 +1219,23 @@
    "url": "https://github.com/magichourhq/magic-hour-mcp"
   },
   "mcp-go": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "The official Go SDK for Model Context Protocol servers and clients. Maintained in collaboration with Google.",
     "licence": "NOASSERTION",
-    "pushed": "2026-11-13",
+    "pushed": "2026-11-20",
     "release": "v1.8.0",
     "released": "2026-09-14",
     "repo": "modelcontextprotocol/go-sdk",
-    "stars": 5349
+    "stars": 5383
    },
    "github_ref": "modelcontextprotocol/go-sdk",
    "name": "mcp-go",
    "url": "https://github.com/modelcontextprotocol/go-sdk"
   },
   "mcp-probe-kit": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Spec-driven dev workflow MCP for Cursor & AI agents — start_feature/bugfix orchestration, auto Skill+AGENTS bootstrap, memory, GitNexus. npx -y mcp-probe-kit@latest",
@@ -1257,39 +1251,39 @@
    "url": "https://github.com/mybolide/mcp-probe-kit"
   },
   "mcp-python": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "The official Python SDK for Model Context Protocol servers and clients",
     "licence": "MIT",
-    "pushed": "2026-11-05",
+    "pushed": "2026-11-17",
     "release": "v2.3.0",
     "released": "2026-10-02",
     "repo": "modelcontextprotocol/python-sdk",
-    "stars": 24868
+    "stars": 24941
    },
    "github_ref": "modelcontextprotocol/python-sdk",
    "name": "mcp-python",
    "url": "https://github.com/modelcontextprotocol/python-sdk"
   },
   "mcp-typescript": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "The official TypeScript SDK for Model Context Protocol servers and clients",
     "licence": "NOASSERTION",
-    "pushed": "2026-11-10",
+    "pushed": "2026-11-19",
     "release": "v2.4.0",
     "released": "2026-10-23",
     "repo": "modelcontextprotocol/typescript-sdk",
-    "stars": 13770
+    "stars": 13807
    },
    "github_ref": "modelcontextprotocol/typescript-sdk",
    "name": "mcp-typescript",
    "url": "https://github.com/modelcontextprotocol/typescript-sdk"
   },
   "mcpkit-yandex-direct": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Free-to-use cloud MCP server for Yandex Direct. Analyze PPC campaigns and manage ads in ChatGPT, with three tools and on-demand command details. By MCPKit.",
@@ -1305,7 +1299,7 @@
    "url": "https://github.com/MCPKit-RU/yandex-direct-mcp"
   },
   "mcpkit-yandex-metrica": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Free-to-use cloud MCP server for Yandex Metrica. Explore traffic, goals and period comparisons in ChatGPT with on-demand command details. By MCPKit.",
@@ -1321,7 +1315,7 @@
    "url": "https://github.com/MCPKit-RU/yandex-metrika-mcp"
   },
   "mcpkit-yandex-wordstat": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Cloud MCP server for Yandex Wordstat keyword research in ChatGPT. MCPKit access is currently free; Yandex API usage is billed separately.",
@@ -1337,7 +1331,7 @@
    "url": "https://github.com/MCPKit-RU/yandex-wordstat-mcp"
   },
   "melso": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "melso",
    "url": "https://melso.ai/en/mcp",
    "web": {
@@ -1347,7 +1341,7 @@
    }
   },
   "memory": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "memory",
    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/memory",
    "web": {
@@ -1357,7 +1351,7 @@
    }
   },
   "microsoft-learn": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "microsoft-learn",
    "url": "https://learn.microsoft.com/en-us/training/support/mcp",
    "web": {
@@ -1367,23 +1361,23 @@
    }
   },
   "mongodb": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "A Model Context Protocol server to connect to MongoDB databases and MongoDB Atlas Clusters.",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-15",
+    "pushed": "2026-11-20",
     "release": "v3.3.0",
     "released": "2026-11-09",
     "repo": "mongodb-js/mongodb-mcp-server",
-    "stars": 1162
+    "stars": 1163
    },
    "github_ref": "mongodb-js/mongodb-mcp-server",
    "name": "mongodb",
    "url": "https://github.com/mongodb-js/mongodb-mcp-server"
   },
   "moss": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "moss",
    "url": "https://www.npmjs.com/package/@moss-tools/mcp-server",
    "web": {
@@ -1393,7 +1387,7 @@
    }
   },
   "mysql": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "A Model Context Protocol server that provides read-only access to MySQL databases. This server enables LLMs to inspect database schemas and execute read-only queries.",
@@ -1402,30 +1396,30 @@
     "release": "v2.0.9",
     "released": "2026-06-19",
     "repo": "benborla/mcp-server-mysql",
-    "stars": 2221
+    "stars": 2227
    },
    "github_ref": "benborla/mcp-server-mysql",
    "name": "mysql",
    "url": "https://github.com/benborla/mcp-server-mysql"
   },
   "neo4j": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Neo4j official MCP Server",
     "licence": "NOASSERTION",
-    "pushed": "2026-11-15",
+    "pushed": "2026-11-20",
     "release": "v2.1.1",
     "released": "2026-11-11",
     "repo": "neo4j/mcp",
-    "stars": 307
+    "stars": 309
    },
    "github_ref": "neo4j/mcp",
    "name": "neo4j",
    "url": "https://github.com/neo4j/mcp"
   },
   "neverapply": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Plugin manifests for the hosted NeverApply MCP server (Cursor, Grok Build)",
@@ -1441,7 +1435,7 @@
    "url": "https://github.com/kasovy/neverapply-mcp"
   },
   "notion": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "notion",
    "url": "https://developers.notion.com/guides/mcp/overview",
    "web": {
@@ -1451,7 +1445,7 @@
    }
   },
   "obsidian": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "MCP server that interacts with Obsidian via the Obsidian rest API community plugin",
@@ -1460,14 +1454,14 @@
     "release": null,
     "released": null,
     "repo": "MarkusPfundstein/mcp-obsidian",
-    "stars": 4539
+    "stars": 4549
    },
    "github_ref": "MarkusPfundstein/mcp-obsidian",
    "name": "obsidian",
    "url": "https://github.com/MarkusPfundstein/mcp-obsidian"
   },
   "orano-personal-context-mcp": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "ORANO Personal Context MCP",
    "url": "https://oranoai.com/mcp/docs",
    "web": {
@@ -1477,7 +1471,7 @@
    }
   },
   "orbit": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "orbit",
    "url": "https://github.com/Noveum/orbit/blob/main/docs/mcp.md",
    "web": {
@@ -1487,23 +1481,23 @@
    }
   },
   "orkas-video-studio": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
-    "description": "Turn your coding agent into a video studio: describe a video in plain language, and your agent writes the timeline and produces the file.",
+    "description": "Open-source alternative to Claude Motion and CapCut: your coding agent (Claude Code, Codex, Cursor) edits footage, designs motion graphics, adds narration and captions, and renders a checked MP4. Also built into the Orkas desktop app.",
     "licence": "MIT",
-    "pushed": "2026-11-15",
-    "release": "v2026.11.15",
-    "released": "2026-11-15",
+    "pushed": "2026-11-22",
+    "release": "v2026.11.17",
+    "released": "2026-11-17",
     "repo": "Orkas-AI/Orkas-VideoStudio",
-    "stars": 349
+    "stars": 350
    },
    "github_ref": "Orkas-AI/Orkas-VideoStudio",
    "name": "orkas-video-studio",
    "url": "https://github.com/Orkas-AI/Orkas-VideoStudio"
   },
   "ormas": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "Ormas Outcomes",
    "url": "https://ormas.ai/docs/first-task",
    "web": {
@@ -1513,7 +1507,7 @@
    }
   },
   "ottoquest": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "ottoquest",
    "url": "https://ottoquest.com/mcp",
    "web": {
@@ -1523,7 +1517,7 @@
    }
   },
   "panda-greetings": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Panda Greetings MCP server: printed greeting card designs with your message inside, for ChatGPT, Claude and other AI assistants.",
@@ -1539,7 +1533,7 @@
    "url": "https://github.com/Gerti05/panda-greetings-mcp"
   },
   "perplexity": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "The official MCP server implementation for the Perplexity API Platform",
@@ -1548,14 +1542,14 @@
     "release": null,
     "released": null,
     "repo": "perplexityai/modelcontextprotocol",
-    "stars": 2633
+    "stars": 2651
    },
    "github_ref": "perplexityai/modelcontextprotocol",
    "name": "perplexity",
    "url": "https://github.com/perplexityai/modelcontextprotocol"
   },
   "pic2svg": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "pic2svg",
    "url": "https://pic2svg.com/mcp/",
    "web": {
@@ -1565,7 +1559,7 @@
    }
   },
   "pinecone": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Connect your Pinecone projects to Cursor, Claude, and other AI assistants",
@@ -1581,7 +1575,7 @@
    "url": "https://github.com/pinecone-io/pinecone-mcp"
   },
   "placecall": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "placecall",
    "url": "https://voygr.tech/placecall/",
    "web": {
@@ -1591,7 +1585,7 @@
    }
   },
   "playable-gift": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "playable-gift",
    "url": "https://playablegift.com/agents",
    "web": {
@@ -1601,23 +1595,23 @@
    }
   },
   "playwright": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Playwright MCP server",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-15",
-    "release": "v0.0.85",
-    "released": "2026-11-09",
+    "pushed": "2026-11-18",
+    "release": "v0.0.86",
+    "released": "2026-11-18",
     "repo": "microsoft/playwright-mcp",
-    "stars": 39690
+    "stars": 40017
    },
    "github_ref": "microsoft/playwright-mcp",
    "name": "playwright",
    "url": "https://github.com/microsoft/playwright-mcp"
   },
   "plugmcp-directory": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "One MCP server that finds the rest. Search 70,000+ MCP servers and agent skills, compare them, and get install configs for Cursor, Claude, VS Code, Codex, Grok Bot and more.",
@@ -1633,7 +1627,7 @@
    "url": "https://github.com/plugmcp-ai/plugmcp-mcp"
   },
   "plushsource": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "MCP server + open, facts-only list of 55 custom plush manufacturers (MOQ, lead times, OEM/ODM, certifications) by country. Add or correct a manufacturer via issue or PR. Search and compare them all at https://plushsource.com",
@@ -1649,7 +1643,7 @@
    "url": "https://github.com/quickman924/plushsource-mcp"
   },
   "pocket-drives": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Public listing for the Pocket Drives remote MCP (https://pocketdrives.ai/mcp). Search and quote luxury, exotic, and EV rentals from independent hosts.",
@@ -1665,7 +1659,7 @@
    "url": "https://github.com/RevList/pocket-drives-mcp"
   },
   "postgres-mcp": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Postgres MCP Pro provides configurable read/write access and performance analysis for you and your AI agents.",
@@ -1674,14 +1668,14 @@
     "release": "v0.3.0",
     "released": "2025-05-16",
     "repo": "crystaldba/postgres-mcp",
-    "stars": 3477
+    "stars": 3494
    },
    "github_ref": "crystaldba/postgres-mcp",
    "name": "postgres-mcp",
    "url": "https://github.com/crystaldba/postgres-mcp"
   },
   "process-street": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "process-street",
    "url": "https://www.process.st/help/docs/mcp-server/",
    "web": {
@@ -1691,39 +1685,39 @@
    }
   },
   "qdrant": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "An official Qdrant Model Context Protocol (MCP) server implementation",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-10",
+    "pushed": "2026-11-20",
     "release": "v0.8.1",
     "released": "2025-12-10",
     "repo": "qdrant/mcp-server-qdrant",
-    "stars": 1570
+    "stars": 1575
    },
    "github_ref": "qdrant/mcp-server-qdrant",
    "name": "qdrant",
    "url": "https://github.com/qdrant/mcp-server-qdrant"
   },
   "remcp": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Remote MCP access to computers you explicitly pair — files, terminal, desktop UI, browser automation, diagnostics, and documents.",
     "licence": "MIT",
-    "pushed": "2026-11-15",
-    "release": "v0.2.258",
-    "released": "2026-11-15",
+    "pushed": "2026-11-21",
+    "release": "v0.2.264",
+    "released": "2026-11-21",
     "repo": "getremcp/remcp",
-    "stars": 4
+    "stars": 5
    },
    "github_ref": "getremcp/remcp",
    "name": "remcp",
    "url": "https://github.com/getremcp/remcp"
   },
   "remotify-mcp": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "remotify-mcp",
    "url": "https://github.com/onlsol/relay.remotify.run/tree/main/mcp",
    "web": {
@@ -1733,7 +1727,7 @@
    }
   },
   "robot-speed": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "robot-speed",
    "url": "https://www.robot-speed.com/mcp",
    "web": {
@@ -1743,12 +1737,12 @@
    }
   },
   "runapi": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "RunAPI MCP server for model discovery, pricing lookup, media task creation, and balance checks.",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-10",
+    "pushed": "2026-11-17",
     "release": "v0.17.0",
     "released": "2026-10-29",
     "repo": "runapi-ai/mcp",
@@ -1759,7 +1753,7 @@
    "url": "https://github.com/runapi-ai/mcp"
   },
   "saas-pro-max": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "saas-pro-max",
    "url": "https://saaspro.dev/docs/mcp",
    "web": {
@@ -1769,7 +1763,7 @@
    }
   },
   "screenpipe": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "screenpipe",
    "url": "https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp",
    "web": {
@@ -1779,23 +1773,23 @@
    }
   },
   "sentry": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Agentic tooling for Sentry",
     "licence": "NOASSERTION",
-    "pushed": "2026-11-15",
+    "pushed": "2026-11-22",
     "release": "0.42.0",
     "released": "2026-09-25",
     "repo": "getsentry/toolkit",
-    "stars": 963
+    "stars": 973
    },
    "github_ref": "getsentry/toolkit",
    "name": "sentry",
    "url": "https://github.com/getsentry/toolkit"
   },
   "sequentialthinking": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "sequentialthinking",
    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
    "web": {
@@ -1805,23 +1799,23 @@
    }
   },
   "sfxmint": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
-    "description": "Free CC0 sound effects — describe a sound to find it, preview, and download MP3 (WAV with the download pack). MCP server + Agent Skill: ask by role, take one of 19 sets, or search; permanent hotlinkable URLs. Free to try with no signup or API key, no attribution.",
+    "description": "Free CC0 sound effects for apps and games: describe a sound to find it, preview, and get WAV or MP3. MCP server + Agent Skill: ask by role, take one of 26 sets, or search; permanent hotlinkable URLs. Search needs no signup; a free account's API key gives 3 downloads a day. No attribution.",
     "licence": "CC0-1.0",
-    "pushed": "2026-11-13",
+    "pushed": "2026-11-17",
     "release": null,
     "released": null,
     "repo": "sfxmint/sfxmint-mcp",
-    "stars": 8
+    "stars": 9
    },
    "github_ref": "sfxmint/sfxmint-mcp",
    "name": "sfxmint",
    "url": "https://github.com/sfxmint/sfxmint-mcp"
   },
   "shipvela": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Publish websites from Codex, Claude, Cursor, Copilot, Gemini CLI and Cline. OAuth MCP connector, publishing skill and template kit.",
@@ -1837,7 +1831,7 @@
    "url": "https://github.com/stefanautomateed/shipvela-codex"
   },
   "sitepatent": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "sitepatent",
    "url": "https://sitepatent.com/mcp",
    "web": {
@@ -1847,7 +1841,7 @@
    }
   },
   "slack": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "slack",
    "url": "https://docs.slack.dev/ai/slack-mcp-server/",
    "web": {
@@ -1857,7 +1851,7 @@
    }
   },
   "social-expert": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "social-expert",
    "url": "https://socialexpert.app/tiktok-mcp",
    "web": {
@@ -1867,7 +1861,7 @@
    }
   },
   "sports-odds-mcp": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Sports Odds API (Kambi sportsbooks) — hosted MCP server via Apify",
@@ -1883,12 +1877,12 @@
    "url": "https://github.com/GeminiGeorge22/sports-odds-mcp"
   },
   "spotify": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Modern MCP to connect AI agents like Claude to Spotify. This fork is token-efficient, implements most of the Spotify API, including intelligent batch-tools",
     "licence": "MIT",
-    "pushed": "2026-11-13",
+    "pushed": "2026-11-20",
     "release": "v0.9.2",
     "released": "2026-11-07",
     "repo": "jamiew/spotify-mcp",
@@ -1899,7 +1893,7 @@
    "url": "https://github.com/jamiew/spotify-mcp"
   },
   "spotify-play-count-mcp": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Spotify Play Count MCP: play counts, monthly listeners and followers for any track, album, artist or playlist - hosted MCP via Apify, plus Node and Python stdio servers",
@@ -1915,7 +1909,7 @@
    "url": "https://github.com/GeminiGeorge22/spotify-play-count-mcp"
   },
   "statsnet": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Statsnet remote MCP — world background check for any company (https://statsnet.co/mcp)",
@@ -1931,7 +1925,7 @@
    "url": "https://github.com/usenetstate/statsnet-mcp"
   },
   "stripe": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "stripe",
    "url": "https://docs.stripe.com/mcp",
    "web": {
@@ -1941,23 +1935,23 @@
    }
   },
   "supabase": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Connect Supabase to your AI assistants",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-14",
-    "release": "mcp-server-supabase-v0.17.0",
-    "released": "2026-11-13",
+    "pushed": "2026-11-21",
+    "release": "mcp-server-supabase-v0.19.0",
+    "released": "2026-11-20",
     "repo": "supabase/mcp",
-    "stars": 3014
+    "stars": 3023
    },
    "github_ref": "supabase/mcp",
    "name": "supabase",
    "url": "https://github.com/supabase/mcp"
   },
   "synci": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Documentation and setup examples for Synci: hosted, read-only MCP access to connected bank, brokerage, and crypto accounts.",
@@ -1973,7 +1967,7 @@
    "url": "https://github.com/synciio/synci-mcp"
   },
   "synento": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "synento",
    "url": "https://synento.com/docs/guides/mcp",
    "web": {
@@ -1983,55 +1977,55 @@
    }
   },
   "tale": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Open-source project workspace for teams and AI agents. Assign tasks, coordinate agents in persistent sandboxes, and review results together. Self-hosted or managed cloud.",
     "licence": "MIT",
-    "pushed": "2026-11-16",
-    "release": "v0.5.106",
-    "released": "2026-11-14",
+    "pushed": "2026-11-21",
+    "release": "v0.5.107",
+    "released": "2026-11-16",
     "repo": "tale-project/tale",
-    "stars": 44
+    "stars": 47
    },
    "github_ref": "tale-project/tale",
    "name": "tale",
    "url": "https://github.com/tale-project/tale"
   },
   "tavily": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Production ready MCP server with real-time search, extract, map & crawl.",
     "licence": "MIT",
-    "pushed": "2026-11-13",
+    "pushed": "2026-11-18",
     "release": null,
     "released": null,
     "repo": "tavily-ai/tavily-mcp",
-    "stars": 2492
+    "stars": 2499
    },
    "github_ref": "tavily-ai/tavily-mcp",
    "name": "tavily",
    "url": "https://github.com/tavily-ai/tavily-mcp"
   },
   "telegram": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "Telegram MCP server powered by Telethon to let MCP clients read chats, manage groups, and send/modify messages, media, contacts, and settings.",
     "licence": "Apache-2.0",
-    "pushed": "2026-11-14",
-    "release": "v3.3.22",
-    "released": "2026-11-14",
+    "pushed": "2026-11-22",
+    "release": "v3.3.28",
+    "released": "2026-11-22",
     "repo": "chigwell/telegram-mcp",
-    "stars": 2047
+    "stars": 2082
    },
    "github_ref": "chigwell/telegram-mcp",
    "name": "telegram",
    "url": "https://github.com/chigwell/telegram-mcp"
   },
   "time": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "time",
    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/time",
    "web": {
@@ -2041,7 +2035,7 @@
    }
   },
   "trello": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "trello",
    "url": "https://support.atlassian.com/trello/docs/connect-trello-to-ai-assistants-with-trello-mcp/",
    "web": {
@@ -2051,7 +2045,7 @@
    }
   },
   "trends-mcp": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "MCP server for live trend data. Query Google Search, YouTube, TikTok, Reddit, Amazon, Wikipedia, News sentiment, Web Traffic, App Downloads, Steam, npm and more. Works with Claude, Cursor, VS Code, GitHub Copilot, ChatGPT, Windsurf, Cline, Raycast and any MCP-compatible.",
@@ -2060,14 +2054,14 @@
     "release": null,
     "released": null,
     "repo": "trendsmcp-ai/Trends-MCP",
-    "stars": 48
+    "stars": 49
    },
    "github_ref": "trendsmcp-ai/Trends-MCP",
    "name": "trends-mcp",
    "url": "https://github.com/trendsmcp-ai/Trends-MCP"
   },
   "vaneform": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "MCP server, CLI and agent skill for Vaneform: free website traffic checker (monthly visits, traffic sources, top countries, domain compares)",
@@ -2083,7 +2077,7 @@
    "url": "https://github.com/vaneform/vaneform-mcp"
   },
   "vercel": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "vercel",
    "url": "https://vercel.com/docs/agent-resources/vercel-mcp",
    "web": {
@@ -2093,12 +2087,12 @@
    }
   },
   "videogen": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "MCP server for the VideoGen API (https://videogen.io)",
     "licence": "MIT",
-    "pushed": "2026-10-25",
+    "pushed": "2026-11-17",
     "release": null,
     "released": null,
     "repo": "video-gen/videogen-mcp",
@@ -2109,7 +2103,7 @@
    "url": "https://github.com/video-gen/videogen-mcp"
   },
   "weaviate": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "weaviate",
    "url": "https://docs.weaviate.io/weaviate/configuration/mcp-server",
    "web": {
@@ -2119,7 +2113,7 @@
    }
   },
   "wine-labs": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "wine-labs",
    "url": "https://winelabs.ai/agents",
    "web": {
@@ -2129,23 +2123,23 @@
    }
   },
   "xmcp": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "github": {
     "archived": false,
     "description": "The TypeScript MCP framework",
     "licence": "MIT",
-    "pushed": "2026-11-15",
+    "pushed": "2026-11-22",
     "release": "@xmcp-dev/compiler@1.10.0",
     "released": "2026-11-13",
     "repo": "basementstudio/xmcp",
-    "stars": 1350
+    "stars": 1354
    },
    "github_ref": "basementstudio/xmcp",
    "name": "xmcp",
    "url": "https://github.com/basementstudio/xmcp"
   },
   "zapier": {
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "name": "zapier",
    "url": "https://docs.zapier.com/mcp/home",
    "web": {
