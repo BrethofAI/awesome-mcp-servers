@@ -1,0 +1,20 @@
+name: email59
+slug: email59
+url: https://b59.link/wl-brethof-mcp-email59
+category: communication
+category_label: Communication
+tagline: 'email59''s hosted MCP server for transactional email, opt-in campaigns,
+  address and list checks, email-code verification, blocklists, API keys and test
+  messages. Connect at `https://email59.com/v1/mcp` over HTTP; public tools can
+  check an address without a key, while account tools use OAuth 2.1 or a bearer
+  key and can send mail, change recipient lists or open a checkout link. Sending
+  is limited to transactional mail and marketing with recorded consent; cold or
+  bought lists are refused. The service is proprietary; API and MCP documentation
+  is public.'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-11-23'
+category_order: 7
