@@ -62,7 +62,7 @@ official one; if forks compete, the most active fork wins.
 - [Browser Automation](#browser-automation) (6)
 - [Source Control](#source-control) (3)
 - [Issue Trackers & Project Management](#issue-trackers--project-management) (5)
-- [Communication](#communication) (11)
+- [Communication](#communication) (12)
 - [Relational Databases](#relational-databases) (4)
 - [NoSQL & Document Databases](#nosql--document-databases) (2)
 - [Vector & Memory Stores](#vector--memory-stores) (9)
@@ -195,6 +195,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 - **[discord](https://github.com/SaseQ/discord-mcp)** — 🏷️ community ⚠️ mutating  
   Discord bot (needs a bot token): send, edit, read, and react to messages and DMs; manage channels, roles, webhooks, events, invites, and forums; kick, ban, and timeout members.  
   <sub>★ 606 · v1.0.0 (2026-03-16)</sub>
+- **[email59](https://b59.link/wl-brethof-mcp-email59)** — 🆕 new 🏷️ official ⚠️ mutating ☁️ hosted  
+  email59's hosted MCP server for transactional email, opt-in campaigns, address and list checks, email-code verification, blocklists, API keys and test messages. Connect at `https://email59.com/v1/mcp` over HTTP; public tools can check an address without a key, while account tools use OAuth 2.1 or a bearer key and can send mail, change recipient lists or open a checkout link. Sending is limited to transactional mail and marketing with recorded consent; cold or bought lists are refused. The service is proprietary; API and MCP documentation is public.
 - **[google-workspace](https://github.com/taylorwilsdon/google_workspace_mcp)** — 🏷️ community ⚠️ mutating  
   Gmail, Calendar, Drive, Docs, Sheets, Chat, Forms, Tasks, Apps Script and more behind one server (120+ tools in core/extended/complete tiers; --read-only available). Uses your own Google OAuth client.  
   <sub>★ 3.5k · v2.5.0 (2026-11-14)</sub>
