@@ -1,0 +1,16 @@
+name: skool-community-mcp
+slug: skool-community-mcp
+url: https://github.com/GeminiGeorge22/publicrecords-mcp/tree/main/servers/skool-community-mcp
+category: web-search-browsing
+category_label: Web Search & Browsing
+tagline: 'Search Skool communities by keyword. Members, price, rating and estimated
+  monthly revenue for each, plus daily growth tracking. Hosted at
+  `https://mcp.apify.com?tools=publicrecords/skool-community-growth-tracker` (Apify OAuth or your own Apify token).
+  Read-only. Billed to your Apify account (pay-per-event).'
+tags:
+- read-only
+- hosted
+- paid
+list: mcp-servers
+added: '2026-11-23'
+category_order: 3

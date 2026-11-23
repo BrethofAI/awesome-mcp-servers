@@ -58,7 +58,7 @@ official one; if forks compete, the most active fork wins.
 
 - [Reference servers (MCP steering group)](#reference-servers-mcp-steering-group) (7)
 - [Files, Filesystem & Local Data](#files-filesystem--local-data) (2)
-- [Web Search & Browsing](#web-search--browsing) (12)
+- [Web Search & Browsing](#web-search--browsing) (13)
 - [Browser Automation](#browser-automation) (6)
 - [Source Control](#source-control) (3)
 - [Issue Trackers & Project Management](#issue-trackers--project-management) (5)
@@ -135,6 +135,8 @@ Reference implementations maintained by the MCP steering group, kept in [modelco
 - **[perplexity](https://github.com/perplexityai/modelcontextprotocol)** — 🏷️ official 🛡️ read-only ☁️ hosted 💰 paid  
   Perplexity's official server for its API Platform: web search, quick answers, deep research and reasoning, with citations. Hosted at `https://api.perplexity.ai/mcp` (OAuth or API key), or `npx @perplexity-ai/mcp-server` with an API key. Tool calls are billed at API rates.  
   <sub>★ 2.6k · last push 2026-10-21</sub>
+- **[skool-community-mcp](https://github.com/GeminiGeorge22/publicrecords-mcp/tree/main/servers/skool-community-mcp)** — 🆕 new 🛡️ read-only ☁️ hosted 💰 paid  
+  Search Skool communities by keyword. Members, price, rating and estimated monthly revenue for each, plus daily growth tracking. Hosted at `https://mcp.apify.com?tools=publicrecords/skool-community-growth-tracker` (Apify OAuth or your own Apify token). Read-only. Billed to your Apify account (pay-per-event).
 - **[tavily](https://github.com/tavily-ai/tavily-mcp)** — 🏷️ official 🛡️ read-only ☁️ hosted  
   Tavily's agent search API: `tavily_search`, `tavily_extract`, `tavily_map`, `tavily_crawl`, `tavily_research`. Hosted at `https://mcp.tavily.com/mcp/` (API key or OAuth) or run locally with `npx tavily-mcp`; free account tier.  
   <sub>★ 2.5k · last push 2026-11-13</sub>
