@@ -1,0 +1,22 @@
+name: Cueston
+slug: cueston
+url: https://github.com/andreycretsu/cueston-mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'Cueston''s hosted server (`https://app.cueston.com/api/mcp`, Streamable HTTP)
+  for in-app product guidance on your own SaaS app (76 tools, 5 prompts): find verified
+  selectors on your real pages (`find_elements`), create product tours, tooltips, banners,
+  onboarding checklists, surveys and announcements as drafts, validate them
+  (`validate_content`), share a preview link, publish (`publish_content`), and read guide
+  analytics, survey results and stuck points. OAuth 2.1 with PKCE and dynamic client
+  registration; you choose read, write or publish access. Also runs locally via
+  `npx -y cueston mcp`. A free plan is enough to try it. Publishing changes what your
+  app''s users see. Server source is MIT.'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-11-24'
+category_order: 15
+verified: '2026-11-24'
