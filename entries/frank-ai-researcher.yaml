@@ -1,0 +1,21 @@
+name: Frank AI Researcher
+slug: frank-ai-researcher
+url: https://github.com/nar-vardanyan/frank-mcp
+category: specialised-vertical
+category_label: Specialised / Vertical
+tagline: 'Frank AI Researcher''s official hosted server (`https://api.hifrank.ai/mcp`,
+  Streamable HTTP, OAuth 2.1 with PKCE) for short AI-moderated voice interviews with
+  your own customers: draft a study, publish it only after explicit approval, and
+  read transcripts. Works with ChatGPT, Claude, Grok and Muse, plus other MCP clients
+  that support remote servers with OAuth. MCP is on every plan, including Free. Free
+  plan: 60 voice minutes a month, no card required. Official registry `ai.hifrank/frank`.
+  WhatsApp and video interviews: Coming soon. MIT listing repo; the hosted server
+  source is not public.'
+tags:
+- official
+- mutating
+- hosted
+list: mcp-servers
+added: '2026-11-26'
+category_order: 15
+verified: '2026-11-26'
